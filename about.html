@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <script>
+        function loadHTML(elementId, file) {
+            fetch(file)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = data;
+                })
+                .catch(error => console.error('Error loading file:', error));
+        }
+    </script>
+
+</head>
+
+<body onload="loadHTML('header', 'header.html'); loadHTML('footer', 'footer.html');">
+    <div id="header"></div>   
+   
+     <section class="intro">
+        <h1>About me</h1>
+    </section>
+
+<section id="About">
+<div class="about-flex">
+
+<!-- LinkedIn Section-->
+ <div class="linkedin-section">
+    <div class="linkedin-pic">
+        <a href="https://linkedin.com/in/cmennesson">
+            <img src="linkedin picture.png" alt="linkedin picture">
+        </a>
+    </div>
+    <div class="linkedin-description">
+        <p> UX/UI designer freelance depuis 3 ans, basée à Bordeaux.</p>
+        <p>J'ai +5 ans d'expérience au sein d'équipes tech internationales chez Google et Gameloft.</p>
+        <p>Passionnée de jeu vidéo 🎮  et d'expériences digitales immersives, je suis rigoureuse, autonome et excellente communicante.</p>
+        <p><b>Compétences clés: recherche & tests utilisateurs, wireframing & prototypage, intégration front HTML, CSS, JS. </b></p>
+    </div>
+
+</div>
+
+
+ <!-- CV Picture-->
+ <div class="cv">
+    <img src="cv.png" alt="cv">
+</div>
+
+</div>
+</section>
+
+<!-- Download Resume -->
+ <section id="download-resume">
+     <div class="download-resume">
+        <h2>Download my resume</h2>
+        <a class="button" href="https://drive.google.com/file/d/1U_fP0wiJkLxkOayhfzjvmIWLtXmKV_Uo/view?usp=drive_link"
+        >Download in PDF</a>
+    </div>    
+</section>
+
+    <footer>
+        <p>&copy; 2024 Camille Mennesson. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to toggle menu -->
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+    const burgerMenu = document.getElementById('burger-menu');
+    const navLinks = document.getElementById('nav-links');
+
+    burgerMenu.addEventListener('click', function() {
+        navLinks.classList.toggle('active');
+    });
+});
+
+    </script>
+</body>
+</html>
