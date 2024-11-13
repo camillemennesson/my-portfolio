@@ -240,17 +240,21 @@ section {
 .next-case-study-button {
     display: inline-block; /* Make it an inline block for padding */
     padding: 10px 20px; /* Add padding for a better appearance */
-    background-color: #000000; /* Background color of the button */
-    color: white; /* Text color */
+    background-color: #ffffff; /* Background color of the button */
+    color: rgb(0, 0, 0); /* Text color */
     text-decoration: none; /* Remove underline from the link */
     border-radius: 5px; /* Rounded corners */
+    border: 2px solid black; /* Black stroke */
     font-size: 1.2rem; /* Font size */
     transition: background-color 0.3s; /* Transition effect for hover */
 }
 
 .next-case-study-button:hover {
     background-color: #2f2f2f; /* Darken background color on hover */
-    transform: scale(1.05); /* Slightly enlarge the button on hover */}
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    color: #fafafa;
+}
+
 
 .button {
     display: inline-block; /* Make the link behave like a block element */
@@ -556,6 +560,32 @@ height: auto;
         transform: none; /* Disable hover effect */
     }
 
+}
+
+.back-to-top {
+    position: fixed; /* Fixed position to stay in view */
+    bottom: 30px; /* Distance from the bottom */
+    right: 30px; /* Distance from the right */
+    background-color: #b75be5; /* Background color of the button */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 50%; /* Make it round */
+    width: 50px; /* Width of the button */
+    height: 50px; /* Height of the button */
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    font-size: 32px; /* Size of the icon */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+    z-index: 1000; /* Ensure it stays on top */
+    display: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-top:hover {
+    background-color: #ab85f6; /* Darker shade on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
 }
 
 .unicorn-follower {
