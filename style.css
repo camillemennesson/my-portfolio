@@ -53,6 +53,24 @@ body {
     background-color: #fafafa;
 }
 
+.spotify {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
+    background-color: #021323;
+    color: #7B50EC;
+}
+
+.spotify p {
+    color: #eeeeee;
+}
+
+.spotify h1 {
+    color: #7B50EC;
+}
+
 header h2 {
     font-size: 1.5rem;
     font-weight: 900;
