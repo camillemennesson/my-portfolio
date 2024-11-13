@@ -183,7 +183,7 @@ section {
     transition: transform 0.3s ease; /* Smooth transition */
 }
 
-.project image {
+.project-image {
     height: auto;
     width: 100%;
     margin-top: 1rem;
