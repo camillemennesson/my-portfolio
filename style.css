@@ -19,11 +19,20 @@
     color: #333333;
 }
 
+.intro h2 {
+    font-size: 1.5rem;
+    margin: 1.5;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    color: #000000;
+}
+
 p {
     font-size: 1rem;
     font-family: poppins ;
     color: #5b5b5b;
     margin-top: 0.5rem;
+    margin: 1rem;
     
 }
 
@@ -157,9 +166,9 @@ section {
 }
 
 .project image {
-    height: 100%;
+    height: auto;
     width: 100%;
-    margin-bottom: 0;
+    margin-top: 1rem;
     object-fit: cover; /* Make the image cover the area without distortion */
 }
 
@@ -175,7 +184,73 @@ section {
     line-height: 1.2;
 }
 
+.case-study {
+    padding: 2rem;
+    margin: auto;
+    text-align: left;
+    max-width: 992px;
+}
 
+.case-study h2 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+
+.case-study h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.case-study p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: 0;
+
+}
+
+.image-gallery {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem; /* Space above the image gallery */
+}
+
+.image-item {
+    text-align: center; /* Center titles below images */
+    margin-bottom: 80px;
+}
+
+.site-image {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-item p {
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 2rem; /* Space above the button */
+}
+
+.next-case-study-button {
+    display: inline-block; /* Make it an inline block for padding */
+    padding: 10px 20px; /* Add padding for a better appearance */
+    background-color: #000000; /* Background color of the button */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1.2rem; /* Font size */
+    transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+.next-case-study-button:hover {
+    background-color: #2f2f2f; /* Darken background color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */}
 
 .button {
     display: inline-block; /* Make the link behave like a block element */
