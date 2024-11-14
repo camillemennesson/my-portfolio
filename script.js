@@ -5,6 +5,7 @@ document.addEventListener('mousemove', (e) => {
 });
 
 
+//NAVBAR MENU
         function toggleMenu() {
             const navLinks = document.getElementById('nav-links');
             navLinks.classList.toggle('active');
@@ -19,7 +20,7 @@ document.addEventListener('mousemove', (e) => {
     });
 });
 
-
+// BACK TO TOP BUTTON
 // Get the button
 const backToTopButton = document.getElementById('backToTopButton');
 
