@@ -16,7 +16,7 @@
     margin: 1.5;
     margin-bottom: 2rem;
     font-weight: 900;
-    color: #333333;
+    color: #ff0000;
 }
 
 .intro h2 {
@@ -153,8 +153,6 @@ section {
     line-height: 0;
     
     }
-
-
 
 .h2-intro i  {
         margin: 0.5rem;
