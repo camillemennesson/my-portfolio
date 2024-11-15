@@ -159,7 +159,7 @@ section {
 .h2-intro i  {
         margin: 0.5rem;
         font-size: 1.3rem; /* Increase the size of the icon */
-        color: #fb4747; /* Change the color of the icon */
+        color: #48327d; /* Change the color of the icon */
         transition: transform 0.4s ease; /* Add a transition effect */
         transform-origin:center;
     }
