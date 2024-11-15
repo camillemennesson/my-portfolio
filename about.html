@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-
     <script>
         function loadHTML(elementId, file) {
             fetch(file)
@@ -19,11 +18,12 @@
                 .catch(error => console.error('Error loading file:', error));
         }
     </script>
-
+    
+    
 </head>
 
-<body onload="loadHTML('navbar','navbar.html'); loadHTML('footer', 'footer.html');">
-    <div id="header"></div>   
+<body onload="loadHTML('header', 'navbar.html');">
+    <div id="header"></div> 
    
      <section class="intro">
         <h1>About me</h1>

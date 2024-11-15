@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+
 // BACK TO TOP BUTTON
 // Get the button
 const backToTopButton = document.getElementById('backToTopButton');
