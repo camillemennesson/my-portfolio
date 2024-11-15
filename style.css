@@ -248,6 +248,7 @@ section {
 .site-image {
     width: 100%; /* Make images responsive */
     height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
 }
 
 .image-item p {
