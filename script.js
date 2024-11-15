@@ -1,9 +1,4 @@
 // script.js
-document.addEventListener('mousemove', (e) => {
-    const unicornFollower = document.querySelector('.unicorn-follower');
-    unicornFollower.style.transform = `translate(${e.clientX - 25}px, ${e.clientY - 25}px)`; // Center the unicorn
-});
-
 
 //NAVBAR MENU
         function toggleMenu() {
