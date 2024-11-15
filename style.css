@@ -175,6 +175,13 @@ section {
         transform: rotate(360deg)
     }
 
+a {
+    color:#000;
+    text-decoration: none;
+    }
+
+
+
 
 .project {
     flex: 1 1 calc(50% - 20px); /* 2 columns on large screens */
@@ -184,16 +191,17 @@ section {
     height: auto; /* Set a fixed maximum height for uniformity */
     display: flex; /* Use flexbox to align items */
     flex-direction: column; /* Stack children vertically */
-    justify-content: flex-start; /* Space between children */
+    justify-content: center; /* Space between children */
     overflow: hidden;
+    align-items: center;
     transition: transform 0.3s ease; /* Smooth transition */
 }
 
 .project-image {
-    height: auto;
+    height: 320px;
     width: 100%;
     margin-top: 1rem;
-    object-fit: cover; /* Make the image cover the area without distortion */
+    object-fit: cover;
 }
 
 .project h3 a {
