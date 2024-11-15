@@ -555,7 +555,7 @@ height: auto;
     }
 
     /* Show the nav menu when active */
-    #nav-links.active .nav-menu {
+    #nav-links.active .nav-menu.active {
         display: flex;
     }
 }
