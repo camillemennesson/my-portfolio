@@ -22,7 +22,7 @@
     
 </head>
 
-<body onload="loadHTML('header', 'navbar.html');">
+<body onload="loadHTML('header', 'navbar.html', 'footer', 'footer.html');">
     <div id="header"></div>
 
      <!-- Name and Description Section -->
@@ -122,6 +122,12 @@
             <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
         </div>
     </section>
+
+    <div id="footer"></div> <!-- This is where the footer will be loaded -->
+    
+    <script>
+        loadHTML('footer', 'footer.html'); // Load the footer dynamically
+    </script>
 
 
     <!-- JavaScript to toggle menu -->
