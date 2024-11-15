@@ -1,19 +1,6 @@
 // script.js
 
-//NAVBAR MENU
-        function toggleMenu() {
-            const navLinks = document.getElementById('nav-links');
-            navLinks.classList.toggle('active');
-        }
 
-        document.addEventListener('DOMContentLoaded', function() {
-    const burgerMenu = document.getElementById('burger-menu');
-    const navLinks = document.getElementById('nav-links');
-
-    burgerMenu.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-    });
-});
 
 // BACK TO TOP BUTTON
 // Get the button
