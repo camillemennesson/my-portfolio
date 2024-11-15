@@ -190,7 +190,7 @@ section {
 }
 
 .project-image {
-    height: 120px;
+    height: auto;
     width: 100%;
     margin-top: 1rem;
     object-fit: cover; /* Make the image cover the area without distortion */
