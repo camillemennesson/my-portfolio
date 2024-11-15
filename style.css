@@ -114,7 +114,7 @@ nav a {
 }
 
 .nav-menu a:hover {
-    color: #007bff; /* Change to your desired hover color */
+    color: #2671c2; /* Change to your desired hover color */
     transform: scale(1.05); /* Slightly increase size on hover */
 }
 

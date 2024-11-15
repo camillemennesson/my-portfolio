@@ -10,19 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     
     
-    <script> function loadHTML(elementId, file) {
-        fetch(file)
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById(elementId).innerHTML = data;
-            })
-            .catch(error => console.error('Error loading file:', error));
-    }
-    </script>
+    
 </head>
 
-<body onload="loadHTML('footer', 'footer.html'), loadHTML ('navbar', 'navbar.html');">
-
+<body>
     
     <header>
         <div class="logo">
