@@ -10,10 +10,54 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     
     
-    
+    <script> function loadHTML(elementId, file) {
+        fetch(file)
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById(elementId).innerHTML = data;
+            })
+            .catch(error => console.error('Error loading file:', error));
+    }
+    </script>
 </head>
 
 <body onload="loadHTML('footer', 'footer.html'), loadHTML ('navbar', 'navbar.html');">
+
+    
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="https://framerusercontent.com/images/6UMHSnwC3fA1yCrXEpBFuMAwMcs.png?scale-down-to=512" 
+                alt="Logo" 
+                width="40" 
+                height="40">
+            </a>
+        </div>
+        <!-- Burger Icon -->
+        <div class="burger-menu" id="burger-menu" 
+        onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="about.html">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a 
+                    href="https://drive.google.com/file/d/1U_fP0wiJkLxkOayhfzjvmIWLtXmKV_Uo/view?usp=drive_link"
+                    class="download-resume" target="_blank" >
+                    Download my resume
+                    <span class="bi bi-download"></span>
+                </a>
+                </li>
+    
+            </ul>
+        </nav>
+    
+    </header>
 
      <!-- Name and Description Section -->
      <section class="intro">
@@ -118,17 +162,6 @@
 });
 
     </script>
-
     <script src="/script.js"></script>
-
-    <script> function loadHTML(elementId, file) {
-        fetch(file)
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById(elementId).innerHTML = data;
-            })
-            .catch(error => console.error('Error loading file:', error));
-    }
-    </script>
 </body>
 </html>
