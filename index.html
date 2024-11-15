@@ -25,9 +25,12 @@
 
      <!-- Name and Description Section -->
      <section class="intro">
-        <h1>Hi World, I'm Testing Hostinger and GittHubb</h1>
-        <p>Freelance Product Designer with 5+ years of experience in tech.</p>
-        <p>I know UX and UI. Oh, I also code a little!</p>
+        <h1>Camille Mennesson</h1>
+        <p>UX/UI Designer Freelance depuis 3 ans.</p>
+        <p>J'ai travaillé pendant 5 ans avec des équipes
+            internationales et pluridisciplinaires.</p>
+        <p>Je code aussi un peu ! <i>D'ailleurs, j'ai développé
+            ce site 'from scratch'</i> (avec un peu d'aide de l'IA..)</p>
 
     </section>
 
@@ -75,6 +78,24 @@
 
         </div>
     </section>
+
+    <script>
+        // Replace 'data.json' with the path to your JSON file
+        fetch('button-hover-effect.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                return response.json();
+            })
+            .then(data => {
+                const container = document.getElementById('data-container');
+                container.innerHTML = JSON.stringify(data, null, 2); // Display JSON data
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
+    </script>
 
     <section>
         <div class="contact">
