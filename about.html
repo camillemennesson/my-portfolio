@@ -66,27 +66,11 @@
     </div>    
 </section>
 
-    <footer>
-        <p>&copy; 2024 Camille Mennesson. All rights reserved.</p>
-    </footer>
-
-    <!-- JavaScript to toggle menu -->
-    <script>
-        function toggleMenu() {
-            const navLinks = document.getElementById('nav-links');
-            navLinks.classList.toggle('active');
-        }
-
-        document.addEventListener('DOMContentLoaded', function() {
-    const burgerMenu = document.getElementById('burger-menu');
-    const navLinks = document.getElementById('nav-links');
-
-    burgerMenu.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-    });
-});
-
-    </script>
+<div id="footer"></div> <!-- This is where the footer will be loaded -->
+    
+<script>
+    loadHTML('footer', 'footer.html'); // Load the footer dynamically
+</script>
 
 
 <script src="script.js"></script>
