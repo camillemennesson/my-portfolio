@@ -1,6 +1,15 @@
 // script.js
 
 
+// NAVBAR
+document.addEventListener('DOMContentLoaded', function() {
+    const burgerMenu = document.getElementById('burger-menu');
+    const navLinks = document.getElementById('nav-links');
+
+    burgerMenu.addEventListener('click', function() {
+        navLinks.classList.toggle('active'); // Toggle the active class on the nav menu
+    });
+});
 
 // BACK TO TOP BUTTON
 // Get the button

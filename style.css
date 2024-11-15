@@ -76,8 +76,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 width: 100%;
+margin-top: 1rem;
 padding: 0 2rem;
-margin: 2rem;
 }
 
 header h2 {
@@ -534,24 +534,24 @@ height: auto;
 
 .logo img {
     width: 40px;
-    height: 40px;
+    height: auto;
 }
 
 /* Navigation Menu */
 .nav-menu {
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     margin: 0;
 }
 
-.nav-menu li a {
+.nav-menu a {
     text-decoration: none;
     color: #333;
     font-weight: 600;
 }
 
-.nav-menu li a:hover {
+.nav-menu a:hover {
     color: #007bff; /* Customize hover color */
 }
 
@@ -577,9 +577,12 @@ height: auto;
     .nav-menu {
         display: none;
         flex-direction: column;
+        width: 100%;
         gap: 1rem;
         margin-top: 1rem;
         text-align: center;
+        left: 0;
+        z-index: 1000;
     }
 
     .burger-menu {
