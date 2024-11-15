@@ -196,12 +196,15 @@ section {
     object-fit: cover; /* Make the image cover the area without distortion */
 }
 
-.project-thumbnail {
-    height: auto;
-    width: 100%;
+.project h3 a {
+    color: #000;
     text-decoration: none;
 }
 
+project h3 a:hover {
+    color: #c2264d; /* Optional: Change color on hover */
+    text-decoration: underline;
+}
 
 .project:hover {
     transform: scale(1.05); /* Slightly enlarge the project box */
