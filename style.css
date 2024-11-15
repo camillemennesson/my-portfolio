@@ -345,6 +345,7 @@ footer {
     transform: scale(1.05); /* Slightly increase size on hover */
 }
 
+
 .work-flex {
     display: flex;
       flex-wrap: wrap;
