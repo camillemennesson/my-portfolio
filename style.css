@@ -469,7 +469,7 @@ height: auto;
     }
 
     nav a {
-        display: block;
+        display: flex;
         margin: 0.5rem 0;
     }
 
