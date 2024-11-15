@@ -71,6 +71,15 @@ body {
     color: #7B50EC;
 }
 
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+padding: 0 2rem;
+margin: 2rem;
+}
+
 header h2 {
     font-size: 1.5rem;
     font-weight: 900;
@@ -499,6 +508,10 @@ height: auto;
     }
 }
 
+.logo {
+ display: flex;
+ align-items: center;
+}
 
 .logo img {
     width: 40px;
