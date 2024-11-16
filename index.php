@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+    
     <script>
         function loadHTML(elementId, file) {
             fetch(file)
@@ -19,12 +20,11 @@
                 .catch(error => console.error('Error loading file:', error));
         }
     </script>
-    
-    
 </head>
 
-<body onload="loadHTML('header', 'navbar.html', 'footer', 'footer.html');">
-    <div id="header"></div>
+<body>
+
+    <?php require_once(__DIR__ . '/navbar.php'); ?>
 
      <!-- Name and Description Section -->
      <section class="intro">
@@ -122,14 +122,9 @@
             <h2>Me contacter</h2>
             <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
         </div>
-    </section>
+    </section>    
 
-    <div id="footer"></div> <!-- This is where the footer will be loaded -->
-    
-    <script>
-        loadHTML('footer', 'footer.html'); // Load the footer dynamically
-    </script>
-
+    <?php require_once(__DIR__ . 'footer.php'); ?>
 
     <!-- JavaScript to toggle menu -->
     <script>
