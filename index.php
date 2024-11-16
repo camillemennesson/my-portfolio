@@ -10,16 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     
-    <script>
-        function loadHTML(elementId, file) {
-            fetch(file)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById(elementId).innerHTML = data;
-                })
-                .catch(error => console.error('Error loading file:', error));
-        }
-    </script>
+   
 </head>
 
 <body>
@@ -126,23 +117,6 @@
 
     <?php require_once(__DIR__ . 'footer.php'); ?>
 
-    <!-- JavaScript to toggle menu -->
-    <script>
-        function toggleMenu() {
-            const navLinks = document.getElementById('nav-links');
-            navLinks.classList.toggle('active');
-        }
-
-        document.addEventListener('DOMContentLoaded', function() {
-    const burgerMenu = document.getElementById('burger-menu');
-    const navLinks = document.getElementById('nav-links');
-
-    burgerMenu.addEventListener('click', function() {
-        navLinks.classList.toggle('active');
-    });
-});
-
-    </script>
-    <script src="/script.js"></script>
+        <script src="/script.js"></script>
 </body>
 </html>
