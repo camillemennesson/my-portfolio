@@ -24,6 +24,7 @@
 </head>
 
 <body>
+    <?php require_once(__DIR__ . '/navbar.php'); ?>
 
     <header class="intro">
         <h1>MaVoie</h1>
