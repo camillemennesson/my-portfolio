@@ -20,12 +20,9 @@
                 .catch(error => console.error('Error loading file:', error));
         }
     </script>
-    
-    
 </head>
 
-<body class="Spotify" onload="loadHTML('header', 'navbar.html', 'footer.html');">
-    <div id="header"></div>
+<body class="Spotify">
 
     <header class="intro">
         <h1>Spotify</h1>
@@ -79,10 +76,7 @@
 
     <div id="footer"></div> <!-- This is where the footer will be loaded -->
     
-    <script>
-        loadHTML('footer', 'footer.html'); // Load the footer dynamically
-    </script>
-
+    
 
     <a href="#" class="back-to-top" id="backToTopButton">
         <i class="bi bi-arrow-up"></i> <!-- Use an appropriate icon for the arrow -->
