@@ -291,12 +291,12 @@ project h3 a:hover {
     text-decoration: none; /* Remove underline from the link */
     border-radius: 5px; /* Rounded corners */
     border: 2px solid black; /* Black stroke */
-    font-size: 1.2rem; /* Font size */
+    font-size: 1rem; /* Font size */
     transition: background-color 0.3s; /* Transition effect for hover */
 }
 
 .next-case-study-button:hover {
-    background-color: #2f2f2f; /* Darken background color on hover */
+    background-color: #000000; /* Darken background color on hover */
     transform: scale(1.05); /* Slightly enlarge the button on hover */
     color: #fafafa;
 }
