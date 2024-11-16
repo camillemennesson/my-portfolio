@@ -48,7 +48,7 @@
 
             <!-- Project 1 -->
             <div class="project">
-                <a  href="Mavoie.html">
+                <a  href="mavoie.php">
                 <img src="/Images/mavoie.png" class="project-image">
                 <h3>MaVoie.org - Web Design</h3>
             </a>
