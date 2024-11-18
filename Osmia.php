@@ -26,6 +26,7 @@
 
 <body>
 
+    <?php require_once(__DIR__ . '/navbar.php'); ?>
 
     <header class="intro">
         <h1>Osmia</h1>
@@ -88,6 +89,8 @@
 
 
     <script src="script.js"></script>
+
+    <?php require_once(__DIR__ . '/footer.php'); ?>
 
 </body>
 

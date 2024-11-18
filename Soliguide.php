@@ -25,7 +25,10 @@
 </head>
 
 <body>
+    
+    <?php require_once(__DIR__ . '/navbar.php'); ?>
 
+    
     <header class="intro">
         <h1>Soliguide</h1>
         <h2>Site web d'aide au retour à l'emploi </h2>
@@ -86,6 +89,8 @@
 
 
     <script src="script.js"></script>
+
+    <?php require_once(__DIR__ . '/footer.php'); ?>
 
 </body>
 

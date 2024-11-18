@@ -83,8 +83,9 @@
         <i class="bi bi-arrow-up"></i> <!-- Use an appropriate icon for the arrow -->
     </a>
 
-
     <script src="/script.js"></script>
+    
+    <?php require_once(__DIR__ . '/footer.php'); ?>
 
 </body>
 

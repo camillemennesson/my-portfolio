@@ -26,10 +26,12 @@
 
 <body>
 
+    <?php require_once(__DIR__ . '/navbar.php'); ?>
+
     <header class="intro">
-        <h1>Parents</h1>
-        <h2>App mobile d'aide aux parents</h2>
-        <img src="/Images/parents.png" alt="Parents Image" class="project-image">
+        <h1>Catan</h1>
+        <h2>Board Game</h2>
+        <img src="Images/catan.png" alt="Catan Image" class="project-image">
     </header>
 
     <section class="case-study">
@@ -80,13 +82,14 @@
     
 
 
-
     <a href="#" class="back-to-top" id="backToTopButton">
         <i class="bi bi-arrow-up"></i> <!-- Use an appropriate icon for the arrow -->
     </a>
 
-
     <script src="script.js"></script>
+
+    <?php require_once(__DIR__ . '/footer.php'); ?>
+
 
 </body>
 
