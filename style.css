@@ -218,7 +218,7 @@ i {
 
 project h3 a:hover {
     color: #c2264d; /* Optional: Change color on hover */
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .project:hover {
@@ -231,6 +231,7 @@ project h3 a:hover {
     text-align: center;
     line-height: 1.2;
     color: #454545;
+    text-decoration: none;
 }
 
 .case-study {
