@@ -117,6 +117,7 @@
 
     <?php require_once(__DIR__ . 'footer.php'); ?>
 
-        <script src="/script.js"></script>
+     <script src="/script.js"></script>
+     
 </body>
 </html>

@@ -8,21 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-    <script>
-        function loadHTML(elementId, file) {
-            fetch(file)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById(elementId).innerHTML = data;
-                })
-                .catch(error => console.error('Error loading file:', error));
-        }
-    </script>
-    
     
 </head>
 
 <body>   
+
+    <?php require_once(__DIR__ . '/navbar.php'); ?> 
+
      <section class="intro">
         <h1>About me</h1>
     </section>
@@ -66,9 +58,9 @@
 
 <div id="footer"></div> <!-- This is where the footer will be loaded -->
     
-
-
 <script src="script.js"></script>
+
+<?php require_once(__DIR__ . 'footer.php'); ?>
 
 </body>
 </html>
