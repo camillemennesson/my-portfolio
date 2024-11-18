@@ -93,7 +93,6 @@ header h1 {
     font-size: 3.5rem;
     font-weight:900;
     margin-bottom: 1.5rem;
-    color: #7B50EC;
 }
 
 header p {
@@ -179,7 +178,7 @@ section {
         transform: rotate(360deg)
     }
 
-a {
+.button a {
     color:#000;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
