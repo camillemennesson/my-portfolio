@@ -115,7 +115,7 @@
         </div>
     </section>    
 
-    <?php require_once(__DIR__ . 'footer.php'); ?>
+    <?php require_once(__DIR__ . '/footer.php'); ?>
 
      <script src="/script.js"></script>
      
