@@ -1,6 +1,6 @@
 <header>
     <div class="logo">
-        <a href="index.php">
+        <a href="index.html">
             <img src="https://framerusercontent.com/images/6UMHSnwC3fA1yCrXEpBFuMAwMcs.png?scale-down-to=512" 
             alt="Logo" 
             width="40" 
@@ -15,8 +15,8 @@
     </div>
     <nav>
         <ul class="nav-menu" id="nav-links">
-            <li><a href="index.php">Projects</a></li>
-            <li><a href="about.php">About</a></li>
+            <li><a href="index.html">Projects</a></li>
+            <li><a href="about.html">About</a></li>
             <li>
                 <a href="https://drive.google.com/file/d/1U_fP0wiJkLxkOayhfzjvmIWLtXmKV_Uo/view?usp=drive_link"
                 class="download-resume" target="_blank">
