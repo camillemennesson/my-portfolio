@@ -293,7 +293,6 @@ project h3 a:hover {
 .next-case-study-button {
     display: inline-block; /* Make it an inline block for padding */
     padding: 10px 20px; /* Add padding for a better appearance */
-    background-color: #ffffff; /* Background color of the button */
     color: rgb(0, 0, 0); /* Text color */
     text-decoration: none; /* Remove underline from the link */
     border-radius: 5px; /* Rounded corners */
