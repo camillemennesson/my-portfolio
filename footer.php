@@ -4,8 +4,8 @@
             Camille Mennesson
         </p>
         <ul class="footer-links">
+            <li><a href="#about">Projects</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#about">Work</a></li>
             <li><a href="#contact">Contact</a></li>
             <li>
                 <a 
