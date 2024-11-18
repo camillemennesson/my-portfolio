@@ -9,17 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
 
-
-    <script>
-        function loadHTML(elementId, file) {
-            fetch(file)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById(elementId).innerHTML = data;
-                })
-                .catch(error => console.error('Error loading file:', error));
-        }
-    </script>
     
     
 </head>
@@ -47,28 +36,19 @@
         
         <div class="image-gallery">
             <div class="image-item">
-                <p>Page d'accueil</p>
-                <img src="homepage.png" alt="Description of image 1" class="site-image">
+                <p>Onboarding (FTUE)</p>
+                <img src="Images/Soliguide1.png" alt="Description of image 1" class="site-image">
             </div>
             <div class="image-item">
-                <p>Questionnaire</p>
-                <img src="test.png" alt="Description of image 2" class="site-image">
-            </div>
-            <div class="image-item">
-                <p>Page mission</p>
+                <p>Démarrer une recherche</p>
 
-                <img src="mission.png" alt="Description of image 3" class="site-image">
+                <img src="Images/Soliguide3.png" alt="Description of image 3" class="site-image">
             </div>
             <div class="image-item">
-                <p>Page formations</p>
-
-                <img src="cards.png" alt="Description of image 4" class="site-image">
+                <p>Consulter un résultat de recherche</p>
+                <img src="Images/Soliguide2.png" alt="Description of image 2" class="site-image">
             </div>
-            <div class="image-item">
-                <p>Page équipe</p>
-
-                <img src="equipe.png" alt="Description of image 5" class="site-image">
-            </div>
+            
         </div>
         
         <!-- Button to read the next case study -->
@@ -80,12 +60,6 @@
     </section>
 
     <div id="footer"></div> <!-- This is where the footer will be loaded -->
-
-
-
-    <a href="#" class="back-to-top" id="backToTopButton">
-        <i class="bi bi-arrow-up"></i> <!-- Use an appropriate icon for the arrow -->
-    </a>
 
 
     <script src="script.js"></script>
