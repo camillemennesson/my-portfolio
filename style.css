@@ -316,9 +316,7 @@ project h3 a:hover {
     text-decoration: none; /* Remove underline */
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s ease, transform 0.3s ease; 
-    /* Smooth transition for hover effects */
     margin-top: 1em;
-    font-family: poppins;
 }
 
 .button:hover {
