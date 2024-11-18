@@ -23,7 +23,7 @@
         <p>UX/UI Designer Freelance depuis 3 ans.</p>
         <p>J'ai travaillé pendant 5 ans avec des équipes tech
             internationales et multidisciplinaires.</p>
-        <p  >Je code aussi un peu ! <i>D'ailleurs, j'ai développé
+        <p>Je code aussi un peu ! <i>D'ailleurs, j'ai développé
             ce site 'from scratch' (avec un peu d'aide de l'IA..)</i></p>
 
     </section>
