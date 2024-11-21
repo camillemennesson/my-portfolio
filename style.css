@@ -54,6 +54,14 @@ body {
     background-color: #fafafa;
 }
 
+/* CASE STUDIES */
+
+/*Osmia*/
+.case-study .osmia h2 {
+    color: rgb(26, 169, 92)
+    }
+
+/*Spotify*/
 .spotify {
     line-height: 1.5;
     min-height: 100vh;
@@ -70,6 +78,9 @@ body {
 .spotify h1 {
     color: #7B50EC;
 }
+
+
+/*HEADERS*/
 
 header {
 display: flex;
@@ -273,7 +284,6 @@ a {
     height: auto; /* Maintain aspect ratio */
     object-fit: cover;
 }
-
 
 
 .image-item p {
