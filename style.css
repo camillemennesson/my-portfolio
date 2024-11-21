@@ -54,30 +54,6 @@ body {
     background-color: #fafafa;
 }
 
-/* CASE STUDIES */
-
-/*Osmia*/
-.case-study .osmia h2 {
-    color: rgb(26, 169, 92)
-    }
-
-/*Spotify*/
-.spotify {
-    line-height: 1.5;
-    min-height: 100vh;
-    margin: 0;
-    padding:0;
-    background-color: #021323;
-    color: #7B50EC;
-}
-
-.spotify p {
-    color: #eeeeee;
-}
-
-.spotify h1 {
-    color: #7B50EC;
-}
 
 
 /*HEADERS*/
@@ -240,6 +216,9 @@ a {
     text-decoration: none;
 }
 
+/* CASE STUDIES */
+
+
 .case-study {
     padding: 2rem;
     margin: auto;
@@ -264,7 +243,6 @@ a {
     margin-bottom: 2rem;
     margin-left: 0;
     color: #000;
-
 }
 
 .image-gallery {
@@ -290,6 +268,44 @@ a {
     text-align: left;
     font-weight: 600;
     margin-bottom: 20px;
+}
+
+.sommaire {
+    display: flex; /* Enable Flexbox */
+    justify-content: space-between; /* Space between columns */
+    flex-wrap: wrap; /* Allow wrapping */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.column {
+    flex: 1; /* Each column takes equal space */
+    min-width: 200px; /* Optional: Set a minimum width for columns */
+    margin: 10px; /* Optional: Add some margin between columns */
+    box-sizing: border-box; /* Ensure padding and borders are included in total width */
+}
+
+/*Osmia*/
+.case-study .osmia h2 {
+    color: rgb(26, 169, 92)
+    }
+
+/*Spotify*/
+.spotify {
+    line-height: 1.5;
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
+    background-color: #021323;
+    color: #7B50EC;
+}
+
+.spotify p {
+    color: #eeeeee;
+}
+
+.spotify h1 {
+    color: #7B50EC;
 }
 
 .button-container {
@@ -542,6 +558,9 @@ height: auto;
     }
     .footer-icons {
         margin-top: 1rem; /* Space above icons on small screens */
+    }
+    .sommaire {
+        flex-direction: column; /* Stack columns vertically */
     }
 }
 
