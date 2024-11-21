@@ -211,19 +211,15 @@ i {
     object-fit: cover;
 }
 
-.project h3 a {
-    color: #000;
-    text-decoration: none;
-}
-
-project h3 a:hover {
-    color: #c2264d; /* Optional: Change color on hover */
-    text-decoration: none;
-}
 
 .project:hover {
     transform: scale(1.05); /* Slightly enlarge the project box */
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+    }
 
 .project h3 {
     margin: 8px 0 0;
