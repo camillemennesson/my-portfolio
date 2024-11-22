@@ -379,6 +379,7 @@ a {
 .button-container {
     text-align: center; /* Center the button horizontally */
     margin-top: 10rem; /* Space above the button */
+    font-family: 'Inter', sans-serif;
 }
 
 
