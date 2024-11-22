@@ -306,6 +306,8 @@ a {
 
 .spotify p {
     color: #dddddd;
+    font-weight: 300;
+    font-size: 1.1rem;
 }
 
 .spotify h1 {
@@ -335,7 +337,7 @@ a {
 }
 
 .intro-flex .project-image {
-    width: 40%;
+    width: 35%;
     height: auto;
 }
 
@@ -348,6 +350,100 @@ a {
     padding-right: 80px;
 }
 
+.spotify .case-study h2 {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.spotify .flex-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+}
+
+.flex-section .project-image {
+    width: 60%;
+    height: auto;
+    position: relative;
+}
+
+/*CIRCLES BACKGROUND*/
+
+.flex-section::before {
+    content: '';
+    position: absolute;
+    background: rgba(117, 84, 237, 0.43); /* Light background with transparency */
+    z-index: 0; /* Place behind the content */
+    filter: blur(90px);
+    opacity: 1;
+    border-radius: 50%;
+    overflow: visible;
+}
+
+.flex-section::after {
+    content: '';
+    position: absolute;
+    background: rgba(179, 33, 237, 0.41); /* Light background with transparency */
+    z-index: 0; /* Place behind the content */
+    filter: blur(90px);
+    opacity: 1;
+    border-radius: 50%;
+    overflow: visible;
+}
+
+.flex-section::before {
+    width: 549px; /* Adjust size as needed */
+    height: 542px; /* Adjust size as needed */
+    top: -50px; /* Position it above the section */
+    left: -50px; /* Position it to the left */
+}
+
+.flex-section::after {
+    width: 350px; /* Adjust size as needed */
+    height: 350px; /* Adjust size as needed */
+    bottom: 50px; /* Position it below the section */
+    right: -50px; /* Position it to the right */
+}
+
+.spotify .div-center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*CARDS*/
+.card-container {
+    position: relative;
+}
+
+.spotify .card-text {
+    backdrop-filter: blur(10px); 
+    background-color: rgba(217, 217, 217, 0.09); 
+    filter: blur(0px); 
+    padding: 30px;
+    border-radius: 20px; 
+    opacity: 1;
+    max-width: 580px;
+    z-index: 1;
+    position: relative;
+    flex:0 0 45%;
+    margin: 0;
+    justify-content: left;
+}
+
+.card-container .right-card {
+    position: relative;
+    top: -50px;
+    left: -50px;
+}
+
+.card-container .card-left {
+    position: relative;
+    bottom: 50px;
+    right: -50px;
+}
 
 /*CATAN*/
 
