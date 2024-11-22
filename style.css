@@ -308,6 +308,24 @@ a {
     color: #7B50EC;
 }
 
+/*CATAN*/
+
+.catan h4 {
+    color: #4481FA;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 32px;    }
+
+.catan .case-study h3 {
+    margin-top: 8px;
+    }
+
+.catan .image-item p {
+    text-align: center;
+    font-weight: 400;
+    color: #7e7e7e;
+}
+
 .button-container {
     text-align: center; /* Center the button horizontally */
     margin-top: 2rem; /* Space above the button */

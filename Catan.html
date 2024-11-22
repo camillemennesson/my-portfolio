@@ -6,27 +6,13 @@
     <title>Camille's Portfolio</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-
-
-    <script>
-        function loadHTML(elementId, file) {
-            fetch(file)
-                .then(response => response.text())
-                .then(data => {
-                    document.getElementById(elementId).innerHTML = data;
-                })
-                .catch(error => console.error('Error loading file:', error));
-        }
-    </script>
-    
     
 </head>
 
-<body>
+<body class="catan">
 
     <?php require_once(__DIR__ . '/navbar.php'); ?>
 
@@ -37,38 +23,84 @@
     </header>
 
     <section class="case-study">
-        <h2>Réalisations</h2>
-        <p>Provide a brief overview of the project, including the context and objectives.</p>
+        <div class="sommaire">
+            <div class="column">
+            <h3>Contexte</h3>
+                <p>Provide a brief overview of the project, 
+                including the context and objectives.
+                </p>
+            </div>
+            <div class="column">
+            <h3>Réalisations</h3>
+                <p>Describe the problem you aimed to solve with this project.
+                </p>
+            </div>
+            <div class="column">
+             <h3>Outils</h3>
+                 <p>Outline the research methods used 
+                    (e.g., user interviews, surveys) and summarize key findings.
+                 </p>
+            </div>
+        </div>
         
-        <h2>Outils</h2>
-        <p>Describe the problem you aimed to solve with this project.</p>
+        <div id="overview">
+            <h3>What is Catan?</h3>
+            <p>Catan Universe is a board game adapted online 
+                on web, steam and mobile platforms. I started 
+                playing again during covid on the web browser 
+                version. They launched a UI update 2.0 DURING 
+                COVID lockdown.
+            </p>
+        </div>
 
-        <h2>Aperçu du site</h2>
-        <p>Outline the research methods used (e.g., user interviews, surveys) and summarize key findings.</p>
-        
-        <div class="image-gallery">
+        <div id="ux issue">
+            <h4>UX ISSUE</h4>
+                <h3>1. Invasive Welcome Screen</h3>
+                <p>It’s been quite some time since I wanted to get back to Catan and play a few games. I’m welcomed on the landing page with an “Important Message” pop-up about Catan tournaments.
+                
+                <br>Here are the issues I found on this pop-up screen:
+                <li> <b>Relevance.</b> I did not log-in for a long time, hence there’s a little chance I’ll be interested in tournaments</li>
+                <li><b>White space.</b> I understand the intent for elegance and maintaining focus on the text and call-to-actions but, the message itself and the t-copy is poorly done</li>
+                <li><b>Text copy & design.</b> Same style and color for every word, nothing stands out. If this is important information why not put it on this screen instead of redirecting users on the external Discord server.</li>
+                </p>
+           
             <div class="image-item">
-                <p>Page d'accueil</p>
-                <img src="homepage.png" alt="Description of image 1" class="site-image">
+                <img src="Images/Catan1.gif" alt="Description of image 1" class="site-image">
+                <p> <i>This is the first screen I see when landing on Catan Universe Browser Game.</i>
+                </p>
+            </div>
+        </div>
+
+            <div class="image-item">
+                <img src="Images/catan2.png" alt="Description of image 2" class="site-image">
             </div>
             <div class="image-item">
-                <p>Questionnaire</p>
-                <img src="test.png" alt="Description of image 2" class="site-image">
+
+                <img src="Images/catan3.gif" alt="Description of image 3" class="site-image">
             </div>
             <div class="image-item">
-                <p>Page mission</p>
 
-                <img src="mission.png" alt="Description of image 3" class="site-image">
+                <img src="Images/catan4.gif" alt="Description of image 4" class="site-image">
             </div>
             <div class="image-item">
-                <p>Page formations</p>
 
-                <img src="cards.png" alt="Description of image 4" class="site-image">
+                <img src="Images/catan5.png" alt="Description of image 5" class="site-image">
             </div>
             <div class="image-item">
-                <p>Page équipe</p>
 
-                <img src="equipe.png" alt="Description of image 5" class="site-image">
+                <img src="Images/catan6.gif" alt="Description of image 6" class="site-image">
+            </div>
+            <div class="image-item">
+
+                <img src="Images/catan7.png" alt="Description of image 7" class="site-image">
+            </div>
+            <div class="image-item">
+
+                <img src="Images/catan8.png" alt="Description of image 8" class="site-image">
+            </div>
+             <div class="image-item">
+
+                <img src="Images/catan9.png" alt="Description of image 9" class="site-image">
             </div>
         </div>
         
@@ -82,11 +114,6 @@
 
     <div id="footer"></div> <!-- This is where the footer will be loaded -->
     
-
-
-    <a href="#" class="back-to-top" id="backToTopButton">
-        <i class="bi bi-arrow-up"></i> <!-- Use an appropriate icon for the arrow -->
-    </a>
 
     <script src="script.js"></script>
 
