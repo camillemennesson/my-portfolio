@@ -289,28 +289,65 @@ a {
     box-sizing: border-box; /* Ensure padding and borders are included in total width */
 }
 
-/*Osmia*/
+/*OSMIA*/
 .case-study .osmia h2 {
     color: rgb(26, 169, 92)
     }
 
-/*Spotify*/
+/*SPOTIFY*/
 .spotify {
     line-height: 1.5;
     min-height: 100vh;
     margin: 0;
     padding:0;
     background-color: #021323;
-    color: #7B50EC;
+    color: #dddddd;
 }
 
 .spotify p {
-    color: #eeeeee;
+    color: #dddddd;
 }
 
 .spotify h1 {
-    color: #7B50EC;
+    color: #dddddd;
+    margin-bottom: 80px;
 }
+
+.spotify h2 {
+    background: linear-gradient(130deg,#5364FF , #a015b0 );
+    -webkit-background-clip: text ;
+    color: transparent; /* Make the text color transparent */
+}
+
+.intro-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-flex h2 {
+    flex: 1;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-align: left;
+    line-height: 3.2rem;
+}
+
+.intro-flex .project-image {
+    width: 40%;
+    height: auto;
+}
+
+.intro-flex p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+    margin-top: 34px;
+    padding-right: 80px;
+}
+
 
 /*CATAN*/
 
