@@ -22,10 +22,10 @@
 }
 
 .intro h2 {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     margin: 1;
     margin-bottom: 2rem;
-    font-weight: 600;
+    font-weight: 500;
     color: #454545;
 }
 
@@ -53,7 +53,6 @@ body {
     padding:0;
     background-color: #fafafa;
 }
-
 
 
 /*HEADERS*/
