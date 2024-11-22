@@ -11,22 +11,24 @@
     padding: 2rem 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 976px;
 }
 
 .intro h1 {
     font-size: 2.8rem;
-    margin: 1.5;
-    margin-bottom: 1rem;
     font-weight:900;
     color: #454545;
+    margin-bottom: 0;
 }
 
 .intro h2 {
     font-size: 1.9rem;
-    margin: 1;
-    margin-bottom: 2rem;
     font-weight: 500;
     color: #454545;
+    margin-bottom: 24px;
 }
 
 p {
@@ -190,9 +192,9 @@ section {
 
 .project-image {
     height: auto;
-    max-width: 1200px;
     margin-top: 1rem;
     object-fit: cover;
+    width: 100%;
 }
 
 
@@ -273,7 +275,7 @@ a {
     justify-content: space-between; /* Space between columns */
     flex-wrap: wrap; /* Allow wrapping */
     width: 100%;
-    margin: 0 auto;
+    margin-bottom: 40px;
 }
 
 .column {
@@ -310,13 +312,16 @@ a {
 
 .catan h4 {
     color: #4481FA;
-    font-weight: 500;
-    font-size: 1.2rem;
-    margin-top: 32px; 
-    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    margin-top: 80px; 
+    margin-bottom: 8px;
     text-align: left;
-
  }
+
+ .catan .paragraph {
+    margin-top: 80px;
+    }
 
 .catan .case-study h3 {
     margin-top: 8px;
@@ -339,21 +344,26 @@ a {
     margin: 0;
 }
 
-.columns {
+.catan .columns {
     display: flex;
     align-items: center;
     text-align: left;
     width: 100%;
 }
 
-.column {
+.catan .column {
     flex: 1;
-    padding: 24px;
+    margin-right: 40px;
+}
+
+.case-study .column {
+    padding: 0;
+    margin: 0;
 }
 
 .button-container {
     text-align: center; /* Center the button horizontally */
-    margin-top: 2rem; /* Space above the button */
+    margin-top: 5rem; /* Space above the button */
 }
 
 
