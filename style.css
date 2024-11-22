@@ -331,20 +331,27 @@ a {
 
 .usability-flex {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    align-items:left;
+}
+
+.catan .image-item {
+    text-align: center; /* Center titles below images */
+    margin: 0;
 }
 
 .columns {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    text-align: left;
     width: 100%;
 }
 
 .column {
     flex: 1;
-    margin: 10px;
+    padding: 24px;
 }
+
 .button-container {
     text-align: center; /* Center the button horizontally */
     margin-top: 2rem; /* Space above the button */
@@ -685,43 +692,5 @@ height: auto;
         transform: none; /* Disable hover effect */
     }
 
-}
-
-.back-to-top {
-    position: fixed; /* Fixed position to stay in view */
-    bottom: 30px; /* Distance from the bottom */
-    right: 30px; /* Distance from the right */
-    background-color: #b75be5; /* Background color of the button */
-    color: white; /* Text color */
-    border: none; /* No border */
-    border-radius: 50%; /* Make it round */
-    width: 50px; /* Width of the button */
-    height: 50px; /* Height of the button */
-    display: flex; /* Use flexbox for centering */
-    align-items: center; /* Center icon vertically */
-    justify-content: center; /* Center icon horizontally */
-    font-size: 32px; /* Size of the icon */
-    text-decoration: none; /* Remove underline */
-    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
-    z-index: 1000; /* Ensure it stays on top */
-    display: none;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.back-to-top:hover {
-    background-color: #ab85f6; /* Darker shade on hover */
-    transform: scale(1.1); /* Slightly enlarge on hover */
-}
-
-.unicorn-follower {
-    position: fixed; /* Fixed position to follow the cursor */
-    width: 50px; /* Size of the unicorn */
-    height: 50px; /* Size of the unicorn */
-    background-image: url('coucou'); /* Path to your unicorn image */
-    background-size: contain; /* Ensure the image fits within the div */
-    background-repeat: no-repeat; /* Prevent repeating the image */
-    pointer-events: none; /* Prevent it from interfering with mouse events */
-    transition: transform 0.1s ease; /* Smooth movement */
-    z-index: 9999; /* Ensure it stays on top */
 }
 
