@@ -369,7 +369,25 @@ a {
     position: relative;
 }
 
+.flex-image-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
 
+.flex-image-left img {
+    width: 30%;
+    height: auto;
+    z-index: 1;
+}
+
+.flex-image-left p  {
+    z-index: 1;
+    text-align: left;
+    margin: 0;
+    background-color: white;
+}
 
 /*CIRCLES BACKGROUND*/
 
@@ -434,6 +452,26 @@ a {
     width:130%;
     height: auto;
 }
+
+.flex-image-left .box {
+    width: 682px;
+    height: 673px;
+    z-index: 0;
+  }
+  
+  .flex-image-left .box .ellipse {
+    position: fixed;
+    width: 679px;
+    height: 670px;
+    top: 0;
+    left: 0;
+    background-color: #1b215d82;
+    border-radius: 339.5px/335px;
+    transform: rotate(-179.77deg);
+    filter: blur(200px);
+    z-index: 0;
+  }
+  
 
 /*CARDS*/
 .card-container {
