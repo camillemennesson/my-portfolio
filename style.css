@@ -369,6 +369,8 @@ a {
     position: relative;
 }
 
+
+
 /*CIRCLES BACKGROUND*/
 
 .flex-section::before {
@@ -407,11 +409,20 @@ a {
     right: -50px; /* Position it to the right */
 }
 
-.spotify .div-center {
+.div-center {
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
+
+.animation img {
+    margin: 0;
+    padding: 20px;
+    width: 35%;
+    height: auto;
+}
+
 
 /*CARDS*/
 .card-container {
@@ -433,6 +444,17 @@ a {
     justify-content: left;
 }
 
+.card-text-left {
+        backdrop-filter: blur(12px);
+        background-color: rgba(217, 217, 217, 0.09);
+        filter: blur(0px);
+        padding:30px;
+        height: 100%;
+        width: 100%;
+        border-radius: 26px;
+        opacity: 1;
+}
+
 .card-container .right-card {
     position: relative;
     top: -50px;
@@ -444,6 +466,8 @@ a {
     bottom: 50px;
     right: -50px;
 }
+
+
 
 /*CATAN*/
 
