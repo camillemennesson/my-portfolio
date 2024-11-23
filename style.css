@@ -423,6 +423,17 @@ a {
     height: auto;
 }
 
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.image img {
+    width:130%;
+    height: auto;
+}
 
 /*CARDS*/
 .card-container {
