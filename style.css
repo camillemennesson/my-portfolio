@@ -323,10 +323,24 @@ a {
     padding: 0;
 }
 
+#h2-center {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 40px;
+}
+
+#h2-left {
+   text-align: left;
+   margin-top: 120px;
+   margin-bottom: 40px;
+}
+
+
 .intro-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 120px;
 }
 
 .intro-flex h2 {
@@ -352,19 +366,15 @@ a {
     padding-right: 80px;
 }
 
-.h2-center {
-    text-align: center;
-    margin-top: 120px;
-}
-
 .spotify .flex-section {
     position: relative;
     display: flex;
     justify-content: space-between;
     text-align: left;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 40px;
 }
+
 
 .flex-section .project-image {
     width: 60%;
@@ -396,9 +406,6 @@ a {
 
 }
 
-.h2-left {
-   text-align: left;
-}
 
 .flex-image-right {
     display: flex;
@@ -652,7 +659,22 @@ a {
     transition: background-color 0.3s; /* Transition effect for hover */
 }
 
-.next-case-study-button:hover {
+.next-case-study-button-purple {
+    display: inline-block; /* Make it an inline block for padding */
+    padding: 10px 20px; /* Add padding for a better appearance */
+    color: #5364FF; /* Text color */
+    text-decoration: none; /* Remove underline from the link */
+    border-radius: 5px; /* Rounded corners */
+    border: 2px solid #5364FF; /* Black stroke */
+    font-size: 1rem; /* Font size */
+    transition: background-color 0.3s; /* Transition effect for hover */
+}
+.next-case-study-button-purple:hover {
+    background-color: #5364FF; /* Darken background color on hover */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+    color: #fafafa;
+}
+.next-case-study-button-black:hover {
     background-color: #000000; /* Darken background color on hover */
     transform: scale(1.05); /* Slightly enlarge the button on hover */
     color: #fafafa;
