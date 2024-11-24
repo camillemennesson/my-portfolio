@@ -319,6 +319,8 @@ a {
     background: linear-gradient(130deg,#5364FF , #a015b0 );
     -webkit-background-clip: text ;
     color: transparent; /* Make the text color transparent */
+    margin: 0;
+    padding: 0;
 }
 
 .intro-flex {
@@ -350,7 +352,7 @@ a {
     padding-right: 80px;
 }
 
-.spotify .case-study h2 {
+.h2-center {
     text-align: center;
     margin-top: 120px;
 }
@@ -372,7 +374,7 @@ a {
 .flex-image-left {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     z-index: 1;
 }
 
@@ -380,14 +382,14 @@ a {
     width: 30%;
     height: auto;
     z-index: 1;
+    margin-right: 120px;
+
 }
 
-.flex-image-left p  {
-    z-index: 1;
-    text-align: left;
-    margin: 0;
-    background-color: white;
+.h2-left {
+   text-align: left;
 }
+
 
 /*CIRCLES BACKGROUND*/
 
@@ -457,6 +459,7 @@ a {
     width: 682px;
     height: 673px;
     z-index: 0;
+    position: absolute;
   }
   
   .flex-image-left .box .ellipse {
