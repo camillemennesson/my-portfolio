@@ -415,7 +415,11 @@ a {
     margin-left: 120px;
 }
 
-
+.div-center img {
+    width: 291px;
+    height: auto;
+    margin: auto;
+}   
 
 /*CIRCLES BACKGROUND*/
 
@@ -519,8 +523,6 @@ a {
 
 }
   
-
-
   
 
 /*CARDS*/
@@ -639,7 +641,7 @@ a {
 }
 
 
-.next-case-study-button {
+.next-case-study-button-black {
     display: inline-block; /* Make it an inline block for padding */
     padding: 10px 20px; /* Add padding for a better appearance */
     color: rgb(0, 0, 0); /* Text color */
