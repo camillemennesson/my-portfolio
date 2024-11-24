@@ -308,7 +308,7 @@ a {
     color: #dddddd;
     font-weight: 300;
     font-size: 1.1rem;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .spotify h1 {
@@ -393,6 +393,8 @@ a {
     margin-top: 200px;
 }
 
+
+
 .flex-image-left {
     display: flex;
     align-items: center;
@@ -428,6 +430,7 @@ a {
     width: 291px;
     height: auto;
     margin: auto;
+    margin-top: 60px;
 }   
 
 /*CIRCLES BACKGROUND*/
@@ -517,14 +520,14 @@ a {
   
   .flex-image-right .box .ellipse {
     background-color: rgba(175, 29, 163, 0.41);
-    filter: blur(90px);
+    filter: blur(100px);
     border-radius: 254px;
     will-change: auto;
     opacity: 1;
     flex: 0 0 auto;
-    height: 413px;
+    height: 420px;
     overflow: visible;
-    width: 404px;
+    width: 420px;
     position: absolute;
     transform: rotate(-179.77deg);
     z-index: 0;
