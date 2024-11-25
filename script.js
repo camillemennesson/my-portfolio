@@ -2,14 +2,14 @@
 
 
 // NAVBAR
-document.addEventListener('DOMContentLoaded', function() {
-    const burgerMenu = document.getElementById('burger-menu');
-    const navLinks = document.getElementById('nav-links');
-
-    burgerMenu.addEventListener('click', function() {
-        navLinks.classList.toggle('active'); // Toggle the active class on the nav menu
-    });
-});
+fetch('navbar.html')
+.then(res => res.text())
+.then(text => {
+    let oldelem = document.querySelector("script#replace_with_navbar");
+    let newelem = document.createElement("div");
+    newelem.innerHTML = text;
+    oldelem.parentNode.replaceChild(newelem,oldelem);
+})
 
 
 // BACK TO TOP BUTTON
@@ -25,6 +25,7 @@ window.onscroll = function() {
     }
 };
 
+
 // Smooth scroll to top when button is clicked
 backToTopButton.onclick = function(event) {
     event.preventDefault(); // Prevent default anchor behavior
@@ -34,10 +35,8 @@ backToTopButton.onclick = function(event) {
     });
 };
 
+
 // SLIDER
-
-
-
   let currentIndex = 0; // Starting index for the slides
 const slides = document.querySelectorAll('.slide'); // Select all slides
 
