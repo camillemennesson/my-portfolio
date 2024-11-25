@@ -244,7 +244,6 @@ a {
 .case-study p {
     font-size: 1rem;
     margin-top: 0.5rem;
-    margin-bottom: 2rem;
     margin-left: 0;
     color: #000;
 }
@@ -276,16 +275,18 @@ a {
 
 .sommaire {
     display: flex; /* Enable Flexbox */
-    justify-content: space-between; /* Space between columns */
+    justify-content:space-between;
     flex-wrap: wrap; /* Allow wrapping */
     width: 100%;
     margin-bottom: 40px;
+    background-color: palevioletred;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
 }
 
 .column {
     flex: 1; /* Each column takes equal space */
-    min-width: 200px; /* Optional: Set a minimum width for columns */
-    margin: 10px; /* Optional: Add some margin between columns */
     box-sizing: border-box; /* Ensure padding and borders are included in total width */
 }
 
@@ -293,6 +294,17 @@ a {
 .case-study .osmia h2 {
     color: rgb(26, 169, 92)
     }
+
+
+/*PARENTS*/
+#parents {
+    background-color: white;
+}
+
+.sommaire h3,p {
+    margin: 0;
+    padding: 0;
+}
 
 /*SPOTIFY*/
 .spotify {
@@ -640,11 +652,6 @@ a {
 
 .ui-flex {
     margin-top: 80px;
-}
-
-.case-study .column {
-    padding: 0;
-    margin: 0;
 }
 
 .button-container {
