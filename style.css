@@ -60,6 +60,14 @@ body {
     background-color: #fafafa;
 }
 
+/*TITLES*/
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
 
 /*HEADERS*/
 
