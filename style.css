@@ -266,12 +266,18 @@ a {
 .image-item {
     text-align: center; /* Center titles below images */
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .site-image {
     width: 100%; /* Make images responsive */
     height: auto; /* Maintain aspect ratio */
     object-fit: cover;
+}
+
+.image-item .prototype {
+   width: 300px;
+   height: auto;
 }
 
 
@@ -375,6 +381,13 @@ a {
 .banner p {
     text-align: center;
     margin-top: 24px;
+}
+
+.image-item .figma-link {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) 
