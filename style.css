@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.7rem;
+    min-height: 100vh;
+    margin: 0;
+    padding:0;
+    background-color: #fafafa;
+    height: 100%;
+}
+
 /* Intro Section Styles */
 .intro {
     text-align: center;
@@ -55,14 +65,7 @@ li {
     line-height: 1.5em;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    line-height: 1.7rem;
-    min-height: 100vh;
-    margin: 0;
-    padding:0;
-    background-color: #fafafa;
-}
+
 
 /*TITLES*/
 
@@ -1122,112 +1125,51 @@ height: auto;
 
 /* SLIDER */
 
-.slider {
-    margin: 0 auto;
-    max-width: 940px;
-  }
-  
-  .slide_viewer {
-    height: 620px;
-    width: auto;
+  .slider-container {
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width */
+    position: relative;
     overflow: hidden;
-    position: relative;
-  }
-  
-  .slide_group {
-    height: 100%;
-    position: relative;
-    width: 100%;
-  }
-  
-  .slide {
-    display: none;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    margin: 0;
-  }
-
-  .slide img {
-    width: auto;
-    height: 100%;
-    margin: 0;
 }
 
-  .slide:first-child {
-    display: block;
-  }
-  
-  
-  .slide_buttons {
-    left: 0;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    color: #000;
-  }
-  
-  a.slide_btn {
-    color: #000000;
-    font-size: 42px;
-    margin: 0 0.175em;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-  }
-  
-  .slide_btn.active, .slide_btn:hover {
-    color: #428CC6;
-    cursor: pointer;
-  }
-  
-  .directional_nav {
-    height: 340px;
-    margin: 0 auto;
-    max-width: 940px;
+.slider {
     position: relative;
-    top: -440px;
-  }
-  
-  .previous_btn {
-    bottom: 0;
-    left: 100px;
-    margin: auto;
+}
+
+.slider-content {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.slide {
+    min-width: 100%; /* Each slide takes full width of the container */
+    display: none; /* Hide all slides by default */
+}
+
+.slide.active {
+    display: block; /* Show the active slide */
+}
+
+.slider-nav {
     position: absolute;
-    top: 0;
-  }
-  
-  .next_btn {
-    bottom: 0;
-    margin: auto;
-    position: absolute;
-    right: 100px;
-    top: 0;
-  }
-  
-  .previous_btn, .next_btn {
+    bottom: 10px; /* Position the arrows below the images */
+    left: 50%;
+    transform: translateX(-50%); /* Center the arrows */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.previous, .next {
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    font-size: 2rem;
     cursor: pointer;
-    height: 65px;
-    opacity: 0.5;
-    -webkit-transition: opacity 0.4s ease-in-out;
-    -moz-transition: opacity 0.4s ease-in-out;
-    -ms-transition: opacity 0.4s ease-in-out;
-    -o-transition: opacity 0.4s ease-in-out;
-    transition: opacity 0.4s ease-in-out;
-    width: 65px;
-  }
-  
-  .previous_btn:hover, .next_btn:hover {
-    opacity: 1;
-  }
-  
-  @media only screen and (max-width: 767px) {
-    .previous_btn {
-      left: 50px;
-    }
-    .next_btn {
-      right: 50px;
-    }
-  }
+    margin: 0 10px; /* Space between arrows */
+    padding: 5px 10px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.previous:hover, .next:hover {
+    background: rgba(255, 255, 255, 1); /* Change background on hover */
+}
