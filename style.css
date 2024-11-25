@@ -751,7 +751,8 @@ a {
 
 .button-container {
     text-align: center; /* Center the button horizontally */
-    margin-top: 10rem; /* Space above the button */
+    margin-top: 8rem; /* Space above the button */
+    margin-bottom: 8rem;
     font-family: 'Inter', sans-serif;
 }
 
