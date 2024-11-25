@@ -39,6 +39,10 @@ p {
     line-height: 1.7rem;
 }
 
+li {
+    line-height: 2rem;
+    }
+
 .paragraph li {
     line-height: 1.7rem;
     margin: 1rem;
@@ -53,7 +57,7 @@ p {
 
 body {
     font-family: 'Inter', sans-serif;
-    line-height: 1.5;
+    line-height: 1.7rem;
     min-height: 100vh;
     margin: 0;
     padding:0;
