@@ -15,7 +15,7 @@
 
 <body>
 
-    <script id="replace_with_navbar" src="nav.js"></script>
+    <div id="navbar-placeholder" data-navbar-type="white"></div>
 
      <!-- Name and Description Section -->
      <section class="intro">
@@ -93,32 +93,14 @@
         </div>
     </section>
 
-    <script>
-        // Replace 'data.json' with the path to your JSON file
-        fetch('button-hover-effect.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok ' + response.statusText);
-                }
-                return response.json();
-            })
-            .then(data => {
-                const container = document.getElementById('data-container');
-                container.innerHTML = JSON.stringify(data, null, 2); // Display JSON data
-            })
-            .catch(error => {
-                console.error('There has been a problem with your fetch operation:', error);
-            });
-    </script>
-
     <section>
         <div class="contact">
             <h2>Me contacter</h2>
             <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
         </div>
     </section>    
-     <script src="/script.js"></script>
-     <script id="replace_with_footer" src="script.js"></script>
+
+    <script src="script.js"></script>
 
 </body>
 </html>

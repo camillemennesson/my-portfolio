@@ -76,6 +76,40 @@ h4 {
     margin-bottom: 16px;
 }
 
+/*NAVBAR*/
+.navbar-white {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fafafa;
+    color: black;
+    /* Autres styles pour la navbar blanche */
+}
+
+.navbar-black {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    /* Autres styles pour la navbar noire */
+}
+
+#navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+
 /*HEADERS*/
 
 header {
@@ -87,6 +121,7 @@ width: 100%;
 margin-top: 1rem;
 padding: 0 2rem;
 }
+
 
 
 header h2 {

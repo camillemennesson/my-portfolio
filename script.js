@@ -2,14 +2,28 @@
 
 
 // NAVBAR
-fetch('navbar.html')
-.then(res => res.text())
-.then(text => {
-    let oldelem = document.querySelector("script#replace_with_navbar");
-    let newelem = document.createElement("div");
-    newelem.innerHTML = text;
-    oldelem.parentNode.replaceChild(newelem,oldelem);
-})
+// script.js
+document.addEventListener("DOMContentLoaded", function() {
+    const navbarType = document.getElementById('navbar-placeholder').getAttribute('data-navbar-type');
+
+    fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = data;
+
+            const navbarWhite = tempDiv.querySelector('#navbar-white');
+            const navbarBlack = tempDiv.querySelector('#navbar-black');
+
+            const navbarPlaceholder = document.getElementById('navbar-placeholder');
+            if (navbarType === 'black') {
+                navbarPlaceholder.appendChild(navbarBlack);
+            } else {
+                navbarPlaceholder.appendChild(navbarWhite);
+            }
+        })
+        .catch(error => console.error('Error loading navbar:', error));
+});
 
 // FOOTER
 fetch('footer.html')
