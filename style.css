@@ -316,7 +316,7 @@ a {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
-#parents .image-item {
+.research h3 {
     margin-top: 80px;
 }
 
@@ -348,6 +348,25 @@ a {
 .section-title {
     font-weight: 500;
     color: #1a1a1a;
+
+}
+
+.banner {
+    background-color: #84AC9F;
+    padding: 40px;
+    margin-top: 80px;
+
+}
+
+.banner h3 {
+    text-align: center;
+    margin: 0;
+    color: #333333;
+}
+
+.banner p {
+    text-align: center;
+    margin-top: 24px;
 }
 
 @media (max-width: 768px) 
