@@ -1182,7 +1182,10 @@ height: auto;
     .div-center img {
         max-width: 100%
     }  
-    
+
+    .spotify img {
+        max-width:  60%;
+    }  
 
     .flex-image-left,
     .flex-image-right {
