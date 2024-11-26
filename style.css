@@ -293,7 +293,6 @@ header p {
 }
 
 section {
-    padding: 1rem;
     max-width: 1200px;
     margin: auto;
     text-align: center;
@@ -382,7 +381,6 @@ a {
 
 
 .case-study {
-    padding: 2rem;
     margin: auto;
     text-align: left;
     max-width: 992px;
