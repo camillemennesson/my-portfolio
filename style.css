@@ -1157,9 +1157,11 @@ height: auto;
         align-items: center; /* Center align items */
     }
 
-     .flex-image-left {
+     .flex-image-left, .flex-image-right {
         max-width: 100%;
         margin-top:60px;
+        flex-direction: column; /* Stack images and text vertically */
+        align-items: center; /* Center align items */
     }
 
     .flex-image-right {
@@ -1188,14 +1190,6 @@ height: auto;
     .div-center img {
         max-width: 100%
     }  
-
-
-    .flex-image-left,
-    .flex-image-right {
-        flex-direction: column; /* Stack images and text vertically */
-        align-items: center; /* Center align items */
-        margin-top: 100px; /* Adjust margin for spacing */
-    }
 
     .box {
         display: none;
