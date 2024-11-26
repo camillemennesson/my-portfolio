@@ -646,7 +646,11 @@ a {
     margin-top: 200px;
 }
 
-
+.spotify .image {
+    width: 100%;
+    margin-bottom: 80px;
+    background-color: inherit;
+}
 
 .flex-image-left {
     display: flex;
@@ -680,11 +684,16 @@ a {
 }
 
 .div-center img {
-    width: 100%;
+    width: 50%;
     height: auto;
     margin: auto;
     margin-top: 60px;
 }   
+
+.disiz img {
+    max-width: 100%;
+    margin: auto;
+}
 
 /*CIRCLES BACKGROUND*/
 
@@ -727,7 +736,7 @@ a {
 .animation img {
     margin: 0;
     padding: 20px;
-    width: 35%;
+    width: 60%;
     height: auto;
 }
 
@@ -1159,6 +1168,23 @@ height: auto;
     .div-center {
         margin-top: 100px; /* Adjust top margin */
     }
+
+    .image  {
+        max-width: 60%;
+    }
+
+    .animation img {
+        max-width: 100%;
+    }
+    
+    .disiz img {
+        max-width: 100%;
+    }
+
+    .div-center img {
+        max-width: 100%
+    }  
+    
 
     .flex-image-left,
     .flex-image-right {
