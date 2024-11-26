@@ -26,11 +26,17 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // TOGGLE BURGER MENU
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById('burger-menu').addEventListener('click', function() {
-        const navLinks = document.getElementById('nav-links');
-        navLinks.classList.toggle('active'); // Toggle the active class
-    });
+document.addEventListener('DOMContentLoaded', function() {
+    const burgerMenu = document.querySelector('.navbar-white .burger-menu');
+    const navMenu = document.querySelector('.navbar-white .nav-menu');
+
+    if (burgerMenu && navMenu) {
+        burgerMenu.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+        });
+    } else {
+        console.error('Burger menu or nav menu not found');
+    }
 });
 
 // FOOTER
