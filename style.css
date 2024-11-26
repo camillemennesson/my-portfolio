@@ -101,7 +101,7 @@ h4 {
 .nav-menu  {
     list-style-type:none;
     padding:0;
-    display:flex
+    display:flex;
 }
 
 .nav-menu li {
@@ -1042,30 +1042,39 @@ height: auto;
 /*NAVBAR & FOOTER*/
 
 @media (max-width: 768px) {
-  /* Hide regular nav and show burger menu */
-  .nav-menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    gap: 1rem;
-    margin-top: 1rem;
-    text-align: center;
-    left: 0;
-    z-index: 1000;
+
+ .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    /* Show the nav menu when active */
+    .nav-menu.active {
+        display: flex;
+    }
 }
 
-.burger-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+@media (min-width: 769px) {
+    .burger-menu {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+    }
 }
 
-/* Show the nav menu when active */
-#nav-links.active .nav-menu.active {
-    display: flex;
-}
-
-}
+/*other*/
 
 @media (max-width: 768px) {
 
