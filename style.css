@@ -1199,10 +1199,17 @@ height: auto;
         width: 100%; /* Ensure they take full width */
     }
 
-    .right-card, .left-card { /* Change to the actual class used for individual cards */
-        margin-bottom: 20px; /* Add space between cards */
-        width: 90%; /* Adjust width as needed */
+    .card-container .right-card {
+        max-width: 100%; /* Adjust width as needed */
+        margin: 0;
+        position: relative;
     }
+    
+    .card-container .left-card {
+         max-width: 100%; /* Adjust width as needed */
+         margin: 0;
+         position: relative;
+     }
 }
         /* Hide regular nav and show burger menu */
     .nav-menu {
