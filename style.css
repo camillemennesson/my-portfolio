@@ -1038,14 +1038,35 @@ height: auto;
 
 
 
+    @media (max-width: 768px) {
 
 
 /* RESPONSIVE DESIGN */
 
 /*NAVBAR & FOOTER*/
 
+  /* Hide regular nav and show burger menu */
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    left: 0;
+    z-index: 1000;
+}
 
+.burger-menu {
+    display: flex;
+}
 
+/* Show the nav menu when active */
+#nav-links.active .nav-menu.active {
+    display: flex;
+}
+
+}
 
 @media (max-width: 768px) {
 
@@ -1217,9 +1238,8 @@ height: auto;
     .flex-section::after {
         display: none; /* Hide the circles */
     }
-}
+}   
 
-/* Media Query for Small Screens */
 @media (max-width: 768px) {
     .card-container { /* Change to the actual class used for your cards */
         flex-direction: column;
@@ -1239,26 +1259,7 @@ height: auto;
          position: relative;
      }
 }
-        /* Hide regular nav and show burger menu */
-    .nav-menu {
-            display: none;
-            flex-direction: column;
-            width: 100%;
-            gap: 1rem;
-            margin-top: 1rem;
-            text-align: center;
-            left: 0;
-            z-index: 1000;
-        }
-    
-    .burger-menu {
-            display: flex;
-        }
-    
-    /* Show the nav menu when active */
-    #nav-links.active .nav-menu.active {
-            display: flex;
-        }
+      
     }
     
     /* Disable hover effects on mobile */
@@ -1312,14 +1313,13 @@ height: auto;
     display: none;
     flex-direction: column;
     cursor: pointer;
-    margin-left: auto;
 }
 
 .burger-menu span {
     height: 3px;
     width: 24px;
     background-color: #333;
-    margin: 3px;
+    margin: 3px, 0;
     transition: 0.3s;
 }
 
