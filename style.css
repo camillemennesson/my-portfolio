@@ -1172,6 +1172,10 @@ height: auto;
         margin-top: 100px; /* Adjust margin for spacing */
     }
 
+    .box {
+        display: none;
+    }
+
     .flex-image-left img,
     .flex-image-right img {
         width: 80%; /* Reduce width of images */
