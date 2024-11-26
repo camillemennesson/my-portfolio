@@ -1065,7 +1065,11 @@ height: auto;
         z-index: 1000;
     }
 
-    .burger-menu {
+    .navbar-white .burger-menu {
+        display: flex;
+    }
+
+    .navbar-black .burger-menu {
         display: flex;
     }
 
@@ -1339,7 +1343,7 @@ height: auto;
     height: 3px;
     width: 24px;
     background-color: #333;
-    margin: 3px, 0;
+    margin: 3px;
     transition: 0.3s;
 }
 
