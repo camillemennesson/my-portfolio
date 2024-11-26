@@ -1069,14 +1069,17 @@ height: auto;
 
     .project-image {
         max-width: 100%;
-        margin: 0;
     }
 
-    .project-image {
+    .image-item {
         max-width: 100%;
-        margin: 0;
+        margin:0;
     }
-         
+
+    .sommaire {
+        margin-bottom: 2rem;
+    }
+
     .about-flex {
         flex-direction: column; /* Stack items vertically on smaller screens */
         align-items: center; /* Center items */
