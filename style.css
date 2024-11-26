@@ -13,6 +13,8 @@ body {
     padding:0;
     background-color: #ffffff;
     height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+
 }
 
 /* Intro Section Styles */
@@ -246,9 +248,10 @@ header {
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 100%;
+max-width: 100%;
 margin-top: 1rem;
 padding: 0 1rem;
+box-sizing: border-box;
 }
 
 
@@ -294,6 +297,7 @@ section {
     max-width: 1200px;
     margin: auto;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .h2-intro  {
@@ -789,9 +793,7 @@ a {
   
 
 /*CARDS*/
-.card-container {
-    position: relative;
-}
+
 
 .spotify .card-text {
     backdrop-filter: blur(10px); 
@@ -1193,11 +1195,9 @@ height: auto;
 /* Media Query for Small Screens */
 @media (max-width: 768px) {
     .card-container { /* Change to the actual class used for your cards */
-        display: flex;
-        flex-direction: column; /* Stack cards vertically */
+        flex-direction: column;
         align-items: center; /* Center align cards */
         width: 100%; /* Ensure they take full width */
-        position: relative;
     }
 
     .right-card, .left-card { /* Change to the actual class used for individual cards */
