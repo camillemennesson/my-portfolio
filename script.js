@@ -1,8 +1,8 @@
-// script.js
 
 
-// NAVBAR
 // script.js
+
+//NAVBAR
 document.addEventListener("DOMContentLoaded", function() {
     const navbarType = document.getElementById('navbar-placeholder').getAttribute('data-navbar-type');
 
@@ -25,6 +25,13 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Error loading navbar:', error));
 });
 
+// TOGGLE BURGER MENU
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById('burger-menu').addEventListener('click', function() {
+        const navLinks = document.getElementById('nav-links');
+        navLinks.classList.toggle('active'); // Toggle the active class
+    });
+});
 
 // FOOTER
 document.addEventListener("DOMContentLoaded", function() {
