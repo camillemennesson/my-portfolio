@@ -26,14 +26,18 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // TOGGLE BURGER MENU
-const burgerMenu = document.querySelector('.burger-menu');
-const navMenu = document.querySelector('.nav-menu');
+document.addEventListener('DOMContentLoaded', function() {
+    const burgerMenu = document.querySelector('.burger-menu');
+    const navMenu = document.querySelector('.nav-menu');
 
-if (burgerMenu && navMenu) {
-    burgerMenu.addEventListener('click', function() {
-        navMenu.classList.toggle('active');
-    });
-} 
+    if (burgerMenu && navMenu) {
+        burgerMenu.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+        });
+    } else {
+        console.error('Burger menu or nav menu not found');
+    }
+});
 
 // FOOTER
 document.addEventListener("DOMContentLoaded", function() {
