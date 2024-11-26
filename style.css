@@ -543,16 +543,7 @@ a {
 }
 
 
-@media (max-width: 768px) 
-{
-    .sections-container {
-        flex-direction: column;
-    }
-    
-    .section {
-        width: 100%;
-    }
-}
+
 
 /*SPOTIFY*/
 .spotify {
@@ -1049,7 +1040,18 @@ height: auto;
 
 
 /* RESPONSIVE DESIGN */
+
+   
 @media (max-width: 768px) {
+
+    .sections-container {
+        flex-direction: column;
+    }
+    
+    .section {
+        width: 100%;
+    }
+
     header h1 {
         font-size: 2rem;
     }
@@ -1067,6 +1069,12 @@ height: auto;
 
     .project-image {
         max-width: 100%;
+        margin: 0;
+    }
+
+    .project-image {
+        max-width: 100%;
+        margin: 0;
     }
          
     .about-flex {
@@ -1109,7 +1117,45 @@ height: auto;
     .sommaire {
         flex-direction: column; /* Stack columns vertically */
     }
-}
+        /* Hide regular nav and show burger menu */
+    .nav-menu {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            gap: 1rem;
+            margin-top: 1rem;
+            text-align: center;
+            left: 0;
+            z-index: 1000;
+        }
+    
+    .burger-menu {
+            display: flex;
+        }
+    
+    /* Show the nav menu when active */
+    #nav-links.active .nav-menu.active {
+            display: flex;
+        }
+    }
+    
+    /* Disable hover effects on mobile */
+    @media (max-width: 768px) {
+        .project:hover {
+            transform: none; /* Disable hover effect */
+        }
+    
+        .button:hover {
+            background-color: #000000; /* Keep the original background color */
+            transform: none; /* Disable hover effect */
+        }
+    
+        .bi-arrow-down-circle:hover  {
+            transform: none; /* Disable hover effect */
+        }
+    
+    }
+
 
 .logo {
  display: flex;
@@ -1156,45 +1202,7 @@ height: auto;
 }
 
 /* Responsive Layout */
-@media (max-width: 768px) {
-    /* Hide regular nav and show burger menu */
-    .nav-menu {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        gap: 1rem;
-        margin-top: 1rem;
-        text-align: center;
-        left: 0;
-        z-index: 1000;
-    }
 
-    .burger-menu {
-        display: flex;
-    }
-
-    /* Show the nav menu when active */
-    #nav-links.active .nav-menu.active {
-        display: flex;
-    }
-}
-
-/* Disable hover effects on mobile */
-@media (max-width: 768px) {
-    .project:hover {
-        transform: none; /* Disable hover effect */
-    }
-
-    .button:hover {
-        background-color: #000000; /* Keep the original background color */
-        transform: none; /* Disable hover effect */
-    }
-
-    .bi-arrow-down-circle:hover  {
-        transform: none; /* Disable hover effect */
-    }
-
-}
 
 
 /* SLIDER */
