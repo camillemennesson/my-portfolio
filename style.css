@@ -244,12 +244,11 @@ margin: 0;
 
 header {
 display: flex;
-font-family: 'Inter', sans-serif;
 justify-content: space-between;
 align-items: center;
 width: 100%;
 margin-top: 1rem;
-padding: 0 2rem;
+padding: 0 1rem;
 }
 
 
@@ -1179,6 +1178,29 @@ height: auto;
         margin: 0; /* Remove margins */
     }    
 
+    /* Media Query to remove background circles on small screens */
+@media (max-width: 768px) {
+    .flex-section::before,
+    .flex-section::after {
+        display: none; /* Hide the circles */
+    }
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .card-container { /* Change to the actual class used for your cards */
+        display: flex;
+        flex-direction: column; /* Stack cards vertically */
+        align-items: center; /* Center align cards */
+        width: 100%; /* Ensure they take full width */
+        position: relative;
+    }
+
+    .right-card, .left-card { /* Change to the actual class used for individual cards */
+        margin-bottom: 20px; /* Add space between cards */
+        width: 90%; /* Adjust width as needed */
+    }
+}
         /* Hide regular nav and show burger menu */
     .nav-menu {
             display: none;
