@@ -629,11 +629,10 @@ a {
     margin-top: 40px;
 }
 
-
-.flex-section .project-image {
-    width: 60%;
-    height: auto;
-    position: relative;
+.flex-section .image-center {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .div-center {
@@ -1069,7 +1068,7 @@ height: auto;
     }
 
     .project-image {
-        max-width: 100%;
+        max-width: 60%;
     }
 
     .image-item {
@@ -1158,10 +1157,6 @@ height: auto;
         align-items: center; /* Center align items */
     }
 
-    .flex-section .project-image {
-        width: 100%; /* Ensure images take full width */
-        margin: 0; /* Remove margins */
-    }
 
     .div-center {
         margin-top: 100px; /* Adjust top margin */
