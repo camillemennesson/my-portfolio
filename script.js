@@ -25,6 +25,12 @@ document.addEventListener("DOMContentLoaded", function() {
         .catch(error => console.error('Error loading navbar:', error));
 });
 
+// toggle
+document.getElementById('burger-menu').addEventListener('click', function() {
+    const navLinks = document.getElementById('nav-links');
+    navLinks.classList.toggle('active'); // Toggle the active class
+});
+
 // FOOTER
 document.addEventListener("DOMContentLoaded", function() {
     const footerType = document.getElementById('footer-placeholder').getAttribute('data-footer-type');
