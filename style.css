@@ -1077,7 +1077,7 @@ height: auto;
     }
 
     .sommaire {
-        margin-bottom: 2rem;
+        margin-bottom: 40px;
     }
 
     .about-flex {
@@ -1120,6 +1120,15 @@ height: auto;
     .sommaire {
         flex-direction: column; /* Stack columns vertically */
     }
+
+    .catan .paragraph {
+        margin-top: 40px;
+    }
+
+    .catan h4 {
+        margin-top: 60px;
+    }
+
         /* Hide regular nav and show burger menu */
     .nav-menu {
             display: none;
