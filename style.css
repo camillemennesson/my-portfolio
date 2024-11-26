@@ -251,7 +251,6 @@ justify-content: space-between;
 align-items: center;
 max-width: 100%;
 margin-top: 1rem;
-padding: 1rem;
 box-sizing: border-box;
 }
 
@@ -553,7 +552,7 @@ a {
     line-height: 1.5;
     min-height: 100vh;
     margin: 0;
-    padding:0;
+    padding:1rem;
     background-color: #021323;
     color: #dddddd;
 }
