@@ -1191,7 +1191,8 @@ height: auto;
     }
 
     .div-center img {
-        max-width: 100%
+        max-width: 100%;
+        margin-top: 2rem;
     }  
 
     .box {
