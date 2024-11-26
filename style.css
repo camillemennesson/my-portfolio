@@ -1139,12 +1139,19 @@ height: auto;
     .spotify h2 {
         font-size: 1.5rem; /* Reduce font size for subheadings */
         margin-top: 2rem;
+        line-height: 1.7rem;
+
+    }
+
+    .spotify p {
+    font-size: 16px;
     }
 
     .intro-flex {
         flex-direction: column; /* Stack elements vertically */
         align-items: center; /* Center align items */
     }
+
 
     .intro-flex img {
         width: 80%; /* Reduce image width */
