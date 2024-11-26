@@ -129,7 +129,7 @@ h4 {
     font-weight: 500;
     margin: 1rem;
     text-decoration: none;
-    color: #ffffff;
+    color: #dddddd;
 }
 
 .nav-menu a:hover {
@@ -138,6 +138,8 @@ h4 {
 }
 
 .footer-white {
+    display: flex;
+    justify-content: center;
     text-align: center;
     background: #f4f4f4;
     color: #000000;
@@ -145,17 +147,21 @@ h4 {
 }
 
 .footer-black {
+    display: flex;
+    justify-content: center;
     text-align: center;
-    background: #000000;
+    background-color: #021323;
     color: #ffffff;
     padding: 20px;
 }
+
 
 .footer-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 .footer-links {
     list-style: none;
@@ -175,9 +181,67 @@ h4 {
     text-decoration: none;
 }
 
+.footer-black .footer-links a {
+    color: #dddddd;
+}
+
 .footer-links :hover {
     color: #007bff; /* Change to your desired hover color */
     transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.footer-content {
+    text-align: center; /* Center the text and icons */
+}
+
+.footer-links {
+list-style: none;
+display: flex;
+justify-content: center; /* Center the links */
+gap: 0rem; /* Space between links */
+margin-bottom: 1rem; /* Space below the links */
+}
+
+.footer-icons {
+display: flex;
+justify-content: center; /* Center the icons */
+gap: 0.8rem; /* Space between icons */
+padding: 0;
+margin: 0;
+}
+
+.footer-icon {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Default icon color */
+    font-size: 1rem; /* Adjust icon size */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+    padding: 0;
+    margin: 0;
+}
+
+#footer-white .footer-icon {
+    color: #454545;
+}
+
+#footer-black .footer-icon {
+    color: white;
+}
+
+#footer-black .figma-icon {
+    width: 16px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+    filter: brightness(0) invert(1); /* This will turn the icon white */
+    padding: 0;
+    margin: 0;
+}
+
+#footer-white .figma-icon {
+    width: 16px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+    padding: 0;
+    margin: 0;
 }
 
 /*HEADERS*/
@@ -984,37 +1048,7 @@ height: auto;
     align-items: center;
     }
 
-.footer-content {
-        text-align: center; /* Center the text and icons */
-    }
 
-.footer-links {
-    list-style: none;
-    display: flex;
-    justify-content: center; /* Center the links */
-    gap: 0rem; /* Space between links */
-    margin-bottom: 1rem; /* Space below the links */
-}
-
-.footer-icons {
-    display: flex;
-    justify-content: center; /* Center the icons */
-    gap: 0.8rem; /* Space between icons */
-}
-
-.footer-icon {
-        text-decoration: none; /* Remove underline */
-        color: #333; /* Default icon color */
-        font-size: 1rem; /* Adjust icon size */
-        transition: color 0.3s ease; /* Smooth transition for hover effect */
-    }
-    
-
- .figma-icon {
-        width: 10px; /* Set the width of the image */
-        height: auto; /* Maintain aspect ratio */
-        transition: filter 0.3s ease; /* Smooth transition for hover effect */
-    }
 
 
 
