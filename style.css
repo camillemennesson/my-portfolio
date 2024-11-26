@@ -578,7 +578,7 @@ a {
 
 .spotify h2 {
     background: linear-gradient(130deg,#5364FF , #a015b0 );
-    -webkit-background-clip: text ;
+    background-clip: text;
     color: transparent; /* Make the text color transparent */
     margin: 0;
     padding: 0;
