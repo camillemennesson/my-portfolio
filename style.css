@@ -793,6 +793,12 @@ a {
 
 /*CARDS*/
 
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 
 .spotify .card-text {
     backdrop-filter: blur(10px); 
@@ -818,18 +824,6 @@ a {
         width: 100%;
         border-radius: 26px;
         opacity: 1;
-}
-
-.card-container .right-card {
-    position: relative;
-    top: -50px;
-    left: -50px;
-}
-
-.card-container .card-left {
-    position: relative;
-    bottom: 50px;
-    right: -50px;
 }
 
 
