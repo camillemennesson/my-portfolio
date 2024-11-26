@@ -13,7 +13,6 @@ body {
     padding:0;
     background-color: #ffffff;
     height: 100%;
-    overflow-x: hidden; /* Prevent horizontal scroll */
 
 }
 
@@ -497,7 +496,6 @@ a {
     background: #f5f5f5;
     transition: all 0.2s ease;
     flex: 1;
-    min-width: 160px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -622,12 +620,11 @@ a {
     text-align: left;
     margin: 0;
     margin-top: 34px;
-    padding-right: 80px;
 }
 
 .spotify .flex-section {
-    position: relative;
     display: flex;
+    margin: auto;
     justify-content: space-between;
     text-align: left;
     align-items: center;
@@ -683,7 +680,7 @@ a {
 }
 
 .div-center img {
-    width: 291px;
+    width: 100%;
     height: auto;
     margin: auto;
     margin-top: 60px;
