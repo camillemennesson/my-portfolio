@@ -356,6 +356,7 @@ section {
     margin-top: 1rem;
     object-fit: cover;
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 
@@ -628,9 +629,10 @@ a {
 }
 
 .flex-section .image-center {
-    align-items: center;
+    display: flex;
     justify-content: center;
     margin: auto;
+    margin-bottom: 60px;
 }
 
 .div-center {
@@ -1155,14 +1157,20 @@ height: auto;
         align-items: center; /* Center align items */
     }
 
+     .flex-image-left .flex-image-right {
+        max-width: 100%;
+        margin-top:60px;
+    }
 
     .div-center {
         margin-top: 100px; /* Adjust top margin */
     }
 
-    .image  {
-        max-width: 60%;
+    .spotify img {
+        max-width: 100%;
+        margin: 0;
     }
+
 
     .animation img {
         max-width: 100%;
