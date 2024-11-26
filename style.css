@@ -1056,6 +1056,8 @@ height: auto;
 
 .burger-menu {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Show the nav menu when active */
@@ -1310,6 +1312,7 @@ height: auto;
     display: none;
     flex-direction: column;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .burger-menu span {
