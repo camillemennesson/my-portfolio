@@ -84,10 +84,8 @@ h4 {
     align-items: center;
     background-color:#fafafa;
     color: black;
-    margin: 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    margin: 1rem;
+  
 }
 
 .navbar-black {
@@ -96,10 +94,8 @@ h4 {
     align-items: center;
     background-color: #021323;
     color: white;
-    margin: 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    margin: 1rem;
+ 
 }
 
 .nav-menu  {
