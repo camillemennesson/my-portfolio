@@ -1043,7 +1043,18 @@ height: auto;
 
 @media (max-width: 768px) {
 
- .nav-menu {
+ .navbar-white .nav-menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+        margin-top: 1rem;
+        text-align: center;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .navbar-black .nav-menu {
         display: none;
         flex-direction: column;
         width: 100%;
