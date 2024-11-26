@@ -1138,7 +1138,7 @@ height: auto;
 
     .spotify h2 {
         font-size: 1.5rem; /* Reduce font size for subheadings */
-        margin: 0; /* Remove margin */
+        margin-top: 1rem;
     }
 
     .intro-flex {
