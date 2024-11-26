@@ -33,9 +33,7 @@ if (burgerMenu && navMenu) {
     burgerMenu.addEventListener('click', function() {
         navMenu.classList.toggle('active');
     });
-} else {
-    console.error('Burger menu or nav menu not found');
-}
+} 
 
 // FOOTER
 document.addEventListener("DOMContentLoaded", function() {
