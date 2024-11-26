@@ -1159,7 +1159,7 @@ height: auto;
 
      .flex-image-left, .flex-image-right {
         max-width: 100%;
-        margin-top:60px;
+        margin-top:2rem;
         flex-direction: column; /* Stack images and text vertically */
         align-items: center; /* Center align items */
     }
