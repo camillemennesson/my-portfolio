@@ -47,6 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
         })
         .catch(error => console.error('Error loading navbar:', error));
 });
+
 // BACK TO TOP BUTTON
 // Get the button
 const backToTopButton = document.getElementById('backToTopButton');
