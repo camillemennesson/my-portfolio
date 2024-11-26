@@ -76,39 +76,103 @@ h4 {
     margin-bottom: 16px;
 }
 
-/*NAVBAR*/
+/*NAVBAR & FOOTER*/
+
 .navbar-white {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:#fafafa;
     color: black;
-    /* Autres styles pour la navbar blanche */
+    margin: 2rem;
 }
 
 .navbar-black {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
+    background-color: #021323;
     color: white;
-    /* Autres styles pour la navbar noire */
+    margin: 2rem;
 }
 
-#navbar ul {
-    list-style-type: none;
+.nav-menu  {
+    list-style-type:none;
+    padding:0;
+    display:flex
+}
+
+.nav-menu li {
+    margin-right:8px;
+}
+
+.navbar-white .nav-menu a  {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Default link color */
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-weight: 500;
+    margin: 1rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-black .nav-menu a  {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Default link color */
+    transition: color 0.3s ease, transform 0.3s ease;
+    font-weight: 500;
+    margin: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-menu a:hover {
+    color: #2671c2; /* Change to your desired hover color */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.footer-white {
+    text-align: center;
+    background: #f4f4f4;
+    color: #000000;
+    padding: 20px;
+}
+
+.footer-black {
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
     padding: 0;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the links */
 }
 
-#navbar li {
-    display: inline;
-    margin-right: 10px;
+.footer-links li {
+    margin: 0 10px; /* Space between links */
 }
 
-#navbar a {
+.footer-links a {
+    color: #000000;
     text-decoration: none;
 }
 
+.footer-links :hover {
+    color: #007bff; /* Change to your desired hover color */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
 
 /*HEADERS*/
 
@@ -143,33 +207,7 @@ header p {
 }
 
 
-nav a {
-    margin: 1rem;
-    text-decoration: none;
-    color: #333;
-}
 
-.nav-menu  {
-    list-style-type:none;
-    padding:0;
-    display:flex
-}
-
-.nav-menu li {
-    margin-right:8px;
-}
-
-.nav-menu a  {
-    text-decoration: none; /* Remove underline */
-    color: #000; /* Default link color */
-    transition: color 0.3s ease, transform 0.3s ease;
-    font-weight: 500;
-}
-
-.nav-menu a:hover {
-    color: #2671c2; /* Change to your desired hover color */
-    transform: scale(1.05); /* Slightly increase size on hover */
-}
 
 .download-link {
     display: inline-flex; /* Use flex to align items horizontally */
@@ -856,41 +894,6 @@ a {
 }
 
 
-footer {
-    text-align: center;
-    background: #f4f4f4;
-    color: #000000;
-    padding: 20px;
-}
-
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 10px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center the links */
-}
-
-.footer-links li {
-    margin: 0 10px; /* Space between links */
-}
-
-.footer-links a {
-    color: #000000;
-    text-decoration: none;
-}
-
-.footer-links :hover {
-    color: #007bff; /* Change to your desired hover color */
-    transform: scale(1.05); /* Slightly increase size on hover */
-}
 
 .work-flex {
     display: flex;

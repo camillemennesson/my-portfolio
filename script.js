@@ -26,15 +26,27 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // FOOTER
-fetch('footer.html')
-.then(res => res.text())
-.then(text => {
-    let oldelem = document.querySelector("script#replace_with_footer");
-    let newelem = document.createElement("div");
-    newelem.innerHTML = text;
-    oldelem.parentNode.replaceChild(newelem,oldelem);
-})
+document.addEventListener("DOMContentLoaded", function() {
+    const footerType = document.getElementById('footer-placeholder').getAttribute('data-footer-type');
 
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = data;
+
+            const footerWhite = tempDiv.querySelector('#footer-white');
+            const footerBlack = tempDiv.querySelector('#footer-black');
+
+            const footerPlaceholder = document.getElementById('footer-placeholder');
+            if (footerType === 'black') {
+                footerPlaceholder.appendChild(footerBlack);
+            } else {
+                footerPlaceholder.appendChild(footerWhite);
+            }
+        })
+        .catch(error => console.error('Error loading navbar:', error));
+});
 // BACK TO TOP BUTTON
 // Get the button
 const backToTopButton = document.getElementById('backToTopButton');
