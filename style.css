@@ -1013,14 +1013,15 @@ a {
 #about .intro{
     display: flex;
     align-items: center; /* Align items vertically centered */
-    justify-content: center;
+    justify-content: space-between;
     background-color: #007bff;
     margin: 0;
 }
 
-.intro h1 {
+.intro-content h1 {
    line-height: 3rem;
    background-color: #000;
+   margin-right: 0;
 }
 
 .intro-content {
@@ -1029,14 +1030,20 @@ a {
     align-items: center; /* Center items vertically */
     width: 100%;
     justify-content: center;
+    margin: 0;    
 }
 
 .intro-content img {
     max-width: 20%; /* Ensure the image does not exceed its container */
     height: auto; /* Maintain aspect ratio */
     background-color: palevioletred;
+    margin-left: 0;
 }
 
+.rodin {
+    display: flex;
+    margin: 0;
+}   
 
 @media (max-width: 768px) {
     .intro-content {
