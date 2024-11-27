@@ -19,7 +19,7 @@
     <section class="intro">
         <div class="intro-content">
 
-            <h1>À propos de moi</h1>
+            <h1>À propos</h1>
         </div>
     </section>
 
