@@ -1030,7 +1030,7 @@ a {
     align-items: center; /* Center items vertically */
     width: 100%;
     justify-content: center;
-    margin: 0;    
+    margin: auto;
 }
 
 .intro-content img {
@@ -1040,6 +1040,11 @@ a {
     margin-left: 0;
 }
 
+.rodin {
+    margin-right: 2rem;
+    align-items: right;
+    text-align: right;
+    }
 
 @media (max-width: 768px) {
     .intro-content {
