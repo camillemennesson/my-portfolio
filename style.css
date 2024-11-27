@@ -1033,19 +1033,6 @@ a {
     width: 100%;
 }
 
-.rodin {
-    display: flex;
-    flex: 0 1 auto;
-    margin: 0;
-    padding: 0;
-}
-
-.rodin img {
-    max-width: 20%; /* Ensure the image does not exceed its container */
-    height: auto; /* Maintain aspect ratio */
-    background-color: palevioletred;
-    margin:0;
-}
 
 
 
