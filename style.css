@@ -113,10 +113,6 @@ h4 {
     align-items: center;
 }
 
-.nav-menu li {
-    margin-right:8px;
-}
-
 .navbar-white .nav-menu a  {
     text-decoration: none; /* Remove underline */
     color: inherit; /* Default link color */
