@@ -1115,55 +1115,43 @@ a {
 
 .about-flex {
     display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Center the items horizontally */
     align-items: center;
-    width: 100% ; 
-    margin: auto; /* Center the container with margin */
+    background-color: #000;
+    justify-content: space-between;
 }
 
-.cv, .linkedin-section {
-flex: 1;
-margin-left: 120px;
-}
 
 .linkedin-section {
     display: flex;
     flex-direction: column; /* Stack the image and paragraph vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center text */
-    margin-right: 100px;
-    margin: auto;
+    background-color: #007bff;
+    margin-right: 2rem;
+}
+
+.linkedin-section img {
+    height: auto;
+    object-fit: cover;
+    width: 100%;
 }
 
 .cv img {
 height: auto;
-max-width: 100%;
-
+width:  100%;
+background-color: #9e0000;
 }
-
-.linkedin-pic img {
-    width: 100%; 
-    height: 100%;
-    object-fit: cover;
-    max-width: 100%;
-
-}
-
 
 .linkedin-description {
     margin-top: 10px; /* Space above the paragraph */
     line-height: 1.5em; /* Adjust line height for better readability */
     width: 100%; /* Set a specific width (adjust as needed) */
-    margin-left: auto; /* Center the div horizontally */
-    margin-right: auto; /* Center the div horizontally */
-    padding: 10px; /* Optional: add padding for better appearance */
     text-align: left;
 }
 
 .linkedin-description p {
    margin-bottom:16px;
 }
-
 
 .download-resume {
    justify-content: center;
