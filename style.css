@@ -1112,7 +1112,6 @@ a {
 .about-flex {
     display: flex; /* Use flexbox for layout */
     align-items: center;
-    background-color: #000;
     justify-content: space-between;
 }
 
@@ -1122,7 +1121,6 @@ a {
     flex-direction: column; /* Stack the image and paragraph vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center text */
-    background-color: #007bff;
     margin-right: 2rem;
 }
 
@@ -1135,7 +1133,6 @@ a {
 .cv img {
 height: auto;
 width:  100%;
-background-color: #9e0000;
 }
 
 .linkedin-description {
