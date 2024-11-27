@@ -1361,6 +1361,11 @@ width:  100%;
         width: 100%;
     }
 
+    .flex-image {
+        width: 100%;
+        height: auto;
+    }
+
     .spotify p {
     font-size: 16px;
     }
