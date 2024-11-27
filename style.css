@@ -1373,7 +1373,8 @@ width:  100%;
     .intro-flex {
         flex-direction: column; /* Stack elements vertically */
         align-items: center; /* Center align items */
-        margin:0;    
+        margin:0;   
+        gap: 2rem; 
     }
 
 
