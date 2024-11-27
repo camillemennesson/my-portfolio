@@ -1029,13 +1029,13 @@ a {
 .intro-content {
     display: flex;
     flex-direction: row; /* Align items in a row */
-    align-items: center; /* Center items vertically */
-    justify-content: center;
+    align-items: center; /* Center items  */
     width: 100%;
 }
 
 .rodin {
     display: flex;
+    flex: 0 1 auto;
     margin: 0;
     padding: 0;
 }
