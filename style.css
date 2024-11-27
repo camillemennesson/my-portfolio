@@ -1313,6 +1313,11 @@ height: auto;
         margin-top: 32px;
     }
 
+    .usability-flex {
+        flex-direction: column;
+    }
+
+
     /* Spotify Responsive */
 
     .spotify h1 {
