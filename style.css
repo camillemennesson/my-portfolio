@@ -1029,8 +1029,8 @@ a {
     align-items: center; /* Center items  */
     justify-content: center;
     width: 100%;
-    margin-bottom: 2rem;
-    margin: auto;
+    margin-bottom: 4rem;
+    margin: auto, 0;
 }
 
 .intro-content a {
