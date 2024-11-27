@@ -1115,6 +1115,10 @@ height: auto;
     height: 120px;
 }
 
+#download-resume {
+   margin-bottom: 5rem;
+}
+
 .email  {
     display: flex;
     flex-direction: column;
