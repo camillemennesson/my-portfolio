@@ -173,10 +173,10 @@ h4 {
 }
 
 .footer-border {
-    height: 5px; /* Hauteur du liseret */
-    background-color: #000000; /* Couleur du liseret */
-    margin-bottom: 5rem;
-    color: #000;
+    height: 1px; /* Hauteur du liseret */
+    width: 100%;
+    background-color: #bebebe; /* Couleur du liseret */
+    margin-bottom: 1rem;
 }
 
 .footer-black {
