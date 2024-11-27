@@ -353,7 +353,7 @@ section {
     
 .h2-intro i  {
         margin: 0.5rem;
-        font-size: 1.3rem; /* Increase the size of the icon */
+        font-size: 1.5rem; /* Increase the size of the icon */
         color: #007bff; /* Change the color of the icon */
         transition: transform 0.4s ease; /* Add a transition effect */
         transform-origin:center;
