@@ -1014,7 +1014,7 @@ a {
     display: flex;
     align-items: center; /* Align items vertically centered */
     justify-content: space-between;
-    margin: 0;
+    margin: auto;
     text-align: center;
 }
 
@@ -1030,6 +1030,7 @@ a {
     justify-content: center;
     width: 100%;
     margin-bottom: 2rem;
+    margin: auto;
 }
 
 .intro-content a {
