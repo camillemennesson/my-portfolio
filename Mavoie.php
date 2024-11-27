@@ -75,7 +75,7 @@
         
         <!-- Button to read the next case study -->
     <div class="button-container">
-        <a href="Soliguide.html"
+        <a href="Soliguide.php"
         class="next-case-study-button-black">Lire le prochain case study</a>
     </div>
 
