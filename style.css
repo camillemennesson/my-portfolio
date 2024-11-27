@@ -1014,15 +1014,12 @@ a {
     display: flex;
     align-items: center; /* Align items vertically centered */
     justify-content: space-between;
-    background-color: #007bff;
     margin: 0;
     text-align: center;
-
 }
 
 .intro-content h1 {
    line-height: 3rem;
-   background-color: #000;
    margin-left: 2rem;
 }
 
@@ -1030,11 +1027,19 @@ a {
     display: flex;
     flex-direction: row; /* Align items in a row */
     align-items: center; /* Center items  */
+    justify-content: center;
     width: 100%;
+    margin-bottom: 2rem;
 }
 
+.intro-content a {
+    margin-right: 2rem;
+}
 
-
+.intro-content img {
+   width: 72px;
+   height: 72px;
+}
 
 @media (max-width: 768px) {
     .intro-content {
