@@ -54,7 +54,7 @@
 </div>
      <div class="download-resume">
         <h2>Télécharger mon CV</h2>
-        <a target="_blank" class="button" href="https://drive.google.com/file/d/1U_fP0wiJkLxkOayhfzjvmIWLtXmKV_Uo/view?usp=drive_link"
+        <a target="_blank" class="button" href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view?usp=drive_link"
         >Télécharger en PDF</a>
     </div>   
 </section>
