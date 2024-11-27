@@ -1043,9 +1043,8 @@ a {
 
 .rodin {
     display: flex;
-    margin-right: 2rem;
     text-align: right;
-    margin-left: 0;
+    margin: 0;
     }
 
 @media (max-width: 768px) {
