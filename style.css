@@ -1260,7 +1260,7 @@ width:  100%;
 
     nav a {
         display: flex;
-        margin: 0.5rem 0;
+        margin: 0;
     }
 
 
@@ -1399,11 +1399,6 @@ width:  100%;
 
     .div-center {
         margin-top: 2rem; /* Adjust top margin */
-    }
-
-    .spotify img {
-        max-width: 60%;
-        margin-bottom: 1rem;
     }
 
 
