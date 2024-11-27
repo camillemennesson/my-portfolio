@@ -743,14 +743,14 @@ a {
     width: 549px; /* Adjust size as needed */
     height: 542px; /* Adjust size as needed */
     top: -50; /* Position it above the section */
-    left: 50px; /* Position it to the left */
+    left: 250px; /* Position it to the left */
 }
 
 .flex-section::after {
     width: 350px; /* Adjust size as needed */
     height: 350px; /* Adjust size as needed */
     bottom: 50px; /* Position it below the section */
-    right: 150px; /* Position it to the right */
+    right: 250px; /* Position it to the right */
 }
 
 .animation img {
