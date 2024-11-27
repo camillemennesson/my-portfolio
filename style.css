@@ -347,7 +347,8 @@ section {
 
     .h2-intro p {
        font-size: 1.2rem;
-       font-weight: 600;
+       font-weight: 500;
+       color: #007bff;
         }
     
 .h2-intro i  {
