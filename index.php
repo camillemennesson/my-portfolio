@@ -1,11 +1,4 @@
 
-<?php
-  $timestamp = date('YmdHis');
-  $css_file = 'style.css?' . $timestamp;
-  header('Content-Type: text/css');
-  header('Cache-Control: max-age=0');
-  readfile($css_file);
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -18,8 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
     rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo 'all.css?='.time(); ?>"/>
-
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'style.css?='.time(); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <div id="navbar-placeholder" data-navbar-type="white"></div>
 
