@@ -938,6 +938,11 @@ a {
         gap: 30px;
         margin-top: 40px;
     }
+
+ .catan h4 {
+        margin-top: 20px;
+    }
+
 }
 
 .column h4 {
