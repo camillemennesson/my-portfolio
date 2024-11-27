@@ -1313,13 +1313,11 @@ height: auto;
         margin-top: 32px;
     }
 
-    .usability-flex{
-        flex-direction: column;
-    }
-
     .columns{
+        flex-direction: column;
         width: 100%;
     }
+
 
     /* Spotify Responsive */
 
