@@ -293,10 +293,7 @@ header p {
     transform: none; /* Prevent separate hover effect on the icon */
 }
 
-/*ABOUT*/
-.rodin img{
-    max-width: 15%;
-}
+
 
 /*Intros*/
 
@@ -1098,7 +1095,7 @@ height: auto;
     margin-left: auto; /* Center the div horizontally */
     margin-right: auto; /* Center the div horizontally */
     padding: 10px; /* Optional: add padding for better appearance */
-    text-align: center;
+    text-align: left;
 }
 
 .linkedin-description p {
