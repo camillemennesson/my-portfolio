@@ -32,7 +32,7 @@ function auto_version($file) {
     
      <!-- Name and Description Section -->
      <section class="intro">
-        <h1>Camille Mennesson HELLO</h1>
+        <h1>Camille Mennesson</h1>
             <p>Designer Freelance depuis 3 ans pour des projets de conception UX et UI.</p>
             <p>J'ai travaillé pendant 5 ans avec des équipes tech
             internationales et multidisciplinaires.</p>
