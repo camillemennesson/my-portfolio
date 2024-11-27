@@ -1313,10 +1313,13 @@ height: auto;
         margin-top: 32px;
     }
 
-    .usability-flex {
+    .usability-flex{
         flex-direction: column;
     }
 
+    .columns{
+        width: 100%;
+    }
 
     /* Spotify Responsive */
 
@@ -1394,7 +1397,7 @@ height: auto;
         width: 80%; /* Reduce width of images */
         margin: 0; /* Remove margins */
     }    
-
+}
     /* Media Query to remove background circles on small screens */
 @media (max-width: 768px) {
     .flex-section::before,
@@ -1423,7 +1426,7 @@ height: auto;
      }
 }
       
-    }
+    
     
     /* Disable hover effects on mobile */
     @media (max-width: 768px) {
