@@ -1,13 +1,11 @@
+
+
 <?php
-// Function to auto-version files based on their last modified time
-function auto_version($file) {
-    if ($file[0] !== '/') {
-        $file = rtrim(str_replace(DIRECTORY_SEPARATOR, '/', dirname($_SERVER['PHP_SELF'])), '/') . '/' . $file;
-    }
-    if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $file)) return $file;
-    $mtime = filemtime($_SERVER['DOCUMENT_ROOT'] . $file);
-    return preg_replace('{\\.([^./]+)$}', ".$mtime.\$1", $file);
-}
+  $timestamp = date('YmdHis');
+  $css_file = 'style.css?' . $timestamp;
+  header('Content-Type: text/css');
+  header('Cache-Control: max-age=0');
+  readfile($css_file);
 ?>
 
 <!DOCTYPE html>
