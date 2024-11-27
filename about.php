@@ -1,3 +1,15 @@
+<?php
+// Function to auto-version files based on their last modified time
+function auto_version($file) {
+    if ($file[0] !== '/') {
+        $file = rtrim(str_replace(DIRECTORY_SEPARATOR, '/', dirname($_SERVER['PHP_SELF'])), '/') . '/' . $file;
+    }
+    if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $file)) return $file;
+    $mtime = filemtime($_SERVER['DOCUMENT_ROOT'] . $file);
+    return preg_replace('{\\.([^./]+)$}', ".$mtime.\$1", $file);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +18,7 @@
     <title>About</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="<?php echo auto_version('style.css'); ?>" type="text/css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <div id="navbar-placeholder" data-navbar-type="white"></div>
 
