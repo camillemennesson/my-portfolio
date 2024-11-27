@@ -111,8 +111,6 @@ function auto_version($file) {
         </div>
     </section> 
 
-
-
     <script src="script.js?=v2"></script>
     
 </body>
