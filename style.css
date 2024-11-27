@@ -1389,6 +1389,10 @@ width:  100%;
         align-items: center; /* Center align items */
     }
 
+    .flex-section img{
+        width: 100%;
+    }
+
      .flex-image-left, .flex-image-right {
         max-width: 100%;
         margin-top:2rem;
