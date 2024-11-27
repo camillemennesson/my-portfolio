@@ -81,6 +81,7 @@ h4 {
 
 .navbar-white {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color:#ffffff;
@@ -103,6 +104,7 @@ h4 {
     list-style-type:none;
     padding:0;
     display:flex;
+    align-items: center;
 }
 
 .nav-menu li {
@@ -132,6 +134,30 @@ h4 {
 .nav-menu a:hover {
     color: #2671c2; /* Change to your desired hover color */
     transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+#navbar-white .button {
+    display: inline-block; /* Make the link behave like a block element */
+    padding: 8px 16px; /* Add padding for a button-like appearance */
+    background-color: #000000; /* Button background color */
+    color: white; /* Text color */
+    font-weight: 400;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-top: 1em;
+}
+
+#navbar-black .button {
+    display: inline-block; /* Make the link behave like a block element */
+    padding: 8px 16px; /* Add padding for a button-like appearance */
+    background-color: #734BE2; /* Button background color */
+    color: rgb(237, 237, 237); /* Text color */
+    font-weight: 400;
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-top: 1em;
 }
 
 .footer-white {
@@ -974,6 +1000,8 @@ a {
     transition: background-color 0.3s ease, transform 0.3s ease; 
     margin-top: 1em;
 }
+
+
 
 .button:hover {
     background-color: #2f2f2f; /* Darken background color on hover */
