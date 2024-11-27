@@ -1265,6 +1265,11 @@ height: auto;
         margin-top:2rem;
     }
 
+    #prototype .image-item {
+        width: 60%;
+        margin-top:2rem;
+    }
+
     .sommaire {
         margin-bottom: 40px;
     }
