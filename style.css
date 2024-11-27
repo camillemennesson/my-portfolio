@@ -575,8 +575,12 @@ a {
     margin-bottom: 32px;
 }
 
-
-
+.video-prototype {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 /*SPOTIFY*/
 .spotify {
