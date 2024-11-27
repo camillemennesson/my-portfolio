@@ -10,9 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href='style.css?<?= filemtime($_SERVER["DOCUMENT_ROOT"] . "style.css"); ?>' type="text/css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <div id="navbar-placeholder" data-navbar-type="white"></div>
+
+  
+@param $file  The file to be loaded. works on all type of paths.
+ 
+function auto_version($file) {
+  if($file[0] !== '/') {
+    $file = rtrim(str_replace(DIRECTORY_SEPARATOR, '/', dirname($_SERVER['PHP_SELF'])), '/') . '/' . $file;
+  }
+  
+  if (!file_exists($_SERVER['DOCUMENT_ROOT'] . $file))
+  return $file;
+  
+  $mtime = filemtime($_SERVER['DOCUMENT_ROOT'] . $file);
+  return preg_replace('{\\.([^./]+)$}', ".$mtime.\$1", $file);
+}
 
 </head>
 
