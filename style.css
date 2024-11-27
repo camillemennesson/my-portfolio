@@ -995,6 +995,13 @@ a {
     text-align: center;
     border-radius: 4px;
     margin-bottom:60px;
+    align-items: center;
+}
+
+
+.contact img {
+  width: 120px;
+  height: 120px;
 }
 
 /*ABOUT*/
