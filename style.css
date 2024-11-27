@@ -691,7 +691,7 @@ a {
     margin-top: 34px;
 }
 
-.spotify .flex-section {
+.flex-section {
     display: flex;
     flex-direction: row;
     margin: auto;
