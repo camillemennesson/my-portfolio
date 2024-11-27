@@ -172,6 +172,13 @@ h4 {
     width: 100%;
 }
 
+.footer-border {
+    height: 5px; /* Hauteur du liseret */
+    background-color: #000000; /* Couleur du liseret */
+    margin-bottom: 5rem;
+    color: #000;
+}
+
 .footer-black {
     display: flex;
     justify-content: center;
