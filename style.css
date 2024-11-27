@@ -1110,6 +1110,11 @@ height: auto;
    margin: 1 auto;
 }
 
+#download-resume img {
+    width: 120px;
+    height: 120px;
+}
+
 .email  {
     display: flex;
     flex-direction: column;
