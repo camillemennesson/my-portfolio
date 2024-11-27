@@ -704,7 +704,7 @@ a {
 }
 
 .div-center img {
-    width: 50%;
+    width: 40%;
     height: auto;
     margin: auto;
     margin-top: 60px;
@@ -742,7 +742,7 @@ a {
 .flex-section::before {
     width: 549px; /* Adjust size as needed */
     height: 542px; /* Adjust size as needed */
-    top: -50px; /* Position it above the section */
+    top: -100000; /* Position it above the section */
     left: -50px; /* Position it to the left */
 }
 
@@ -813,8 +813,8 @@ a {
     position: absolute;
     transform: rotate(-179.77deg);
     z-index: 0;
-    bottom: 50px;
-    right: -50px;
+    bottom: 80px;
+    left: 500px;
 
 }
   
