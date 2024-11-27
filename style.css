@@ -1058,7 +1058,6 @@ a {
 
 #about {
     width: 100%; /* Ensure the About section takes up the full width */
-    padding: 20px; /* Optional: add padding for spacing */
     box-sizing: border-box; /* Include padding in the total width */
 }
 
