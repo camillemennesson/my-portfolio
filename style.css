@@ -1016,6 +1016,7 @@ a {
     justify-content: space-between;
     background-color: #007bff;
     margin: 0;
+
 }
 
 .intro-content h1 {
@@ -1043,6 +1044,7 @@ a {
 .rodin {
     margin-right: 2rem;
     text-align: right;
+    margin-left: 0;
     }
 
 @media (max-width: 768px) {
