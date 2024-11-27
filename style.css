@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
     margin: 20px;
     padding:0;
-    background-color: #fafafa;
+    background-color: #ffffff;
     height: 100%;
 }
 
@@ -84,7 +84,7 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color:#fafafa;
+    background-color:#ffffff;
     color: black;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -166,7 +166,7 @@ h4 {
     display: flex;
     justify-content: center;
     text-align: center;
-    background: #fafafa;
+    background: #ffffff;
     color: #000000;
     padding: 20px;
     width: 100%;
