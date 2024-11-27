@@ -32,6 +32,7 @@ body {
     font-weight:900;
     color: #454545;
     margin-bottom: 40px;
+    margin-top: 2rem;
 }
 
 .intro h2 {
@@ -265,6 +266,7 @@ header h1 {
     font-size: 3.5rem;
     font-weight:900;
     margin-bottom: 1.5rem;
+    margin-top: 2rem;
 }
 
 header p {
@@ -573,6 +575,7 @@ a {
 .spotify h1 {
     color: #dddddd;
     margin-bottom: 80px;
+    margin-top: 2rem;
 }
 
 .spotify h2 {
