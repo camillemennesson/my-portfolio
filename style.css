@@ -1459,6 +1459,7 @@ width:  100%;
 .logo {
  display: flex;
  align-items: center;
+ padding: 1rem;
 }
 
 .logo img {
