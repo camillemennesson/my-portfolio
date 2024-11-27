@@ -86,8 +86,9 @@ h4 {
     align-items: center;
     background-color:#fafafa;
     color: black;
-    margin: 1rem;
-  
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
 }
 
 .navbar-black {
@@ -96,7 +97,8 @@ h4 {
     align-items: center;
     background-color: #021323;
     color: white;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
  
 }
 
