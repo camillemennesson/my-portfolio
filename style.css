@@ -1042,6 +1042,7 @@ a {
 }
 
 .rodin {
+    display: flex;
     margin-right: 2rem;
     text-align: right;
     margin-left: 0;
