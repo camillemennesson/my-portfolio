@@ -1271,6 +1271,7 @@ width:  100%;
 
     .project-image {
         max-width: 100%;
+        margin-bottom: 4rem;
     }
 
     .image-item {
