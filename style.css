@@ -1016,13 +1016,14 @@ a {
     justify-content: space-between;
     background-color: #007bff;
     margin: 0;
+    text-align: center;
 
 }
 
 .intro-content h1 {
    line-height: 3rem;
    background-color: #000;
-   margin-right: 0;
+   margin-left: 2rem;
 }
 
 .intro-content {
@@ -1030,22 +1031,16 @@ a {
     flex-direction: row; /* Align items in a row */
     align-items: center; /* Center items vertically */
     width: 100%;
-    justify-content: center;
-    margin: auto;
 }
 
-.intro-content img {
+.rodin img {
     max-width: 20%; /* Ensure the image does not exceed its container */
     height: auto; /* Maintain aspect ratio */
     background-color: palevioletred;
-    margin-left: 0;
+    margin:0;
 }
 
-.rodin {
-    display: flex;
-    text-align: right;
-    margin: 0;
-    }
+
 
 @media (max-width: 768px) {
     .intro-content {
