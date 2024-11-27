@@ -1475,6 +1475,10 @@ width:  100%;
             transform: none; /* Disable hover effect */
         }
     
+        .logo img {
+            width: 22px;
+            height: auto;
+        }
     }
 
 
