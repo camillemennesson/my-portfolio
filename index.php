@@ -112,9 +112,10 @@ function auto_version($file) {
     </section> 
 
 
-    <div id="footer-placeholder" data-footer-type="white"></div>
 
     <script src="script.js?=v2"></script>
     
 </body>
+<div id="footer-placeholder" data-footer-type="white"></div>
+
 </html>
