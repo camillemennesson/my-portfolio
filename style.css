@@ -9,7 +9,7 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.7rem;
     min-height: 100vh;
-    margin: 20px;
+    margin: 0;
     padding:0;
     background-color: #ffffff;
     height: 100%;
@@ -168,16 +168,10 @@ h4 {
     text-align: center;
     background: #ffffff;
     color: #000000;
-    padding: 20px;
     width: 100%;
+    border-top: 1px solid #e0e0e0;
 }
 
-.footer-border {
-    height: 1px; /* Hauteur du liseret */
-    width: 100%;
-    background-color: #bebebe; /* Couleur du liseret */
-    margin-bottom: 1rem;
-}
 
 .footer-black {
     display: flex;
@@ -194,6 +188,8 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding-top: 1rem;
 }
 
 
