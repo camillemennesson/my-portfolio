@@ -622,18 +622,18 @@ a {
 
 .spotify .flex-section {
     display: flex;
+    flex-direction: row;
     margin: auto;
-    justify-content: space-between;
+    justify-content: center;
     text-align: left;
     align-items: center;
     margin-top: 40px;
 }
 
-.flex-section .image-center {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 60px;
+.flex-section img {
+    width: 50%;
+    height: auto;
+    margin: 0;
 }
 
 .div-center {
@@ -642,6 +642,15 @@ a {
     justify-content: center;
     margin: auto;
     margin-top: 200px;
+}
+
+.div-center p{
+    text-align: center;
+    max-width: 600px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2rem;
 }
 
 .spotify .image {
@@ -659,7 +668,7 @@ a {
 }
 
 .flex-image-left img {
-    width: 30%;
+    width: 50%;
     height: auto;
     z-index: 1;
     margin-right: 120px;
@@ -675,7 +684,7 @@ a {
 }
 
 .flex-image-right img {
-    width: 30%;
+    width: 50%;
     height: auto;
     z-index: 1;
     margin-left: 120px;
@@ -734,7 +743,7 @@ a {
 .animation img {
     margin: 0;
     padding: 20px;
-    width: 60%;
+    width: 40%;
     height: auto;
 }
 
