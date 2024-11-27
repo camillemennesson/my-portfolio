@@ -13,7 +13,6 @@ body {
     padding:0;
     background-color: #ffffff;
     height: 100%;
-
 }
 
 /* Intro Section Styles */
@@ -932,7 +931,13 @@ a {
     align-items: center;
     gap: 60px;
     margin-top: 80px;
-  
+}
+
+@media (max-width: 768px) {
+    .catan .columns {
+        gap: 30px;
+        margin-top: 40px;
+    }
 }
 
 .column h4 {
