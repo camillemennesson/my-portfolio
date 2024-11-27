@@ -1264,12 +1264,8 @@ height: auto;
         margin-top:2rem;
     }
 
-    .image-item slideshow {
-        max-width: 100%;
-        margin-top:2rem;
-    }
 
-    #prototype .image-item {
+    .video-prototype .image-item {
         width: 60%;
         margin-top:2rem;
     }
