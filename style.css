@@ -291,6 +291,13 @@ header p {
     transform: none; /* Prevent separate hover effect on the icon */
 }
 
+/*ABOUT*/
+.rodin img{
+    max-width: 15%;
+}
+
+/*Intros*/
+
 section {
     max-width: 1200px;
     margin: auto;
@@ -990,10 +997,57 @@ a {
     margin-bottom:60px;
 }
 
-#About {
+/*ABOUT*/
+
+#about {
     width: 100%; /* Ensure the About section takes up the full width */
     padding: 20px; /* Optional: add padding for spacing */
     box-sizing: border-box; /* Include padding in the total width */
+}
+
+#about h1, h2, h3, img {
+    margin: 0;
+    padding: 0;
+}
+
+#about .intro{
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: center;
+    background-color: #007bff;
+    margin: 0;
+}
+
+.intro h1 {
+   line-height: 3rem;
+   background-color: #000;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    align-items: center; /* Center items vertically */
+    width: 100%;
+    justify-content: center;
+}
+
+.intro-content img {
+    max-width: 20%; /* Ensure the image does not exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    background-color: palevioletred;
+}
+
+
+@media (max-width: 768px) {
+    .intro-content {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .intro-content img {
+        margin-left: 0; /* Remove margin on smaller screens */
+        margin-top: 1rem; /* Add some margin above the image */
+    }
 }
 
 .about-flex {
