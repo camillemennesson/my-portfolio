@@ -27,6 +27,7 @@ function auto_version($file) {
 
 </head>
 
+<div id="wrapper">
 <body id="home">
     
      <!-- Name and Description Section -->
@@ -112,8 +113,8 @@ function auto_version($file) {
     </section> 
 
     <script src="script.js?=v2"></script>
-    
-</body>
-<div id="footer-placeholder" data-footer-type="white"></div>
+    <div id="footer-placeholder" data-footer-type="white"></div>
 
+</body>
+</div>
 </html>

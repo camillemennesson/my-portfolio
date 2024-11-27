@@ -15,7 +15,7 @@ body {
     height: 100%;
 }
 
-#home, #mavoie, #about, #osmia, #parents, #spotify, #catan, #soliguide {
+#wrapper {
 margin: 20px;
 }
 
