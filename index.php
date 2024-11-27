@@ -15,7 +15,7 @@ function auto_version($file) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Camille's Portfolio</title>
+    <title>Camille Mennesson Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +31,7 @@ function auto_version($file) {
     
      <!-- Name and Description Section -->
      <section class="intro">
-        <h1>Camille Mennesson</h1>
+        <h1>Camille Mennesson HELLO</h1>
             <p>Designer Freelance depuis 3 ans pour des projets de conception UX et UI.</p>
             <p>J'ai travaillé pendant 5 ans avec des équipes tech
             internationales et multidisciplinaires.</p>
