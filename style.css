@@ -1118,7 +1118,7 @@ a {
     justify-content: space-between; /* Center the items horizontally */
     align-items: center;
     width: 100% ; 
-    margin: 0 auto; /* Center the container with margin */
+    margin: auto; /* Center the container with margin */
 }
 
 .cv, .linkedin-section {
