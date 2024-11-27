@@ -15,6 +15,10 @@ body {
     height: 100%;
 }
 
+#home, #mavoie {
+margin: 20px;
+}
+
 /* Intro Section Styles */
 .intro {
     text-align: center;
