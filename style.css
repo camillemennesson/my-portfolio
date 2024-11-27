@@ -1058,10 +1058,6 @@ a {
 
 /*ABOUT*/
 
-#about {
-    width: 100%; /* Ensure the About section takes up the full width */
-    box-sizing: border-box; /* Include padding in the total width */
-}
 
 #about h1, h2, h3, img {
     margin: 0;
