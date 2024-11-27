@@ -591,6 +591,10 @@ a {
     justify-content: center;
 }
 
+.video-prototype .image-item {
+    width: 40%;
+}
+
 /*SPOTIFY*/
 .spotify {
     line-height: 1.5;
