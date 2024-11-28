@@ -111,6 +111,8 @@
         <h2>Me contacter</h2>
         <div>
             <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
+            <a href="#" class="button button-primary">Primary Button</a>
+
         </div>
     </section> 
 
