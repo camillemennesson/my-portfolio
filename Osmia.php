@@ -12,7 +12,8 @@
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'style.css?='.time(); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <div id="navbar-placeholder" data-navbar-type="white"></div>
- <!-- Google tag (gtag.js) -->
+    <script src="components.js"></script>
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQSFXRTNCS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
