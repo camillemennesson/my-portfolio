@@ -16,16 +16,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camille Mennesson Portfolio</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
     rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="<?php echo 'styleguide.css?='.time(); ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo 'components.css?='.time(); ?>">
-    <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'style.css?='.time(); ?>"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo 'styles/styleguide.css?='.time(); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo 'styles/components.css?='.time(); ?>">
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'styles/style.css?='.time(); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <div id="navbar-placeholder" data-navbar-type="white"></div>
-    <script src="components.js"></script>
+    <script src="components/components.js"></script>
 
 </head>
 
@@ -115,7 +115,7 @@
         </div>
     </section> 
 
-    <script src="script.js?=v2"></script>
+    <script src="scripts/script.js?=v2"></script>
     <div id="footer-placeholder" data-footer-type="white"></div>
 
 </body>

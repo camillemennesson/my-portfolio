@@ -1,12 +1,12 @@
 
 
-// script.js
+// scripts/script.js
 
 //NAVBAR
 document.addEventListener("DOMContentLoaded", function() {
     const navbarType = document.getElementById('navbar-placeholder').getAttribute('data-navbar-type');
 
-    fetch('navbar.html')
+    fetch('components/navbar.html')
         .then(response => response.text())
         .then(data => {
             const tempDiv = document.createElement('div');
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener("DOMContentLoaded", function() {
     const footerType = document.getElementById('footer-placeholder').getAttribute('data-footer-type');
 
-    fetch('footer.html')
+    fetch('components/footer.html')
         .then(response => response.text())
         .then(data => {
             const tempDiv = document.createElement('div');

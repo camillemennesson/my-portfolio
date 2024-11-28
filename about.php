@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="<?php echo 'styleguide.css?='.time(); ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo 'components.css?='.time(); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo 'styles/styleguide.css?='.time(); ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo 'styles/components.css?='.time(); ?>">
 
-    <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'style.css?='.time(); ?>"/>
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'styles/style.css?='.time(); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
     <div id="navbar-placeholder" data-navbar-type="white"></div>
-    <script src="components.js"></script>
+    <script src="components/components.js"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQSFXRTNCS"></script>
 <script>
@@ -73,9 +73,9 @@
 
 <div id="footer-placeholder" data-footer-type="white"></div>
     
-<script src="script.js"></script>
+<script src="scripts/script.js"></script>
 
-<script id="replace_with_footer" src="script.js"></script>
+<script id="replace_with_footer" src="scripts/script.js"></script>
 
 </body>
 </html>
