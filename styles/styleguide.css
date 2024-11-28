@@ -1,7 +1,41 @@
-:root {
 
+  :root {
+    --main-inter-heading-1-font-family: "Inter", Helvetica;
+    --main-inter-heading-1-font-size: 44.79999923706055px;
+    --main-inter-heading-1-font-style: normal;
+    --main-inter-heading-1-font-weight: 400;
+    --main-inter-heading-1-letter-spacing: 0px;
+    --main-inter-heading-1-line-height: 27.200000762939453px;
+    --main-inter-heading-2-font-family: "Inter", Helvetica;
+    --main-inter-heading-2-font-size: 24px;
+    --main-inter-heading-2-font-style: normal;
+    --main-inter-heading-2-font-weight: 400;
+    --main-inter-heading-2-letter-spacing: 0px;
+    --main-inter-heading-2-line-height: 27.200000762939453px;
+    --main-inter-medium-16px-font-family: "Inter", Helvetica;
+    --main-inter-medium-16px-font-size: 16px;
+    --main-inter-medium-16px-font-style: normal;
+    --main-inter-medium-16px-font-weight: 400;
+    --main-inter-medium-16px-letter-spacing: 0px;
+    --main-inter-medium-16px-line-height: 32px;
+    --main-inter-medium-20px-font-family: "Inter", Helvetica;
+    --main-inter-medium-20px-font-size: 19.200000762939453px;
+    --main-inter-medium-20px-font-style: normal;
+    --main-inter-medium-20px-font-weight: 400;
+    --main-inter-medium-20px-letter-spacing: 0px;
+    --main-inter-medium-20px-line-height: 27.200000762939453px;
+    --main-inter-regular-20px-font-family: "Inter", Helvetica;
+    --main-inter-regular-20px-font-size: 19.200000762939453px;
+    --main-inter-regular-20px-font-style: normal;
+    --main-inter-regular-20px-font-weight: 400;
+    --main-inter-regular-20px-letter-spacing: 0px;
+    --main-inter-regular-20px-line-height: 28.799999237060547px;
     --mainblack: rgba(0, 0, 0, 1);
-    --mainwhite: rgba(255, 255, 255, 1);
+    --mainblue: rgba(0, 123, 255, 1);
+    --maingrey-100: rgba(224, 224, 224, 1);
+    --maingrey-700: rgba(91, 91, 91, 1);
+    --maingrey-800: rgba(69, 69, 69, 1);
+    --maingrey-900: rgba(51, 51, 51, 1);
+    --mainwhite-900: rgba(255, 255, 255, 1);
     --spotifypurple: rgba(151, 71, 255, 1);
-
   }
