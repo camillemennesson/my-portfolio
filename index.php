@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo 'styleguide.css?='.time(); ?>">
+    <link rel="stylesheet" type="text/css" href="components.css">
 
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'style.css?='.time(); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
