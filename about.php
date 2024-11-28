@@ -7,7 +7,7 @@
     <title>About</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo 'styleguide.css?='.time(); ?>">
-    <link rel="stylesheet" type="text/css" href="components.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo 'components.css?='.time(); ?>">
 
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'style.css?='.time(); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
