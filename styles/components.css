@@ -98,7 +98,12 @@ align-items: center;
 transition: background-color .3s;
 }
 
-
+/* Hide the burger icon on larger screens */
+@media screen and (min-width: 768px) {
+  .nav__toggle {
+      display: none; /* This will hide the burger icon */
+  }
+}
 
 
 
