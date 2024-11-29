@@ -114,6 +114,16 @@ opacity: 0;
   }
 }
 
+@media screen and (max-width: 768px) {
+  .nav__menu {
+      display: none; /* This will hide the burger icon */
+  }
+  .nav-container  {
+    display:block
+  } 
+
+}
+
 
 
 
