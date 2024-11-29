@@ -13,7 +13,6 @@
 }
 
 .nav-container  {
-  background-color: #007bff;
   display: flex; /* Use Flexbox to align items */
   flex-direction: row;
   justify-content: space-between; /* Optional: space items evenly */
