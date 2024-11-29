@@ -42,14 +42,21 @@
         </div>
 
         <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li><a href="/index.php" class="nav__link"></a>Projets </li>
-                <li><a href="/about.php" class="nav__link"></a>À propos</li>
-               <li> <a target="_blank" class="button" href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view?usp=drive_link"
-               >Télécharger mon CV</a></li>
-            </ul>
+        <ul class="footer-links">
+        <li><a href="/index.php">Projets</a></li>
+        <li><a href="/about.php">À propos</a></li>
+
+        <li>
+            <a 
+            href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view"
+            class="download-resume" target="_blank" >
+            Télécharger mon CV
+        </a>
+        </li>
+    </ul>
         </div>
     </nav>
+</div>
 </div>
     <section class="intro">
         <div class="intro-content">
