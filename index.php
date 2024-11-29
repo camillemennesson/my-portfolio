@@ -26,8 +26,13 @@
 
 </head>
 
+
+
+    
+<body id="home">
+
 <div class="navbar-white" id="navbar-white">
-    <nav class="nav container">
+    <nav class="nav-container">
         <div class="nav__data">
             <a href="index.php" class="nav__Logo">
                 <img src="https://framerusercontent.com/images/6UMHSnwC3fA1yCrXEpBFuMAwMcs.png?scale-down-to=512" 
@@ -42,17 +47,16 @@
 
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
-                <li><a href="/index.php" class="nav__link"></a>Projets</li>
+                <li><a href="/index.php" class="nav__link"></a>Projets </li>
                 <li><a href="/about.php" class="nav__link"></a>À propos</li>
-                <li><a href="/index.php" class="nav__link"></a>Télécharger mon CV</li>
+               <li> <a target="_blank" class="button" href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view?usp=drive_link"
+               >Télécharger mon CV</a></li>
             </ul>
         </div>
     </nav>
 </div>
 
 <div id="wrapper">
-    
-<body id="home">
 
      <!-- Name and Description Section -->
      <section class="intro">
