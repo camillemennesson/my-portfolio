@@ -28,7 +28,30 @@
 <div id="wrapper">
 
 <body class="catan">
+<div class="navbar-white" id="navbar-white">
+    <nav class="nav-container">
+        <div class="nav__data">
+            <a href="index.php" class="nav__Logo">
+                <img src="https://framerusercontent.com/images/6UMHSnwC3fA1yCrXEpBFuMAwMcs.png?scale-down-to=512" 
+                 alt="Logo noir"  width="40" height="40">
+            </a>
 
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bi bi-list nav__burger"></i>
+                <i class="bi bi-x-lg nav__close"></i>
+            </div>      
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li><a href="/index.php" class="nav__link"></a>Projets </li>
+                <li><a href="/about.php" class="nav__link"></a>À propos</li>
+               <li> <a target="_blank" class="button" href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view?usp=drive_link"
+               >Télécharger mon CV</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 
     <header class="intro">
         <h1>Catan</h1>
@@ -313,8 +336,50 @@
     
     <script src="scripts/script.js"></script>
 
-    <script id="replace_with_footer" src="scripts/script.js"></script>
+    <footer class="footer-white" id="footer-white">
 
+<div class="footer-content">
+    <div class="footer-border"></div> <!-- Liseret ajouté -->
+
+    <p>Copyright &copy;
+        <script>new Date().getFullYear()>2015&&document.write(+new Date().getFullYear());
+        </script>
+        Camille Mennesson
+    </p>
+
+    <ul class="footer-links">
+        <li><a href="/index.php">Projets</a></li>
+        <li><a href="/about.php">À propos</a></li>
+        <li class="h1"><a href="/h1.html">Gallerie des &lt;h1&gt;</a></li>
+        <li><a href="mailto:camille.mennesson@gmail.com">Contact</a></li>
+
+        <li>
+            <a 
+            href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view"
+            class="download-resume" target="_blank" >
+            Télécharger mon CV
+        </a>
+        </li>
+    </ul>
+    <div class="footer-icons">
+        <a href="https://github.com/camillemennesson/"
+        target="_blank"
+        class="footer-icon">
+        <i class="bi bi-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/cmennesson"
+        target="_blank"
+        class="footer-icon">
+        <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.figma.com/@cmennesson"
+        target="_blank"
+        class="footer-icon">
+        <img src="/Images/figma.svg" alt="Figma" class="figma-icon">
+        </a>
+    </div>
+</div>
+</footer>
 
 </body>
 </div>

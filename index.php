@@ -141,7 +141,53 @@
         </div>
     </section> 
     <script src="scripts/script.js?=v3"></script>
-    <div id="footer-placeholder" data-footer-type="white"></div>
+
+<footer class="footer-white" id="footer-white">
+
+<div class="footer-content">
+    <div class="footer-border"></div> <!-- Liseret ajouté -->
+
+    <p>Copyright &copy;
+        <script>new Date().getFullYear()>2015&&document.write(+new Date().getFullYear());
+        </script>
+        Camille Mennesson
+    </p>
+
+    <ul class="footer-links">
+        <li><a href="/index.php">Projets</a></li>
+        <li><a href="/about.php">À propos</a></li>
+        <li class="h1"><a href="/h1.html">Gallerie des &lt;h1&gt;</a></li>
+        <li><a href="mailto:camille.mennesson@gmail.com">Contact</a></li>
+
+        <li>
+            <a 
+            href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view"
+            class="download-resume" target="_blank" >
+            Télécharger mon CV
+        </a>
+        </li>
+    </ul>
+    <div class="footer-icons">
+        <a href="https://github.com/camillemennesson/"
+        target="_blank"
+        class="footer-icon">
+        <i class="bi bi-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/cmennesson"
+        target="_blank"
+        class="footer-icon">
+        <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.figma.com/@cmennesson"
+        target="_blank"
+        class="footer-icon">
+        <img src="/Images/figma.svg" alt="Figma" class="figma-icon">
+        </a>
+    </div>
+</div>
+</footer>
+
+
 </body>
 </div>
 </html>

@@ -1,6 +1,31 @@
 
 /* Navigation Bar Styles */
 
+
+.navbar-black {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #021323;
+  color: #fafafa;
+  padding: 20px;
+  width: 100%;
+}
+
+.navbar-black .nav__logo{
+ color: #ffffff;
+}
+
+.navbar-black {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #021323;
+  color: #fafafa;
+  padding: 20px;
+  width: 100%;
+}
+
 .navbar-white {
   position: relative;
   width: 100%;
