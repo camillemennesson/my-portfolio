@@ -78,6 +78,11 @@ margin: 0;}
   font-weight: 500; /* Optional: set font weight */
 }
 
+.nav__link:hover {
+  color: #007bff; /* Change to your desired hover color */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
 .nav__logo,
 .nav__burger,
 .nav__close {
