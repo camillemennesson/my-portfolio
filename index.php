@@ -23,13 +23,37 @@
     <link rel="stylesheet" type="text/css" href="<?php echo 'styles/components.css?='.time(); ?>">
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'styles/style.css?='.time(); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-    <div id="navbar-placeholder" data-navbar-type="white"></div>
 
 </head>
 
+<div class="navbar-white" id="navbar-white">
+    <nav class="nav container">
+        <div class="nav__data">
+            <a href="index.php" class="nav__Logo">
+                <img src="https://framerusercontent.com/images/6UMHSnwC3fA1yCrXEpBFuMAwMcs.png?scale-down-to=512" 
+                 alt="Logo noir"  width="40" height="40">
+            </a>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bi bi-list nav__burger"></i>
+                <i class="bi bi-x-lg nav__close"></i>
+            </div>      
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li><a href="/index.php" class="nav__link"></a>Projets</li>
+                <li><a href="/about.php" class="nav__link"></a>À propos</li>
+                <li><a href="/index.php" class="nav__link"></a>Télécharger mon CV</li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
 <div id="wrapper">
-<body id="home">
     
+<body id="home">
+
      <!-- Name and Description Section -->
      <section class="intro">
         <h1>Camille Mennesson</h1>
@@ -112,10 +136,8 @@
 
         </div>
     </section> 
-
-    <script src="scripts/script.js?=v2"></script>
+    <script src="scripts/script.js?=v3"></script>
     <div id="footer-placeholder" data-footer-type="white"></div>
-
 </body>
 </div>
 </html>

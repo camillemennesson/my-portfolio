@@ -15,6 +15,16 @@ body {
     height: 100%;
 }
 
+a {
+    line-height: 2rem;
+    text-decoration: none;   
+ }
+
+ul {
+   list-style: none;
+    text-decoration: none;   
+ }
+
 #wrapper {
 margin: 0 2rem 0 2rem;
 }
@@ -53,9 +63,7 @@ p {
     line-height: 1.7rem;
 }
 
-li {
-    line-height: 2rem;
-    }
+
 
 .paragraph li {
     line-height: 1.7rem;
@@ -1293,3 +1301,8 @@ width:  100%;
 .previous:hover, .next:hover {
     background: rgba(255, 255, 255, 1); /* Change background on hover */
 }
+
+
+
+
+
