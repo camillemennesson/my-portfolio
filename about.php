@@ -102,6 +102,9 @@
     
 <script src="scripts/script.js"></script>
 
+
+</body>
+
 <footer class="footer-white" id="footer-white">
 
 <div class="footer-content">
@@ -146,6 +149,6 @@
     </div>
 </div>
 </footer>
-</body>
+
 </div>
 </html>
