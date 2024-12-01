@@ -25,42 +25,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
 
 </head>
-
-
-
     
 <body id="home">
 
-<div class="navbar-white" id="navbar-white">
-    <nav class="nav-container">
-        <div class="nav__data">
-            <a href="index.php" class="nav__Logo">
-                <img src="https://framerusercontent.com/images/6UMHSnwC3fA1yCrXEpBFuMAwMcs.png?scale-down-to=512" 
-                 alt="Logo noir"  width="40" height="40">
-            </a>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="bi bi-list nav__burger"></i>
-                <i class="bi bi-x-lg nav__close"></i>
-            </div>      
-        </div>
+<div id="navbar-placeholder"></div>
 
-        <div class="nav__menu" id="nav-menu">
-        <ul class="footer-links">
-        <li><a href="/index.php">Projets</a></li>
-        <li><a href="/about.php">À propos</a></li>
-
-        <li>
-            <a 
-            href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view"
-            class="download-resume" target="_blank" >
-            Télécharger mon CV
-        </a>
-        </li>
-    </ul>
-        </div>
-    </nav>
-</div>
 
 <div id="wrapper">
 
@@ -146,25 +116,23 @@
 
         </div>
     </section> 
-    <script src="scripts/script.js?=v3"></script>
+
+<script src="scripts/script.js?=v3"></script>
+</body>
 
 <footer class="footer-white" id="footer-white">
-
 <div class="footer-content">
     <div class="footer-border"></div> <!-- Liseret ajouté -->
-
     <p>Copyright &copy;
         <script>new Date().getFullYear()>2015&&document.write(+new Date().getFullYear());
         </script>
         Camille Mennesson
     </p>
-
     <ul class="footer-links">
         <li><a href="/index.php">Projets</a></li>
         <li><a href="/about.php">À propos</a></li>
         <li class="h1"><a href="/h1.html">Gallerie des &lt;h1&gt;</a></li>
         <li><a href="mailto:camille.mennesson@gmail.com">Contact</a></li>
-
         <li>
             <a 
             href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view"
@@ -193,7 +161,5 @@
 </div>
 </footer>
 
-
-</body>
 </div>
 </html>

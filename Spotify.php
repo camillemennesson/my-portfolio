@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo 'styles/components.css?='.time(); ?>">
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'styles/style.css?='.time(); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-    <div id="navbar-placeholder" data-navbar-type="black"></div>
     <script src="components/components.js"></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VQSFXRTNCS"></script>
@@ -21,14 +20,14 @@
   gtag('js', new Date());
 
   gtag('config', 'G-VQSFXRTNCS');
-
 </script>
+
 </head>
 
-</div>
-<div id="wrapper">
 <body class="spotify">
 
+<div id="navbar-placeholder"></div>
+<div id="wrapper">
 
     <header class="intro">
         <h1>Spotify</h1>
