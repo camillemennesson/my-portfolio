@@ -312,6 +312,7 @@ margin: 0;
 #btn-back-to-top i {
  font-size: 40px;
  border: none;
+ color: #db1d40;
  transition: transform 0.3s ease; /* Smooth transition for the transform property */
 
 }
