@@ -129,6 +129,7 @@
 
 <div id="footer-placeholder"></div>
 
+
 <script src="scripts/script.js?=v3"></script>
 
 </body>

@@ -77,7 +77,13 @@
 </div>
 
 <div id="footer-placeholder" data-footer-type="white"></div>
-
+<button
+        type="button"
+        class="btn-back-to-top"
+        id="btn-back-to-top"
+        > 
+        <i class="bi bi-arrow-up-circle-fill"></i>
+    </button>
 <script src="scripts/script.js"></script>
 
 </body>

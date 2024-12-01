@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
  // Back to top button //
- 
+
+
  //Get the button
  let mybutton = document.getElementById("btn-back-to-top");
  
