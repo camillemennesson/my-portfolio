@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     loadHTML('footer-placeholder', 'components/footer.html'); // Load footer
 });
 
+
  // Back to top button //
  
  //Get the button

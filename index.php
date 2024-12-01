@@ -34,6 +34,7 @@
 
 <div id="wrapper">
 
+
      <!-- Name and Description Section -->
      <section class="intro">
         <h1>Camille Mennesson</h1>
@@ -113,11 +114,21 @@
         <h2>Me contacter</h2>
         <div>
             <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
-
         </div>
     </section> 
 
+    <button
+        type="button"
+        class="btn-back-to-top"
+        id="btn-back-to-top"
+        > 
+        <i class="bi bi-arrow-up-circle-fill"></i>
+    </button>
+
 <script src="scripts/script.js?=v3"></script>
+
+</div>
+
 </body>
 
 <footer class="footer-white" id="footer-white">
@@ -161,5 +172,6 @@
 </div>
 </footer>
 
-</div>
+
+
 </html>
