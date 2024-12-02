@@ -57,7 +57,7 @@ transition: opacity .1s, transform .4s;
 }
 
 .nav-container  {
-  display: flex; /* Use Flexbox to align items */
+  display: none; /* Use Flexbox to align items */
   justify-content: space-between; /* Optional: space items evenly */
   align-items: center; /* Optional: vertically center items */
 } 
@@ -175,11 +175,6 @@ margin: 0;}
   opacity: 1;
   transform: rotate(90deg);
 }
-
-
-
-
-
 
 
 
@@ -344,3 +339,4 @@ margin: 0;
  transition: transform 0.3s ease; /* Smooth transition for the transform property */
 
 }
+
