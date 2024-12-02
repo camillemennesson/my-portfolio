@@ -3,14 +3,14 @@
 // scripts/script.js
 
 
-// Function to load HTML content into a specified element
+// Function to load HTML content into a specified element// Function to load HTML content into a specified element
 function loadHTML(elementId, filePath) {
-    fetch(filePath)
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById(elementId).innerHTML = data;
-        })
-        .catch(error => console.error('Error loading HTML:', error));
+  fetch(filePath)
+      .then(response => response.text())
+      .then(data => {
+          document.getElementById(elementId).innerHTML = data;
+      })
+      .catch(error => console.error('Error loading HTML:', error));
 }
 
 function displayFooter() {
@@ -32,13 +32,37 @@ function displayFooter() {
 document.addEventListener("DOMContentLoaded", function() {
   loadHTML('navbar-placeholder', 'components/navbar.html'); // Load navbar
   displayFooter(); // Display the correct footer based on type
+
+
+
+/*=============== SHOW MENU ===============*/
+ // SHOW MENU
+
+
+ const showMenu = (toggleId, navId) => {
+  const toggle = document.getElementById(toggleId),
+        nav = document.getElementById(navId);
+
+  // Check if the toggle and nav elements exist
+  if (!toggle || !nav) {
+    console.error(`Error: Toggle or navigation menu element not found. Toggle ID: ${toggleId}, Nav ID: ${navId}`);
+    return;
+  }
+
+  toggle.addEventListener('click', () => {
+    // Add show-menu class to nav menu
+    nav.classList.toggle('show-menu');
+
+    // Add show-icon to show and hide the menu icon
+    toggle.classList.toggle('show-icon');
+  });
+};
+
+showMenu('nav-toggle', 'nav-menu');
 });
 
 
-
-
-
- // Back to top button //
+// Back to top button //
 
 
  //Get the button
