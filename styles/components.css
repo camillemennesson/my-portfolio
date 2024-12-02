@@ -57,7 +57,7 @@ transition: opacity .1s, transform .4s;
 }
 
 .nav-container  {
-  display: none; /* Use Flexbox to align items */
+  display: flex; /* Use Flexbox to align items */
   justify-content: space-between; /* Optional: space items evenly */
   align-items: center; /* Optional: vertically center items */
 } 
