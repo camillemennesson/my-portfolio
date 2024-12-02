@@ -132,7 +132,7 @@
 
 </div>
 
-<div id="footer-placeholder"></div>
+<div id="footer-placeholder" footer type="black"></div>
 
 <script src="scripts/script.js?=v3"></script>
 
