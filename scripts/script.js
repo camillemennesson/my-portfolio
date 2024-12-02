@@ -13,11 +13,29 @@ function loadHTML(elementId, filePath) {
         .catch(error => console.error('Error loading HTML:', error));
 }
 
+function displayFooter() {
+  const footerType = document.getElementById('footer-placeholder').getAttribute('data-footer-type');
+  
+  // Hide both footers initially
+  document.getElementById('footer-black').style.display = 'none';
+  document.getElementById('footer-white').style.display = 'none';
+
+  // Show the correct footer based on the data type
+  if (footerType === 'black') {
+      document.getElementById('footer-black').style.display = 'block';
+  } else {
+      document.getElementById('footer-white').style.display = 'block';
+  }
+}
+
 // DISPLAY NAVBAR & FOOTER
 document.addEventListener("DOMContentLoaded", function() {
-    loadHTML('navbar-placeholder', 'components/navbar.html'); // Load navbar
-    loadHTML('footer-placeholder', 'components/footer.html'); // Load footer
+  loadHTML('navbar-placeholder', 'components/navbar.html'); // Load navbar
+  displayFooter(); // Display the correct footer based on type
 });
+
+
+
 
 
  // Back to top button //

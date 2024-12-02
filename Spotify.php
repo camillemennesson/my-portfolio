@@ -133,7 +133,7 @@
 
     </section>
 
-    <div id="footer-placeholder" data-footer-type="white"></div>
+    <div id="footer-placeholder" data-footer-type="black"></div>
 
 
     <button
