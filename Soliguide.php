@@ -26,7 +26,7 @@
 </head>
 
 <body>
-<div id="navbar-placeholder"></div>
+<div id="navbar-placeholder" data-navbar-type="white"></div>
 <div id="wrapper">
 
     <header class="intro">
