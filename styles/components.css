@@ -11,6 +11,20 @@
   z-index: 100;
 }
 
+.navbar-black {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: var(--spotify-bg);
+  color: #ffffff;
+  padding: 1rem;
+  z-index: 100;
+}
+
+.navbar-black .button {
+  background-color: var(--spotifypurple);
+}
+
 .nav__logo,
 .nav__burger,
 .nav__close {
@@ -110,37 +124,17 @@ margin: 0;}
 
 /* Navigation for mobile devices */
 @media screen and (max-width: 768px) {
-  .nav__menu {
-    position: relative;
-    width: 100%;
-    height: auto;
-    overflow: auto;
-    pointer-events: none;
-    opacity: 1;
-    transition: top .4s, opacity .3s;
-    background-color: #ffffff;
-  }
+  
   .nav__menu::-webkit-scrollbar {
     width: 0;
   }
 
 
-  .nav__list {
-    background-color: var(--black-color);
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-  }
 
   .nav__list .button {
     display: none;
   }
 
-  .nav__data {
-    display: none;
-    }
 }
 
 /* Navigation for desktop devices */
