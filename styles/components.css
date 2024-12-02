@@ -109,7 +109,7 @@ margin: 0;}
 
 
 /* Navigation for mobile devices */
-@media screen and (max-width: 1118px) {
+@media screen and (max-width: 768px) {
   .nav__menu {
     position: absolute;
     left: 0;
@@ -131,7 +131,7 @@ margin: 0;}
 }
 
 /* Navigation for desktop devices */
-@media screen and (min-width: 1119px) {
+@media screen and (min-width: 768px) {
   .nav__menu {
     display: flex;
     flex-direction: row;
