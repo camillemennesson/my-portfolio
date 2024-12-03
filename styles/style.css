@@ -5,14 +5,16 @@
     box-sizing: border-box;
 }
 
+  
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.7rem;
     min-height: 100vh;
     margin: 0;
     padding:0;
-    background-color: rgb(255, 255, 255);
     height: 100%;
+    color: var(--fontColor);
+    background: var(--mainBg);
 }
 
 a {
@@ -27,6 +29,8 @@ ul {
 
 #wrapper {
 margin: 0 2rem 0 2rem;
+color: var(--fontColor);
+background: var(--mainBg);
 }
 
 /* Intro Section Styles */

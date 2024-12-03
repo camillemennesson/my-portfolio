@@ -1,13 +1,9 @@
 
-
-
-
-
-
 // scripts/script.js
 
-// DISPLAY NAVBAR & FOOTER AND INITIALIZE BURGER MENU
 document.addEventListener("DOMContentLoaded", function() {
+
+// DISPLAY NAVBAR & FOOTER AND INITIALIZE BURGER MENU
   const navbarType = document.getElementById('navbar-placeholder').getAttribute('data-navbar-type');
   const footerType = document.getElementById('footer-placeholder').getAttribute('data-footer-type');
 
@@ -49,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
 
 
+
 // Back to top button
 let mybutton = document.getElementById("btn-back-to-top");
 
@@ -78,6 +75,8 @@ function backToTop() {
       behavior: 'smooth' // This enables smooth scrolling
   });
 }
+
+
 });
 
 
