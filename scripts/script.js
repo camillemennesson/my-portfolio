@@ -76,6 +76,15 @@ function backToTop() {
   });
 }
 
+function toggleActive(element) {
+  // Remove active class from all icons
+  const icons = document.querySelectorAll('.nav-icon');
+  icons.forEach(icon => icon.classList.remove('active'));
+  
+  // Add active class to the clicked icon
+  element.classList.add('active');
+}
+
 
 });
 
