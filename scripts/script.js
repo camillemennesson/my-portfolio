@@ -60,13 +60,19 @@ document.addEventListener("DOMContentLoaded", function() {
           console.error('There was a problem with the fetch operation:', error);
       });
 
+      let currentActiveIcon = null; // Variable to store the currently active icon
+
       function toggleActive(element) {
-        // Remove active class from all icons
-        const icons = document.querySelectorAll('.nav-icon');
-        icons.forEach(icon => icon.classList.remove('active'));
-        
+        // If there is a currently active icon, remove the active class
+        if (currentActiveIcon) {
+          currentActiveIcon.classList.remove('active');
+        }
+      
         // Add active class to the clicked icon
         element.classList.add('active');
+      
+        // Update the current active icon
+        currentActiveIcon = element;
       }
       
       // Add event listeners to each nav icon

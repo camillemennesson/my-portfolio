@@ -433,7 +433,8 @@ line-height: 0;
 .nav-icon:active {
   background-color: #000000;
   color: #ffffff;
-  
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+
 }
 
 .separator {
