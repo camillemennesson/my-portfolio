@@ -43,15 +43,21 @@ document.addEventListener("DOMContentLoaded", function() {
               footerPlaceholder.appendChild(footerWhite);
           }
       });
-
-      // Fetch and display floating navbar
-    fetch('components/floating-nav.html')
-    .then(response => response.text())
-    .then(data => {
-        const floatingNavPlaceholder = document.getElementById('floating-nav-placeholder');
-        floatingNavPlaceholder.innerHTML = data; // Insert the fetched HTML
-    });
-
+      
+      fetch('components/floating-nav.html')
+      .then(response => {
+          if (!response.ok) {
+              throw new Error('Network response was not ok');
+          }
+          return response.text();
+      })
+      .then(data => {
+          const floatingNavPlaceholder = document.getElementById('floating-nav-placeholder');
+          floatingNavPlaceholder.innerHTML = data; // Insert the fetched HTML
+      })
+      .catch(error => {
+          console.error('There was a problem with the fetch operation:', error);
+      });
 
 
 // Back to top button
