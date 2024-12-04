@@ -44,6 +44,14 @@ document.addEventListener("DOMContentLoaded", function() {
           }
       });
 
+      // Fetch and display floating navbar
+    fetch('components/floating-nav.html')
+    .then(response => response.text())
+    .then(data => {
+        const floatingNavPlaceholder = document.getElementById('floating-nav-placeholder');
+        floatingNavPlaceholder.innerHTML = data; // Insert the fetched HTML
+    });
+
 
 
 // Back to top button

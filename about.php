@@ -25,7 +25,8 @@
 </head>
 
 <body id="about">   
-   
+<div id="floating-nav-placeholder"></div>
+
 <div id="navbar-placeholder" data-navbar-type="white"></div>
    
 <div id="wrapper">

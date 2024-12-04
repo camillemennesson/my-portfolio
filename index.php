@@ -36,6 +36,7 @@
     
 <body id="home">
 
+<div id="floating-nav-placeholder"></div>
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
@@ -57,6 +58,7 @@
             <i class="bi bi-arrow-down-circle"></i>
             <p>Découvrir mes projets</p>
     </div>
+
 
     <section id="Work">
     

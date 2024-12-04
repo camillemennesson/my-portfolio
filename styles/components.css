@@ -365,13 +365,14 @@ margin: 0;
   display: flex;
   align-items:center;
   align-items: center;
-  padding: 16px;
+  padding: 12px;
   position: relative;
-  background-color: rgba(248, 248, 248, .84);
+  background-color: rgba(248, 248, 248, 0.84);
   border: 1px solid;
-  border-color: white;
+  border-color: rgba(255, 255, 255, 0.84);
   border-radius: 24px;
   backdrop-filter: blur(12px);
+  box-shadow: 0px 0px 32px 0px  rgba(0, 0, 0, 0.1);
 }
 
 .nav-content {
@@ -383,16 +384,20 @@ margin: 0;
   position: relative;
 }
 
+
 .nav-icon img{
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   align-items: center;
 }
 
 .bi  {
-  font-size: 24px;
+  font-size: 20px;
 }
 
+.bi-person {
+  font-size: 22px;
+}
 
 .nav-icon {
   display: flex;
@@ -408,6 +413,10 @@ margin: 0;
   align-items: center;
   justify-content: center;
   position: relative;
+}
+
+a.nav-link {
+line-height: 0;
 }
 
 .nav-icon:hover {
@@ -427,4 +436,42 @@ margin: 0;
   transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
   background-color: #000000;
   color: #d0d0d0;
+}
+
+.separator {
+  width: 1px; /* Width of the line */
+  height: 24px; /* Height of the line */
+  background-color: #d0d0d0; /* Color of the line */
+  margin: 0 8px; /* Space around the line */
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  #floating-nav {
+      bottom: 20px; /* Adjust the position for mobile */
+  }
+
+  .nav-wrapper {
+      flex-direction: row; /* Keep items in a row */
+      justify-content: space-around; /* Space items evenly */
+  }
+
+  .nav-icon {
+      flex: 1; /* Allow icons to take equal space */
+      text-align: center; /* Center the icons */
+  }
+
+  #linkedin, #figma {
+    display: none;
+  }
+
+  .separator {
+      display: none; /* Hide separators on mobile for a cleaner look */
+  }
+
+  .nav__link:hover {
+    color: inherit; /* Reset color to inherit */
+    transform: none; /* Remove scaling effect */
+}
+
 }
