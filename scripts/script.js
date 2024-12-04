@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
           }
       });
       
+// Floating Nav
       fetch('components/floating-nav.html')
       .then(response => {
           if (!response.ok) {
@@ -58,6 +59,25 @@ document.addEventListener("DOMContentLoaded", function() {
       .catch(error => {
           console.error('There was a problem with the fetch operation:', error);
       });
+
+      function toggleActive(element) {
+        // Remove active class from all icons
+        const icons = document.querySelectorAll('.nav-icon');
+        icons.forEach(icon => icon.classList.remove('active'));
+        
+        // Add active class to the clicked icon
+        element.classList.add('active');
+      }
+      
+      // Add event listeners to each nav icon
+      const navIcons = document.querySelectorAll('#floating-nav .nav-icon');
+      navIcons.forEach(icon => {
+        icon.addEventListener('click', function() {
+          toggleActive(this);
+        });
+      });
+
+    
 
 
 // Back to top button
@@ -90,14 +110,6 @@ function backToTop() {
   });
 }
 
-function toggleActive(element) {
-  // Remove active class from all icons
-  const icons = document.querySelectorAll('.nav-icon');
-  icons.forEach(icon => icon.classList.remove('active'));
-  
-  // Add active class to the clicked icon
-  element.classList.add('active');
-}
 
 
 });
