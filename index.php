@@ -40,6 +40,7 @@
 
 <div id="wrapper">
 
+
      <!-- Name and Description Section -->
      <section class="intro">
         <h1>Camille Mennesson</h1>

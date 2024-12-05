@@ -95,21 +95,12 @@ function backToTop() {
 
 //Floating Menu Active State Icons
 
- // Get the current page URL
- const currentUrl = window.location.pathname;
-
- // Get all navigation links
- const navLinks = document.querySelectorAll('.nav-link');
-
- // Loop through each navigation link
- navLinks.forEach(link => {
-     // Check if the link's href matches the current URL
-     if (link.getAttribute('href') === currentUrl) {
-         // Add the 'active' class to the matching link
-         link.classList.add('active');
-     }
- });
-
+document.querySelectorAll(".nav-link").forEach((link) => {
+  if (link.href === window.location.href) {
+      link.classList.add("active");
+      link.setAttribute("aria-current", "page");
+  }
+});
 
 });
 
