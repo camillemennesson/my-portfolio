@@ -95,30 +95,20 @@ function backToTop() {
 
 //Floating Menu Active State Icons
 
-    // Check local storage for the active nav link
-    const activeLinkId = localStorage.getItem('activeLink');
-    if (activeLinkId) {
-        document.getElementById(activeLinkId).classList.add('active');
-    }
+ // Get the current page URL
+ const currentUrl = window.location.pathname;
 
+ // Get all navigation links
+ const navLinks = document.querySelectorAll('.nav-link');
 
-function toggleActive(link) {
-    // Prevent the default link behavior
-    event.preventDefault();
-
-    // Remove 'active' class from all nav links
-    document.querySelectorAll('.nav-link').forEach(navLink => navLink.classList.remove('active'));
-
-    // Add 'active' class to the clicked nav link
-    link.classList.add('active');
-
-    // Store the active nav link ID in local storage
-    localStorage.setItem('activeLink', link.id);
-
-    // Redirect to the specified URL
-    window.location.href = link.href;
-}
-
+ // Loop through each navigation link
+ navLinks.forEach(link => {
+     // Check if the link's href matches the current URL
+     if (link.getAttribute('href') === currentUrl) {
+         // Add the 'active' class to the matching link
+         link.classList.add('active');
+     }
+ });
 
 
 });
