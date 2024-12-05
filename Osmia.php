@@ -73,7 +73,7 @@
         
         <!-- Button to read the next case study -->
     <div class="button-container">
-        <a href="Catan.php"
+        <a href="Catan"
         class="next-case-study-button-black">Lire le prochain case study</a>
     </div>
 

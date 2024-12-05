@@ -64,7 +64,7 @@
 
             <!-- Project 1 -->
             <div class="project">
-                <a  href="Mavoie.php">
+                <a  href="Mavoie">
                     <img src="/Images/mavoie.png" class="project-image" alt="mavoie">
                     <h3>MaVoie.org - Web Design</h3>
                 </a>
@@ -72,7 +72,7 @@
 
             <!-- Project 2-->
             <div class="project">
-            <a href="Soliguide.php">
+            <a href="Soliguide">
                 <img src="/Images/soliguide.png" class="project-image" alt="soliguide">
                 <h3>Soliguide - App Mobile</h3>
             </a>
@@ -80,7 +80,7 @@
 
             <!-- Osmia-->
             <div class="project">
-                <a href="Osmia.php">
+                <a href="Osmia">
                     <img src="/Images/osmia.png" class="project-image" alt="osmia">
                     <h3>Osmia - Web Design</h3>
                 </a>
@@ -88,7 +88,7 @@
 
             <!-- Catan-->
             <div class="project">
-                <a href="Catan.php">
+                <a href="Catan">
                     <img src="/Images/catan.png" class="project-image" alt="Catan">
                     <h3>Catan - UX Audit</h3>
                 </a>
@@ -96,7 +96,7 @@
 
             <!-- Project 5-->
             <div class="project">
-                <a href="Spotify.php">
+                <a href="Spotify">
                     <img src="/Images/spotify.png" class="project-image" alt="spotify">
                     <h3>Spotify - Nouvelle fonctionnalité</h3>
                 </a>
@@ -104,7 +104,7 @@
             
             <!-- Project 6-->
              <div class="project">
-                <a href="Parents.php">
+                <a href="Parents">
                     <img src="/Images/parents overview.png" class="project-image" alt="parents">
                     <h3>Parents - Mobile App</h3>
                 </a>
