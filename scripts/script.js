@@ -62,29 +62,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
       let currentActiveIcon = null; // Variable to store the currently active icon
 
-      function toggleActive(element) {
-        // If there is a currently active icon, remove the active class
-        if (currentActiveIcon) {
-          currentActiveIcon.classList.remove('active');
-        }
-      
-        // Add active class to the clicked icon
-        element.classList.add('active');
-      
-        // Update the current active icon
-        currentActiveIcon = element;
-      }
-      
-      // Add event listeners to each nav icon
-      const navIcons = document.querySelectorAll('#floating-nav .nav-icon');
-      navIcons.forEach(icon => {
-        icon.addEventListener('click', function() {
-          toggleActive(this);
-        });
-      });
-
-    
-
 
 // Back to top button
 let mybutton = document.getElementById("btn-back-to-top");
@@ -114,6 +91,32 @@ function backToTop() {
       top: 0,
       behavior: 'smooth' // This enables smooth scrolling
   });
+}
+
+//Floating Menu Active State Icons
+
+    // Check local storage for the active nav link
+    const activeLinkId = localStorage.getItem('activeLink');
+    if (activeLinkId) {
+        document.getElementById(activeLinkId).classList.add('active');
+    }
+
+
+function toggleActive(link) {
+    // Prevent the default link behavior
+    event.preventDefault();
+
+    // Remove 'active' class from all nav links
+    document.querySelectorAll('.nav-link').forEach(navLink => navLink.classList.remove('active'));
+
+    // Add 'active' class to the clicked nav link
+    link.classList.add('active');
+
+    // Store the active nav link ID in local storage
+    localStorage.setItem('activeLink', link.id);
+
+    // Redirect to the specified URL
+    window.location.href = link.href;
 }
 
 
