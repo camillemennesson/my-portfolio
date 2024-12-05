@@ -430,7 +430,7 @@ line-height: 0;
   object-fit: cover;
 }
 
-.nav-link.active {
+.nav-icon.active {
   background-color: #000000;
   color: #ff0000;
 }
