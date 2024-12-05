@@ -38,7 +38,7 @@
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
-<div id="wrapper">
+<div id="wrapper" >
 
 
      <!-- Name and Description Section -->
