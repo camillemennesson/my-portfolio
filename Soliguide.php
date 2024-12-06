@@ -80,7 +80,7 @@
         
         <!-- Button to read the next case study -->
     <div class="button-container">
-        <a href="osmia"
+        <a href="osmia.php"
         class="next-case-study-button-black">Lire le prochain case study</a>
     </div>
 

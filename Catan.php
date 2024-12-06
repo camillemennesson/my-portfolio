@@ -306,7 +306,7 @@
         
         <!-- Button to read the next case study -->
     <div class="button-container">
-        <a href="spotify"
+        <a href="spotify.php"
         class="next-case-study-button-black">Lire le prochain case study</a>
     </div>
 
