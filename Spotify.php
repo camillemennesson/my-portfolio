@@ -127,7 +127,7 @@
         
         <!-- Button to read the next case study -->
     <div class="button-container">
-        <a href="parents.php"
+        <a href="Parents.php"
         class="next-case-study-button-purple">Lire le prochain case study</a>
     </div>
 
