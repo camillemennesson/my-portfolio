@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <!-- Catan-->
             <div class="project">
-                <a href="catan.php">
+                <a href="Catan.php">
                     <img src="/Images/catan.png" class="project-image" alt="Catan">
                     <h3>Catan - UX Audit</h3>
                 </a>
