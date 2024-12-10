@@ -46,7 +46,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <header class="intro">
         <h1>Catan</h1>
-        <h2>Game Analysis</h2>
+        <h2>Browser Game Analysis</h2>
         <img src="Images/catan.png" alt="Catan Image" class="project-image">
     </header>
 
