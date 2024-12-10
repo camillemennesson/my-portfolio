@@ -852,7 +852,7 @@ a {
     margin-top: 1em;
 }
 
-.button-black {
+#button-black {
     display: inline-block; /* Make the link behave like a block element */
     padding: 10px 20px; /* Add padding for a button-like appearance */
     background-color: #000000; /* Button background color */
