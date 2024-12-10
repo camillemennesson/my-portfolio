@@ -860,7 +860,6 @@ a {
     text-decoration: none; /* Remove underline */
     border-radius: 5px; /* Rounded corners */
     transition: background-color 0.3s ease, transform 0.3s ease; 
-    margin-top: 1em;
 }
 
 
