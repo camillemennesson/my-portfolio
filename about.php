@@ -77,7 +77,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <img src="Images/two doodle characters shaking hands.png" alt="sculpture le penseur de Rodin">
     </a>  
 </div>
-     <div class="download-resume">
+     <div class="button-secondary">
         <h2>Télécharger mon CV</h2>
         <a target="_blank" class="download-resume" class="button" href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view?usp=drive_link"
         >Télécharger en PDF</a>
