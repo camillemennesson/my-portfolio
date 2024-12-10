@@ -852,6 +852,17 @@ a {
     margin-top: 1em;
 }
 
+.button-black {
+    display: inline-block; /* Make the link behave like a block element */
+    padding: 10px 20px; /* Add padding for a button-like appearance */
+    background-color: #000000; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    margin-top: 1em;
+}
+
 
 
 .button:hover {
