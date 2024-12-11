@@ -28,6 +28,9 @@
   color: #ffffff;
   padding: 1rem;
   z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar-black .button {
