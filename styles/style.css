@@ -98,7 +98,7 @@ h4 {
 
 /*HEADERS*/
 
-header {
+#header {
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -224,6 +224,7 @@ section {
     width: 100%;
     margin-bottom: 1rem;
     z-index: 1;
+    border-radius: none;
 }
 
 
@@ -896,7 +897,7 @@ a {
 /*ABOUT*/
 
 
-#about h1, h2, h3, img {
+#about h1, h2, h3 {
     margin: 0;
     padding: 0;
     margin-bottom: 1rem;
