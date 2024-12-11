@@ -296,13 +296,20 @@ margin: 0;
 }
 
 #btn-back-to-top i {
- font-size: 40px;
+ font-size: 48px;
  border: none;
- background: none;
- color: #ff4747;
+ background: transparent;
+ color: #000000;
  transition: transform 0.3s ease; /* Smooth transition for the transform property */
- box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Adding a blurred box shadow */
 }
+
+.spotify #btn-back-to-top i {
+  font-size: 48px;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+ }
 
 
 /*floating navigation*/
