@@ -65,7 +65,7 @@
             <!-- Project 2-->
             <div class="project">
             <a href="Soliguide.php">
-                <img src="/Images/hero/soliguide.webp" class="project-image" alt="soliguide" loading="lazy">
+                <img src="/Images/hero/soliguide.webp" class="project-image" alt="soliguide" >
                 <h3>Soliguide - App Mobile</h3>
             </a>
             </div>
@@ -73,7 +73,7 @@
             <!-- Osmia-->
             <div class="project">
                 <a href="Osmia.php">
-                    <img src="/Images/hero/osmia.webp" class="project-image" alt="osmia" loading="lazy">
+                    <img src="/Images/hero/osmia.webp" class="project-image" alt="osmia" >
                     <h3>Osmia - Web Design</h3>
                 </a>
             </div>
@@ -81,7 +81,7 @@
             <!-- Catan-->
             <div class="project">
                 <a href="Catan.php">
-                    <img src="/Images/hero/catan.webp" class="project-image" alt="Catan" loading="lazy">
+                    <img src="/Images/hero/catan.webp" class="project-image" alt="Catan">
                     <h3>Catan - UX Audit</h3>
                 </a>
             </div>
@@ -89,7 +89,7 @@
             <!-- Project 5-->
             <div class="project">
                 <a href="Spotify.php">
-                    <img src="/Images/hero/spotify.webp" class="project-image" alt="spotify" loading="lazy">
+                    <img src="/Images/hero/spotify.webp" class="project-image" alt="spotify">
                     <h3>Spotify - App Mobile: Nouvelle fonctionnalité</h3>
                 </a>
             </div>
@@ -97,7 +97,7 @@
             <!-- Project 6-->
              <div class="project">
                 <a href="Parents.php">
-                    <img src="/Images/hero/parents.webp" class="project-image" alt="parents" loading="lazy">
+                    <img src="/Images/hero/parents.webp" class="project-image" alt="parents">
                     <h3>Parents - Mobile App</h3>
                 </a>
             </div>
