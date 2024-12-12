@@ -1068,7 +1068,9 @@ body .btn {
 
     .project-image {
         max-width: 100%;
+        height: auto;
         margin-bottom: 1rem;
+        aspect-ratio:inherit;
     }
 
     .image-item {
