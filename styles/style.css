@@ -907,6 +907,7 @@ a {
     justify-content: space-between;
     margin: auto;
     text-align: center;
+    margin-top: 4rem;
 }
 
 .intro-content h1 {
@@ -1067,7 +1068,7 @@ body .btn {
 
     .project-image {
         max-width: 100%;
-        margin-bottom: 4rem;
+        margin-bottom: 1rem;
     }
 
     .image-item {
