@@ -127,7 +127,6 @@
 
     <div id="footer-placeholder" data-footer-type="black"></div>
 
-
     <button
         type="button"
         class="btn-back-to-top"
