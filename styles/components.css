@@ -7,7 +7,7 @@
 
 
 .navbar-white{
-  background: var(--mainBg);
+  background-color: var(--mainBg);
   position: sticky;
   top: 0;
   width: 100%;
