@@ -80,7 +80,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Project 1 -->
             <div class="project">
                 <a  href="Mavoie.php">
-                    <img src="/Images/hero/mavoie.webp" class="project-image" alt="mavoie" loading="lazy">
+                    <img src="/Images/hero/mavoie.webp" class="project-image" alt="mavoie">
                     <h3>MaVoie.org - Web Design</h3>
                 </a>
             </div>
