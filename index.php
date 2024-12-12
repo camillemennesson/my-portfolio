@@ -113,7 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="project">
                 <a href="Spotify.php">
                     <img src="/Images/spotify.png" class="project-image" alt="spotify">
-                    <h3>Spotify - Nouvelle fonctionnalité</h3>
+                    <h3>Spotify - App Mobile: Nouvelle fonctionnalité</h3>
                 </a>
             </div>
             
