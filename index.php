@@ -80,7 +80,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Project 1 -->
             <div class="project">
                 <a  href="Mavoie.php">
-                    <img src="/Images/mavoie.png" class="project-image" alt="mavoie" loading="lazy">
+                    <img src="/Images/hero/mavoie.webp" class="project-image" alt="mavoie" loading="lazy">
                     <h3>MaVoie.org - Web Design</h3>
                 </a>
             </div>
@@ -88,7 +88,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Project 2-->
             <div class="project">
             <a href="Soliguide.php">
-                <img src="/Images/soliguide.png" class="project-image" alt="soliguide" loading="lazy">
+                <img src="/Images/hero/soliguide.webp" class="project-image" alt="soliguide" loading="lazy">
                 <h3>Soliguide - App Mobile</h3>
             </a>
             </div>
@@ -96,7 +96,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Osmia-->
             <div class="project">
                 <a href="Osmia.php">
-                    <img src="/Images/osmia.png" class="project-image" alt="osmia" loading="lazy">
+                    <img src="/Images/hero/osmia.webp" class="project-image" alt="osmia" loading="lazy">
                     <h3>Osmia - Web Design</h3>
                 </a>
             </div>
@@ -104,7 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Catan-->
             <div class="project">
                 <a href="Catan.php">
-                    <img src="/Images/catan.png" class="project-image" alt="Catan" loading="lazy">
+                    <img src="/Images/hero/catan.webp" class="project-image" alt="Catan" loading="lazy">
                     <h3>Catan - UX Audit</h3>
                 </a>
             </div>
@@ -112,7 +112,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Project 5-->
             <div class="project">
                 <a href="Spotify.php">
-                    <img src="/Images/spotify.png" class="project-image" alt="spotify" loading="lazy">
+                    <img src="/Images/hero/spotify.webp" class="project-image" alt="spotify" loading="lazy">
                     <h3>Spotify - App Mobile: Nouvelle fonctionnalité</h3>
                 </a>
             </div>
@@ -120,7 +120,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <!-- Project 6-->
              <div class="project">
                 <a href="Parents.php">
-                    <img src="/Images/parents overview.png" class="project-image" alt="parents" loading="lazy">
+                    <img src="/Images/hero/parents.webp" class="project-image" alt="parents" loading="lazy">
                     <h3>Parents - Mobile App</h3>
                 </a>
             </div>
