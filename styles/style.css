@@ -48,7 +48,7 @@ background: var(--mainBg);
     font-weight:900;
     color: #454545;
     margin-bottom: 40px;
-    margin-top: 2rem;
+    margin-top: 6rem;
 }
 
 .intro h2 {
@@ -222,9 +222,13 @@ section {
     margin-top: 1rem;
     object-fit: cover;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
     z-index: 1;
     border-radius: none;
+}
+
+#hero-mavoie {
+    box-shadow: 0 8px 8px -1px rgba(0, 0, 0, 0.08);
 }
 
 

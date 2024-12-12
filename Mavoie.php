@@ -49,7 +49,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h1>MaVoie</h1>
         <h2>Refonte site web et mobile d’un acteur social d'insertion professionnelle
         </h2>
-        <img src="Images/mavoie.png" alt="MaVoie Image" class="project-image">
+        <img src="Images/mavoie.png" alt="MaVoie Image" class="project-image" id="hero-mavoie">
     </header>
 
     <section class="case-study">
