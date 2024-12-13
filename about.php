@@ -2,6 +2,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VQSFXRTNCS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VQSFXRTNCS');
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
@@ -61,7 +70,7 @@
     </a>  
 </div>
      <div>
-        <a target="_blank" class="telecharger-cv" id="button-black" href="https://bit.ly/3ZQuERu"
+        <a target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view?usp=drive_link"
         >Télécharger mon CV</a>
     </div>   
 </section>
