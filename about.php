@@ -61,7 +61,7 @@
     </a>  
 </div>
      <div>
-        <a target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view?usp=drive_link"
+        <a target="_blank" class="telecharger-cv" id="button-black" href="https://bit.ly/3ZQuERu"
         >Télécharger mon CV</a>
     </div>   
 </section>
