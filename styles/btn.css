@@ -1,0 +1,89 @@
+/* BTN PAGE */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  
+#btn  {
+    min-height: 100vh;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bento-container {
+    width: 820px;
+    height: 600px;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.col-left {
+flex:2;
+border-radius: 1em;
+display: flex;
+flex-direction: column;
+gap: 1em;
+}
+
+.col-right {
+border-radius: 1em;
+flex:1;
+display: flex;
+flex-direction: column;
+gap: 1em
+}
+
+.row {
+flex: 1;
+border: 2px solid rgb(11, 154, 92);
+border-radius: 1em;
+} 
+
+.row3 {
+    display: flex;
+    border: none;
+    gap: 1em;
+} 
+
+
+.row-col {
+    flex: 1;
+    border: 2px solid rgb(11, 154, 92);
+    border-radius: 1em;
+}
+
+row {
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  
+  .row1:hover {
+    background-color: rgb(11, 154, 92); /* Change background color on hover for row1 */
+  }
+  
+  .row2:hover {
+    background-color: rgb(11, 154, 92); /* Change background color on hover for row2 */
+  }
+
+  .row-col.left:hover {
+    background-color:rgb(11, 154, 92) ; /* Change background color on hover for left column */
+  }
+  
+  .row-col.right:hover {
+    background-color:rgb(11, 154, 92); /* Change background color on hover for right column */
+  }
+  
+  .top:hover {
+    background-color:rgb(11, 154, 92); /* Change background color on hover for top row */
+  }
+  
+  .bottom:hover {
+    background-color: rgb(11, 154, 92); /* Change background color on hover for bottom row */
+  }

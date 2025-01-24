@@ -3,9 +3,6 @@
 <html lang="fr">
 
 <head>
-
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Camille Mennesson UX-UI Designer</title>
@@ -20,57 +17,28 @@
     <link rel="stylesheet" type="text/css" href="<?php echo 'styles/styleguide.css?='.time(); ?>">
      <!-- Components CSS -->
     <link rel="stylesheet" type="text/css" href="<?php echo 'styles/components.css?='.time(); ?>">
-    <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'styles/style.css?='.time(); ?>"/>
+    <!-- Specific Page CSS -->
+    <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'styles/btn.css?='.time(); ?>"/>
     <!-- Bootstrap Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
     
 <body id="btn">
+<div class="bento-container">
+    <div class="col-left">
+        <div class="row row1"></div>
+        <div class="row row2"></div>
+        <div class="row row3">
+            <div class="row-col left"></div>
+            <div class="row-col right"></div>
+        </div>
+    </div>
 
-<div id="navbar-placeholder" data-navbar-type="white"></div>
-
-<div id="wrapper">
-
-<section>
-<div class="responsive-container">
-    <div class="button-wrapper">
-            <div class="button-item">
-                <button class="glow-on-hover" type="button">HOVER ME, THEN CLICK ME!</button>                
-            </div>
-            <div class="button-item">
-                <button class="slide-hover" type="button">Hover me</button>
-            </div>
-            <div class="button-item">
-                <button class="slide-hover" type="button">Hover me</button>
-            </div>
-            <div class="button-item">
-                <button class="slide-hover" type="button">Hover me</button>
-            </div>
-            <div class="button-item">
-                <button class="slide-hover" type="button">Hover me</button>
-            </div>
-            <div class="button-item">
-                <button class="slide-hover" type="button">Hover me</button>
-            </div>
-            <div class="button-item">
-                <button class="slide-hover" type="button">Hover me</button>
-            </div>
-            <div class="button-item">
-                <button class="slide-hover" type="button">Hover me</button>
-            </div>
-            
-    </div> 
+    <div class="col-right">
+        <div class="row top"></div>
+        <div class="row bottom"></div>
+    </div>
 </div>
-</section>
-
-
-</div>
-
-<div id="footer-placeholder" data-footer-type="white">
-<div id="floating-nav-placeholder"></div>
-<script src="scripts/script.js?=v3"></script>
-
 
 </body>
 </html>
