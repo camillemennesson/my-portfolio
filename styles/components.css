@@ -1,7 +1,9 @@
 
 /* Navigation Bar Styles */
 
-
+#btn {
+  display: none;
+}
 
 .navbar-white{
   background-color: var(--mainBg);
