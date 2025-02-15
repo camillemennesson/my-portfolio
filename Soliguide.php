@@ -43,16 +43,17 @@
     <section class="case-study">
         <div class="sommaire">
             <div class="column">
-            <h3>Contexte</h3>
+            <h3>Mission</h3>
                 <p>Mission de 6 mois avec un UX Designer Senior, un PM, et un Responsable tech
                 </p>
             </div>
             <div class="column">
-            <h3>Missions</h3>
-                <li>Audit UX et UI de l'app mobile</li>
-                <li>Nouvelle proposition du parcours utilisateurs</li>
-                <li>Session de recherche utilisateur sur le terrain 
-                    (entretiens individuels et de groupe) </li>
+            <h3>Objectifs</h3>
+            <p>
+                <li>Améliorer l'éxperience globale de l'interface web et mobile</li>
+                <li>Optimiser les principaux parcours utilisateurs</li>
+                <li>Mieux comprendre l'uilisation de Soliguide en contexte 
+                    de mobilité (sur le terrain) </li>
                 </p>
             </div>
 
@@ -63,8 +64,68 @@
             </div>
         </div>
 
+        <div id="introduction">
+        <h3>Contexte</h3>
+        <p>
+        Soliguide c'est le guide de la solidarité en ligne. La plateforme vise à aider les personnes en situation de précarité 
+        à accéder à des services essentiels. Les objectifs principaux:
+        améliorer l'expérience (suite à des retours terrains), de mieux comprendre
+         les différents utilisateurs, et d'optimiser les parcours clés.
+        </p>
+
+
+        <div id="challenge">
+        <h3>Challenges</h3>
+        <h4>Cibles sensibles</h4>
+            <p>Le projet présentait plusieurs défis en raison de la nature des cibles :
+                Les utilisateurs incluent des personnes à la rue et en situation de
+                 précarité, peu habituées à la technologie.</p>
+        <h4>Double cible</h4>
+        <p>En plus des personnes en situation de précarité, les professionnels 
+            des associations utilisent également le site pour aider les utilisateurs
+             finaux.</p>
+             
+
+        <div id="solution">
+        <h3>Solutions mises en place</h3>
+            <h4>Recherche et Compréhension des Utilisateurs</h4>
+                <p><li>Définition des cibles : Identification des deux types principaux
+                 d'utilisateurs : les personnes en situation de précarité et 
+                 les professionnels des associations.</li>
+                    <li>Méthodologie : Réalisation d'interviews et d'observations sur
+                    le terrain, notamment lors de maraudes ou dans des centres
+                    de la Croix-Rouge.</li></p>
+            <h4>Simplification des Parcours Clés</h4>
+                 <p><li>Recherche par besoin ou lieu : Mise en place d'une fonctionnalité 
+                permettant de lancer une recherche à partir d'un besoin spécifique 
+                ou d'une localisation.</li>
+                    <li>Filtres personnalisés : Ajout de filtres pour affiner les résultats
+                    en fonction des besoins spécifiques des utilisateurs.</li></p> 
+            <h4>Adaptation à la Mobilité</h4>
+                <p><li>Compréhension des usages: Analyse de l'utilisation de 
+                    l'application dans des conditions de mobilité, comme lors 
+                    de déplacements ou de maraudes.
+                   </li>
+                    <li>Optimisation pour les smartphones : Adaptation de l'interfac
+                        pour une utilisation optimale sur smartphone, en tenant
+                        compte des contraintes des utilisateurs peu familiers
+                        avec la technologie.
+                    </li>
+                </p>
+                <h4>Audit et refonte de l'UI</h4>
+                <p><li>Simplification visuelle: Refonte de l'interface utilisateur
+                     pour la rendre plus claire et accessible, en particulier pour 
+                     les utilisateurs éloignés du numérique.
+                   </li>
+                    <li>Respect des normes: Adaptation aux "normes" d'utilisation 
+                        courantes sur internet tout en restant accessible pour les 
+                        utilisateurs novices.
+                    </li>
+                </p> 
+
+        <h3>Aperçu de l'app</h3>
         <div class="image-gallery">
-            <h3>Aperçu de l'app</h3>
+
             <div class="image-item">
                 <p>Onboarding (FTUE)</p>
                 <img src="Images/Soliguide1.png" alt="Description of image 1" class="site-image">
@@ -78,8 +139,25 @@
                 <p>Consulter un résultat de recherche</p>
                 <img src="Images/Soliguide2.png" alt="Description of image 2" class="site-image">
             </div>
-            
         </div>
+
+
+    <div id="results">
+        <h3>Résultats et Impact</h3>
+            <h4>Amélioration de l'UX</h4>
+                <p><li>Les utilisateurs ont signalé une
+                     meilleure compréhension et une utilisation plus aisée de la 
+                     plateforme.
+                    </li>
+            <h4>Meilleure adéquation aux besoins</h4>
+                    <li>Les parcours utilisateurs
+                         ont été simplifiés, permettant une recherche plus efficace 
+                         des services.
+                    </li></p>
+            <h4>Satisfaction des professionnels </h4>
+                    <li>Les professionnels des associations ont trouvé l'outil plus adapté à leurs
+                        besoins pour aider les personnes en situation de précarité.
+                    </li></p>
         
         <!-- Button to read the next case study -->
     <div class="button-container">
