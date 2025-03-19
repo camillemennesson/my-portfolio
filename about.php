@@ -70,7 +70,8 @@
     </a>  
 </div>
      <div>
-        <a target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/1Os1gjZnW4bBV3VlxIyzZhQj7twOIt31w/view?usp=drive_link"
+        <a target="_blank" class="telecharger-cv" id="button-black" href="      <a class="nav-link" class="telecharger-cv" target="_blank" href="https://drive.google.com/file/d/1FwYMGWVMfjXZthQMcoFRpEpWKTlYeDXJ/view?usp=sharing" alt="resume link">
+"
         >Télécharger mon CV</a>
     </div>   
 </section>
