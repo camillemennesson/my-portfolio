@@ -58,19 +58,19 @@
 
  <!-- CV Picture-->
     <div class="cv">
-    <img src="/Images/CV Mars 2025 PNG.png" alt="cv">
+    <img src="/Images/CV PNG MAI 2025" alt="cv">
     </div>
 </div>
 
 <!-- Download Resume -->
  <section id="download-resume">
     <div class="download-resume-image">
-    <a  target="_blank" href="https://icons8.com/illustrations/illustration/65e0a2d77175d0000117bd46">
+    <a  target="_blank" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing">
         <img src="Images/two doodle characters shaking hands.png" alt="sculpture le penseur de Rodin">
     </a>  
 </div>
      <div>
-        <a target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/1FwYMGWVMfjXZthQMcoFRpEpWKTlYeDXJ/view?usp=sharing"
+        <a target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing"
         >Télécharger mon CV</a>
     </div>   
 </section>
