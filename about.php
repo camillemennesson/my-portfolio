@@ -58,7 +58,7 @@
 
  <!-- CV Picture-->
     <div class="cv">
-    <img src="/Images/CV PNG MAI 2025" alt="cv">
+    <img src="/Images/CV PNG MAI 2025.png" alt="cv">
     </div>
 </div>
 
