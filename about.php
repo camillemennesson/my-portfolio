@@ -49,7 +49,7 @@
         </a>
     </div>
     <div class="linkedin-description">
-        <p> UX/UI designer freelance depuis 3 ans, basée à Bordeaux.</p>
+        <p> UX/UI designer freelance depuis 4 ans, basée à Bordeaux.</p>
         <p>J'ai +5 ans d'expérience au sein d'équipes tech internationales chez Google et Gameloft.</p>
         <p>Passionnée de jeu vidéo 🎮  et d'expériences digitales immersives, je suis rigoureuse, autonome et excellente communicante.</p>
         <p><b>Compétences clés: recherche & tests utilisateurs, wireframing & prototypage, delivery, intégration front </b></p>

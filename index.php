@@ -44,7 +44,7 @@
      <!-- Name and Description Section -->
      <section class="intro">
         <h1>Camille Mennesson</h1>
-            <p>Designer Freelance depuis 3 ans pour des projets de conception UX et UI.</p>
+            <p>Designer Freelance depuis 4 ans pour des projets de conception UX et UI.</p>
             <p>J'ai travaillé pendant 5 ans avec des équipes tech
             internationales et multidisciplinaires.</p>
             <p>J'ai les bases en <u> développement front.</u>
@@ -63,7 +63,15 @@
     
         <div class="work-flex">
 
-            <!-- Project 1 -->
+        <!-- Project 1 -->
+        <div class="project">
+                <a>
+                    <img src="/Images/hero/riseup.png" class="project-image" alt="riseup">
+                    <h3>Rise Up - Web Design</h3>
+                </a>
+            </div>
+
+            <!-- Project 2 -->
             <div class="project">
                 <a  href="Mavoie.php">
                     <img src="/Images/hero/mavoie.webp" class="project-image" alt="mavoie">
