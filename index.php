@@ -88,7 +88,7 @@
             </div>
 
             <!-- Osmia-->
-            <div class="project">
+            <div class="project" id="osmia">
                 <a href="Osmia.php">
                     <img src="/Images/hero/osmia.webp" class="project-image" alt="osmia" >
                     <h3>Osmia - Web Design</h3>
