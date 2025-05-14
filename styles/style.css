@@ -319,10 +319,14 @@ a {
 }
 
 /*OSMIA*/
+
+
 .case-study .osmia h2 {
     color: rgb(26, 169, 92)
     }
-
+.project .osmia  {
+    display: none;
+    }
 
 /*PARENTS*/
 #parents {
