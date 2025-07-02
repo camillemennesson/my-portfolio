@@ -64,10 +64,18 @@
         <div class="work-flex">
 
         <!-- Project 1 -->
-        <div class="project">
+        <div id="riseup" class="project">
                 <a>
                     <img src="/Images/hero/rise up.png" class="project-image" alt="riseup">
-                    <h3>Rise Up - Web Design</h3>
+                    <h3>Rise Up - Refonte UX et UI du site web</h3>
+                </a>
+            </div>
+
+        <!--Bearwww-->
+            <div class="project" id="bear">
+                <a href="bear.php">
+                    <img src="/Images/hero/bearwww hero.png" class="project-image" alt="bear" >
+                    <h3>Bearwww - Création de landing page</h3>
                 </a>
             </div>
 
@@ -75,7 +83,7 @@
             <div class="project">
                 <a  href="Mavoie.php">
                     <img src="/Images/hero/mavoie.webp" class="project-image" alt="mavoie">
-                    <h3>MaVoie.org - Web Design</h3>
+                    <h3>MaVoie.org - Refonte UX et UI du site web</h3>
                 </a>
             </div>
 
@@ -83,7 +91,7 @@
             <div class="project">
             <a href="Soliguide.php">
                 <img src="/Images/hero/soliguide.webp" class="project-image" alt="soliguide" >
-                <h3>Soliguide - App Mobile</h3>
+                <h3>Soliguide - Refonte UX de l'app mobile</h3>
             </a>
             </div>
 
