@@ -891,6 +891,11 @@ a {
   justify-content: center;
 }
 
+.work-flex > .project {
+  width: 300px;
+  max-width: 100%;
+}
+
 .contact {
     display: flexbox;
     background-color: none;
