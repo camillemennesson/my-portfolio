@@ -74,7 +74,7 @@
         <!--Bearwww-->
             <div class="project" id="bear">
                 <a href="bear.php">
-                    <img src="/Images/hero/bearwww hero.png" class="project-image" alt="bear" >
+                    <img src="/Images/hero/bear.png" class="project-image" alt="bear" >
                     <h3>Bearwww - Création de landing page</h3>
                 </a>
             </div>
