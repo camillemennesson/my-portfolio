@@ -887,7 +887,7 @@ a {
       gap: 20px;
 }
 
-.work-flex > .project {
+.work-flex .project {
   flex: 1 1 calc(50% - 10px); /* 2 columns, subtracting half the gap */
   box-sizing: border-box;
 }
