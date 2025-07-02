@@ -112,7 +112,7 @@
             </div>
             
             <!-- Project 6-->
-             <div class="project">
+             <div id="parents" class="project">
                 <a href="Parents.php">
                     <img src="/Images/hero/parents.webp" class="project-image" alt="parents">
                     <h3>Parents - Mobile App</h3>

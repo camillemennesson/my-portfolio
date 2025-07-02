@@ -332,6 +332,7 @@ a {
 /*PARENTS*/
 #parents {
     background-color: white;
+    display: none;
 }
 
 .sommaire h3,p {
