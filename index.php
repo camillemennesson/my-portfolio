@@ -66,7 +66,7 @@
         <!-- Project 1 -->
         <div id="riseup" class="project">
                 <a>
-                    <img src="/Images/hero/rise up.png" class="project-image" alt="riseup">
+                    <img src="/Images/hero/riseup.png" class="project-image" alt="riseup">
                     <h3>Rise Up - Refonte UX et UI du site web</h3>
                 </a>
             </div>
