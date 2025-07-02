@@ -104,7 +104,7 @@
             </div>
 
             <!-- Project 5-->
-            <div class="project">
+            <div id="spotify" class="project">
                 <a href="Spotify.php">
                     <img src="/Images/hero/spotify.webp" class="project-image" alt="spotify">
                     <h3>Spotify - App Mobile: Nouvelle fonctionnalité</h3>
