@@ -88,16 +88,17 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
             <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
 
         <div id="solution">
-        <h3>Solution</h3>
-        <h4>Design Intuitif</h4>
+        <h3>Solutions</h3>
+        <h4>Clearer Navigation/h4>
             <p>
-    - Refonte complète de l'interface avec une mise en page plus claire et des éléments visuels modernes.
-    - Ajout d'animations subtiles pour guider l'utilisateur à travers le site.teurs cibles.
             </p>
-        <h4>Optimisation du Questionnaire</h4>
-        <p>- Simplification des questions et amélioration de la présentation pour rendre le questionnaire moins intimidant.
-        - Ajout de feedbacks instantanés pour encourager les utilisateurs à continuer.
-        </p> 
+        <h4>Transparency Boost</h4>
+        <p>
+        </p>
+        <h4>HubSpot Compatibility</h4>
+        <h4>Scalable UI System</h4>
+        <h4>Key pages flow</h4>
+        <h4>Highlighting USPs</h4>
        
         <h3>Aperçu du site</h3>
 
