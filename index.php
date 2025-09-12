@@ -65,7 +65,7 @@
 
         <!-- Project 1 -->
         <div id="riseup" class="project">
-                <a>
+                <a href="Riseup.php">
                     <img src="/Images/hero/riseup.png" class="project-image" alt="riseup">
                     <h3>Rise Up - Refonte UX et UI du site web</h3>
                 </a>
@@ -73,7 +73,7 @@
 
         <!--Bearwww-->
             <div class="project" id="bear">
-                <a href="bear.php">
+                <a>
                     <img src="/Images/hero/bear.png" class="project-image" alt="bear" >
                     <h3>Bearwww - Création de landing page</h3>
                 </a>
