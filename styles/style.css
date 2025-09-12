@@ -325,13 +325,11 @@ a {
     color: rgb(26, 169, 92)
     }
 
-#osmia  {
-    display: none;
-    }
 
 /*PARENTS*/
 #parents {
     background-color: white;
+    display: none;
 }
 
 .sommaire h3,p {
@@ -425,6 +423,11 @@ a {
 }
 
 /*SPOTIFY*/
+
+#spotify {
+    display: none;
+}
+
 .spotify {
     line-height: 1.5;
     min-height: 100vh;
@@ -880,6 +883,16 @@ a {
       flex-wrap: wrap;
       gap: 20px;
 }
+
+.work-flex .project {
+  flex: 1 1 calc(50% - 10px); /* 2 columns, subtracting half the gap */
+  box-sizing: border-box;
+}
+
+.work-flex.center-last {
+  justify-content: center;
+}
+
 
 .contact {
     display: flexbox;
