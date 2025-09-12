@@ -86,6 +86,8 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
 </p> 
         <h4>UI & Design System</h4>
             <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
+        
+            <img src="Images/riseupprocess.png" alt="Rise Up Interview Guide">
 
         <div id="solution">
         <h3>Solutions</h3>
@@ -101,27 +103,6 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
         <h4>Highlighting USPs</h4>
        
 
-        <div class="image-gallery">
-          
-            <div class="image-item">
-                <img src="Images/homepage.png" alt="Description of image 1" class="site-image">
-            </div>
-            <div class="image-item">
-                <img src="Images/test.png" alt="Description of image 2" class="site-image">
-            </div>
-            <div class="image-item">
-
-                <img src="Images/mission.png" alt="Description of image 3" class="site-image">
-            </div>
-            <div class="image-item">
-
-                <img src="Images/cards.png" alt="Description of image 4" class="site-image">
-            </div>
-            <div class="image-item">
-
-                <img src="Images/equipe.png" alt="Description of image 5" class="site-image">
-            </div>
-        </div>
 
         <div id="results">
         <h3>Outcomes and impact</h3>
