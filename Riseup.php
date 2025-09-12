@@ -91,7 +91,7 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
                 <img src="Images/riseupprocess.png" alt="Description of image 1" class="site-image">
             </div>
 
-            
+
         <div id="solution">
         <h3>Solutions</h3>
         <h4>Clearer Navigation</h4>
@@ -105,7 +105,9 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
         <h4>Key pages flow</h4>
         <h4>Highlighting USPs</h4>
        
-
+            <div class="image-item">
+                <img src="Images/riseupmenu.png" alt="Description of image 1" class="site-image">
+            </div>
 
         <div id="results">
         <h3>Outcomes and impact</h3>
@@ -117,6 +119,9 @@ Simpler navigation for L&D managers to find relevant content
 
 Improved trust due to transparent pricing and feature clarity</p>
 
+<div class="image-item">
+                <img src="Images/riseuplxp.png" alt="Description of image 1" class="site-image">
+            </div>
         <div>
         <h3>Next Steps</h3>
             <p>The website redesign was only the first step in Rise Up’s digital transformation. To help them fully leverage the new design, I continued working with the team on two strategic missions:
