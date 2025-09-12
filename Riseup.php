@@ -38,7 +38,7 @@
         <h1>Rise Up</h1>
         <h2>Redesign of an AI-powered learning platform's marketing website
         </h2>
-        <img src="Images/mavoie.png" alt="MaVoie Image" class="project-image" id="hero-mavoie">
+        <img src="Images/riseup hero.png" alt="Rise Up platform homepage showing a modern interface with vibrant colors, welcoming headline Rise Up, and navigation menu. The design conveys a professional and optimistic atmosphere focused on learning and growth." class="project-image" id="hero-riseup">
     </header>
 
     <section class="case-study">
