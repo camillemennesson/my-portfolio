@@ -62,8 +62,6 @@
 
         <div id="challenge">
         <h3>The Challenge</h3>
-        <p>Rise Up needed a website redesign to support global growth and clearly communicate its value.
-        </p>
         <p>Rise Up was expanding internationally and needed a marketing website that clearly communicated its value to a global audience of HR managers, L&D leaders, and digital learning managers.
 The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.
 
