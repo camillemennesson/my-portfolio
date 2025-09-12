@@ -89,7 +89,7 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
 
         <div id="solution">
         <h3>Solutions</h3>
-        <h4>Clearer Navigation/h4>
+        <h4>Clearer Navigation</h4>
             <p>
             </p>
         <h4>Transparency Boost</h4>
@@ -100,47 +100,53 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
         <h4>Key pages flow</h4>
         <h4>Highlighting USPs</h4>
        
-        <h3>Aperçu du site</h3>
 
         <div class="image-gallery">
           
             <div class="image-item">
-                <p>Page d'accueil</p>
                 <img src="Images/homepage.png" alt="Description of image 1" class="site-image">
             </div>
             <div class="image-item">
-                <p>Questionnaire</p>
                 <img src="Images/test.png" alt="Description of image 2" class="site-image">
             </div>
             <div class="image-item">
-                <p>Page mission</p>
 
                 <img src="Images/mission.png" alt="Description of image 3" class="site-image">
             </div>
             <div class="image-item">
-                <p>Page formations</p>
 
                 <img src="Images/cards.png" alt="Description of image 4" class="site-image">
             </div>
             <div class="image-item">
-                <p>Page équipe</p>
 
                 <img src="Images/equipe.png" alt="Description of image 5" class="site-image">
             </div>
         </div>
 
-        <div id="résultats">
-        <h3>Résultats</h3>
-        <h4>Amélioration de l'UX/UI</h4>
-            <p>Les retours utilisateurs ont montré une satisfaction accrue avec la nouvelle interface.            </p>
-        <h4>Augmentation du Taux de Conversion</h4>
-        <p>Le taux de complétion du questionnaire a augmenté de 10% grâce aux améliorations apportées.
-        </p> 
+        <div id="results">
+        <h3>Outcomes and impact</h3>
+            <p>After launch, initial feedback from both Rise Up’s internal teams and clients confirmed that the redesign achieved its goals:
+
+Easier to communicate product value to prospects
+
+Simpler navigation for L&D managers to find relevant content
+
+Improved trust due to transparent pricing and feature clarity</p>
+
+        <div>
+        <h3>Next Steps</h3>
+            <p>The website redesign was only the first step in Rise Up’s digital transformation. To help them fully leverage the new design, I continued working with the team on two strategic missions:
+       </p>       
+       <h4>Creative Production</h4> 
+       <p>Designed static visuals and 2D animated videos to elevate the website experience and support marketing campaigns. These assets aligned closely with the new brand and helped communicate Rise Up’s innovative features more dynamically.</p>
+    <h4>Website Design Guide</h4>
+    <p>Developed a clear, actionable Website Design Guide for marketing and web teams. This resource ensures the site remains user-friendly, consistent, and optimized, even as new content and pages are added.</p>
+    </div>
         
         <!-- Button to read the next case study -->
     <div class="button-container">
-        <a href="Soliguide.php"
-        class="next-case-study-button-black">Lire le prochain case study</a>
+        <a href="Mavoie.php"
+        class="next-case-study-button-black">See next case study</a>
     </div>
 
     </section>
