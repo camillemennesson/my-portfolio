@@ -68,15 +68,15 @@
 The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.
 
         <h4>Key challenges:</h4>
-            <li>CUnclear value proposition: Visitors struggled to quickly understand Rise Up’s unique selling points (USPs).
+            <li><b>Unclear value proposition:</b> Visitors struggled to quickly understand Rise Up’s unique selling points (USPs).
             </li>  
-            <li>Poor navigation: Content was buried under a confusing structure, making it hard to find relevant information.
+            <li><b>Poor navigation:</b> Content was buried under a confusing structure, making it hard to find relevant information.
             </li>
-            <li>Lack of transparency: Pricing and feature details weren’t clearly presented, creating distrust.
+            <li><b>Lack of transparency:</b> Pricing and feature details weren’t clearly presented, creating distrust.
             </li>
-            <li>Technical constraints: The site had to work seamlessly within HubSpot, limiting layout and interaction options.
+            <li><b>Technical constraints:</b> The site had to work seamlessly within HubSpot, limiting layout and interaction options.
             </li>
-            <li>Inconsistent visuals: No digital design system existed, leading to inconsistent brand representation across marketing materials.</p>
+            <li><b>Inconsistent visuals:</b> No digital design system existed, leading to inconsistent brand representation across marketing materials.</p>
             </li>
 
         <div id="research">
