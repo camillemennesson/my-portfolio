@@ -123,9 +123,7 @@
     </section>
 
     <section class="contact">
-        <a class="contact-image" target="_blank" href="https://icons8.com/illustrations/illustration/65e0a2d77175d0000117bd46">
-            <img src="Images/Doodle character hiding pain at work.png" alt="sculpture le penseur de Rodin">
-        </a>  
+       
         <h2>Me contacter</h2>
         <div>
             <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
