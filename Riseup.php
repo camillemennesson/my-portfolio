@@ -77,17 +77,15 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
             <li><b>Inconsistent visuals:</b> No digital design system existed, leading to inconsistent brand representation across marketing materials.</p>
             </li>
 
-        <div id="research">
-        <h3>Recherche Utilisateur</h3>
-        <h4>Entretiens</h4>
-            <p>Réalisation d'entretiens utilisateurs et d'analyses de parcours pour identifier les points de friction.
-            Création de personas pour mieux comprendre les besoins et attentes des utilisateurs cibles.
-            </p>
-        <h4>Analyse quantitative avec Google Analytics et Hotjar</h4>
-        <p>Identification de problèmes UX et de points d'abandon pendant le questionnaire grâce à l'analyse des données de Google Analytics et des heatmaps de Hotjar.
-        Correction des problèmes identifiés pour améliorer le parcours utilisateur.
-        </p> 
-             
+        <div id="process">
+        <h3>My Process</h3>
+        <h4>Research & Discovery</h4>
+            <p>Conducted website audit, internal team interviews, client interviews (FR & EN markets), and competitor benchmarking → identified usability issues and clarified personas.</p>
+        <h4>UX Redesign</h4>
+            <p>Simplified navigation, restructured homepage, added pricing transparency, highlighted key features, and removed unnecessary friction points.
+</p> 
+        <h4>UI & Design System</h4>
+            <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
 
         <div id="solution">
         <h3>Solution</h3>
