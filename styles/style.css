@@ -318,12 +318,22 @@ a {
     box-sizing: border-box; /* Ensure padding and borders are included in total width */
 }
 
+/*BEARWWW*/
+
+#bear {
+    display: none;
+}
+
 /*OSMIA*/
 
 
 .case-study .osmia h2 {
     color: rgb(26, 169, 92)
     }
+
+#osmia {
+    display: none;
+}
 
 
 /*PARENTS*/
