@@ -49,9 +49,8 @@
 </div>
             <div class="column">
             <h3>Objectives</h3>
-                As the UX & UI Designer, I redesigned their marketing website to improve user experience, clarity of messaging, and conversion rates, collaborating with a HubSpot developer and a project manager over a 3-month timeline</p>
-    
-                </p>
+                <p>As the UX & UI Designer, I redesigned their marketing website to improve user experience, clarity of messaging, and conversion rates, collaborating with a HubSpot developer and a project manager over a 3-month timeline</p>
+        
             </div>
             <div class="column">
              <h3>Tools</h3>
