@@ -87,8 +87,9 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
         <h4>UI & Design System</h4>
             <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
         
+            <div class="image-item">
             <img src="Images/riseupprocess.png" alt="Rise Up Interview Guide">
-
+            </div>
         <div id="solution">
         <h3>Solutions</h3>
         <h4>Clearer Navigation</h4>
