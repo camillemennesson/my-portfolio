@@ -92,6 +92,10 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
             <img src="Images/riseupprocess.png" alt="Rise Up Interview Guide">
             </div>
         </div>
+        <div class="image-item">
+                <p>Page d'accueil</p>
+                <img src="Images/homepage.png" alt="Description of image 1" class="site-image">
+            </div>
         <div id="solution">
         <h3>Solutions</h3>
         <h4>Clearer Navigation</h4>
