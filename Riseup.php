@@ -26,7 +26,7 @@
 </head>
 
 
-<body id="mavoie">
+<body id="riseup">
  
 <div id="floating-nav-placeholder"></div>
 
@@ -35,7 +35,7 @@
 <div id="wrapper">
 
     <header class="intro">
-        <h1>MaVoie</h1>
+        <h1>Rise Up</h1>
         <h2>Redesign du Site Web d’un acteur social d'insertion professionnelle
         </h2>
         <img src="Images/mavoie.png" alt="MaVoie Image" class="project-image" id="hero-mavoie">
@@ -44,20 +44,14 @@
     <section class="case-study">
         <div class="sommaire">
             <div class="column">
-            <h3>Contexte</h3>
-                <p>Mission d'1 an avec un UX Designer, une PM, et deux développeurs. Refonte complète pour mieux répondre aux attentes 
-                    des utilisateurs cibles : les jeunes de 18 à 35 ans en recherche de formation/reconversion.
-                </p>
+            <h3>Project Overview</h3>
+                <p>Rise Up is an AI-powered learning platform that helps companies accelerate time-to-skill by providing personalized, data-driven learning experiences for employees and admins.
+As the UX & UI Designer, I redesigned their marketing website to improve user experience, clarity of messaging, and conversion rates, collaborating with a HubSpot developer and a project manager over a 3-month timeline</p>
             </div>
+           
             <div class="column">
-            <h3>Objectifs</h3>
-                <li>Améliorer l'UX globale du site et son principal user flow
-                <li>Augmenter le taux de conversion</li>
-                </p>
-            </div>
-            <div class="column">
-             <h3>Outils</h3>
-                 <p>Figma, Airtable, Webflow, Maze, Google Analytics, Hotjar
+             <h3>Tools</h3>
+                 <p>Figma, Hubspot, Google Analytics, Hotjar, Notion
                  </p>
             </div>
         </div>
