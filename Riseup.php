@@ -61,23 +61,23 @@
         </div>
 
         <div id="challenge">
-        <h3>Challenges</h3>
-        <h4>Équipe Réduite</h4>
-            <p>Collaborer efficacement avec un 
-                développeur front-end et un développeur back-end, tous deux très juniors.
-            </p>
-        <h4> Contraintes Techniques </h4>
-        <p>Travailler avec des développeurs juniors nécessitait une communication 
-            claire et des spécifications précises pour assurer la mise en œuvre
-             correcte des designs.
+        <h3>The Challenge</h3>
+        <p>Rise Up needed a website redesign to support global growth and clearly communicate its value.
         </p>
-        <h4>Problème de Vision/Stratégie </h4>
-        <p>Le manque de clarté sur ce qu'ils faisaient exactement 
-            se ressentait dans les solutions proposées sur leur site, rendant difficile
-             la création d'une expérience utilisateur cohérente.
-        </p>
-      
+        <p>Rise Up was expanding internationally and needed a marketing website that clearly communicated its value to a global audience of HR managers, L&D leaders, and digital learning managers.
+The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.
 
+        <h4>Key challenges:</h4>
+            <li>CUnclear value proposition: Visitors struggled to quickly understand Rise Up’s unique selling points (USPs).
+            </li>  
+            <li>Poor navigation: Content was buried under a confusing structure, making it hard to find relevant information.
+            </li>
+            <li>Lack of transparency: Pricing and feature details weren’t clearly presented, creating distrust.
+            </li>
+            <li>Technical constraints: The site had to work seamlessly within HubSpot, limiting layout and interaction options.
+            </li>
+            <li>Inconsistent visuals: No digital design system existed, leading to inconsistent brand representation across marketing materials.</p>
+            </li>
 
         <div id="research">
         <h3>Recherche Utilisateur</h3>
