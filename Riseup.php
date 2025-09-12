@@ -46,9 +46,13 @@
             <div class="column">
             <h3>Project Overview</h3>
                 <p>Rise Up is an AI-powered learning platform that helps companies accelerate time-to-skill by providing personalized, data-driven learning experiences for employees and admins.
-As the UX & UI Designer, I redesigned their marketing website to improve user experience, clarity of messaging, and conversion rates, collaborating with a HubSpot developer and a project manager over a 3-month timeline</p>
+</div>
+            <div class="column">
+            <h3>Objectives</h3>
+                As the UX & UI Designer, I redesigned their marketing website to improve user experience, clarity of messaging, and conversion rates, collaborating with a HubSpot developer and a project manager over a 3-month timeline</p>
+    
+                </p>
             </div>
-           
             <div class="column">
              <h3>Tools</h3>
                  <p>Figma, Hubspot, Google Analytics, Hotjar, Notion
