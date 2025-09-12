@@ -36,7 +36,7 @@
 
     <header class="intro">
         <h1>Rise Up</h1>
-        <h2>Redesign du Site Web d’un acteur social d'insertion professionnelle
+        <h2>Redesign of an AI-powered learning platform's marketing website
         </h2>
         <img src="Images/mavoie.png" alt="MaVoie Image" class="project-image" id="hero-mavoie">
     </header>
@@ -49,9 +49,10 @@
 </div>
             <div class="column">
             <h3>Objectives</h3>
-                <p>As the UX & UI Designer, I redesigned their marketing website to improve user experience, clarity of messaging, and conversion rates, collaborating with a HubSpot developer and a project manager over a 3-month timeline</p>
-        
+                <p>As the UX & UI Designer, I redesigned their marketing website to improve user experience, clarity of messaging, and conversion rates, collaborating with a HubSpot developer and a project manager over a 3-month timeline 
+                </p>
             </div>
+
             <div class="column">
              <h3>Tools</h3>
                  <p>Figma, Hubspot, Google Analytics, Hotjar, Notion
