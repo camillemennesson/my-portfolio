@@ -82,7 +82,7 @@
             <!-- Project 2 -->
             <div class="project">
                 <a  href="Mavoie.php">
-                    <img src="/Images/hero/mavoie.webp" class="project-image" alt="mavoie">
+                    <img src="/Images/hero/mavoie.jpeg" class="project-image" alt="mavoie">
                     <h3>MaVoie.org - Refonte UX et UI du site web</h3>
                 </a>
             </div>
