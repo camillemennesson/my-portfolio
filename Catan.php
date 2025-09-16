@@ -305,11 +305,6 @@
             </div>
         </div>
         
-        <!-- Button to read the next case study -->
-    <div class="button-container">
-        <a href="Spotify.php"
-        class="next-case-study-button-black">Lire le prochain case study</a>
-    </div>
 
 
     <div id="footer-placeholder" data-footer-type="white"></div>
