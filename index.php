@@ -66,7 +66,7 @@
         <!-- Project 1 -->
         <div id="riseup" class="project">
                 <a href="Riseup.php">
-                    <img src="/Images/hero/riseup1.png" class="project-image" alt="riseup">
+                    <img src="/Images/hero/riseup1.jpg" class="project-image" alt="riseup">
                     <h3>Rise Up - Refonte UX et UI du site web</h3>
                 </a>
             </div>
