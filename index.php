@@ -67,7 +67,7 @@
         <div id="riseup" class="project">
                 <a href="Riseup.php">
                     <img src="/Images/hero/riseup1.jpeg" class="project-image" alt="riseup">
-                    <h3>Rise Up - Refonte UX et UI du site web</h3>
+                    <h3>Rise Up - Website redesign and Visual Asset Creation</h3>
                 </a>
             </div>
 
