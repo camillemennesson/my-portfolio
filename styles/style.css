@@ -1006,6 +1006,7 @@ a {
 .cv img {
 height: auto;
 width:  100%;
+max-width: 600px;
 }
 
 .linkedin-description {
