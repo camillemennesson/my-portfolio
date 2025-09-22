@@ -204,7 +204,7 @@ section {
 }
 
 .h2-intro  {
-    display:flex;
+    display:none;
     align-items:center;
     text-align: center;
     justify-content: center;
