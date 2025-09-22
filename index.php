@@ -54,7 +54,7 @@
     </section>
     </div>
         <div class="h2-intro">
-            <img src="images/scribble arrow.png" alt="Découvrir mes projets" style="height: 80px; width: auto; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1)); transform: rotate(59deg);">
+            <img src="images/scribblearrow.png" alt="Découvrir mes projets" style="height: 80px; width: auto; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1)); transform: rotate(59deg);">
         </div>
 </div>
 
