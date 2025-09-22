@@ -880,12 +880,12 @@ a {
     padding: 10px 20px; /* Add padding for a better appearance */
     color: rgb(0, 0, 0); /* Text color */
     text-decoration: none; /* Remove underline from the link */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 16px; /* Rounded corners */
     border: 2px solid black; /* Black stroke */
     font-size: 1rem; /* Font size */
     font-weight: 700; /* Make text bolder */
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transition effect for hover */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .next-case-study-button-purple {
@@ -893,12 +893,12 @@ a {
     padding: 10px 20px; /* Add padding for a better appearance */
     color: #5364FF; /* Text color */
     text-decoration: none; /* Remove underline from the link */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 16px; /* Rounded corners */
     border: 2px solid #5364FF; /* Black stroke */
     font-size: 1rem; /* Font size */
     font-weight: 700; /* Make text bolder */
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transition effect for hover */
-    box-shadow: 0 2px 8px rgba(83, 100, 255, 0.25);
+    box-shadow: 0 2px 4px rgba(83, 100, 255, 0.25);
 }
 .next-case-study-button-purple:hover {
     background-color: #5364FF; /* Darken background color on hover */
@@ -921,10 +921,10 @@ a {
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
     font-weight: 700; /* Make text bolder */
-    border-radius: 24px; /* Rounded corners */
+    border-radius: 4em; /* Rounded corners */
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 1em;
-    box-shadow: 0 6px 6px #1f1f1f40;
+    box-shadow: 0 4px 4px #1f1f1f40;
 }
 
 #button-black {
@@ -934,9 +934,9 @@ a {
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
     font-weight: 700; /* Make text bolder */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 4em; /* Rounded corners */
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow: 0 6px 6px #1f1f1f40;
+    box-shadow:  rgba(31, 31, 31, 0.25) 4px 4px;
 }
 
 
@@ -944,7 +944,7 @@ a {
 .button:hover {
     background-color: #2f2f2f; /* Darken background color on hover */
     transform: scale(1.05); /* Slightly enlarge the button on hover */
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
+    box-shadow: 0 6px 16px #1f1f1f40; /* Enhanced shadow on hover */
 }
 
 
@@ -1409,7 +1409,7 @@ max-width: 600px;
     cursor: pointer;
     margin: 0 10px; /* Space between arrows */
     padding: 5px 10px; /* Padding for buttons */
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 16px; /* Rounded corners */
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transition effect for hover */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
