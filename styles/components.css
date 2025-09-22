@@ -6,7 +6,9 @@
 }
 
 .navbar-white{
-  background-color: var(--mainBg);
+  background:white;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   position: sticky;
   top: 0;
   width: 100%;

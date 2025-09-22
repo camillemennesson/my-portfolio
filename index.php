@@ -36,11 +36,12 @@
     
 <body id="home">
 
+<div class="hero-background"></div>
+<div class="hero-container">
+
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
 <div id="wrapper" >
-
-
      <!-- Name and Description Section -->
      <section class="intro">
         <h1>Camille Mennesson</h1>
@@ -57,6 +58,7 @@
             <i class="bi bi-arrow-down-circle"></i>
             <p>Découvrir mes projets</p>
     </div>
+</div>
 
 
     <section id="Work">
