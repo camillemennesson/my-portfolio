@@ -36,12 +36,11 @@
     
 <body id="home">
 
-<div class="hero-background"></div>
-<div class="hero-container">
+<div class="hero-background">
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
-<div id="wrapper" >
+    <div id="wrapper" >
      <!-- Name and Description Section -->
      <section class="intro">
         <h1>Camille Mennesson</h1>
@@ -53,13 +52,12 @@
             ce site 'from scratch' (avec un peu d'aide de l'IA..) !</p>
         
     </section>
-
-    <div class="h2-intro">
+    </div>
+        <div class="h2-intro">
             <i class="bi bi-arrow-down-circle"></i>
             <p>Découvrir mes projets</p>
-    </div>
+        </div>
 </div>
-
 
     <section id="Work">
     

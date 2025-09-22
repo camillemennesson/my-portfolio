@@ -1,12 +1,9 @@
-
 /* Navigation Bar Styles */
-
 #btn {
   display: none;
 }
 
 .navbar-white{
-  background:white;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   position: sticky;
@@ -17,7 +14,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem 3rem;
+  position: relative;
 }
 
 .navbar-black {
@@ -26,7 +24,7 @@
   text-align: center;
   background-color: var(--spotify-bg);
   color: #ffffff;
-  padding: 1rem;
+  padding: 1rem 3rem;
   z-index: 100;
   display: flex;
   justify-content: space-between;
@@ -480,6 +478,9 @@ body {
   position: relative;
   z-index: 0;
   border-radius: 10px;
+  font-weight: 700; /* Make text bolder */
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .glow-on-hover:before {
@@ -510,6 +511,9 @@ body {
 .glow-on-hover:hover:before {
   opacity: 1;
 }
+.glow-on-hover:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
 
 .glow-on-hover:after {
   z-index: -1;
@@ -529,6 +533,50 @@ body {
   100% { background-position: 0 0; }
 }
 
-.slide-hover{display:inline-block;padding:.75rem 1.25rem;border-radius:10rem;color:#fff;text-transform:uppercase;font-size:1rem;letter-spacing:.15rem;transition:all .3s;position:relative;overflow:hidden;z-index:1}.slide-hover:after{content:"";position:absolute;bottom:0;left:0;width:100%;height:100%;background-color:#0cf;border-radius:10rem;z-index:-2}.slide-hover:before{content:"";position:absolute;bottom:0;left:0;width:0%;height:100%;background-color:#008fb3;transition:all .3s;border-radius:10rem;z-index:-1}.slide-hover:hover{color:#fff}.slide-hover:hover:before{width:100%}
+.slide-hover{
+  display:inline-block;
+  padding:.75rem 1.25rem;
+  border-radius:10rem;
+  color:#fff;
+  text-transform:uppercase;
+  font-size:1rem;
+  font-weight: 700; /* Make text bolder */
+  letter-spacing:.15rem;
+  transition:all .3s;
+  position:relative;
+  overflow:hidden;
+  z-index:1;
+  box-shadow: 0 4px 12px rgba(0, 143, 179, 0.3);
+}
+.slide-hover:after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#0cf;
+  border-radius:10rem;
+  z-index:-2
+}
+.slide-hover:before{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:0%;
+  height:100%;
+  background-color:#008fb3;
+  transition:all .3s;
+  border-radius:10rem;
+  z-index:-1
+}
+.slide-hover:hover{
+  color:#fff;
+  box-shadow: 0 6px 16px rgba(0, 143, 179, 0.4);
+}
+.slide-hover:hover:before{
+  width:100%
+}
 
 
