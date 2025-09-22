@@ -880,7 +880,7 @@ a {
     padding: 10px 20px; /* Add padding for a better appearance */
     color: rgb(0, 0, 0); /* Text color */
     text-decoration: none; /* Remove underline from the link */
-    border-radius: 16px; /* Rounded corners */
+    border-radius: 24px; /* Rounded corners */
     border: 2px solid black; /* Black stroke */
     font-size: 1rem; /* Font size */
     font-weight: 700; /* Make text bolder */
@@ -893,7 +893,7 @@ a {
     padding: 10px 20px; /* Add padding for a better appearance */
     color: #5364FF; /* Text color */
     text-decoration: none; /* Remove underline from the link */
-    border-radius: 16px; /* Rounded corners */
+    border-radius: 24px; /* Rounded corners */
     border: 2px solid #5364FF; /* Black stroke */
     font-size: 1rem; /* Font size */
     font-weight: 700; /* Make text bolder */
@@ -1409,7 +1409,7 @@ max-width: 600px;
     cursor: pointer;
     margin: 0 10px; /* Space between arrows */
     padding: 5px 10px; /* Padding for buttons */
-    border-radius: 16px; /* Rounded corners */
+    border-radius: 24px; /* Rounded corners */
     transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transition effect for hover */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
