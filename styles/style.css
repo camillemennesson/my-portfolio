@@ -87,6 +87,7 @@ margin: 0 2rem 0 2rem;
     max-width: 976px;
     position: relative;
     z-index: 1;
+    padding-bottom: 6rem;
 }
 
 .intro h1 {
@@ -95,6 +96,7 @@ margin: 0 2rem 0 2rem;
     color: #454545;
     margin-bottom: 40px;
     margin-top: 6rem;
+    line-height: 1.2;
 }
 
 .intro h2 {
@@ -214,8 +216,11 @@ section {
     line-height: 0;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    position: relative;
-    z-index: 1;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
     }
 
     .h2-intro p {

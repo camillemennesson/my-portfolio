@@ -54,8 +54,7 @@
     </section>
     </div>
         <div class="h2-intro">
-            <i class="bi bi-arrow-down-circle"></i>
-            <p>Découvrir mes projets</p>
+            <img src="images/scribble arrow.png" alt="Découvrir mes projets" style="height: 80px; width: auto; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1)); transform: rotate(59deg);">
         </div>
 </div>
 
