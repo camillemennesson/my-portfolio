@@ -219,6 +219,40 @@ p {
     max-width: 700px;
 }
 
+.ticks-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* center on large screens */
+  gap: 2rem; /* space between ticks */
+  margin-top: 2rem;
+}
+
+.tick-item {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  color: #454545;
+  font-size: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #19b824;
+  color: white;
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-right: 0.6rem;
+  font-size: 0.8rem;
+}
+
+
 /* Stamp Element Styles */
 .stamp-container {
   position: absolute; /* or fixed */
@@ -1414,9 +1448,5 @@ max-width: 600px;
         display: none;
     }
 
-.green-tick {
-    color: #28a745;
-    font-weight: bold;
-    margin-right: 0.5rem;
-}
+
 }
