@@ -1,25 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk:wght@100..900&display=swap');
 
-/* Local Euclid Circular A Font Faces */
+/* EUCLID CIRCULAR A - USED WEIGHTS ONLY */
 @font-face {
     font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A Italic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A Light.ttf') format('truetype');
+    src: url('../fonts/euclid-circular-a/EuclidCircularA-Light.woff2') format('woff2'),
+         url('../fonts/euclid-circular-a/EuclidCircularA-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -27,15 +11,17 @@
 
 @font-face {
     font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A Light Italic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
+    src: url('../fonts/euclid-circular-a/EuclidCircularA-Regular.woff2') format('woff2'),
+         url('../fonts/euclid-circular-a/EuclidCircularA-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A Medium.ttf') format('truetype');
+    src: url('../fonts/euclid-circular-a/EuclidCircularA-Medium.woff2') format('woff2'),
+         url('../fonts/euclid-circular-a/EuclidCircularA-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -43,15 +29,8 @@
 
 @font-face {
     font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A Medium Italic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A SemiBold.ttf') format('truetype');
+    src: url('../fonts/euclid-circular-a/EuclidCircularA-SemiBold.woff2') format('woff2'),
+         url('../fonts/euclid-circular-a/EuclidCircularA-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -59,27 +38,13 @@
 
 @font-face {
     font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A SemiBold Italic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A Bold.ttf') format('truetype');
+    src: url('../fonts/euclid-circular-a/EuclidCircularA-Bold.woff2') format('woff2'),
+         url('../fonts/euclid-circular-a/EuclidCircularA-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Euclid Circular A';
-    src: url('../fonts/euclid-circular-a/Euclid Circular A Bold Italic.ttf') format('truetype');
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap;
-}
 
 /* Reset some default styles */
 * {
@@ -89,7 +54,7 @@
 }
 
 
-body {
+html, body {
     font-family: 'Euclid Circular A', sans-serif;
     line-height: 1.7rem;
     min-height: 100vh;
@@ -97,7 +62,15 @@ body {
     padding:0;
     height: 100%;
     background: white;
+    overflow-x: hidden; /* prevent horizontal scroll gaps */
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 
 a {
     text-decoration: none;   
@@ -108,53 +81,19 @@ ul {
     text-decoration: none;   
  }
 
-#wrapper {
-margin: 0 2rem 0 2rem;
-}
 
 /* Intro Section Styles */
 .hero-background {
-    background-color: #F7F6EB;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    position: relative;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-    filter: contrast(1.05) brightness(0.98);
+  background-color: #F7F6EB;
+  width: 100%;
+  position: relative;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  filter: contrast(1.05) brightness(0.98);
 }
 
-.hero-background::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    background: #F7F6EB;
-    clip-path: polygon(0% 100%, 4% 80%, 8% 95%, 12% 70%, 16% 90%, 20% 75%, 24% 95%, 28% 65%, 32% 85%, 36% 90%, 40% 70%, 44% 88%, 48% 92%, 52% 72%, 56% 85%, 60% 88%, 64% 75%, 68% 92%, 72% 68%, 76% 85%, 80% 90%, 84% 75%, 88% 95%, 92% 70%, 96% 85%, 100% 80%, 100% 100%);
-    z-index: 10;
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
-}
 
-.hero-background::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image:
-        radial-gradient(circle at 20% 30%, rgba(139, 117, 95, 0.06) 1px, transparent 1px),
-        radial-gradient(circle at 80% 70%, rgba(139, 117, 95, 0.06) 1px, transparent 1px),
-        radial-gradient(circle at 40% 80%, rgba(101, 87, 73, 0.04) 1px, transparent 1px),
-        radial-gradient(circle at 60% 20%, rgba(101, 87, 73, 0.04) 1px, transparent 1px),
-        radial-gradient(circle at 90% 40%, rgba(139, 117, 95, 0.03) 2px, transparent 2px),
-        radial-gradient(circle at 10% 60%, rgba(101, 87, 73, 0.03) 2px, transparent 2px);
-    background-size: 40px 40px, 40px 40px, 60px 60px, 60px 60px, 80px 80px, 80px 80px;
-    filter: contrast(1.05) brightness(0.95);
-    z-index: 0;
-}
+
 
 
 
@@ -469,8 +408,8 @@ section {
     margin-top: 1rem;
     object-fit: cover;
     width: 100%;
-    margin-bottom: 1rem;
     border-radius: 8px;
+    border: 4px solid #ffffff;
 }
 
 #hero-mavoie {
@@ -1150,15 +1089,19 @@ a {
 }
 
 
-
 .work-flex {
-    display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 4rem; /* Add space above the projects section */
-      padding: 3rem 2rem; /* Add padding for better spacing */
-      border-radius: 12px; /* Rounded corners for modern look */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0; /* Remove external margin */
+  padding: 6rem 1rem; /* Internal spacing only */
+  background-color: #d4d8fa;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 0;
 }
+
 
 .work-flex .project {
   flex: 1 1 calc(50% - 10px); /* 2 columns, subtracting half the gap */
