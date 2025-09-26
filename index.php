@@ -57,6 +57,17 @@
         
     </section>
 
+    <svg 
+    class="wave-svg"
+    viewBox="0 0 1440 200"
+    preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path 
+      d="M0,100 C360,200 1080,0 1440,100 L1440,200 L0,200 Z"
+      fill="#F7F6EB"
+    />
+        </svg>
+
    <div class="stamp-container">
   <img src="images/stamp.png" alt="I coded this site from scratch" class="stamp">
 </div>
@@ -68,6 +79,9 @@
             <img src="images/scribblearrow.png" alt="Découvrir mes projets" 
             style="height: 80px; width: auto; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1)); transform: rotate(59deg);">
         </div>
+
+        
+
 </div>
 
     <section id="Work">
