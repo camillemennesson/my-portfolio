@@ -257,7 +257,7 @@ p {
 .stamp-container {
   position: absolute; /* or fixed */
   top: 460px;
-  right: 20px;
+  right: 10px;
   width: 160px;      /* adjust size */
   height: 160px;     /* adjust size */
   z-index: 9999;
