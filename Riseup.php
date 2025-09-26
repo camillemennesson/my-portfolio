@@ -38,7 +38,7 @@
         <h1>Rise Up</h1>
         <h2>Redesign of an AI-powered learning platform's marketing website
         </h2>
-        <img src="Images/riseup hero.png" alt="Rise Up website homepage" class="project-image" id="hero-riseup">
+        <img src="images/riseup hero.png" alt="Rise Up website homepage" class="project-image" id="hero-riseup">
     </header>
 
     <section class="case-study">
@@ -88,7 +88,7 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
             <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
                         
         <div class="image-item">
-                <img src="Images/riseupprocess.png" alt="Description of image 1" class="site-image">
+                <img src="images/riseupprocess.png" alt="Description of image 1" class="site-image">
             </div>
 
 
@@ -106,7 +106,7 @@ The existing website wasn’t supporting this growth. It lacked clarity, scalabi
         <h4>Highlighting USPs</h4>
        
             <div class="image-item">
-                <img src="Images/riseupmenu.png" alt="Description of image 1" class="site-image">
+                <img src="images/riseupmenu.png" alt="Description of image 1" class="site-image">
             </div>
 
         <div id="results">
@@ -120,7 +120,7 @@ Simpler navigation for L&D managers to find relevant content
 Improved trust due to transparent pricing and feature clarity</p>
 
 <div class="image-item">
-                <img src="Images/riseuplxp.png" alt="Description of image 1" class="site-image">
+                <img src="images/riseuplxp.png" alt="Description of image 1" class="site-image">
             </div>
         <div>
         <h3>Next Steps</h3>

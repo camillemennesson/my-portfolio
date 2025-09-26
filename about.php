@@ -45,7 +45,7 @@
  <div class="linkedin-section">
     <div class="linkedin-pic">
         <a href="https://linkedin.com/in/cmennesson">
-            <img src="/Images/linkedin picture.png" alt="linkedin picture">
+            <img src="images/linkedin picture.png" alt="linkedin picture">
         </a>
     </div>
     <div class="linkedin-description">
@@ -58,7 +58,7 @@
 
  <!-- CV Picture-->
     <div class="cv">
-    <img src="/Images/CV PNG MAI 2025.png" alt="cv">
+    <img src="images/CV PNG MAI 2025.png" alt="cv">
     </div>
 </div>
 
@@ -66,7 +66,7 @@
  <section id="download-resume">
     <div class="download-resume-image">
     <a  target="_blank" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing">
-        <img src="Images/two doodle characters shaking hands.png" alt="sculpture le penseur de Rodin">
+        <img src="images/two doodle characters shaking hands.png" alt="sculpture le penseur de Rodin">
     </a>  
 </div>
      <div>

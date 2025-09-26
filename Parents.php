@@ -36,7 +36,7 @@
     <header class="intro">
         <h1>Parents</h1>
         <h2>Mobile App for Postpartum</h2>
-        <img src="Images/parents hero.gif" alt="Parents Hero" class="project-image">
+        <img src="images/parents hero.gif" alt="Parents Hero" class="project-image">
     </header>
 
     <section class="case-study">
@@ -112,7 +112,7 @@
               tones, with a light and playful design style.
         </p>
         <div class="image-item">
-            <img src="Images/parents overview.png" alt="Description of image 1" class="site-image">
+            <img src="images/parents overview.png" alt="Description of image 1" class="site-image">
         </div>    
         <h4>User Research</h4>
         <p> Parents feel unsupported post-birth:
@@ -154,10 +154,10 @@
             </p>
 
             <div class="image-item slideshow">
-                <img src="Images/Parents UF1.png" alt="Description of image 1" class="site-image">
+                <img src="images/Parents UF1.png" alt="Description of image 1" class="site-image">
             </div>      
             <div class="image-item slideshow">
-                <img src="Images/Parents UF2.png" alt="Description of image 1" class="site-image">
+                <img src="images/Parents UF2.png" alt="Description of image 1" class="site-image">
             </div>  
 
         <div id="mvp">
@@ -169,7 +169,7 @@
                     <li>Possibilité de fixer des objectifs et de les suivre pour voir les progrès sur le long terme</li>       
                 </p>
                 <div class="image-item">
-                    <img src="Images/Parents MVP.png" alt="Description of image 1" class="site-image">
+                    <img src="images/Parents MVP.png" alt="Description of image 1" class="site-image">
                 </div> 
         </div>
 
@@ -180,7 +180,7 @@
                      le processus d'inscription a été mis à jour pour ajouter le mot "père" comme option d'inscription.      
                 </p>
                 <div class="image-item">
-                    <img src="Images/parents test2.png" alt="Description of image 1" class="site-image">
+                    <img src="images/parents test2.png" alt="Description of image 1" class="site-image">
                 </div> 
                 <p>
                     Les utilisateurs sont là pour trouver des solutions fiables et à long terme 
@@ -188,7 +188,7 @@
                         et à l'esprit pour suivre les ateliers.
                 </p>
                 <div class="image-item">
-                    <img src="Images/Parents TEST GOALS.png" alt="Description of image 1" class="site-image">
+                    <img src="images/Parents TEST GOALS.png" alt="Description of image 1" class="site-image">
                 </div> 
         </div>
 
@@ -204,12 +204,12 @@
                     les couleurs de l'application traduisent l'autonomisation des utilisateurs      
                 </p>
                 <div class="image-item">
-                    <img src="Images/Parents DESIGN PRINCIPLES.png" alt="Description of image 1" class="site-image">
+                    <img src="images/Parents DESIGN PRINCIPLES.png" alt="Description of image 1" class="site-image">
                 </div> 
                 <div class="video-prototype">
             <h4>Interactive Prototype</h4>
             <div class="image-item">
-                <img src="Images/parents proto.gif" alt="Description of image 1" class="prototype">
+                <img src="images/parents proto.gif" alt="Description of image 1" class="prototype">
                 <p class="figma-link">
                     <a href="https://www.figma.com/proto/AJk56y4M9QdxRwQ9CPSrxu/PARENTS-USE-CASE-INTERNAL?node-id=1535-10021&node-type=frame&t=VFL0L1Vg7DxztiM9-1&scaling=scale-down&content-scaling=fixed&page-id=2%3A18&starting-point-node-id=1535%3A10021&show-proto-sidebar=1" target="_blank" style="text-decoration: underline; color: #000;">
                     Click here to try it on Figma!

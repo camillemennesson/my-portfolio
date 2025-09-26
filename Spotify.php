@@ -45,7 +45,7 @@
                 </p>
             </div>
             <div class="flex-image">
-            <img src="Images/spotify1.png">
+            <img src="images/spotify1.png">
         </div>
         </div>
     </header>
@@ -54,7 +54,7 @@
         <h2 id="h2-center">Redesign page d'accueil </h2>
     <div class="flex-section">
         <div class="project-image">
-            <img src="Images/spotify2.png" >
+            <img src="images/spotify2.png" >
         </div>
     
         <div class="card-container">
@@ -79,17 +79,17 @@
          </p>
         </div>
         <div class="animation">
-        <img  src="Images/spotify.gif" alt="card-animation">
+        <img  src="images/spotify.gif" alt="card-animation">
         </div>
     </div>
 
 <div class="disiz" class="project-image">
-    <img src="Images/spotify.png" alt="spotify lecteur" >
+    <img src="images/spotify.png" alt="spotify lecteur" >
 </div>
 
 <div class="flex-image-left" >
 <div class="project-image">
-    <img src="Images/spotify player.gif">
+    <img src="images/spotify player.gif">
 </div>
         <div class="box"><div class="ellipse"></div></div>
 
@@ -112,7 +112,7 @@
             </p>
         </div>
         <div class="project-image">
-        <img src="Images/spotify samples.png" >  
+        <img src="images/spotify samples.png" >
     </div>   
         <div class="box"><div class="ellipse"></div></div>
 </div>
@@ -122,7 +122,7 @@
         <h2 id="h2-center">Prototype</h2>
     </div>
     <div class="project-image">
-    <img  src="Images/spotify prototype.gif" alt="prototype video">
+    <img  src="images/spotify prototype.gif" alt="prototype video">
     </div>
 </div>
         

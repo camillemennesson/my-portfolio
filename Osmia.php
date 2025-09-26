@@ -36,7 +36,7 @@
     <header class="intro">
         <h1>Osmia</h1>
         <h2>Création d'un site vitrine pour une cidrerie de l'Oise</h2>
-        <img src="Images/osmia.png" alt="MaVoie Image" class="project-image">
+        <img src="images/osmia.png" alt="MaVoie Image" class="project-image">
     </header>
 
     <section class="case-study">
@@ -63,13 +63,13 @@
         
         <div class="image-gallery">
             <div class="image-item">
-                <img src="Images/Osmia1.png" alt="Description of image 1" class="site-image">
+                <img src="images/Osmia1.png" alt="Description of image 1" class="site-image">
             </div>
             <div class="image-item">
-                <img src="Images/Osmia2.png" alt="Description of image 2" class="site-image">
+                <img src="images/Osmia2.png" alt="Description of image 2" class="site-image">
             </div>
             <div class="image-item">
-                <img src="Images/Osmia3.png" alt="Description of image 3" class="site-image">
+                <img src="images/Osmia3.png" alt="Description of image 3" class="site-image">
             </div>
         
         </div>

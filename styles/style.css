@@ -256,10 +256,10 @@ p {
 /* Stamp Element Styles */
 .stamp-container {
   position: absolute; /* or fixed */
-  top: 1rem;
-  right: 2rem;
-  width: 120px;      /* adjust size */
-  height: 120px;     /* adjust size */
+  top: 12rem;
+  right: 20px;
+  width: 160px;      /* adjust size */
+  height: 160px;     /* adjust size */
   z-index: 9999;
   transform: rotate(-5deg); /* optional tilt */
   animation: stamp-pop 1s ease-out forwards;

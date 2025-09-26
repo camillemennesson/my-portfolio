@@ -77,7 +77,7 @@
         <!-- Project 1 -->
         <div id="riseup" class="project">
                 <a href="Riseup.php">
-                    <img src="/Images/hero/riseup1.jpeg" class="project-image" alt="riseup">
+                    <img src="images/hero/riseup1.jpeg" class="project-image" alt="riseup">
                     <h3>Rise Up - Website redesign and Visual Asset Creation</h3>
                 </a>
             </div>
@@ -85,7 +85,7 @@
         <!--Bearwww-->
             <div class="project" id="bear">
                 <a>
-                    <img src="/Images/hero/bear.png" class="project-image" alt="bear" >
+                    <img src="images/hero/bear.png" class="project-image" alt="bear" >
                     <h3>Bearwww - Création de landing page</h3>
                 </a>
             </div>
@@ -93,7 +93,7 @@
             <!-- Project 2 -->
             <div class="project">
                 <a  href="Mavoie.php">
-                    <img src="/Images/hero/mavoie.jpeg" class="project-image" alt="mavoie">
+                    <img src="images/hero/mavoie.jpeg" class="project-image" alt="mavoie">
                     <h3>MaVoie.org - Refonte UX et UI du site web</h3>
                 </a>
             </div>
@@ -101,7 +101,7 @@
             <!-- Project 2-->
             <div class="project">
             <a href="Soliguide.php">
-                <img src="/Images/hero/soliguide.webp" class="project-image" alt="soliguide" >
+                <img src="images/hero/soliguide.webp" class="project-image" alt="soliguide" >
                 <h3>Soliguide - Refonte UX de l'app mobile</h3>
             </a>
             </div>
@@ -109,7 +109,7 @@
             <!-- Osmia-->
             <div class="project" id="osmia">
                 <a href="Osmia.php">
-                    <img src="/Images/hero/osmia.webp" class="project-image" alt="osmia" >
+                    <img src="images/hero/osmia.webp" class="project-image" alt="osmia" >
                     <h3>Osmia - Web Design</h3>
                 </a>
             </div>
@@ -117,7 +117,7 @@
             <!-- Catan-->
             <div class="project">
                 <a href="Catan.php">
-                    <img src="/Images/hero/catan.webp" class="project-image" alt="Catan">
+                    <img src="images/hero/catan.webp" class="project-image" alt="Catan">
                     <h3>Catan - UX Audit</h3>
                 </a>
             </div>
@@ -125,7 +125,7 @@
             <!-- Project 5-->
             <div id="spotify" class="project">
                 <a href="Spotify.php">
-                    <img src="/Images/hero/spotify.webp" class="project-image" alt="spotify">
+                    <img src="images/hero/spotify.webp" class="project-image" alt="spotify">
                     <h3>Spotify - App Mobile: Nouvelle fonctionnalité</h3>
                 </a>
             </div>
@@ -133,7 +133,7 @@
             <!-- Project 6-->
              <div id="parents" class="project">
                 <a href="Parents.php">
-                    <img src="/Images/hero/parents.webp" class="project-image" alt="parents">
+                    <img src="images/hero/parents.webp" class="project-image" alt="parents">
                     <h3>Parents - Mobile App</h3>
                 </a>
             </div>

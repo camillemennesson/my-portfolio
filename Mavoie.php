@@ -38,7 +38,7 @@
         <h1>MaVoie</h1>
         <h2>Redesign du Site Web d’un acteur social d'insertion professionnelle
         </h2>
-        <img src="Images/mavoie.png" alt="MaVoie Image" class="project-image" id="hero-mavoie">
+        <img src="images/mavoie.png" alt="MaVoie Image" class="project-image" id="hero-mavoie">
     </header>
 
     <section class="case-study">
@@ -111,26 +111,26 @@
           
             <div class="image-item">
                 <p>Page d'accueil</p>
-                <img src="Images/homepage.png" alt="Description of image 1" class="site-image">
+                <img src="images/homepage.png" alt="Description of image 1" class="site-image">
             </div>
             <div class="image-item">
                 <p>Questionnaire</p>
-                <img src="Images/test.png" alt="Description of image 2" class="site-image">
+                <img src="images/test.png" alt="Description of image 2" class="site-image">
             </div>
             <div class="image-item">
                 <p>Page mission</p>
 
-                <img src="Images/mission.png" alt="Description of image 3" class="site-image">
+                <img src="images/mission.png" alt="Description of image 3" class="site-image">
             </div>
             <div class="image-item">
                 <p>Page formations</p>
 
-                <img src="Images/cards.png" alt="Description of image 4" class="site-image">
+                <img src="images/cards.png" alt="Description of image 4" class="site-image">
             </div>
             <div class="image-item">
                 <p>Page équipe</p>
 
-                <img src="Images/equipe.png" alt="Description of image 5" class="site-image">
+                <img src="images/equipe.png" alt="Description of image 5" class="site-image">
             </div>
         </div>
 

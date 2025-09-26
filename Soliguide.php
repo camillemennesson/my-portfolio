@@ -37,7 +37,7 @@
     <header class="intro">
         <h1>Soliguide</h1>
         <h2>App mobile pour les personnes en situation de précarité </h2>
-        <img src="Images/soliguide.png" alt="Soliguide Image" class="project-image">
+        <img src="images/soliguide.png" alt="Soliguide Image" class="project-image">
     </header>
 
     <section class="case-study">
@@ -128,16 +128,16 @@
 
             <div class="image-item">
                 <p>Onboarding (FTUE)</p>
-                <img src="Images/Soliguide1.png" alt="Description of image 1" class="site-image">
+                <img src="images/Soliguide1.png" alt="Description of image 1" class="site-image">
             </div>
             <div class="image-item">
                 <p>Démarrer une recherche</p>
 
-                <img src="Images/Soliguide3.png" alt="Description of image 3" class="site-image">
+                <img src="images/Soliguide3.png" alt="Description of image 3" class="site-image">
             </div>
             <div class="image-item">
                 <p>Consulter un résultat de recherche</p>
-                <img src="Images/Soliguide2.png" alt="Description of image 2" class="site-image">
+                <img src="images/Soliguide2.png" alt="Description of image 2" class="site-image">
             </div>
         </div>
 

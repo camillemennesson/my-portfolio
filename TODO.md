@@ -1,10 +1,27 @@
-# TODO for Adding Stamp Element to Homepage
+# TODO for Standardizing Image Src Paths
 
-## Steps from Approved Plan
+## Information Gathered
+- All images are located in the "images/" directory (lowercase) with subdirectories like "hero/", "icons/", etc., as per project structure.
+- Current inconsistencies: Paths use "/Images/" (absolute, capital 'I') or "Images/" (relative, capital 'I'), leading to potential 404 errors due to casing and absolute positioning.
+- Standardization: Change all to relative "images/subdir/filename.ext" (lowercase 'i', no leading slash) to match directory structure and ensure consistency across deployment.
 
-- [x] Step 1: Edit index.php - Wrap the .intro section in a new .intro-container div and add a .stamp div after it with the text "I coded this site from scratch". This positions the stamp next to the intro.
-- [x] Step 2: Edit styles/style.css - Add CSS for .intro-container (flex layout), .stamp (circular, rotated, bordered design), and @keyframes for animation (fade-in with scale/rotate). Include responsive adjustments for mobile.
-- [x] Step 3: Test the changes - Use browser_action to launch localhost:8000, verify the stamp appears next to intro on desktop (with animation), below on mobile, no overlaps or errors.
-- [x] Step 4: Update TODO.md - Mark completed steps and confirm final result.
+## Plan
+- Edit all PHP files containing <img src> tags to update paths.
+- Preserve alt texts, classes, and other attributes.
+- External script srcs (e.g., Google tags) remain unchanged.
 
-Next steps after completion: If issues, iterate on styles; otherwise, attempt_completion.
+## Dependent Files to be Edited
+- [x] index.php (project thumbnails in hero section)
+- [x] about.php (CV and LinkedIn images)
+- [x] Catan.php (case study images)
+- [x] Mavoie.php (case study images)
+- [x] Osmia.php (case study images)
+- [x] Parents.php (case study images)
+- [x] Riseup.php (case study images)
+- [x] Soliguide.php (case study images)
+- [x] Spotify.php (case study images)
+
+## Followup Steps
+- [ ] Test changes: Run `php -S localhost:8000`, launch browser, check console for no 404 errors on images, verify all load correctly.
+- [ ] Update TODO.md after each file edit.
+- [ ] If issues, check file casing in "images/" dir.

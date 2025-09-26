@@ -36,7 +36,7 @@
     <header class="intro">
         <h1>Catan</h1>
         <h2>Browser Game Analysis</h2>
-        <img src="Images/catan.png" alt="Catan Image" class="project-image">
+        <img src="images/catan.png" alt="Catan Image" class="project-image">
     </header>
 
     <section class="case-study">
@@ -83,7 +83,7 @@
                 </p>
            
             <div class="image-item">
-                <img src="Images/Catan1.gif" alt="Description of image 1" class="site-image">
+                <img src="images/Catan1.gif" alt="Description of image 1" class="site-image">
                 <p> <i>This is the first screen I see when landing on Catan Universe Browser Game.</i>
                 </p>
             </div>
@@ -96,7 +96,7 @@
                 <li>Add a close button (in coherence with the other screens interfaces)</li>
             </p>
             <div class="image-item">
-                <img src="Images/catan2.png" alt="Description of image 2" class="site-image">
+                <img src="images/catan2.png" alt="Description of image 2" class="site-image">
             </div>
         </div>
 
@@ -107,7 +107,7 @@
                     to reset my password and log-in (no, this is not normal).
                 </p>
                     <div class="image-item">
-                        <img src="Images/catan3.gif" alt="Description of image 3" class="site-image">
+                        <img src="images/catan3.gif" alt="Description of image 3" class="site-image">
                     </div>
                 <p>
                     <li> <b>No error prevention.</b> There’s no error prompt when mistyping an email address. I didn’t understand why I could not click on the new password button until I saw a missing character in my email.</li>
@@ -124,7 +124,7 @@
                     a game and play are missing and/or are badly delivered.
                 </p>
                     <div class="image-item">
-                    <img src="Images/catan4.gif" alt="Description of image 4" class="site-image">
+                    <img src="images/catan4.gif" alt="Description of image 4" class="site-image">
                     </div>
                 <p>
                     <li> <b>Issue of information structure.</b> “The Game” is the first option I’m given, what are the others? 
@@ -141,7 +141,7 @@
                 <li>Add an option to buy expansions if they are presented on the side of the screen.</li>
             </p>
             <div class="image-item">
-                <img src="Images/catan5.png" alt="Description of image 5" class="site-image">
+                <img src="images/catan5.png" alt="Description of image 5" class="site-image">
             </div>
         </div>
 
@@ -164,7 +164,7 @@
                 </div>
                 <div class="column">
                     <div class="image-item-catan">
-                        <img src="Images/catan6.gif" alt="Description of image 6" class="site-image">
+                        <img src="images/catan6.gif" alt="Description of image 6" class="site-image">
                     </div>
                 </div>
             </div>
@@ -180,7 +180,7 @@
             move (Aesthetics & Minimalist).
             </p>
                 <div class="image-item">
-                    <img src="Images/catan7.png" alt="Description of image 7" class="site-image">
+                    <img src="images/catan7.png" alt="Description of image 7" class="site-image">
                 </div>
                 <div class="ui-flex">
                     <div class="columns">
@@ -201,7 +201,7 @@
                         </div>
                         <div class="column">
                             <div class="image-item">
-                                <img src="Images/catan8.png" alt="Description of image 8" class="site-image">
+                                <img src="images/catan8.png" alt="Description of image 8" class="site-image">
                             </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
             </ul>
                 </div>
             <div class="image-item">
-                <img src="Images/catan9.gif" alt="Description of image 9" class="site-image">
+                <img src="images/catan9.gif" alt="Description of image 9" class="site-image">
                 <p> <i>An example of how quickly a turn goes.</i></p>
             </div>
             <ul>
@@ -252,7 +252,7 @@
                 </ul>
             </p>
                 <div class="image-item">
-                    <img src="Images/cards stack.png" alt="card stacks" class="site-image">
+                    <img src="images/cards stack.png" alt="card stacks" class="site-image">
                 </div>
 
             <p>
@@ -283,8 +283,8 @@
             </div>
             <div class="column">
                 <div class="image-item">
-                    <img src="Images/catan10.png" alt="Description of image 10" class="site-image">
-                    <img src="Images/catan11.png" alt="Description of image 11" class="site-image">
+                    <img src="images/catan10.png" alt="Description of image 10" class="site-image">
+                    <img src="images/catan11.png" alt="Description of image 11" class="site-image">
                 </div>
             </div>
             </div>
@@ -301,7 +301,7 @@
                 for new players who are discovering it now.
             </p>
             <div class="image-item">
-                <img src="Images/catan12.png" alt="Description of image 12" class="site-image">
+                <img src="images/catan12.png" alt="Description of image 12" class="site-image">
             </div>
         </div>
         
