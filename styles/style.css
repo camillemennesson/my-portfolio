@@ -81,6 +81,12 @@ ul {
     text-decoration: none;   
  }
 
+ /* 2. Make wrapper full width so no side gaps */
+#wrapper {
+  margin: 0;       /* remove 2rem margin on sides you had */
+  padding: 0 2rem; /* internal padding only, so content inside can have margin */
+  max-width: none; /* remove any max-width constraint that could cause centering gaps */
+}
 
 /* Intro Section Styles */
 .hero-background {
@@ -91,10 +97,6 @@ ul {
   padding-bottom: 3rem;
   filter: contrast(1.05) brightness(0.98);
 }
-
-
-
-
 
 
 .intro-container {
