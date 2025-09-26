@@ -288,12 +288,40 @@ p {
 
 /* PETIT ÉCRAN : position sous les ticks et centré */
 @media (max-width: 1023px) {
+  .intro-container {
+    flex-direction: column;
+    align-items: center;
+  }
   .stamp-container {
     position: relative;       /* redevenir relatif dans le flux */
     top: auto;                /* reset top absolu */
     right: auto;              /* reset right absolu */
     margin: 2rem auto 0 auto; /* centré horizontalement et un peu d’espace au-dessus */
     width: 120px;             /* taille plus petite */
+    height: 120px;
+    order: 2; /* Ensure stamp comes after intro */
+  }
+  .intro {
+    order: 1; /* Intro with ticks first */
+  }
+}
+
+@media (max-width: 1023px) {
+  /* Ticks en colonne alignés à droite */
+  .ticks-line {
+    flex-direction: column;
+    align-items: flex-end; /* alignement à droite */
+    gap: 1rem; /* espace vertical entre les ticks */
+    margin-top: 2rem;
+  }
+
+  /* Stamp sous les ticks et centré */
+  .stamp-container {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 1.5rem auto 0 auto; /* centré horizontalement, espace au-dessus */
+    width: 120px;
     height: 120px;
   }
 }
