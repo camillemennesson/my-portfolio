@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 /* Navigation Bar Styles */
 #btn {
   display: none;
 }
-
 .navbar-white{
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
@@ -143,6 +144,27 @@ margin: 0;
 }
 
 
+
+.nav__Logo {
+  font-family: 'Indie Flower', cursive !important;
+  font-size: 1.2rem !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  text-decoration: none !important;
+}
+
+.nav__Logo .logo-text {
+  display: inline-block !important;
+}
+
+.navbar-white .nav__Logo {
+  color: #000 !important;
+}
+
+.navbar-black .nav__Logo {
+  color: #fff !important;
+}
 
 /*Footer*/
 

@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const footerType = document.getElementById('footer-placeholder').getAttribute('data-footer-type');
 
   // Fetch and display navbar
-  fetch('components/navbar.html')
+  fetch('components/navbar.html?v=' + Date.now())
       .then(response => response.text())
       .then(data => {
           const tempDiv = document.createElement('div');

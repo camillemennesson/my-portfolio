@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk:wght@100..900&display=swap');
+
 /* Local Euclid Circular A Font Faces */
 @font-face {
     font-family: 'Euclid Circular A';
@@ -1533,6 +1535,13 @@ max-width: 600px;
 .icon-wrapper .bi-check {
     color: white;
     font-size: 1.2rem;
+}
+
+/* Logo Image Styling */
+.nav__Logo .logo-img {
+  width: 200px;
+  height: auto;
+  vertical-align: middle;
 }
 
 
