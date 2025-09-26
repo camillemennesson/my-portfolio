@@ -157,8 +157,6 @@
         <i class="bi bi-arrow-up-circle-fill"></i>
     </button>
 
-</div>
-
 <div id="footer-placeholder" data-footer-type="white"></div>
 <div id="floating-nav-placeholder"></div>
 
