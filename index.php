@@ -43,17 +43,15 @@
     <div id="wrapper" >
      <!-- Name and Description Section -->
      <section class="intro">
-        <h1>Camille Mennesson</h1>
-            <p>Designer Freelance depuis 4 ans pour des projets de conception UX et UI.</p>
-            <p>J'ai travaillé pendant 5 ans avec des équipes tech
-            internationales et multidisciplinaires.</p>
-            <p>J'ai les bases en <u> développement front.</u>
-             D'ailleurs, j'ai développé
-            ce site 'from scratch' (avec un peu d'aide de l'IA..) !</p>
+        <h1>UX/UI Designer freelance depuis 4 ans.</h1>
+            <p>Je conçois des applications web et mobile pour des clients en France et à l'international.</p>
+            <p>Ancienne responsable marketing dans la publicité et les jeux vidéo, je crée des expériences qui captent et accompagnent les utilisateurs. </p>
+        
         <div class="ticks-line">
-            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Expériences Web & mobile</span>
-            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Intégration</span>
-            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Front-end</span>
+            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Recherche utilisateur</span>
+            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Prototypage</span>
+            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>UI Kit</span>
+            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Vibe-coding ✨</span>
         </div>
         
     </section>
