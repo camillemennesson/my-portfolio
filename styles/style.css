@@ -253,7 +253,7 @@ p {
 
 /* Stamp Element Styles */
 .stamp-container {
-  position: absolute; /* par défaut pour desktop */
+  position: fixed; /* par défaut pour desktop */
   top: 460px;
   right: 1rem;
   width: 160px;
