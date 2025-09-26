@@ -160,17 +160,27 @@ margin: 0 2rem 0 2rem;
 
 
 
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    max-width: 976px;
+    margin: auto;
+    padding-bottom: 6rem;
+}
+
 .intro {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    max-width: 976px;
+    flex: 1;
+    margin: auto 0;
     position: relative;
     z-index: 1;
-    padding-bottom: 6rem;
 }
 
 .intro h1 {
@@ -212,10 +222,10 @@ p {
 /* Stamp Element Styles */
 .stamp-container {
   position: absolute; /* or fixed */
-  top: 20px;
-  right: 20px;
-  width: 120px;      /* adjust size */
-  height: 120px;     /* adjust size */
+  top: 460px;
+  right: 60px;
+  width: 160px;      /* adjust size */
+  height: 160px;     /* adjust size */
   z-index: 9999;
   transform: rotate(-5deg); /* optional tilt */
 }
