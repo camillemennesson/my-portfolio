@@ -1413,3 +1413,10 @@ max-width: 600px;
     .box {
         display: none;
     }
+
+.green-tick {
+    color: #28a745;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+}
