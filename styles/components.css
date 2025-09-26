@@ -172,11 +172,10 @@ margin: 0;
   display: flex;
   justify-content: center;
   text-align: center;
-  background: #ffffff;
+  background: #F7F6EB;
   color: #000000;
   width: 100%;
-  border-top: 1px solid #e0e0e0;
-  margin-bottom: 6rem;
+  margin-bottom: 12rem;
 }
 
 .footer-black {
