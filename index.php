@@ -42,6 +42,7 @@
 
     <div id="wrapper" >
      <!-- Name and Description Section -->
+     <div class="intro-container">
      <section class="intro">
         <h1>UX/UI Designer freelance depuis 4 ans.</h1>
             <p>Je conçois des applications web et mobile pour des clients en France et à l'international.</p>
@@ -55,6 +56,13 @@
         </div>
         
     </section>
+
+   <div class="stamp-container">
+  <img src="stamp.png" alt="I coded this site from scratch" class="stamp">
+</div>
+
+
+    </div>
     </div>
         <div class="h2-intro">
             <img src="images/scribblearrow.png" alt="Découvrir mes projets" 
