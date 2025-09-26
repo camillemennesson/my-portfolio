@@ -158,8 +158,6 @@ margin: 0 2rem 0 2rem;
 
 
 
-
-
 .intro-container {
     display: flex;
     flex-direction: row;
@@ -255,14 +253,13 @@ p {
 
 /* Stamp Element Styles */
 .stamp-container {
-  position: absolute; /* or fixed */
-  top: 460px;
-  right: 10px;
-  width: 160px;      /* adjust size */
-  height: 160px;     /* adjust size */
-  z-index: 9999;
-  transform: rotate(-5deg); /* optional tilt */
+  position: relative; /* par défaut dans le flux */
+  width: 160px;      /* taille par défaut */
+  height: 160px;
+  margin: 2rem auto 0 auto; /* centré sur mobile */
+  transform: rotate(-5deg); 
   animation: stamp-pop 1s ease-out forwards;
+  z-index: 9999;
 }
 
 /* Make sure the SVG fills the container */
@@ -278,7 +275,26 @@ p {
   100% { transform: scale(1) rotate(-5deg); }
 }
 
+/* GRAND ÉCRAN : position absolue sur le coin */
+@media (min-width: 1024px) {
+  .stamp-container {
+    position: absolute;
+    top: 460px; /* ton top actuel */
+    right: 10px; /* ton right actuel */
+    margin: 0;
+  }
+}
 
+/* PETIT ÉCRAN : centré sous le contenu */
+@media (max-width: 1023px) {
+  .stamp-container {
+    width: 120px; /* réduire un peu sur mobile */
+    height: 120px;
+    margin: 2rem auto 0 auto; /* centré */
+    top: auto;
+    right: auto;
+  }
+}
 
 /*TITLES*/
 
