@@ -75,7 +75,9 @@
 }
 
 .nav__list a {
-margin: 0;}
+margin: 0;
+  font-size: 1rem;
+}
 
 .nav__list li:last-child {
   margin-right: 0; /* Remove margin from the last item */
@@ -85,6 +87,7 @@ margin: 0;}
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Inherit color from parent */
   font-weight: 500; /* Optional: set font weight */
+  font-size: 1rem;
 }
 
 .nav__link:hover {
@@ -193,6 +196,7 @@ margin: 0;}
 .footer-links a {
   color: #000000;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 .footer-black .footer-links a {
