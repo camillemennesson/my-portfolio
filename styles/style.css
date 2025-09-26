@@ -1,4 +1,3 @@
-
 /* EUCLID CIRCULAR A - USED WEIGHTS ONLY */
 @font-face {
     font-family: 'Euclid Circular A';
@@ -81,7 +80,7 @@ ul {
     text-decoration: none;   
  }
 
- /* 2. Make wrapper full width so no side gaps */
+/* 2. Make wrapper full width so no side gaps */
 #wrapper {
   margin: 0;       /* remove 2rem margin on sides you had */
   padding: 0 2rem; /* internal padding only, so content inside can have margin */
@@ -341,6 +340,16 @@ section {
     box-sizing: border-box;
 }
 
+#Work {
+    max-width: none;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
 .h2-intro  {
     display:none;
     align-items:center;
@@ -518,6 +527,7 @@ a {
 }
 
 /*OSMIA*/
+
 
 
 .case-study .osmia h2 {
@@ -1117,12 +1127,19 @@ a {
 
 .contact {
     display: flexbox;
-    background-color: none;
+    background-color: #d4d8fa;
     padding: 20px;
     text-align: center;
     border-radius: 4px;
-    margin-bottom:60px;
+    margin-bottom:0;
     align-items: center;
+    max-width: none;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 
