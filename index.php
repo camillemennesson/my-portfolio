@@ -101,7 +101,7 @@
             <!-- Project 2-->
             <div class="project">
             <a href="Soliguide.php">
-                <img src="images/hero/soliguide.webp" class="project-image" alt="soliguide" >
+                <img src="images/soliguide" class="project-image" alt="soliguide" >
                 <h3>Soliguide - Refonte UX de l'app mobile</h3>
             </a>
             </div>
