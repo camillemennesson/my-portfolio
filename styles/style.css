@@ -95,6 +95,7 @@ ul {
   padding-top: 1rem;
   padding-bottom: 3rem;
   filter: contrast(1.05) brightness(0.98);
+  z-index: 999;
 }
 
 
