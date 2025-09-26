@@ -256,8 +256,8 @@ p {
 /* Stamp Element Styles */
 .stamp-container {
   position: absolute; /* or fixed */
-  top: 12rem;
-  right: 20px;
+  top: 460px;
+  right: 60px;
   width: 160px;      /* adjust size */
   height: 160px;     /* adjust size */
   z-index: 9999;
