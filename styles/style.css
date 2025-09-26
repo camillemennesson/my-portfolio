@@ -253,11 +253,12 @@ p {
 
 /* Stamp Element Styles */
 .stamp-container {
-  position: relative; /* par défaut dans le flux */
-  width: 160px;      /* taille par défaut */
+  position: absolute; /* par défaut pour desktop */
+  top: 460px;
+  right: 10px;
+  width: 160px;
   height: 160px;
-  margin: 2rem auto 0 auto; /* centré sur mobile */
-  transform: rotate(-5deg); 
+  transform: rotate(-5deg);
   animation: stamp-pop 1s ease-out forwards;
   z-index: 9999;
 }
@@ -285,14 +286,15 @@ p {
   }
 }
 
-/* PETIT ÉCRAN : centré sous le contenu */
+/* PETIT ÉCRAN : position sous les ticks et centré */
 @media (max-width: 1023px) {
   .stamp-container {
-    width: 120px; /* réduire un peu sur mobile */
+    position: relative;       /* redevenir relatif dans le flux */
+    top: auto;                /* reset top absolu */
+    right: auto;              /* reset right absolu */
+    margin: 2rem auto 0 auto; /* centré horizontalement et un peu d’espace au-dessus */
+    width: 120px;             /* taille plus petite */
     height: 120px;
-    margin: 2rem auto 0 auto; /* centré */
-    top: auto;
-    right: auto;
   }
 }
 
