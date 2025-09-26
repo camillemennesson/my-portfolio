@@ -310,7 +310,7 @@ p {
   /* Ticks en colonne alignés à droite */
   .ticks-line {
     flex-direction: column;
-    align-items: flex-end; /* alignement à droite */
+    align-items: flex-start; /* alignement à droite */
     gap: 1rem; /* espace vertical entre les ticks */
     margin-top: 2rem;
   }
