@@ -905,7 +905,6 @@ a {
     margin: 0;
     justify-content: left;
 }
-}
 
 .card-text-left {
         backdrop-filter: blur(12px);
@@ -1052,7 +1051,7 @@ a {
 
 #button-black {
     display: inline-block; /* Make the link behave like a block element */
-    padding: 12px 20px; /* Add padding for a button-like appearance */
+    padding: 12px 20px; /* Add padding for a better appearance */
     background-color: #000000; /* Button background color */
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
@@ -1417,181 +1416,4 @@ max-width: 600px;
 
     .flex-image-left img,
     .flex-image-right img {
-        width: 80%; /* Reduce width of images */
-        margin: 0; /* Remove margins */
-    }    
-}
-    /* Media Query to remove background circles on small screens */
-@media (max-width: 768px) {
-    .flex-section::before,
-    .flex-section::after {
-        display: none; /* Hide the circles */
-    }
-}   
-
-@media (max-width: 768px) {
-    .card-container { /* Change to the actual class used for your cards */
-        flex-direction: column;
-        align-items: center; /* Center align cards */
-        width: 100%; /* Ensure they take full width */
-    }
-
-    .card-container .right-card {
-        max-width: 100%; /* Adjust width as needed */
-        margin: 0;
-        position: relative;
-    }
-    
-    .card-container .left-card {
-         max-width: 100%; /* Adjust width as needed */
-         margin: 0;
-         position: relative;
-     }
-}
-      
-    
-    
-    /* Disable hover effects on mobile */
-    @media (max-width: 768px) {
-        .project:hover {
-            transform: none; /* Disable hover effect */
-        }
-    
-        .button:hover {
-            background-color: #000000; /* Keep the original background color */
-            transform: none; /* Disable hover effect */
-        }
-    
-        .bi-arrow-down-circle:hover  {
-            transform: none; /* Disable hover effect */
-        }
-    
-    .logo img {
-        width: 22px;
-        height: auto;
-    }
-
-    .intro-container {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .stamp {
-        width: 120px;
-        height: 120px;
-        font-size: 0.8rem;
-    }
-}
-
-
-.logo {
- display: flex;
- align-items: center;
-}
-
-.logo img {
-    width: 40px;
-    height: auto;
-}
-
-
-
-/* Responsive Layout */
-
-/* SLIDER */
-
-  .slider-container {
-    width: 80%; /* Adjust width as needed */
-    max-width: 600px; /* Maximum width */
-    position: relative;
-    overflow: hidden;
-}
-
-.slider {
-    position: relative;
-}
-
-.slider-content {
-    display: flex;
-    transition: transform 0.5s ease; /* Smooth transition */
-}
-
-.slide {
-    min-width: 100%; /* Each slide takes full width of the container */
-    display: none; /* Hide all slides by default */
-}
-
-.slide.active {
-    display: block; /* Show the active slide */
-}
-
-.slider-nav {
-    position: absolute;
-    bottom: 10px; /* Position the arrows below the images */
-    left: 50%;
-    transform: translateX(-50%); /* Center the arrows */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.previous, .next {
-    background: rgba(255, 255, 255, 0.8);
-    border: none;
-    font-size: 2rem;
-    font-weight: 700; /* Make text bolder */
-    cursor: pointer;
-    margin: 0 10px; /* Space between arrows */
-    padding: 5px 10px; /* Padding for buttons */
-    border-radius: 24px; /* Rounded corners */
-    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transition effect for hover */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-.previous:hover, .next:hover {
-    background: rgba(255, 255, 255, 1); /* Change background on hover */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
-}
-
-.ticks-line {
-    display: flex;
-    justify-content: center;
-    gap: 0.8rem;
-    margin: 2.5rem 0 2rem 0;
-}
-
-.tick-item {
-    display: flex;
-    align-items: center;
-    color: #5b5b5b;
-    font-size: 1.2rem;
-    margin-right: 1rem;
-    font-weight: 500;
-}
-
-.icon-wrapper {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 1.2rem;
-    height: 1.2rem;
-    background-color: #10b981;
-    margin-right: 0.5rem;
-}
-
-.icon-wrapper .bi-check {
-    color: white;
-    font-size: 1.2rem;
-}
-
-/* Logo Image Styling */
-.nav__Logo .logo-img {
-  width: 200px;
-  height: auto;
-  vertical-align: middle;
-}
-
-
-
-
-
+        width:
