@@ -253,9 +253,9 @@ p {
 
 /* Stamp Element Styles */
 .stamp-container {
-  position: fixed; /* par défaut pour desktop */
+  position: absolute; /* par défaut pour desktop */
   top: 460px;
-  right: 1rem;
+  right: 20px;
   width: 160px;
   height: 160px;
   transform: rotate(-5deg);
