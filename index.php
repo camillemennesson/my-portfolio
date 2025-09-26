@@ -50,11 +50,17 @@
             <p>J'ai les bases en <u> développement front.</u>
              D'ailleurs, j'ai développé
             ce site 'from scratch' (avec un peu d'aide de l'IA..) !</p>
+        <div class="ticks-line">
+            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Expériences Web & mobile</span>
+            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Intégration</span>
+            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Front-end</span>
+        </div>
         
     </section>
     </div>
         <div class="h2-intro">
-            <img src="images/scribblearrow.png" alt="Découvrir mes projets" style="height: 80px; width: auto; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1)); transform: rotate(59deg);">
+            <img src="images/scribblearrow.png" alt="Découvrir mes projets" 
+            style="height: 80px; width: auto; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1)); transform: rotate(59deg);">
         </div>
 </div>
 

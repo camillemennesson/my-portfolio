@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Euclid+Circular+A:wght@300;400;500;600;700&display=swap');
+
 /* Reset some default styles */
 * {
     margin: 0;
@@ -5,9 +7,9 @@
     box-sizing: border-box;
 }
 
-  
+
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Euclid Circular A', sans-serif;
     line-height: 1.7rem;
     min-height: 100vh;
     margin: 0;
@@ -1422,6 +1424,37 @@ max-width: 600px;
 .previous:hover, .next:hover {
     background: rgba(255, 255, 255, 1); /* Change background on hover */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.ticks-line {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    margin: 2.5rem 0 2rem 0;
+}
+
+.tick-item {
+    display: flex;
+    align-items: center;
+    color: #5b5b5b;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+.icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: #10b981;
+    margin-right: 0.5rem;
+}
+
+.icon-wrapper .bi-check {
+    color: white;
+    font-size: 1.2rem;
 }
 
 
