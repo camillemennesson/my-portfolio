@@ -92,7 +92,7 @@ margin: 0;
 }
 
 .nav__link:hover {
-  color: #007bff; /* Change to your desired hover color */
+  color: #8b95f0; /* Change to your desired hover color */
   transform: scale(1.05); /* Slightly increase size on hover */
 }
 
@@ -225,7 +225,7 @@ margin: 0;
 }
 
 .footer-links :hover {
-  color: #007bff; /* Change to your desired hover color */
+  color: #8b95f0; /* Change to your desired hover color */
   transform: scale(1.05); /* Slightly increase size on hover */
 }
 
