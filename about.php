@@ -41,32 +41,28 @@
     </section>
 
 <div class="about-flex">
+ <!-- CV Picture-->
+    <div class="cv">
+    <img src="images/CV PNG MAI 2025.png" alt="cv">
+    </div>
+
 <!-- LinkedIn Section-->
  <div class="linkedin-section">
-    <div class="linkedin-pic">
-        <a href="https://linkedin.com/in/cmennesson">
-            <img src="images/linkedin picture.png" alt="linkedin picture">
-        </a>
-    </div>
     <div class="linkedin-description">
         <p> UX/UI designer freelance depuis 4 ans, basée à Bordeaux.</p>
         <p>J'ai +5 ans d'expérience au sein d'équipes tech internationales chez Google et Gameloft.</p>
         <p>Passionnée de jeu vidéo 🎮  et d'expériences digitales immersives, je suis rigoureuse, autonome et excellente communicante.</p>
         <p><b>Compétences clés: recherche & tests utilisateurs, wireframing & prototypage, delivery, intégration front </b></p>
+        <a href="https://calendar.app.google/JfZFR5gZyS873HYUA" class="button-secondary" target="_blank">Prendre un rendez-vous</a>
     </div>
 </div>
-
- <!-- CV Picture-->
-    <div class="cv">
-    <img src="images/CV PNG MAI 2025.png" alt="cv">
-    </div>
 </div>
 
 <!-- Download Resume -->
  <section id="download-resume">
     <div class="download-resume-image">
     <a  target="_blank" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing">
-        <img src="images/two doodle characters shaking hands.png" alt="sculpture le penseur de Rodin">
+        <img src="images/two doodle characters shaking hands.png" alt="doodle characters shaking hands">
     </a>  
 </div>
      <div>

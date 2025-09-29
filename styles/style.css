@@ -1,4 +1,4 @@
-/* EUCLID CIRCULAR A - USED WEIGHTS ONLY */
+ /* EUCLID CIRCULAR A - USED WEIGHTS ONLY */
 @font-face {
     font-family: 'Euclid Circular A';
     src: url('../fonts/euclid-circular-a/EuclidCircularA-Light.woff2') format('woff2'),
@@ -83,7 +83,7 @@ ul {
 /* 2. Make wrapper full width so no side gaps */
 #wrapper {
   margin: 0;       /* remove 2rem margin on sides you had */
-  padding: 0 2rem; /* internal padding only, so content inside can have margin */
+  padding: 0 5rem; /* internal padding only, so content inside can have margin */
   max-width: none; /* remove any max-width constraint that could cause centering gaps */
 }
 
@@ -245,7 +245,7 @@ p {
     position: relative;       /* redevenir relatif dans le flux */
     top: auto;                /* reset top absolu */
     right: auto;              /* reset right absolu */
-    margin: 2rem auto 0 auto; /* centré horizontalement et un peu d’espace au-dessus */
+    margin: 2rem auto 0 auto; /* centré horizontalement et un peu d'espace au-dessus */
     width: 120px;             /* taille plus petite */
     height: 120px;
     order: 2; /* Ensure stamp comes after intro */
@@ -1109,6 +1109,27 @@ a {
     box-shadow: 0 6px 16px #1f1f1f40; /* Enhanced shadow on hover */
 }
 
+.button-secondary {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 4em;
+    border: 2px solid #000000;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 1em;
+    box-shadow: 0 4px 4px #1f1f1f40;
+}
+
+.button-secondary:hover {
+    background-color: #000000;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px #1f1f1f40;
+}
+
 
 .work-flex {
   display: flex;
@@ -1218,6 +1239,8 @@ a {
     display: flex; /* Use flexbox for layout */
     align-items: center;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -1226,8 +1249,8 @@ a {
     flex-direction: column; /* Stack the image and paragraph vertically */
     align-items: center; /* Center items horizontally */
     text-align: center; /* Center text */
-    margin-right: 4rem;
-    
+    flex: 1;
+    max-width: 600px;
 }
 
 .linkedin-section img {
@@ -1236,16 +1259,17 @@ a {
     width: 100%;
 }
 
-.cv {
-    width:  80%;
-    }
-    
 
+
+.cv {
+    flex: 1;
+    margin: 0 2rem;
+}
 
 .cv img {
 height: auto;
 width:  100%;
-max-width: 600px;
+max-width: 400px;
 }
 
 .linkedin-description {
@@ -1270,6 +1294,9 @@ max-width: 600px;
     width: 120px;
     height: 120px;
     max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 
 }
 
@@ -1442,30 +1469,4 @@ max-width: 600px;
 
 
     .div-center {
-        margin-top: 5rem; /* Adjust top margin */
-    }
-
-
-    .animation img {
-        width: 100%;
-    }
-    
-    .disiz img {
-        width: 100%;
-    }
-
-    .disiz {
-        margin: 7rem 0 7rem 0;
-        }
-
-    .div-center img {
-        width: 100%;
-        margin-top: 0;
-    }  
-
-    .box {
-        display: none;
-    }
-
-
-}
+        margin-top:
