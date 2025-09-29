@@ -147,7 +147,7 @@ margin: 0;
 
 .nav__Logo {
   font-family: 'Indie Flower', cursive !important;
-  font-size: 1.2rem !important;
+  font-size: 0.8rem !important;
   line-height: 1 !important;
   display: flex !important;
   align-items: center !important;
@@ -602,6 +602,11 @@ body {
 }
 .slide-hover:hover:before{
   width:100%
+}
+
+.logo-img {
+  width: 200px;
+  height: auto;
 }
 
 
