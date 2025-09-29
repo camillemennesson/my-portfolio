@@ -1120,14 +1120,14 @@ a {
     border: 2px solid #000000;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 1em;
-    box-shadow: 0 4px 4px #1f1f1f40;
+    box-shadow: 0 4px 4px rgba(31,31,31,0.25);
 }
 
 .button-secondary:hover {
     background-color: #000000;
     color: white;
     transform: scale(1.05);
-    box-shadow: 0 6px 16px #1f1f1f40;
+    box-shadow: 0 6px 16px rgba(31,31,31,0.25);
 }
 
 
@@ -1137,7 +1137,7 @@ a {
   gap: 20px;
   justify-content: center;
   margin: 0; /* Remove external margin */
-  padding: 6rem 1rem; /* Internal spacing only */
+  padding: 6rem 6rem; /* Internal spacing only */
   background-color: #d4d8fa;
   width: 100%;
   box-sizing: border-box;
@@ -1469,4 +1469,7 @@ max-width: 400px;
 
 
     .div-center {
-        margin-top:
+        margin-top: 5rem;
+    }
+
+}
