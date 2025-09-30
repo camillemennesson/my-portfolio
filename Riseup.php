@@ -26,55 +26,7 @@
 
 </head>
     
-    <body id="riseup">
-
-<div id="navbar-placeholder" data-navbar-type="white"></div>
-<script src="components/components.js"></script>
-
-<div id="floating-nav-placeholder">
-<nav id="floating-nav">
-  <div class="nav-wrapper">
-    <div class="nav-content">
-          <a class="nav-link" href="index.php" id="link1" alt="home page">
-            <div class="nav-icon">
-            <i class="bi bi-house"></i>
-          </div>
-          </a>
-        <a href="about.php" class="nav-link" id="link2" alt="about page">
-          <div class="nav-icon">
-          <i class="bi bi-person"></i>
-          </div>
-        </a>
-          <a href="index.php#Work" class="nav-link" id="link3" alt="project page">
-            <div class="nav-icon">
-            <i class="bi bi-pen"></i>
-          </div>
-          </a>
-      <div class="separator"> </div>
-      <a class="nav-link" target="_blank" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view" alt="resume link">
-        <div class="nav-icon">
-        <i class="bi bi-file-earmark-text"></i>
-        </div>
-    </a>
-    <a id="btn" class="nav-link" href="btn.php" alt="buttons collection page">
-      <div id="btn" class="nav-icon">
-          <i class="bi bi-code"></i>
-      </div>
-    </a>
-    <a target="_blank" id="linkedin" class="nav-link" href="https://linkedin.com/in/cmennesson" alt="linkedin profile">
-      <div id="linkedin" class="nav-icon">
-          <i class="bi bi-linkedin"></i>
-      </div>
-    </a>
-    <a target="_blank" id="figma" href="https://www.figma.com/@cmennesson" class="nav-link" alt="figma link">
-        <div class="nav-icon">
-          <img src="/images/figma.svg" alt="Figma icon">
-        </div>
-    </a>
-
-    </div>
-  </div>
-</nav></div>
+<body id="riseup">
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
