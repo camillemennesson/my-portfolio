@@ -106,7 +106,7 @@
                  Thanks to her expertise and drive, we delivered on time and with a result we’re proud of.</p>
             <footer>
                 <img src="images/samhebron.jpeg" alt="Samantha Hebron" class="author-image">
-               <span> Samantha Hebron<br>Head of Marketing @Rise Up
+               <span> <a href="https://www.linkedin.com/in/cmennesson/details/recommendations/?detailScreenTabIndex=0&locale=en_US" target="_blank" rel="noopener noreferrer">Samantha Hebron</a><br>Head of Marketing @Rise Up
                 </span>
             </footer>
         </blockquote>
