@@ -31,31 +31,13 @@
 <div id="floating-nav-placeholder"></div>
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
-<div id="wrapper">
 
-    <header class="intro">
+<div id="wrapper">
+<header class="intro">
 <div class="intro-body">
     <div class="intro-text">
         <h1>Catan</h1>
         <h2>Browser Game Analysis</h2>
-    </div>
-    <div class="intro-meta">
-        <dl>
-            <dt>Client</dt>
-            <dd>Catan</dd>
-        </dl>
-        <dl>
-            <dt>Role</dt>
-            <dd>Catan</dd>
-        </dl>
-        <dl>
-            <dt>Timeframe</dt>
-            <dd>Catan</dd>
-        </dl>
-        <dl>
-            <dt>Link</dt>
-            <dd>Catan</dd>
-        </dl>
     </div>
 </div>
      <div class="intro-image">

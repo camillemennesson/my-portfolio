@@ -42,21 +42,18 @@
     </div>
     <div class="intro-meta">
         <dl>
-            <dt>Client</dt>
-            <dd>SOLIGUIDE</dd>
-        </dl>
-        <dl>
-            <dt>Role</dt>
-            <dd>SOLIGUIDE</dd>
+            <dt>Rôle</dt>
+            <dd>UX/UI DESIGN</dd>
         </dl>
         <dl>
             <dt>Timeframe</dt>
-            <dd>SOLIGUIDE</dd>
+            <dd>6 MOIS</dd>
         </dl>
         <dl>
-            <dt>Link</dt>
-            <dd>SOLIGUIDE</dd>
+            <dt>Outils</dt>
+            <dd>FIGMA, USABILITYHUB, GOOGLE ANALYTICS</dd>
         </dl>
+    
     </div>
 </div>
      <div class="intro-image">

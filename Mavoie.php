@@ -44,21 +44,18 @@
     </div>
     <div class="intro-meta">
         <dl>
-            <dt>Client</dt>
-            <dd>MaVoie</dd>
-        </dl>
-        <dl>
-            <dt>Role</dt>
-            <dd>MaVoie</dd>
+            <dt>Rôle</dt>
+            <dd>RECHERCHE, UX/UI DESIGN</dd>
         </dl>
         <dl>
             <dt>Timeframe</dt>
-            <dd>MaVoie</dd>
+            <dd>1 AN</dd>
         </dl>
         <dl>
-            <dt>Link</dt>
-            <dd>MaVoie</dd>
+            <dt>Outils</dt>
+            <dd>FIGMA, AIRTABLE, WEBFLOW, HOTJAR</dd>
         </dl>
+       
     </div>
 </div>
      <div class="intro-image">
