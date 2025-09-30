@@ -107,7 +107,7 @@ ul {
     max-width: 976px;
     margin: auto;
     padding-top: 3rem;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
 }
 
 
@@ -333,7 +333,7 @@ p {
 /* Stamp Element Styles */
 .stamp-container {
   position: absolute; /* par défaut pour desktop */
-  top: 250px;
+  top: 20px;
   right: 20px;
   width: 160px;
   height: 160px;
