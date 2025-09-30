@@ -36,11 +36,35 @@
 <div id="wrapper">
 
     <header class="intro">
+<div class="intro-body">
+    <div class="intro-text">
         <h1>MaVoie</h1>
         <h2>Redesign du Site Web d’un acteur social d'insertion professionnelle
         </h2>
+    </div>
+    <div class="intro-meta">
+        <dl>
+            <dt>Client</dt>
+            <dd>MaVoie</dd>
+        </dl>
+        <dl>
+            <dt>Role</dt>
+            <dd>MaVoie</dd>
+        </dl>
+        <dl>
+            <dt>Timeframe</dt>
+            <dd>MaVoie</dd>
+        </dl>
+        <dl>
+            <dt>Link</dt>
+            <dd>MaVoie</dd>
+        </dl>
+    </div>
+</div>
+     <div class="intro-image">
         <img src="images/mavoie.png" alt="MaVoie Image" class="project-image" id="hero-mavoie">
-    </header>
+    </div>
+</header>
 
     <section class="case-study">
         <div class="sommaire">

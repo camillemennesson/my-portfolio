@@ -30,25 +30,35 @@
 <div id="navbar-placeholder" data-navbar-type="black"></div>
 <div id="wrapper">
 
-    <header class="intro">
+<header class="intro">
+<div class="intro-body">
+    <div class="intro-text">
         <h1>Spotify</h1>
-
-        <div class="intro-flex">
-            <div class="flex-text">
-                <h2>Nouvelle fonctionnalité Spotify</h2>
-                <p>Il s'agit d'un projet personnel basé sur l'UI de l'app.
-                    Étant une utilisatrice quotidienne de Spotify, j'ai toujours 
-                    voulu une fonctionnalité dédiée aux amoureux de la musique.
-                    <br><br> Voici la présentation d'une interface repensée pour les amateurs 
-                    de chansons avec une fonctionnalité centrée sur les chansons samplées 
-                    et leurs originaux.
-                </p>
-            </div>
-            <div class="flex-image">
-            <img src="images/spotify1.png">
-        </div>
-        </div>
-    </header>
+        <h2>Nouvelle fonctionnalité Spotify</h2>
+    </div>
+    <div class="intro-meta">
+        <dl>
+            <dt>Client</dt>
+            <dd>SPOTIFY</dd>
+        </dl>
+        <dl>
+            <dt>Role</dt>
+            <dd>SPOTIFY</dd>
+        </dl>
+        <dl>
+            <dt>Timeframe</dt>
+            <dd>SPOTIFY</dd>
+        </dl>
+        <dl>
+            <dt>Link</dt>
+            <dd>SPOTIFY</dd>
+        </dl>
+    </div>
+</div>
+     <div class="intro-image">
+        <img src="images/spotify.png" alt="Spotify Image" class="project-image" id="hero-spotify">
+    </div>
+</header>
 
     <section class="case-study">
         <h2 id="h2-center">Redesign page d'accueil </h2>

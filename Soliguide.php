@@ -34,11 +34,35 @@
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 <div id="wrapper">
 
-    <header class="intro">
+<header class="intro">
+<div class="intro-body">
+    <div class="intro-text">
         <h1>Soliguide</h1>
-        <h2>App mobile pour les personnes en situation de précarité </h2>
-        <img src="images/soliguide.png" alt="Soliguide Image" class="project-image">
-    </header>
+        <h2>App mobile pour les personnes en situation de précarité</h2>
+    </div>
+    <div class="intro-meta">
+        <dl>
+            <dt>Client</dt>
+            <dd>SOLIGUIDE</dd>
+        </dl>
+        <dl>
+            <dt>Role</dt>
+            <dd>SOLIGUIDE</dd>
+        </dl>
+        <dl>
+            <dt>Timeframe</dt>
+            <dd>SOLIGUIDE</dd>
+        </dl>
+        <dl>
+            <dt>Link</dt>
+            <dd>SOLIGUIDE</dd>
+        </dl>
+    </div>
+</div>
+     <div class="intro-image">
+        <img src="images/soliguide.png" alt="Soliguide Image" class="project-image" id="hero-soliguide">
+    </div>
+</header>
 
     <section class="case-study">
         <div class="sommaire">

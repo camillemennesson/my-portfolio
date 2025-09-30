@@ -34,34 +34,70 @@
 
 <header class="intro">
 <div class="intro-body">
-        
-        <h1>Rise Up</h1>
-        <h2>Redesign of an AI-powered learning platform's marketing website</h2>
+    <div class="intro-text">
+        <h1>Redesign of Riseup.ai website</h1>
+        <h2>RiseUp is an AI-powered learning platform that accelerates
+            time-to-skill by providing personalized, data-driven learning 
+            experiences for employees and admins.
+        </h2>
+    </div>
     <div class="intro-meta">
         <dl>
-            <dt>Client</dt>
-            <dd>RISEUP</dd>
-        </dl>
-        <dl>
             <dt>Role</dt>
-            <dd>RISEUP</dd>
+            <dd> 
+                RESEARCH, DESIGN, VISUAL ASSET CREATION
+            </dd>
         </dl>
         <dl>
             <dt>Timeframe</dt>
-            <dd>RISEUP</dd>
+            <dd>6 MONTHS</dd>
         </dl>
-        <dl>
+         <dl>
             <dt>Link</dt>
-            <dd>RISEUP</dd>
+            <dd><a href="https://www.riseup.ai/en/" target="_blank" rel="noopener noreferrer">VIEW WEBSITE <i class="bi bi-arrow-up-right"></i></a></dd>
+        </dl>
+         <dl>
+            <dt>Tools</dt>
+                <div class="intro-badges">
+                    <div class="badge" title="Figma">
+                        <img src="images/figma2.svg" loading="lazy" alt="figma logo">
+                    </div>
+                    <div class="badge" title="Notion">
+                        <img src="images/notionlogo.svg" loading="lazy" alt="notion logo">
+                    </div>
+                    <div class="badge" title="Hubspot">
+                        <img src="images/hubspot.png" loading="lazy" alt="hubpost logo">
+                    </div>
+                    <div class="badge" title="Hotjar">
+                        <img src="images/hotjar.svg" loading="lazy" alt="hotjar logo">
+                    </div>
+                 
+                </div>
         </dl>
     </div>
 </div>
      <div class="intro-image">
-        <img src="images/riseup hero.png" alt="Rise Up website homepage" class="project-image" id="hero-riseup">
+        <img src="images/riseupcover.jpg" alt="Rise Up website homepage" id="hero-riseup">
     </div>
 </header>
 
+
     <section class="case-study">
+
+    <section class="testimonials">
+        <blockquote class="testimonial">
+            <p>"Camille is an outstanding UX/UI designer who makes the complex process of a website or app redesign feel easy! 
+                We collaborated on the rebuild of the Rise Up website, transforming it into both a brand showcase for a learning 
+                tech innovator and a powerful demand-generation engine. She was deeply committed to realising our vision,
+                 constantly challenging assumptions, and introducing fresh ideas to keep the site aligned with evolving trends. 
+                 Thanks to her expertise and drive, we delivered on time and with a result we’re proud of."</p>
+            <footer>
+                <img src="images/samhebron.jpeg" alt="Samantha Hebron" class="author-image">
+                Samantha Hebron<br>Head of Marketing @Rise Up
+            </footer>
+        </blockquote>
+    </section>
+
         <div class="sommaire">
             <div class="column">
             <h3>Project Overview</h3>

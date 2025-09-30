@@ -34,10 +34,34 @@
 <div id="wrapper">
     
     <header class="intro">
-        <h1>Osmia</h1>
-        <h2>Création d'un site vitrine pour une cidrerie de l'Oise</h2>
+    <div class="intro-body">
+        <div class="intro-text">
+            <h1>Osmia</h1>
+            <h2>Création d'un site vitrine pour une cidrerie de l'Oise</h2>
+        </div>
+        <div class="intro-meta">
+            <dl>
+                <dt>Client</dt>
+                <dd>Osmia</dd>
+            </dl>
+            <dl>
+                <dt>Role</dt>
+                <dd>Osmia</dd>
+            </dl>
+            <dl>
+                <dt>Timeframe</dt>
+                <dd>Osmia</dd>
+            </dl>
+            <dl>
+                <dt>Link</dt>
+                <dd>Osmia</dd>
+            </dl>
+        </div>
+    </div>
+     <div class="intro-image">
         <img src="images/osmia.png" alt="MaVoie Image" class="project-image">
-    </header>
+    </div>
+</header>
 
     <section class="case-study">
         <div class="sommaire">

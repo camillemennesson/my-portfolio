@@ -121,16 +121,55 @@ ul {
 }
 
 .intro-body {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-align: left;
-    margin: 0 0 calc(var(--base-spacing) * 2);
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 4em;
+    width: 100%;
+}
+
+.intro h1, .intro h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #1F1F1F;
+}
+
+.intro-text h1 {
+    font-size: 3.4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-right: 40px;
+    width: 50%;
+    min-width: 50%;
+    display: flex;
+}
+
+.intro-text h2 {
+    font-weight: 400;
+    font-size: 1rem;
+    width: 50%;
+    line-height: 1.5rem;
 }
 
 .intro-meta {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 2rem;
-    margin-top: 1rem;
+    width: 100%;
+    align-items: start;
+    max-width: 1000px;
 }
 
 .intro-meta dl {
@@ -138,28 +177,102 @@ ul {
     flex-direction: column;
     gap: 0.25rem;
     margin: 0;
+    width: 100%;
 }
 
-.intro h1, .intro h2 {
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: 6rem;
-    margin-bottom: 0;
-    color: #454545;
+.intro-meta dt {
+    font-weight: 600;
+    font-size: 1rem;
 }
 
-.intro h1 {
-    font-size: 2.8rem;
-    font-weight: 900;
-    line-height: 1.2;
+.intro-meta dd {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+    color: #464646;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
-.intro h2 {
-    font-size: 1.9rem;
-    font-weight: 500;
-    margin-left: 1rem;
-    line-height: 1.2;
+.intro-meta dd a {
+    text-decoration: underline;
+    color: inherit;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
 }
+
+.intro-meta dd a:hover {
+    color: #8b95f0;
+}
+
+.intro-meta dd a i {
+    font-size: 0.9rem;
+}
+
+.intro-badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.badge {
+    grid-column-gap: 8px;
+    backdrop-filter: blur(12px);
+    background-color: #fffc;
+    border-radius: 8px;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    /* Center content horizontally and vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.badge img {
+    transition: transform 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+ 
+.badge:hover img {
+    transform: translateX(0) !important;
+}
+
+.badge img {
+    max-height: 40px;
+    width: auto;
+    border-radius: 4px;
+}   
+
+.intro-image {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.intro-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 p {
     font-size: 1rem;
@@ -466,7 +579,7 @@ a {
     font-weight: 500;
     text-align: left;
     line-height: 1.2;
-    color: #454545;
+    color: #080812;
     text-decoration: none;
 }
 
@@ -477,7 +590,8 @@ a {
     margin: auto;
     text-align: left;
     max-width: 992px;
-    color: #454545;
+    color: #080812;
+    padding-top: 6rem;
 }
 
 .case-study h2 {
@@ -1325,6 +1439,36 @@ max-width: 400px;
     flex-direction: column;
     align-items: center;
     }
+
+.testimonials {
+    max-width: 1200px;
+    text-align: left;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #5b5b5b;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.testimonial footer {
+    font-weight: 500;
+    color: #1F1F1F;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 
 

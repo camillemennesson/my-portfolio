@@ -33,11 +33,35 @@
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 <div id="wrapper">
 
-    <header class="intro">
+<header class="intro">
+<div class="intro-body">
+    <div class="intro-text">
         <h1>Parents</h1>
         <h2>Mobile App for Postpartum</h2>
-        <img src="images/parents hero.gif" alt="Parents Hero" class="project-image">
-    </header>
+    </div>
+    <div class="intro-meta">
+        <dl>
+            <dt>Client</dt>
+            <dd>PARENTS</dd>
+        </dl>
+        <dl>
+            <dt>Role</dt>
+            <dd>PARENTS</dd>
+        </dl>
+        <dl>
+            <dt>Timeframe</dt>
+            <dd>PARENTS</dd>
+        </dl>
+        <dl>
+            <dt>Link</dt>
+            <dd>PARENTS</dd>
+        </dl>
+    </div>
+</div>
+     <div class="intro-image">
+        <img src="images/parents hero.gif" alt="Parents Hero" class="project-image" id="hero-parents">
+    </div>
+</header>
 
     <section class="case-study">
         <div class="sommaire">

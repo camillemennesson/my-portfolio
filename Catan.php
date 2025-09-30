@@ -34,10 +34,34 @@
 <div id="wrapper">
 
     <header class="intro">
+<div class="intro-body">
+    <div class="intro-text">
         <h1>Catan</h1>
         <h2>Browser Game Analysis</h2>
+    </div>
+    <div class="intro-meta">
+        <dl>
+            <dt>Client</dt>
+            <dd>Catan</dd>
+        </dl>
+        <dl>
+            <dt>Role</dt>
+            <dd>Catan</dd>
+        </dl>
+        <dl>
+            <dt>Timeframe</dt>
+            <dd>Catan</dd>
+        </dl>
+        <dl>
+            <dt>Link</dt>
+            <dd>Catan</dd>
+        </dl>
+    </div>
+</div>
+     <div class="intro-image">
         <img src="images/catan.png" alt="Catan Image" class="project-image">
-    </header>
+    </div>
+</header>
 
     <section class="case-study">
         <div class="sommaire">
