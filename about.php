@@ -41,25 +41,11 @@
     </section>
 
 <div class="about-flex">
+
  <!-- CV Picture-->
     <div class="cv">
     <img src="images/CV PNG MAI 2025.png" alt="cv">
-    </div>
-
-<!-- LinkedIn Section-->
- <div class="linkedin-section">
-    <div class="linkedin-description">
-        <p> UX/UI designer freelance depuis 4 ans, basée à Bordeaux.</p>
-        <p>J'ai +5 ans d'expérience au sein d'équipes tech internationales chez Google et Gameloft.</p>
-        <p>Passionnée de jeu vidéo 🎮  et d'expériences digitales immersives, je suis rigoureuse, autonome et excellente communicante.</p>
-        <p><b>Compétences clés: recherche & tests utilisateurs, wireframing & prototypage, delivery, intégration front </b></p>
-        <a href="https://calendar.app.google/JfZFR5gZyS873HYUA" class="button-secondary" target="_blank">Prendre un rendez-vous</a>
-    </div>
-</div>
-</div>
-
-<!-- Download Resume -->
- <section id="download-resume">
+     <section id="download-resume">
     <div class="download-resume-image">
     <a  target="_blank" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing">
         <img src="images/two doodle characters shaking hands.png" alt="doodle characters shaking hands">
@@ -70,8 +56,53 @@
         >Télécharger mon CV</a>
     </div>   
 </section>
+    </div>
 
-    
+<section class="parcours-pro">
+
+
+  <ul class="timeline">
+    <li class="timeline-item">
+      <time class="pill pill--purple">2025</time>
+      <article>
+        <h3>Premiers pas dans le design graphique</h3>
+        <p>Pour la première fois, j'ai conçu des assets statiques et des vidéos pour un (vrai) client.</p>
+      </article>
+    </li>
+
+    <li class="timeline-item">
+      <time class="pill pill--yellow">2024</time>
+      <article>
+        <h3>Je sais coder 🥹</h3>
+        <p>J'ai appris les bases du HTML, CSS, et JS. Résultat ? j'ai codé mon portfolio toute seule. Merci l'IA.</p>
+      </article>
+    </li>
+
+    <li class="timeline-item">
+      <time class="pill pill--green">2023</time>
+      <article>
+        <h3>La recherche utilisateur, la vraie</h3>
+        <p>J’ai mené des recherches terrain auprès de personnes en situation de précarité pour identifier leurs besoins et concevoir une application réellement utile pour une asso.</p>
+      </article>
+    </li>
+
+    <li class="timeline-item">
+      <time class="pill pill--pink">2022</time>
+      <article>
+        <h3>Mon premier client</h3>
+        <p>J'ai paniqué mais c'était génial, j'ai enfin pu tester mes compétences UX au service de vrais humains. #jesaispasjaiprisnimportequoi</p>
+      </article>
+    </li>
+
+    <li class="timeline-item">
+      <time class="pill pill--blue">2021</time>
+      <article>
+        <h3>La reconversion</h3>
+        <p>Du marketing à la conception d'expériences: je commence le bootcamp UX/UI design chez Ironhack.</p>
+      </article>
+    </li>
+  </ul>
+</section>
 </div>
 
 <div id="footer-placeholder" data-footer-type="white"></div>
