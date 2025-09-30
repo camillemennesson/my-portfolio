@@ -52,6 +52,13 @@
     box-sizing: border-box;
 }
 
+/* Lighter grey for hr divider */
+hr {
+    border: none;
+    border-top: 1px solid #d3d3d3; /* lighter grey */
+    margin: 1rem 0;
+}
+
 
 html, body {
     font-family: 'Euclid Circular A', sans-serif;
@@ -127,7 +134,7 @@ ul {
     flex-direction: column;
     text-align: left;
     margin-top: 4rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .intro-text {
@@ -135,7 +142,7 @@ ul {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 4em;
+    margin-bottom: 2rem;
     width: 100%;
 }
 
@@ -148,7 +155,7 @@ ul {
 }
 
 .intro-text h1 {
-    font-size: 3.4rem;
+    font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.2;
     margin-right: 40px;
@@ -602,7 +609,7 @@ a {
 }
 
 .case-study h3 {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     margin-top: 4rem;
 }
 

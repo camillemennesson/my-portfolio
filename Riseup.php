@@ -32,7 +32,7 @@
 
 <div id="wrapper">
 
-<header class="intro-case">
+<header class="intro">
 <div class="intro-body">
     <div class="intro-text">
         <h1>Redesign of Riseup.ai website</h1>
@@ -99,7 +99,7 @@
                         C479.539,347.2,512,240.452,512,186.1C512,120.094,458.511,66.59,392.482,66.59z"/>
                 </g>
             </svg>
-            <p>Camille is an outstanding UX/UI designer who makes the complex process of a website or app redesign feel easy! 
+                <p>Camille is an outstanding UX/UI designer who makes the complex process of a website or app redesign feel easy! 
                 We collaborated on the rebuild of the Rise Up website, transforming it into both a brand showcase for a learning 
                 tech innovator and a powerful demand-generation engine. She was deeply committed to realising our vision,
                  constantly challenging assumptions, and introducing fresh ideas to keep the site aligned with evolving trends. 
@@ -112,11 +112,12 @@
         </blockquote>
     </section>
 
+        <hr style="border:none; border-top:1px solid #d3d3d3; margin:1rem 0;" />
 
         <div id="challenge">
         <h3>The Challenge</h3>
         <p>Rise Up was expanding internationally and needed a marketing website that clearly communicated its value to a global audience of HR managers, L&amp;D leaders, and digital learning managers.
-The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.
+            The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.
 
         </p><h4>Key challenges:</h4>
             <li><b>Unclear value proposition:</b> Visitors struggled to quickly understand Rise Up’s unique selling points (USPs).
