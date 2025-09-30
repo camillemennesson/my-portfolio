@@ -86,35 +86,32 @@
 
     <section class="testimonials">
         <blockquote class="testimonial">
-            <p>"Camille is an outstanding UX/UI designer who makes the complex process of a website or app redesign feel easy! 
+<svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" width="60" height="60" aria-hidden="true">
+                <style type="text/css">
+                    .st0{fill:#FFFFF;}
+                </style>
+                <g>
+                    <path class="st0" d="M119.472,66.59C53.489,66.59,0,120.094,0,186.1c0,65.983,53.489,119.487,119.472,119.487
+                        c0,0-0.578,44.392-36.642,108.284c-4.006,12.802,3.135,26.435,15.945,30.418c9.089,2.859,18.653,0.08,24.829-6.389
+                        c82.925-90.7,115.385-197.448,115.385-251.8C238.989,120.094,185.501,66.59,119.472,66.59z"/>
+                    <path class="st0" d="M392.482,66.59c-65.983,0-119.472,53.505-119.472,119.51c0,65.983,53.489,119.487,119.472,119.487
+                        c0,0-0.578,44.392-36.642,108.284c-4.006,12.802,3.136,26.435,15.945,30.418c9.089,2.859,18.653,0.08,24.828-6.389
+                        C479.539,347.2,512,240.452,512,186.1C512,120.094,458.511,66.59,392.482,66.59z"/>
+                </g>
+            </svg>
+            <p>Camille is an outstanding UX/UI designer who makes the complex process of a website or app redesign feel easy! 
                 We collaborated on the rebuild of the Rise Up website, transforming it into both a brand showcase for a learning 
                 tech innovator and a powerful demand-generation engine. She was deeply committed to realising our vision,
                  constantly challenging assumptions, and introducing fresh ideas to keep the site aligned with evolving trends. 
-                 Thanks to her expertise and drive, we delivered on time and with a result we’re proud of."</p>
+                 Thanks to her expertise and drive, we delivered on time and with a result we’re proud of.</p>
             <footer>
                 <img src="images/samhebron.jpeg" alt="Samantha Hebron" class="author-image">
-                Samantha Hebron<br>Head of Marketing @Rise Up
+               <span> Samantha Hebron<br>Head of Marketing @Rise Up
+                </span>
             </footer>
         </blockquote>
     </section>
 
-        <div class="sommaire">
-            <div class="column">
-            <h3>Project Overview</h3>
-                <p>Rise Up is an AI-powered learning platform that helps companies accelerate time-to-skill by providing personalized, data-driven learning experiences for employees and admins.
-</p></div>
-            <div class="column">
-            <h3>Objectives</h3>
-                <p>As the UX &amp; UI Designer, I redesigned their marketing website to improve user experience, clarity of messaging, and conversion rates, collaborating with a HubSpot developer and a project manager over a 3-month timeline 
-                </p>
-            </div>
-
-            <div class="column">
-             <h3>Tools</h3>
-                 <p>Figma, Hubspot, Google Analytics, Hotjar, Notion
-                 </p>
-            </div>
-        </div>
 
         <div id="challenge">
         <h3>The Challenge</h3>

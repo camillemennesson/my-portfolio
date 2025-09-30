@@ -1,2 +1,3 @@
 - [x] Add testimonial HTML to Riseup.php after </header>
 - [x] Add CSS for testimonials in styles/style.css
+- [x] Updated testimonial content with author image and centered text
