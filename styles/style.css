@@ -359,8 +359,8 @@ p {
 @media (min-width: 1024px) {
   .stamp-container {
     position: absolute;
-    top: 460px; /* ton top actuel */
-    right: 10px; /* ton right actuel */
+    top: 300px; /* ton top actuel */
+    right: 2px; /* ton right actuel */
     margin: 0;
   }
 }
