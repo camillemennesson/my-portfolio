@@ -95,15 +95,15 @@
                     <h3>Rise Up - Website redesign and Visual Asset Creation</h3>
                 </a>
             </div>
-
-        <!--Bearwww-->
+ 
+            <!--Bearwww-->
             <div class="project" id="bear">
-                <a>
+                <a href="#">
                     <img src="images/hero/bear.png" class="project-image" alt="bear" >
                     <h3>Bearwww - Création de landing page</h3>
                 </a>
             </div>
-
+ 
             <!-- Project 2 -->
             <div class="project">
                 <a  href="Mavoie.php">
@@ -111,7 +111,7 @@
                     <h3>MaVoie.org - Refonte UX et UI du site web</h3>
                 </a>
             </div>
-
+ 
             <!-- Project 2-->
             <div class="project">
             <a href="Soliguide.php">
@@ -119,7 +119,7 @@
                 <h3>Soliguide - Refonte UX de l'app mobile</h3>
             </a>
             </div>
-
+ 
             <!-- Osmia-->
             <div class="project" id="osmia">
                 <a href="Osmia.php">
@@ -127,7 +127,7 @@
                     <h3>Osmia - Web Design</h3>
                 </a>
             </div>
-
+ 
             <!-- Catan-->
             <div class="project">
                 <a href="Catan.php">
@@ -135,7 +135,7 @@
                     <h3>Catan - UX Audit</h3>
                 </a>
             </div>
-
+ 
             <!-- Project 5-->
             <div id="spotify" class="project">
                 <a href="Spotify.php">
