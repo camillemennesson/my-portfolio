@@ -57,16 +57,6 @@
         
     </section>
 
-    <svg 
-    class="wave-svg"
-    viewBox="0 0 1440 200"
-    preserveAspectRatio="none"
-    xmlns="http://www.w3.org/2000/svg">
-    <path 
-      d="M0,100 C360,200 1080,0 1440,100 L1440,200 L0,200 Z"
-      fill="#F7F6EB"
-    />
-        </svg>
 
    <div class="stamp-container">
   <img src="images/stamppink.png" alt="I coded this site from scratch" class="stamp">
