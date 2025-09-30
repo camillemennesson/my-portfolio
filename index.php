@@ -81,7 +81,7 @@
         <!-- Project 1 -->
         <div id="riseup" class="project">
                 <a href="Riseup.php">
-                    <img src="images/hero/riseup1.jpeg" class="project-image" alt="riseup">
+                    <img src="images/riseupcover.jpg" class="project-image" alt="riseup">
                     <h3>Rise Up - Website redesign and Visual Asset Creation</h3>
                 </a>
             </div>
