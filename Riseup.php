@@ -146,7 +146,7 @@
             </div>
 
 
-        <div id="solution">
+    <div id="solution">
         <h3>Solutions</h3>
         <h4>Clearer Navigation</h4>
             <p>
@@ -158,10 +158,12 @@
         <h4>Scalable UI System</h4>
         <h4>Key pages flow</h4>
         <h4>Highlighting USPs</h4>
-       
-            <div class="image-item">
+        <div class="image-item">
                 <img src="images/riseupmenu.png" alt="Description of image 1" class="site-image">
             </div>
+    </div>
+       
+            
 
         <div id="results">
         <h3>Outcomes and impact</h3>

@@ -424,7 +424,6 @@ h4 {
 
 
 
-
 /*HEADERS*/
 
 #header {
@@ -665,6 +664,18 @@ a {
 .column {
     flex: 1; /* Each column takes equal space */
     box-sizing: border-box; /* Ensure padding and borders are included in total width */
+}
+
+#solution  {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    background-color: #F4F4F4;
+    padding: 0.5rem 16rem 2rem 16rem; /* same as wrapper padding */
+    box-sizing: border-box;
 }
 
 /*BEARWWW*/
