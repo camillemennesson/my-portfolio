@@ -32,12 +32,34 @@
 
 <div id="wrapper">
 
-    <header class="intro">
+<header class="intro">
+<div class="intro-body">
+        
         <h1>Rise Up</h1>
-        <h2>Redesign of an AI-powered learning platform's marketing website
-        </h2>
+        <h2>Redesign of an AI-powered learning platform's marketing website</h2>
+    <div class="intro-meta">
+        <dl>
+            <dt>Client</dt>
+            <dd>RISEUP</dd>
+        </dl>
+        <dl>
+            <dt>Role</dt>
+            <dd>RISEUP</dd>
+        </dl>
+        <dl>
+            <dt>Timeframe</dt>
+            <dd>RISEUP</dd>
+        </dl>
+        <dl>
+            <dt>Link</dt>
+            <dd>RISEUP</dd>
+        </dl>
+    </div>
+</div>
+     <div class="intro-image">
         <img src="images/riseup hero.png" alt="Rise Up website homepage" class="project-image" id="hero-riseup">
-    </header>
+    </div>
+</header>
 
     <section class="case-study">
         <div class="sommaire">

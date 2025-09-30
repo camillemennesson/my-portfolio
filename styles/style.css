@@ -110,31 +110,55 @@ ul {
 }
 
 .intro {
-    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
+    align-items: flex-start;
+    text-align: left;
     flex: 1;
     margin: auto 0;
     position: relative;
     z-index: 1;
 }
 
+.intro-body {
+    display: block;
+    text-align: left;
+    margin: 0 0 calc(var(--base-spacing) * 2);
+}
+
+.intro-meta {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.intro-meta dl {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin: 0;
+}
+
+.intro h1, .intro h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 6rem;
+    margin-bottom: 0;
+    color: #454545;
+}
+
 .intro h1 {
     font-size: 2.8rem;
-    font-weight:900;
-    color: #454545;
-    margin-bottom: 40px;
-    margin-top: 6rem;
+    font-weight: 900;
     line-height: 1.2;
 }
 
 .intro h2 {
     font-size: 1.9rem;
     font-weight: 500;
-    color: #454545;
-    margin-bottom: 24px;
+    margin-left: 1rem;
+    line-height: 1.2;
 }
 
 p {
@@ -1303,6 +1327,14 @@ max-width: 400px;
     }
 
 
+
+/* Remove styles related to intro__back and button--icon as the element is removed */
+.intro__back,
+.button.button--icon,
+.icon.icon--left,
+.visually-hidden {
+  display: none !important;
+}
 
 /* RESPONSIVE DESIGN */
 
