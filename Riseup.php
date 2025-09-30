@@ -32,7 +32,7 @@
 
 <div id="wrapper">
 
-<header class="intro">
+<header class="intro-case">
 <div class="intro-body">
     <div class="intro-text">
         <h1>Redesign of Riseup.ai website</h1>

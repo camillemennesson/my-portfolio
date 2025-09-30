@@ -106,10 +106,12 @@ ul {
     position: relative;
     max-width: 976px;
     margin: auto;
+    padding-top: 3rem;
     padding-bottom: 6rem;
 }
 
-.intro {
+
+.intro-case {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
