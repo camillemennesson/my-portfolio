@@ -78,28 +78,6 @@
 </header>
 
     <section class="case-study">
-        <div class="sommaire">
-            <div class="column">
-            <h3>Mission</h3>
-                <p>Mission de 6 mois avec un UX Designer Senior, un PM, et un Responsable tech
-                </p>
-            </div>
-            <div class="column">
-            <h3>Objectifs</h3>
-            <p>
-                <li>Améliorer l'éxperience globale de l'interface web et mobile</li>
-                <li>Optimiser les principaux parcours utilisateurs</li>
-                <li>Mieux comprendre l'uilisation de Soliguide en contexte 
-                    de mobilité (sur le terrain) </li>
-                </p>
-            </div>
-
-            <div class="column">
-             <h3>Outils</h3>
-                 <p>Figma, Figjam, UsabilityHub, Analytics
-                 </p>
-            </div>
-        </div>
 
         <div id="introduction">
         <h3>Contexte</h3>
@@ -109,6 +87,13 @@
         améliorer l'expérience (suite à des retours terrains), de mieux comprendre
          les différents utilisateurs, et d'optimiser les parcours clés.
         </p>
+        <h3>Objectifs</h3>
+        <p>
+            <li>Améliorer l'éxperience globale de l'interface web et mobile</li>
+            <li>Optimiser les principaux parcours utilisateurs</li>
+            <li>Mieux comprendre l'uilisation de Soliguide en contexte de mobilité (sur le terrain) </li>
+        </p>
+
 
 
         <div id="challenge">
