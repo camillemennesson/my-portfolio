@@ -143,6 +143,7 @@
                         utilisateurs novices.
                     </li>
                 </p> 
+        </div>
 
         <h3>Aperçu de l'app</h3>
         <div class="image-gallery">
@@ -179,6 +180,7 @@
                     <li>Les professionnels des associations ont trouvé l'outil plus adapté à leurs
                         besoins pour aider les personnes en situation de précarité.
                     </li></p>
+    </div>
         
         <!-- Button to read the next case study -->
     <div class="button-container">

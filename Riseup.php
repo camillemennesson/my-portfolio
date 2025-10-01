@@ -192,7 +192,7 @@ Improved trust due to transparent pricing and feature clarity</p>
         
        <!-- Button to read the next case study -->
     <div class="button-container">
-        <a href="Soliguide.php"
+        <a href="Mavoie.php"
         class="next-case-study-button-black">Lire le prochain case study</a>
     </div>
 

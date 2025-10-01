@@ -674,8 +674,14 @@ a {
     margin-right: -50vw;
     width: 100vw;
     background-color: #F4F4F4;
-    padding: 0.5rem 16rem 2rem 16rem; /* same as wrapper padding */
+    padding: 2rem 16rem 2rem 16rem; /* same as wrapper padding */
     box-sizing: border-box;
+    margin-top: 4rem;
+}
+
+#solution h3 {
+    padding-top: 1rem;
+    margin-top: 0;
 }
 
 @media (max-width: 768px) {

@@ -115,7 +115,7 @@
         </p> 
              
 
-        <div id="solution">
+    <div id="solution">
         <h3>Solution</h3>
         <h4>Design Intuitif</h4>
             <p>
@@ -126,6 +126,7 @@
         <p>- Simplification des questions et amélioration de la présentation pour rendre le questionnaire moins intimidant.
         - Ajout de feedbacks instantanés pour encourager les utilisateurs à continuer.
         </p> 
+    </div>
        
         <h3>Aperçu du site</h3>
 
