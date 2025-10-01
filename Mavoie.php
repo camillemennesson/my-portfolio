@@ -60,11 +60,14 @@
                     <div class="badge" title="Notion">
                         <img src="images/notionlogo.svg" loading="lazy" alt="notion logo">
                     </div>
-                    <div class="badge" title="Hubspot">
-                        <img src="images/hubspot.png" loading="lazy" alt="hubpost logo">
+                    <div class="badge" title="Webflow">
+                        <img src="images/webflow.jpeg" loading="lazy" alt="webflow logo">
                     </div>
                     <div class="badge" title="Hotjar">
                         <img src="images/hotjar.svg" loading="lazy" alt="hotjar logo">
+                    </div>
+                    <div class="badge" title="Maze">
+                        <img src="images/maze.jpg" loading="lazy" alt="maze logo">
                     </div>
                 </div>
         </dl>
