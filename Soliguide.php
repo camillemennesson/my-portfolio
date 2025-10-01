@@ -37,13 +37,19 @@
 <header class="intro">
 <div class="intro-body">
     <div class="intro-text">
-        <h1>Soliguide</h1>
-        <h2>App mobile pour les personnes en situation de précarité</h2>
+        <h1>Optimisations UX & UI de l'app Soliguide</h1>
+        <h2>Soliguide est une plateforme solidaire portée par l’association Solinum qui référence 
+            gratuitement des services essentiels pour les personnes en situation de précarité en France
+             (alimentation, hébergement, soins, etc.).</h2>
     </div>
     <div class="intro-meta">
         <dl>
             <dt>Rôle</dt>
             <dd>RECHERCHE, DESIGN</dd>
+        </dl>
+        <dl>
+            <dt>Équipe</dt>
+            <dd>PRODUCT MANAGER, CTO</dd>
         </dl>
         <dl>
             <dt>Durée</dt>
@@ -55,14 +61,11 @@
                     <div class="badge" title="Figma">
                         <img src="images/figma2.svg" loading="lazy" alt="figma logo">
                     </div>
-                    <div class="badge" title="Notion">
-                        <img src="images/notionlogo.svg" loading="lazy" alt="notion logo">
+                    <div class="badge" title="UsabilityHub">
+                        <img src="images/usabilityhub.png" loading="lazy" alt="usabilityhub logo">
                     </div>
-                    <div class="badge" title="Hotjar">
-                        <img src="images/hotjar.svg" loading="lazy" alt="hotjar logo">
-                    </div>
-                    <div class="badge" title="Maze">
-                        <img src="images/maze.jpg" loading="lazy" alt="maze logo">
+                    <div class="badge" title="Google Analytics">
+                        <img src="images/analytics.png" loading="lazy" alt="google analytics logo">
                     </div>
                 </div>
         </dl>
