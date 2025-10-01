@@ -36,9 +36,10 @@
     
 <body id="home">
 
+<div id="navbar-placeholder" data-navbar-type="white"></div>
+
 <div class="hero-background">
 
-<div id="navbar-placeholder" data-navbar-type="white"></div>
 
     <div id="wrapper" >
      <!-- Name and Description Section -->

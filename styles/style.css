@@ -1374,11 +1374,16 @@ a {
     .intro-content {
         flex-direction: column; /* Stack items vertically on smaller screens */
         max-width: 100%; /* Full width on smaller screens */
+        margin-bottom: 1rem;
     }
 
     .intro-content img {
         margin-left: 0; /* Remove margin on smaller screens */
         margin-top: 1rem; /* Add some margin above the image */
+    }
+
+    #about .intro {
+        margin-top:1rem ;
     }
 }
 
@@ -1439,8 +1444,8 @@ a {
 }
 
 #download-resume {
-    margin-top: 5rem;
-   margin-bottom: 5rem;
+    margin-top: 2rem;
+   margin-bottom: 2rem;
 }
 
 .email  {
@@ -1687,8 +1692,10 @@ a {
 
     .cv, .linkedin-section {
         width: 100%; /* full width smaller screens */
-        margin: auto;
+        margin: 0;
+        max-width: none;
     }
+
 
     .cv img {
         width: 100%; /* Adjust width for smaller screens */
@@ -1696,6 +1703,11 @@ a {
 
     .linkedin-pic img{
         width: 100%; /* Adjust width for smaller screens */
+    }
+
+    .parcours-pro {
+        margin: 0;
+        max-width: 100%;
     }
 
     .parcours-pro .container-2 {
