@@ -35,7 +35,7 @@
 
 <div id="wrapper">
 
-    <header class="intro">
+<header class="intro">
 <div class="intro-body">
     <div class="intro-text">
         <h1>MaVoie</h1>
@@ -53,13 +53,25 @@
         </dl>
         <dl>
             <dt>Outils</dt>
-            <dd>FIGMA, AIRTABLE, WEBFLOW, HOTJAR</dd>
+                <div class="intro-badges">
+                    <div class="badge" title="Figma">
+                        <img src="images/figma2.svg" loading="lazy" alt="figma logo">
+                    </div>
+                    <div class="badge" title="Notion">
+                        <img src="images/notionlogo.svg" loading="lazy" alt="notion logo">
+                    </div>
+                    <div class="badge" title="Hubspot">
+                        <img src="images/hubspot.png" loading="lazy" alt="hubpost logo">
+                    </div>
+                    <div class="badge" title="Hotjar">
+                        <img src="images/hotjar.svg" loading="lazy" alt="hotjar logo">
+                    </div>
+                </div>
         </dl>
-       
     </div>
 </div>
      <div class="intro-image">
-        <img src="images/mavoie.png" alt="MaVoie Image" class="project-image" id="hero-mavoie">
+        <img src="images/mavoie.png" alt="MaVoie website screenshot" id="hero-mavoie">
     </div>
 </header>
 
