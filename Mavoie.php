@@ -54,7 +54,7 @@
             <dd>1 PRODUCT MANAGER, 2 DÉVELOPPEURS</dd>
         </dl>
         <dl>
-            <dt>Timeframe</dt>
+            <dt>Durée</dt>
             <dd>1 AN</dd>
         </dl>
         <dl>

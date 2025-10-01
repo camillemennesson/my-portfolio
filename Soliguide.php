@@ -43,15 +43,28 @@
     <div class="intro-meta">
         <dl>
             <dt>Rôle</dt>
-            <dd>UX/UI DESIGN</dd>
+            <dd>RECHERCHE, DESIGN</dd>
         </dl>
         <dl>
-            <dt>Timeframe</dt>
+            <dt>Durée</dt>
             <dd>6 MOIS</dd>
         </dl>
-        <dl>
+       <dl>
             <dt>Outils</dt>
-            <dd>FIGMA, USABILITYHUB, GOOGLE ANALYTICS</dd>
+                <div class="intro-badges">
+                    <div class="badge" title="Figma">
+                        <img src="images/figma2.svg" loading="lazy" alt="figma logo">
+                    </div>
+                    <div class="badge" title="Notion">
+                        <img src="images/notionlogo.svg" loading="lazy" alt="notion logo">
+                    </div>
+                    <div class="badge" title="Hotjar">
+                        <img src="images/hotjar.svg" loading="lazy" alt="hotjar logo">
+                    </div>
+                    <div class="badge" title="Maze">
+                        <img src="images/maze.jpg" loading="lazy" alt="maze logo">
+                    </div>
+                </div>
         </dl>
     
     </div>
