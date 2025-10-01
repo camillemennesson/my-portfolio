@@ -678,6 +678,12 @@ a {
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    #solution {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+}
+
 /*BEARWWW*/
 
 #bear {
@@ -1645,6 +1651,25 @@ a {
 
     .intro h1 {
         margin-bottom: 2rem;
+    }
+
+    .intro-text {
+        flex-direction: column;
+    }
+
+    .intro-meta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .quote-icon {
+        right: 1rem;
+    }
+
+    .intro-text h1, .intro-text h2 {
+    width: auto;  
+    margin-right:0;
+     
     }
 
     header h1 {
