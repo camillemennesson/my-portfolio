@@ -286,6 +286,12 @@ margin: 0;
 
 @media (max-width: 768px) {
 
+.navbar-white {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
 .footer-links {
   flex-direction: column; /* Stack links vertically on small screens */
 }
