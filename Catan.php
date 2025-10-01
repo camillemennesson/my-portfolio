@@ -36,8 +36,10 @@
 <header class="intro">
 <div class="intro-body">
     <div class="intro-text">
-        <h1>Catan</h1>
-        <h2>Browser Game Analysis</h2>
+        <h1>Improving User Experience in Catan Online</h1>
+        <h2>A personal project born from my love of Catan and my frustration with its current online version.
+             I redesigned the user interface and rethought the main user flows to make the digital experience
+              more intuitive and enjoyable.</h2>
     </div>
 </div>
      <div class="intro-image">
@@ -46,25 +48,7 @@
 </header>
 
     <section class="case-study">
-        <div class="sommaire">
-            <div class="column">
-            <h3>Context</h3>
-                <p>Provide a brief overview of the project, 
-                including the context and objectives.
-                </p>
-            </div>
-            <div class="column">
-            <h3>What I did</h3>
-                <p>Describe the problem you aimed to solve with this project.
-                </p>
-            </div>
-            <div class="column">
-             <h3>Tools</h3>
-                 <p>Outline the research methods used 
-                    (e.g., user interviews, surveys) and summarize key findings.
-                 </p>
-            </div>
-        </div>
+
         
         <div class="paragraph">
             <h3>What is Catan?</h3>
