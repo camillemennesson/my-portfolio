@@ -38,14 +38,20 @@
 <header class="intro">
 <div class="intro-body">
     <div class="intro-text">
-        <h1>MaVoie</h1>
-        <h2>Redesign du Site Web d’un acteur social d'insertion professionnelle
+        <h1>Audit et redesign du site Mavoie.org</h1>
+        <h2>Mavoie est une association engagée pour le retour à l’emploi des jeunes en France. 
+            Elle propose des parcours d’accompagnement et des ressources en ligne afin d’aider les 16–25 ans
+             à construire leur avenir professionnel.
         </h2>
     </div>
     <div class="intro-meta">
         <dl>
             <dt>Rôle</dt>
-            <dd>RECHERCHE, UX/UI DESIGN</dd>
+            <dd>RECHERCHE, DESIGN</dd>
+        </dl>
+        <dl>
+            <dt>Équipe</dt>
+            <dd>1 PRODUCT MANAGER, 2 DÉVELOPPEURS</dd>
         </dl>
         <dl>
             <dt>Timeframe</dt>
@@ -74,30 +80,11 @@
     </div>
 </div>
      <div class="intro-image">
-        <img src="images/mavoie.png" alt="MaVoie website screenshot" id="hero-mavoie">
+        <img src="images/hero/mavoie.jpeg" alt="MaVoie website screenshot" id="hero-mavoie">
     </div>
 </header>
 
     <section class="case-study">
-        <div class="sommaire">
-            <div class="column">
-            <h3>Contexte</h3>
-                <p>Mission d'1 an avec un UX Designer, une PM, et deux développeurs. Refonte complète pour mieux répondre aux attentes 
-                    des utilisateurs cibles : les jeunes de 18 à 35 ans en recherche de formation/reconversion.
-                </p>
-            </div>
-            <div class="column">
-            <h3>Objectifs</h3>
-                <li>Améliorer l'UX globale du site et son principal user flow
-                <li>Augmenter le taux de conversion</li>
-                </p>
-            </div>
-            <div class="column">
-             <h3>Outils</h3>
-                 <p>Figma, Airtable, Webflow, Maze, Google Analytics, Hotjar
-                 </p>
-            </div>
-        </div>
 
         <div id="challenge">
         <h3>Challenges</h3>
@@ -115,8 +102,7 @@
             se ressentait dans les solutions proposées sur leur site, rendant difficile
              la création d'une expérience utilisateur cohérente.
         </p>
-      
-
+    
 
         <div id="research">
         <h3>Recherche Utilisateur</h3>
