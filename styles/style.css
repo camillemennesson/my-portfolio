@@ -1666,10 +1666,14 @@ a {
         right: 1rem;
     }
 
+    .intro-body {
+        margin-top: 0;
+    }
+
     .intro-text h1, .intro-text h2 {
-    width: auto;  
+    width: auto;
     margin-right:0;
-     
+
     }
 
     header h1 {
