@@ -1368,7 +1368,7 @@ case-study h2 {
 
 /*CATAN*/
 
-.catan h4 {
+#catan h4 {
     color: #4481FA;
     font-weight: 400;
     font-size: 1.4rem;
@@ -1378,12 +1378,12 @@ case-study h2 {
  }
 
 
-.catan .case-study h3 {
+#catan .case-study h3 {
     margin-top: 8px;
     margin-bottom: 24px;
     }
 
-.catan .image-item p {
+#catan .image-item p {
     text-align: center;
     font-weight: 400;
     color: #7e7e7e;
@@ -1395,12 +1395,12 @@ case-study h2 {
     align-items:left;
 }
 
-.catan .image-item {
+#catan .image-item {
     text-align: center; /* Center titles below images */
     margin: 0;
 }
 
-.catan .columns {
+#catan .columns {
     display: flex;
     align-items: center;
     gap: 60px;
@@ -1413,7 +1413,7 @@ case-study h2 {
         margin-top: 40px;
     }
 
- .catan h4 {
+ #catan h4 {
         margin-top: 20px;
     }
 
@@ -1424,7 +1424,7 @@ case-study h2 {
     padding: 0;
 } 
 
-.catan .column {
+#catan .column {
     flex: 1;
     text-align: left;  
 }
@@ -1974,11 +1974,11 @@ case-study h2 {
         flex-direction: column; /* Stack columns vertically */
     }
 
-    .catan .paragraph {
+    #catan .paragraph {
         margin-top: 40px;
     }
 
-    .catan h4 {
+    #catan h4 {
         margin-top: 32px;
     }
 

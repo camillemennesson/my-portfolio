@@ -26,7 +26,7 @@
 
 </head>
 
-<body class="catan">
+<body id="catan">
 
 <div id="floating-nav-placeholder"></div>
 
