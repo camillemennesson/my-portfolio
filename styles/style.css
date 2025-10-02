@@ -651,53 +651,53 @@ a {
 }
 
 .sticky-toc {
-  position: sticky;
-  top: 80px;
-  background-color: #ffffff;
-  padding: 1rem 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  max-width: 220px;
-  font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
-  color: #000;
-  display: none; /* start hidden */
-  z-index: 99999;
+    position: sticky;
+    top: 80px;
+    max-width: 220px;
+    font-family: 'Euclid Circular A', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    z-index: 1000;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #000;
+    background-color: white; /* or use #8c1212 if needed */
+    border: none; /* remove if you want a border */
 }
 
 .sticky-toc ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 .sticky-toc ul li {
-  margin-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
 }
 
 .sticky-toc ul li a {
-  color: #000;
-  text-decoration: none;
-  transition: color 0.3s ease;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 400;
 }
 
-.sticky-toc ul li a.active,
 .sticky-toc ul li a:hover {
-  color: #5364FF;
-  font-weight: 700;
+    color: #5364FF;
 }
 
 @media (max-width: 768px) {
-  .sticky-toc {
-    position: relative;
-    top: auto;
-    max-width: 100%;
-    margin-bottom: 1rem;
-    border: none;
-    padding: 0;
-    display: block; /* always show on mobile */
-  }
+    .sticky-toc {
+        position: relative;
+        top: auto;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 0;
+    }
 }
+
 
 .case-study h2 {
     font-size: 2rem;
