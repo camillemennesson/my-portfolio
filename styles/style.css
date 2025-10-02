@@ -598,7 +598,7 @@ section {
     margin-left: -50vw;
     margin-right: -50vw;
     width: 100vw;
-    background-color: #ffffff;
+    background: #ffffff url('../images/backgroundnoise.svg') repeat;
     padding: 4rem 0;
     box-sizing: border-box;
 }
@@ -1525,7 +1525,6 @@ case-study h2 {
   justify-content: center;
   margin: 0; /* Remove external margin */
   padding: 6rem 6rem; /* Internal spacing only */
-  background-color: #FFFFFF;
   width: 100%;
   box-sizing: border-box;
   border-radius: 0;
