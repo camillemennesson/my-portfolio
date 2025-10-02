@@ -19,18 +19,18 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!introImage) console.warn("Intro image not found");
     if (toc) tocLinks = toc.querySelectorAll("a");
 
-    // Show buttons initially for debug
-    if (mybutton) mybutton.style.display = "block";
-    if (toc) toc.style.display = "block";
+    // Hide TOC and back-to-top button initially
+    if (toc) toc.style.display = "none";
+    if (mybutton) mybutton.style.display = "none";
 
     const scrollable = wrapper || window;
 
     // -------------------------------
     // SCROLL HANDLER
     // -------------------------------
-    scrollable.addEventListener("scroll", () => {
+    const handleScroll = () => {
         const scrollPosition = wrapper ? wrapper.scrollTop : window.scrollY;
-        console.log("Scroll detected! Position:", scrollPosition);
+        //console.log("Scroll detected! Position:", scrollPosition);
 
         // --- Back-to-top button ---
         if (mybutton) {
@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (toc && introImage) {
             const introBottom = introImage.offsetTop + introImage.offsetHeight;
             toc.style.display = scrollPosition >= introBottom ? "block" : "none";
-            console.log("TOC display:", toc.style.display, "Intro bottom:", introBottom, "Scroll position:", scrollPosition);
+            //console.log("TOC display:", toc.style.display, "Intro bottom:", introBottom, "Scroll position:", scrollPosition);
 
             // Highlight current section
             let currentSection = sections[0];
@@ -54,7 +54,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 link.classList.toggle('active', link.getAttribute("href") === "#" + currentSection);
             });
         }
-    });
+    };
+
+    // Attach scroll listener
+    scrollable.addEventListener("scroll", handleScroll);
+
+    // Run once on load to respect initial scroll position
+    handleScroll();
 
     // --- Back-to-top click handler ---
     if (mybutton) {
@@ -73,7 +79,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const navbarType = document.getElementById('navbar-placeholder')?.getAttribute('data-navbar-type');
     const footerType = document.getElementById('footer-placeholder')?.getAttribute('data-footer-type');
 
-    // Fetch Navbar
     fetch('components/navbar.html?v=' + Date.now())
         .then(response => response.text())
         .then(data => {
@@ -88,7 +93,6 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(err => console.error("Navbar fetch error:", err));
 
-    // Fetch Footer
     fetch('components/footer.html')
         .then(response => response.text())
         .then(data => {
@@ -103,7 +107,6 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(err => console.error("Footer fetch error:", err));
 
-    // Fetch Floating Nav
     fetch('components/floating-nav.html')
         .then(response => {
             if (!response.ok) throw new Error('Network response was not ok');
