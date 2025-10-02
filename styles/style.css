@@ -1368,20 +1368,6 @@ case-study h2 {
 
 /*CATAN*/
 
-#catan h4 {
-    color: #4481FA;
-    font-weight: 400;
-    font-size: 1.4rem;
-    margin-top: 80px; 
-    margin-bottom: 8px;
-    text-align: left;
- }
-
-
-#catan .case-study h3 {
-    margin-top: 8px;
-    margin-bottom: 24px;
-    }
 
 #catan .image-item p {
     text-align: center;

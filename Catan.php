@@ -33,6 +33,7 @@
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
 <div id="wrapper">
+
 <header class="intro">
 <div class="intro-body">
     <div class="intro-text">
@@ -47,22 +48,36 @@
     </div>
 </header>
 
-    <section class="case-study">
+<section class="case-study">
+<div class="case-study-container">
 
-        
-        <div class="paragraph">
-            <h3>What is Catan?</h3>
-            <p>Catan Universe is a board game adapted online 
+<nav id="sticky-toc" class="sticky-toc">
+        <h4 class="toc-title">Table of contents</h4>
+        <ul>
+            <li><a href="#invasive">Invasive Welcome Screen</a></li>
+            <li><a href="#log-in">Log-in and Password Reset</a></li>
+            <li><a href="#gamecreation">Unintuitive Game Creation</a></li>
+            <li><a href="#usability">Usability Issue</a></li>
+            <li><a href="#crowdedhud">Crowded HUD</a></li>
+             <li><a href="#final">Final Thoughts</a></li>
+
+        </ul>
+</nav>
+
+<div class="case-study-content">
+<div id="introduction">
+    <h3>What is Catan?</h3>
+        <p>Catan Universe is a board game adapted online 
                 on web, steam and mobile platforms. I started 
                 playing again during covid on the web browser 
                 version. They launched a UI update 2.0 DURING 
                 COVID lockdown.
-            </p>
-        </div>
+        </p>
+</div>
 
-        <div class="paragraph">
+        <div id="invasive">
             <h4>UX ISSUE</h4>
-                <h3>1. Invasive Welcome Screen</h3>
+                <h3 >1. Invasive Welcome Screen</h3>
                 <p>It’s been quite some time since I wanted to get back to Catan and play a few games. 
                     I’m welcomed on the landing page with an “Important Message” pop-up about Catan tournaments.
                     <br>
@@ -90,7 +105,7 @@
             </div>
         </div>
 
-        <div class="paragraph">
+        <div id="log-in">
             <h4>UX ISSUE</h4>
                 <h3>2. Log-in and Password Reset</h3>
                 <p>Stepping-in the bigger issues here, it took me around 4 minutes 
@@ -107,7 +122,7 @@
                 </p>
             </div>
 
-        <div class="paragraph">
+        <div id="gamecreation">
             <h4>UX ISSUE</h4>
                 <h3>3. Unintuitive Game Creation</h3>
                 <p>Some critical information to understand how to create 
@@ -135,7 +150,7 @@
             </div>
         </div>
 
-    <div class="paragraph">
+    <div id="usability">
         <div class="usability-flex">
             <div class="columns">
                 <div class="column">
@@ -161,7 +176,7 @@
         </div>
     </div>
 
-        <div class="paragraph">
+        <div id="crowdedhud">
             <h4>UI ISSUE</h4>
                 <h3>4. A very crowded HUD</h3>
             <p>The overall game interface just feels very busy. 
@@ -280,7 +295,7 @@
             </div>
         </div>
 
-        <div class="paragraph">
+        <div id="final">
             <h3>
                 Final thoughts
             </h3>
@@ -294,10 +309,20 @@
                 <img src="images/catan12.png" alt="Description of image 12" class="site-image">
             </div>
         </div>
-        
 
+</div>
+</div>        
+</section>
 
-    <div id="footer-placeholder" data-footer-type="white"></div>
+<section id="case-study-footer">
+        <!-- Button to read the next case study -->
+        <div class="button-container">
+            <a href="Catan.php"
+            class="button case-study-button">Lire le prochain case study</a>
+        </div>
+        <div id="footer-placeholder" data-footer-type="white"></div>
+</section>
+
     <button
         type="button"
         class="btn-back-to-top"
