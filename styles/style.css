@@ -98,11 +98,11 @@ ul {
     overflow-y: visible;
 }
 
-#riseup #wrapper {
+#wrapper {
     padding: 0 6rem; /* add some horizontal padding */
 }
 
-#riseup .case-study-container {
+.case-study-container {
     padding-right: 6rem;
 }
 
@@ -610,6 +610,46 @@ body#home .btn-back-to-top {
     display: none;
 }
 
+#case-study-footer {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
+    background-color: #E5E4FC;
+    padding: 2rem 16rem 2rem 16rem;
+    box-sizing: border-box;
+    margin-top: 4rem;
+}
+
+#case-study-footer .button {
+    box-shadow: 2px 8px 0 #C6C4FF;
+    background-color: white;
+    color:#000;
+    border: 1px solid #000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#case-study-footer .button:hover {
+    box-shadow: none;
+    background-color: black;
+    color: white;
+    transform: none;
+}
+
+body .footer-white {
+    background: #E5E4FC;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-bottom: 8rem;
+}
+
 .h2-intro  {
     display:none;
     align-items:center;
@@ -728,6 +768,7 @@ a {
     font-family: 'Euclid Circular A', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+    margin-top: 4rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     color: #000;
@@ -763,23 +804,6 @@ a {
     color: #5364FF;
 }
 
-.button {
-    background-color: black;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 24px;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
-}
-
-.button a {
-    color:#000;
-    text-decoration: none;
-    font-family: 'Euclid Circular A', sans-serif;
-    }
 
 
 /* Responsive: TOC becomes relative on small screens */
@@ -878,6 +902,14 @@ case-study h2 {
         padding: 1rem 2rem 1rem 2rem;
     }
 }
+
+
+@media (max-width: 768px) {
+    #case-study-footer {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+}
+
 
 #nextsteps {
     background-color: #ffffff;
@@ -1392,52 +1424,41 @@ case-study h2 {
     margin-top: 80px;
 }
 
+/* BUTTONS */
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 24px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.button a {
+    color:#000;
+    text-decoration: none;
+    font-family: 'Euclid Circular A', sans-serif;
+    }
+
 .button-container {
     text-align: center; /* Center the button horizontally */
-    margin-top: 8rem; /* Space above the button */
-    margin-bottom: 8rem;
-    font-family: 'Inter', sans-serif;
+    margin-top: 3rem; /* Space above the button */
+    margin-bottom: 3rem;
+    font-family: 'Euclid Circular A', sans-serif;
 }
 
-
-.next-case-study-button-black {
-    display: inline-block; /* Make it an inline block for padding */
-    padding: 10px 20px; /* Add padding for a better appearance */
-    color: rgb(0, 0, 0); /* Text color */
-    text-decoration: none; /* Remove underline from the link */
-    border-radius: 24px; /* Rounded corners */
-    border: 2px solid black; /* Black stroke */
-    font-size: 1rem; /* Font size */
-    font-weight: 700; /* Make text bolder */
-    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transition effect for hover */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+#case-study-footer .button {
+    box-shadow: 2px 8px 0 #C6C4FF;
+    background-color: white;
+    color:#000;
+    border: 1px solid #000;
+    font-size: 1rem;
+    font-weight: 500    ;
 }
-
-.next-case-study-button-purple {
-    display: inline-block; /* Make it an inline block for padding */
-    padding: 10px 20px; /* Add padding for a better appearance */
-    color: #5364FF; /* Text color */
-    text-decoration: none; /* Remove underline from the link */
-    border-radius: 24px; /* Rounded corners */
-    border: 2px solid #5364FF; /* Black stroke */
-    font-size: 1rem; /* Font size */
-    font-weight: 700; /* Make text bolder */
-    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Transition effect for hover */
-    box-shadow: 0 2px 4px rgba(83, 100, 255, 0.25);
-}
-.next-case-study-button-purple:hover {
-    background-color: #5364FF; /* Darken background color on hover */
-    transform: scale(1.05); /* Slightly enlarge the button on hover */
-    color: #fafafa;
-    box-shadow: 0 4px 12px rgba(83, 100, 255, 0.35); /* Enhanced shadow on hover */
-}
-.next-case-study-button-black:hover {
-    background-color: #000000; /* Darken background color on hover */
-    transform: scale(1.05); /* Slightly enlarge the button on hover */
-    color: #fafafa;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
-}
-
 
 .button {
     display: inline-block; /* Make the link behave like a block element */
@@ -1445,31 +1466,17 @@ case-study h2 {
     background-color: #000000; /* Button background color */
     color: white; /* Text color */
     text-decoration: none; /* Remove underline */
-    font-weight: 700; /* Make text bolder */
+    font-weight: 400; /* Make text bolder */
     border-radius: 4em; /* Rounded corners */
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 1em;
-    box-shadow: 0 4px 4px #1f1f1f40;
+    box-shadow: 2px 6px #32323240;
+    text-transform: uppercase;
 }
-
-#button-black {
-    display: inline-block; /* Make the link behave like a block element */
-    padding: 12px 20px; /* Add padding for a better appearance */
-    background-color: #000000; /* Button background color */
-    color: white; /* Text color */
-    text-decoration: none; /* Remove underline */
-    font-weight: 700; /* Make text bolder */
-    border-radius: 4em; /* Rounded corners */
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    box-shadow:  rgba(31, 31, 31, 0.25) 4px 4px;
-}
-
 
 
 .button:hover {
-    background-color: #2f2f2f; /* Darken background color on hover */
-    transform: scale(1.05); /* Slightly enlarge the button on hover */
-    box-shadow: 0 6px 16px #1f1f1f40; /* Enhanced shadow on hover */
+    box-shadow: none;
 }
 
 .button-secondary {
@@ -1671,7 +1678,7 @@ case-study h2 {
 .testimonials {
     max-width: 1200px;
     text-align: left;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-bottom: 4rem;
     position: relative;
 }

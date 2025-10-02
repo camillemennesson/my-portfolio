@@ -28,7 +28,7 @@
 
 
 <body id="mavoie">
- 
+
 <div id="floating-nav-placeholder"></div>
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
@@ -39,7 +39,7 @@
 <div class="intro-body">
     <div class="intro-text">
         <h1>Audit et redesign du site Mavoie.org</h1>
-        <h2>Mavoie est une association engagée pour le retour à l’emploi des jeunes en France. 
+        <h2>Mavoie est une association engagée pour le retour à l’emploi des jeunes en France.
             Elle propose des parcours d’accompagnement et des ressources en ligne afin d’aider les 16–25 ans
              à construire leur avenir professionnel.
         </h2>
@@ -83,26 +83,39 @@
         <img src="images/hero/mavoie.jpeg" alt="MaVoie website screenshot" id="hero-mavoie">
     </div>
 </header>
+ 
+<section class="case-study">
+    <div class="case-study-container">
+        
+    <nav id="sticky-toc" class="sticky-toc">
+            <h4 class="toc-title">Table of contents</h4>
+            <ul>
+                <li><a href="#challenge">Challenges</a></li>
+                <li><a href="#research">Recherche Utilisateur</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#aperçu">Aperçu du Site</a></li>
+                <li><a href="#résultats">Résultats</a></li>
+            </ul>
+        </nav>
 
-    <section class="case-study">
-
-        <div id="challenge">
+<div class="case-study-content">
+    <div id="challenge">
         <h3>Challenges</h3>
         <h4>Équipe Réduite</h4>
-            <p>Collaborer efficacement avec un 
+            <p>Collaborer efficacement avec un
                 développeur front-end et un développeur back-end, tous deux très juniors.
             </p>
         <h4> Contraintes Techniques </h4>
-        <p>Travailler avec des développeurs juniors nécessitait une communication 
+        <p>Travailler avec des développeurs juniors nécessitait une communication
             claire et des spécifications précises pour assurer la mise en œuvre
              correcte des designs.
         </p>
         <h4>Problème de Vision/Stratégie </h4>
-        <p>Le manque de clarté sur ce qu'ils faisaient exactement 
+        <p>Le manque de clarté sur ce qu'ils faisaient exactement
             se ressentait dans les solutions proposées sur leur site, rendant difficile
              la création d'une expérience utilisateur cohérente.
         </p>
-    
+
 
         <div id="research">
         <h3>Recherche Utilisateur</h3>
@@ -113,8 +126,8 @@
         <h4>Analyse quantitative avec Google Analytics et Hotjar</h4>
         <p>Identification de problèmes UX et de points d'abandon pendant le questionnaire grâce à l'analyse des données de Google Analytics et des heatmaps de Hotjar.
         Correction des problèmes identifiés pour améliorer le parcours utilisateur.
-        </p> 
-             
+        </p>
+
 
     <div id="solution">
         <h3>Solution</h3>
@@ -126,13 +139,13 @@
         <h4>Optimisation du Questionnaire</h4>
         <p>- Simplification des questions et amélioration de la présentation pour rendre le questionnaire moins intimidant.
         - Ajout de feedbacks instantanés pour encourager les utilisateurs à continuer.
-        </p> 
+        </p>
     </div>
-       
+
         <h3>Aperçu du site</h3>
 
-        <div class="image-gallery">
-          
+        <div id="aperçu" class="image-gallery">
+
             <div class="image-item">
                 <p>Page d'accueil</p>
                 <img src="images/homepage.png" alt="Description of image 1" class="site-image">
@@ -164,17 +177,20 @@
             <p>Les retours utilisateurs ont montré une satisfaction accrue avec la nouvelle interface.            </p>
         <h4>Augmentation du Taux de Conversion</h4>
         <p>Le taux de complétion du questionnaire a augmenté de 10% grâce aux améliorations apportées.
-        </p> 
-        
-        <!-- Button to read the next case study -->
-    <div class="button-container">
-        <a href="Soliguide.php"
-        class="button">Lire le prochain case study</a>
+        </p>
+        </div>
+
     </div>
+</section>
 
-    </section>
-
-    <div id="footer-placeholder" data-footer-type="white"></div>
+<section id="case-study-footer">
+        <!-- Button to read the next case study -->
+        <div class="button-container">
+            <a href="Mavoie.php"
+            class="button case-study-button">Lire le prochain case study</a>
+        </div>
+        <div id="footer-placeholder" data-footer-type="white"></div>
+</section>
     
     <button
         type="button"
@@ -183,9 +199,9 @@
         > 
         <i class="bi bi-arrow-up-circle-fill"></i>
     </button>
+
     <script src="/scripts/script.js"></script>
     
-</body>
-</div>
 
+</body>
 </html>

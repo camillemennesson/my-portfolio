@@ -187,15 +187,12 @@
         <div id="results">
         <h3>Outcomes and impact</h3>
             <p>After launch, initial feedback from both Rise Up’s internal teams and clients confirmed that the redesign achieved its goals:
-
-Easier to communicate product value to prospects
-
-Simpler navigation for L&amp;D managers to find relevant content
-
-Improved trust due to transparent pricing and feature clarity</p>
-
+                Easier to communicate product value to prospects
+                Simpler navigation for L&amp;D managers to find relevant content
+                Improved trust due to transparent pricing and feature clarity
+            </p>
         <div class="image-item">
-                <img src="images/riseuplxp.png" alt="Description of image 1" class="site-image">
+            <img src="images/riseuplxp.png" alt="Description of image 1" class="site-image">
         </div>
     <div id="nextsteps">
         <h3>📌 Next Steps</h3>
@@ -206,17 +203,20 @@ Improved trust due to transparent pricing and feature clarity</p>
         <h4>Website Design Guide</h4>
         <p>Developed a clear, actionable Website Design Guide for marketing and web teams. This resource ensures the site remains user-friendly, consistent, and optimized, even as new content and pages are added.</p>
     </div>
-</div>
-       <!-- Button to read the next case study -->
-    <div class="button-container">
-        <a href="Mavoie.php"
-        class="button">See another case study</a>
+        </div>
+        
     </div>
-</div>
 
     </section>
 
-    <div id="footer-placeholder" data-footer-type="white"></div>
+    <section id="case-study-footer">
+        <!-- Button to read the next case study -->
+        <div class="button-container">
+            <a href="Mavoie.php"
+            class="button case-study-button">See another case study</a>
+        </div>
+        <div id="footer-placeholder" data-footer-type="white"></div>
+    </section>
     
     <button
         type="button"
