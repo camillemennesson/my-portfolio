@@ -96,8 +96,16 @@ ul {
   margin: 0;       /* remove 2rem margin on sides you had */
   padding: 0; /* internal padding only, so content inside can have margin */
     overflow-y: visible;
-
 }
+
+#riseup #wrapper {
+    padding: 0 6rem; /* add some horizontal padding */
+}
+
+#riseup .case-study-container {
+    padding-right: 6rem;
+}
+
 
 /* Intro Section Styles */
 .hero-background {
@@ -573,7 +581,6 @@ header p {
 
 /*Intros*/
 
-
 section {
     text-align: center;
     box-sizing: border-box;
@@ -587,7 +594,6 @@ section {
 }
 
 .work-flex {
-    max-width: 1200px;    /* constrain content */
     margin: 0 auto;       /* center horizontally */
     display: flex;
     flex-wrap: wrap;
@@ -857,15 +863,8 @@ case-study h2 {
 }
 
 #solution  {
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    width: 100vw;
     background-color: #ffffff;
-    padding: 2rem 16rem 2rem 16rem; /* same as wrapper padding */
-    box-sizing: border-box;
+    padding: 2rem 6rem 2rem 6rem; /* same as wrapper padding */
     margin-top: 4rem;
 }
 

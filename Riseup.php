@@ -33,8 +33,6 @@
 
 <div id="wrapper">
 
-
-
 <header class="intro">
 <div class="intro-body">
     <div class="intro-text">
