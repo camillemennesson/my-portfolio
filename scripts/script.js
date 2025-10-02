@@ -1,6 +1,7 @@
 
 // scripts/script.js
 
+
 document.addEventListener("DOMContentLoaded", function() {
 
 // DISPLAY NAVBAR & FOOTER AND INITIALIZE BURGER MENU
@@ -101,6 +102,45 @@ document.querySelectorAll(".nav-link").forEach((link) => {
       link.setAttribute("aria-current", "page");
   }
 });
+
+// TOC sticky and highlight script moved from Riseup.php
+
+const toc = document.getElementById('sticky-toc');
+if (toc) {
+    const sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
+    const tocLinks = toc.querySelectorAll('a');
+    const challengeSection = document.getElementById('challenge');
+
+    // Show TOC only after scrolling to challenge section
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY || window.pageYOffset;
+        const challengeTop = challengeSection.offsetTop;
+
+        // Adjust threshold to show TOC a bit earlier
+        if (scrollPosition + window.innerHeight * 0.25 >= challengeTop) {
+            toc.style.display = 'block';
+        } else {
+            toc.style.display = 'none';
+        }
+
+        // Highlight current section in TOC
+        let currentSection = sections[0];
+        for (let section of sections) {
+            const sectionElement = document.getElementById(section);
+            if (sectionElement.offsetTop <= scrollPosition + 100) {
+                currentSection = section;
+            }
+        }
+
+        tocLinks.forEach(link => {
+            if (link.getAttribute('href') === '#' + currentSection) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    });
+}
 
 });
 
