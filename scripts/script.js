@@ -2,6 +2,57 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 
+    document.addEventListener("DOMContentLoaded", function() {
+  // --- Back-to-top button ---
+  const mybutton = document.getElementById("btn-back-to-top");
+
+  // --- Sticky TOC ---
+  const toc = document.getElementById('sticky-toc');
+  const challengeSection = document.getElementById('challenge');
+  let tocLinks, sections;
+
+  if (toc && challengeSection) {
+    tocLinks = toc.querySelectorAll('a');
+    sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
+    toc.style.display = 'none'; // hide initially
+  }
+
+  // Single scroll listener
+  window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
+
+    // --- Back-to-top button ---
+    if (mybutton) {
+      mybutton.style.display = scrollPosition > 20 ? 'block' : 'none';
+    }
+
+    // --- Sticky TOC ---
+    if (toc && challengeSection) {
+      toc.style.display = scrollPosition >= challengeSection.offsetTop - 50 ? 'block' : 'none';
+
+      // Highlight current section
+      let currentSection = sections[0];
+      for (let id of sections) {
+        const section = document.getElementById(id);
+        if (!section) continue;
+        if (scrollPosition >= section.offsetTop - 100) currentSection = id;
+      }
+
+      tocLinks.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === '#' + currentSection);
+      });
+    }
+  });
+
+  // Back-to-top click handler
+  if (mybutton) {
+    mybutton.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+});
+
+
 // DISPLAY NAVBAR & FOOTER AND INITIALIZE BURGER MENU
   const navbarType = document.getElementById('navbar-placeholder').getAttribute('data-navbar-type');
   const footerType = document.getElementById('footer-placeholder').getAttribute('data-footer-type');
