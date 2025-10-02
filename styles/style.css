@@ -89,13 +89,13 @@ ul {
     text-decoration: none;   
  }
 
+
+
 /* 2. Make wrapper full width so no side gaps */
 #wrapper {
   margin: 0;       /* remove 2rem margin on sides you had */
   padding: 0 5rem; /* internal padding only, so content inside can have margin */
-  max-width: none; /* remove any max-width constraint that could cause centering gaps */
- max-height: 100vh;
-  overflow-y: auto;
+    overflow-y: visible;
 
 }
 
@@ -107,7 +107,10 @@ ul {
   padding-top: 1rem;
   padding-bottom: 3rem;
   filter: contrast(1.05) brightness(0.98);
-  z-index: 999;
+  z-index: 100;
+  overflow: hidden;
+    min-height: 600px; /* ensure enough height for intro + stamp */
+
 }
 
 .intro-container {
@@ -131,7 +134,6 @@ ul {
     flex: 1;
     margin: auto 0;
     position: relative;
-    z-index: 1;
 }
 
 .intro-body {
@@ -438,7 +440,7 @@ p {
   height: 160px;
   transform: rotate(-5deg);
   animation: stamp-pop 1s ease-out forwards;
-  z-index: 10000;
+  z-index: 9999;
 }
 
 /* Make sure the SVG fills the container */
@@ -578,13 +580,23 @@ section {
 }
 
 #Work {
-    max-width: none;
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
+    margin: 2rem 5rem;
+    width: auto;
+}
+
+.work-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#bear, #osmia, #parents, #spotify {
+    display: none;
+}
+
+body#home .btn-back-to-top {
+    display: none;
 }
 
 .h2-intro  {

@@ -26,8 +26,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const scrollPosition = wrapper ? wrapper.scrollTop : window.scrollY;
 
         // --- Back-to-top button ---
-        if (mybutton) {
+        if (mybutton && document.body.id !== 'home') {
             mybutton.style.display = scrollPosition > 20 ? "block" : "none";
+        } else if (mybutton) {
+            mybutton.style.display = "none";
         }
 
         // --- Highlight current section in TOC ---
