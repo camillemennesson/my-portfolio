@@ -627,7 +627,7 @@ body#home .btn-back-to-top {
     margin-left: -50vw;
     margin-right: -50vw;
     width: 100vw;
-    background-color: #E5E4FC;
+    background: #E5E4FC url('../images/backgroundnoise.svg') repeat;
     padding: 2rem 16rem 2rem 16rem;
     box-sizing: border-box;
     margin-top: 4rem;
@@ -650,7 +650,7 @@ body#home .btn-back-to-top {
 }
 
 body .footer-white {
-    background: #E5E4FC;
+    background: #E5E4FC url('../images/backgroundnoise.svg') repeat;
     width: 100vw;
     position: relative;
     left: 50%;
@@ -661,10 +661,10 @@ body .footer-white {
 }
 
 body#home  .footer-white {
-    background: transparent;
+    background: #F7F6EB url('../images/backgroundnoise.svg') repeat;
 }
 body#about .footer-white {
-    background: #F7F6EB;
+    background: #F7F6EB url('../images/backgroundnoise.svg') repeat;
 }
 .h2-intro  {
     display:none;
