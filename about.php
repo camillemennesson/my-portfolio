@@ -45,16 +45,19 @@
  <!-- CV Picture-->
     <div class="cv">
     <img src="images/CV PNG MAI 2025.png" alt="cv">
+
      <section id="download-resume">
-    <div class="download-resume-image">
-    <a  class="button" target="_blank" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing">
+    <div>
+    <a  target="_blank" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing">
         <img src="images/two doodle characters shaking hands.png" alt="doodle characters shaking hands">
     </a>  
 </div>
+
      <div>
-        <a target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing"
+        <a class="button" target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing"
         >Télécharger mon CV</a>
     </div>   
+
 </section>
     </div>
 

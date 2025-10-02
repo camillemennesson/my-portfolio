@@ -660,10 +660,12 @@ body .footer-white {
     margin-bottom: 8rem;
 }
 
-body#home .footer-white {
+body#home  .footer-white {
     background: #F7F6EB;
 }
-
+body#about .footer-white {
+    background: #F7F6EB;
+}
 .h2-intro  {
     display:none;
     align-items:center;
@@ -823,9 +825,15 @@ a {
 /* Responsive: TOC becomes relative on small screens */
 /* Mobile: stack columns */
 @media (max-width: 768px) {
+
+    .case-study {
+    padding-top: 0;
+    }
+
     .case-study-container {
         flex-direction: column;
         padding-right: 0;
+        gap: 0;
     }
 
     .sticky-toc {
