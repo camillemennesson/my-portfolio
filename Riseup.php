@@ -89,8 +89,9 @@
 
     <h4 class="toc-title">Table of contents</h4>
     <ul>
-        <li><a href="#challenge">The Challenge</a></li>
-        <li><a href="#process">My Process</a></li>
+        <li><a href="#challenge">Challenge</a></li>
+        <li><a href="#process">Audit</a></li>
+        <li><a href="#process">Process</a></li>
         <li><a href="#solution">Solutions</a></li>
         <li><a href="#results">Outcomes and impact</a></li>
         <li><a href="#nextsteps">Next Steps</a></li>
@@ -130,28 +131,32 @@
         <hr style="border:none; border-top:1px solid #d3d3d3; margin:1rem 0;" />
 
         <div id="challenge">
-        <h3>The Challenge</h3>
+        <h3>Challenge</h3>
         <p>Rise Up was expanding internationally and needed a marketing website that clearly communicated its value to a global audience of HR managers, L&amp;D leaders, and digital learning managers.
-            The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.
-
-        </p><h4>Key challenges:</h4>
-            <li><b>Unclear value proposition:</b> Visitors struggled to quickly understand Rise Up’s unique selling points (USPs).
-            </li>  
-            <li><b>Poor navigation:</b> Content was buried under a confusing structure, making it hard to find relevant information.
-            </li>
-            <li><b>Lack of transparency:</b> Pricing and feature details weren’t clearly presented, creating distrust.
-            </li>
-            <li><b>Technical constraints:</b> The site had to work seamlessly within HubSpot, limiting layout and interaction options.
-            </li>
-            <li><b>Inconsistent visuals:</b> No digital design system existed, leading to inconsistent brand representation across marketing materials.<p></p>
-            </li>
+            The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.</p>
+        
+        <div id="audit">
+            <h3>Audit</h3>
+                <ul class="key-challenges">
+                    <li><b>Unclear value proposition</b> Visitors struggled to quickly understand Rise Up’s unique selling points (USPs).
+                    </li>
+                    <li><b>Poor navigation</b> Content was buried under a confusing structure, making it hard to find relevant information.
+                    </li>
+                    <li><b>Lack of transparency</b> Pricing and feature details weren’t clearly presented, creating distrust.
+                    </li>
+                    <li><b>Technical constraints</b> The site had to work seamlessly within HubSpot, limiting layout and interaction options.
+                    </li>
+                    <li><b>Inconsistent visuals</b> No digital design system existed, leading to inconsistent brand representation across marketing materials.<p></p>
+                    </li>
+                </ul>
+        </div>
 
         <div class="image-item">
             <img src="images/riseup/challenges.png" alt="Key challenges" class="site-image">
         </div>
 
         <div id="process">
-        <h3>My Process</h3>
+        <h3>Process</h3>
         <h4>Research &amp; Discovery</h4>
             <p>Conducted website audit, internal team interviews, client interviews (FR &amp; EN markets), and competitor benchmarking → identified usability issues and clarified personas.</p>
         <h4>UX Redesign</h4>

@@ -857,6 +857,21 @@ case-study h2 {
     line-height: 2.8rem;
 }
 
+.key-challenges {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+}
+
+.key-challenges li b {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+
 .case-study p {
     font-size: 1rem;
     margin-top: 0.5rem;
