@@ -659,6 +659,7 @@ a {
   font-size: 0.9rem;
   color: #000;
   display: none; /* start hidden */
+  z-index: 99999;
 }
 
 .sticky-toc ul {
