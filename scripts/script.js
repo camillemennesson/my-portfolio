@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // -------------------------------
     const handleScroll = () => {
         const scrollPosition = wrapper ? wrapper.scrollTop : window.scrollY;
-        //console.log("Scroll detected! Position:", scrollPosition);
 
         // --- Back-to-top button ---
         if (mybutton) {
@@ -41,7 +40,6 @@ document.addEventListener("DOMContentLoaded", function () {
         if (toc && introImage) {
             const introTop = introImage.offsetTop;
             toc.style.display = scrollPosition >= introTop ? "block" : "none";
-            //console.log("TOC display:", toc.style.display, "Intro bottom:", introBottom, "Scroll position:", scrollPosition);
 
             // Highlight current section
             let currentSection = sections[0];
@@ -62,7 +60,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Run once on load to respect initial scroll position
     handleScroll();
 
-    // --- Back-to-top click handler ---
+    // -------------------------------
+    // BACK-TO-TOP BUTTON CLICK
+    // -------------------------------
     if (mybutton) {
         mybutton.addEventListener("click", () => {
             if (wrapper) {
@@ -74,13 +74,34 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // -------------------------------
+    // TOC SMOOTH SCROLL
+    // -------------------------------
+    if (tocLinks.length) {
+        tocLinks.forEach(link => {
+            link.addEventListener("click", (e) => {
+                e.preventDefault();
+                const targetId = link.getAttribute("href").substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (!targetSection) return;
+
+                const offsetTop = targetSection.offsetTop - 80; // sticky TOC offset
+                if (wrapper) {
+                    wrapper.scrollTo({ top: offsetTop, behavior: "smooth" });
+                } else {
+                    window.scrollTo({ top: offsetTop, behavior: "smooth" });
+                }
+            });
+        });
+    }
+
+    // -------------------------------
     // NAVBAR & FOOTER FETCH
     // -------------------------------
     const navbarType = document.getElementById('navbar-placeholder')?.getAttribute('data-navbar-type');
     const footerType = document.getElementById('footer-placeholder')?.getAttribute('data-footer-type');
 
     fetch('components/navbar.html?v=' + Date.now())
-        .then(response => response.text())
+        .then(res => res.text())
         .then(data => {
             const tempDiv = document.createElement('div');
             tempDiv.innerHTML = data;
@@ -94,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(err => console.error("Navbar fetch error:", err));
 
     fetch('components/footer.html')
-        .then(response => response.text())
+        .then(res => res.text())
         .then(data => {
             const tempDiv = document.createElement('div');
             tempDiv.innerHTML = data;
@@ -108,16 +129,13 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch(err => console.error("Footer fetch error:", err));
 
     fetch('components/floating-nav.html')
-        .then(response => {
-            if (!response.ok) throw new Error('Network response was not ok');
-            return response.text();
-        })
+        .then(res => res.text())
         .then(data => {
             const floatingNavPlaceholder = document.getElementById('floating-nav-placeholder');
             if (!floatingNavPlaceholder) return;
             floatingNavPlaceholder.innerHTML = data;
         })
-        .catch(error => console.error('Floating nav fetch error:', error));
+        .catch(err => console.error("Floating nav fetch error:", err));
 
     // -------------------------------
     // ACTIVE STATE FOR NAV LINKS
