@@ -225,6 +225,8 @@ Improved trust due to transparent pricing and feature clarity</p>
     <script src="/scripts/script.js"></script>
     
 <script>
+    console.log("✅ TOC script loaded");
+
     window.addEventListener('scroll', () => {
     const scrollPosition = window.scrollY || window.pageYOffset;
     const challengeTop = challengeSection.offsetTop;
