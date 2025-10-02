@@ -105,6 +105,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // SINGLE SCROLL LISTENER
   // -------------------------------
   window.addEventListener('scroll', () => {
+    console.log('Scroll event fired:', window.scrollY);
+
     const scrollPosition = window.scrollY || window.pageYOffset;
 
     // Back-to-top button
