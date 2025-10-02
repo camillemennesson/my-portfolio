@@ -94,7 +94,7 @@ ul {
 /* 2. Make wrapper full width so no side gaps */
 #wrapper {
   margin: 0;       /* remove 2rem margin on sides you had */
-  padding: 0 5rem; /* internal padding only, so content inside can have margin */
+  padding: 0; /* internal padding only, so content inside can have margin */
     overflow-y: visible;
 
 }
@@ -580,11 +580,15 @@ section {
 }
 
 #Work {
-    margin: 2rem 5rem;
+    margin: 0;
     width: auto;
+    background-color: #ffffff;
+    padding: 4rem 0;
 }
 
 .work-flex {
+    max-width: 1200px; /* constrain projects */
+    margin: 0 auto; /* center horizontally */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
