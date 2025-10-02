@@ -1,35 +1,43 @@
 // scripts/script.js
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("DOM fully loaded");
+    console.log("✅ DOM fully loaded");
+     window.addEventListener("scroll", () => {
+  console.log("📜 Scrolling...", window.scrollY);
+});
+
 
     // -------------------------------
     // ELEMENT SELECTORS
     // -------------------------------
-    const wrapper = document.getElementById("wrapper");
     const mybutton = document.getElementById("btn-back-to-top");
     const toc = document.getElementById("sticky-toc");
 
-    if (!wrapper) console.warn("Wrapper not found");
-    if (!mybutton) console.warn("Back-to-top button not found");
-    if (!toc) console.warn("TOC not found");
+    if (!mybutton) console.warn("⚠️ Back-to-top button not found");
+    if (!toc) console.warn("⚠️ TOC not found");
 
-    // Build TOC links + corresponding sections dynamically
+    // Build TOC links + sections dynamically
     let tocLinks = [];
     let sections = [];
     if (toc) {
         tocLinks = toc.querySelectorAll("a[href^='#']");
         sections = Array.from(tocLinks)
-            .map(link => document.querySelector(link.getAttribute("href")))
-            .filter(Boolean); // keep only existing elements
+            .map(link => {
+                const id = link.getAttribute("href");
+                const section = document.querySelector(id);
+                if (!section) {
+                    console.warn("⚠️ No section found for TOC link:", id);
+                }
+                return section;
+            })
+            .filter(Boolean);
     }
-
-    const scrollable = wrapper || window;
 
     // -------------------------------
     // SCROLL HANDLER
     // -------------------------------
     const handleScroll = () => {
-        const scrollPosition = wrapper ? wrapper.scrollTop : window.scrollY;
+        const scrollPosition = window.scrollY;
+        console.log("📜 Scroll position:", scrollPosition);
 
         // --- Back-to-top button ---
         if (mybutton && document.body.id !== "home") {
@@ -48,17 +56,20 @@ document.addEventListener("DOMContentLoaded", function () {
                     break;
                 }
             }
+            console.log("⭐ Active section:", currentSection ? currentSection.id : "none");
+
             tocLinks.forEach(link => {
-                link.classList.toggle(
-                    "active",
-                    currentSection && link.getAttribute("href") === "#" + currentSection.id
-                );
+                const isActive = currentSection && link.getAttribute("href") === "#" + currentSection.id;
+                link.classList.toggle("active", isActive);
+                if (isActive) {
+                    console.log("🔗 Highlighted TOC link:", link.getAttribute("href"));
+                }
             });
         }
     };
 
-    // Attach scroll listener
-    scrollable.addEventListener("scroll", handleScroll);
+    // Attach scroll listener (WINDOW ONLY)
+    window.addEventListener("scroll", handleScroll);
 
     // Run once on load
     handleScroll();
@@ -68,11 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // -------------------------------
     if (mybutton) {
         mybutton.addEventListener("click", () => {
-            if (wrapper) {
-                wrapper.scrollTo({ top: 0, behavior: "smooth" });
-            } else {
-                window.scrollTo({ top: 0, behavior: "smooth" });
-            }
+            window.scrollTo({ top: 0, behavior: "smooth" });
         });
     }
 

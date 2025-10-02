@@ -225,7 +225,7 @@
         > 
         <i class="bi bi-arrow-up-circle-fill"></i>
     </button>
-    <script src="/scripts/script.js"></script>
+    <script src="/scripts/script.js?v=100"></script>
     
 
 </body>

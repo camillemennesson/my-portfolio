@@ -95,7 +95,7 @@ ul {
 #wrapper {
   margin: 0;       /* remove 2rem margin on sides you had */
   padding: 0; /* internal padding only, so content inside can have margin */
-    overflow-y: visible;
+overflow-y: visible;
 }
 
 #wrapper {
