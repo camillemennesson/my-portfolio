@@ -133,6 +133,10 @@
             <li><b>Inconsistent visuals:</b> No digital design system existed, leading to inconsistent brand representation across marketing materials.<p></p>
             </li>
 
+        <div class="image-item">
+            <img src="images/riseup/challenges.png" alt="Key challenges" class="site-image">
+        </div>
+
         <div id="process">
         <h3>My Process</h3>
         <h4>Research &amp; Discovery</h4>
@@ -144,7 +148,7 @@
             <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
                         
         <div class="image-item">
-                <img src="images/riseupprocess.png" alt="Description of image 1" class="site-image">
+                <img src="images/riseupprocess.png" alt="Screenshot of design process" class="site-image">
             </div>
 
 
@@ -161,7 +165,7 @@
         <h4>Key pages flow</h4>
         <h4>Highlighting USPs</h4>
         <div class="image-item">
-                <img src="images/riseupmenu.png" alt="Description of image 1" class="site-image">
+                <img src="images/riseupmenu.png" alt="Website Navigation Menu" class="site-image">
             </div>
     </div>
        
