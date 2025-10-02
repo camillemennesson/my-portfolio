@@ -644,6 +644,55 @@ a {
     max-width: 992px;
     color: #080812;
     padding-top: 6rem;
+    margin-left: 260px; /* space for TOC */
+}
+
+.sticky-toc {
+  position: sticky;
+  top: 80px;
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 220px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: #000;
+  display: block; /* start hidden */
+}
+
+.sticky-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.sticky-toc ul li {
+  margin-bottom: 0.75rem;
+}
+
+.sticky-toc ul li a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.sticky-toc ul li a.active,
+.sticky-toc ul li a:hover {
+  color: #5364FF;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .sticky-toc {
+    position: relative;
+    top: auto;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    padding: 0;
+    display: block; /* always show on mobile */
+  }
 }
 
 .case-study h2 {
@@ -717,7 +766,7 @@ a {
     margin-left: -50vw;
     margin-right: -50vw;
     width: 100vw;
-    background-color: #F4F4F4;
+    background-color: #ffffff;
     padding: 2rem 16rem 2rem 16rem; /* same as wrapper padding */
     box-sizing: border-box;
     margin-top: 4rem;
@@ -731,6 +780,108 @@ a {
 @media (max-width: 768px) {
     #solution {
         padding: 1rem 2rem 1rem 2rem;
+    }
+}
+
+#nextsteps {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+#nextsteps h3 {
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.sticky-toc {
+    position: sticky;
+    top: 80px;
+    max-width: 220px;
+    font-family: 'Euclid Circular A', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    z-index: 1000;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #000;
+    background-color: transparent;
+    border: none;
+    margin-left: 0;
+}
+
+.toc-title {
+    font-family: 'Indie Flower', cursive;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.sticky-toc ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sticky-toc ul li {
+    margin-bottom: 0.75rem;
+}
+
+.sticky-toc ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 400;
+}
+
+.sticky-toc ul li a:hover {
+    color: #5364FF;
+}
+
+@media (max-width: 768px) {
+    .sticky-toc {
+        position: relative;
+        top: auto;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 0;
+    }
+}
+
+.sticky-toc ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sticky-toc ul li {
+    margin-bottom: 0.75rem;
+}
+
+.sticky-toc ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sticky-toc ul li a:hover {
+    color: #5364FF;
+}
+
+@media (max-width: 768px) {
+    .sticky-toc {
+        position: relative;
+        top: auto;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        border: none;
+        padding: 0;
     }
 }
 

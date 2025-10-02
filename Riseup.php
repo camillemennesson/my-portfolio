@@ -21,7 +21,6 @@
     <link rel="stylesheet" type="text/css" href="<?php echo 'styles/components.css?='.time(); ?>">
     <link rel="stylesheet" type="text/css" media="all" href="<?php echo 'styles/style.css?='.time(); ?>"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
-    <div id="navbar-placeholder" data-navbar-type="white"></div>
     <script src="components/components.js"></script>
 
 </head>
@@ -33,6 +32,18 @@
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
 <div id="wrapper">
+
+<nav id="sticky-toc" class="sticky-toc">
+
+    <h4 class="toc-title">TABLE OF CONTENTS</h4>
+    <ul>
+        <li><a href="#challenge">The Challenge</a></li>
+        <li><a href="#process">My Process</a></li>
+        <li><a href="#solution">Solutions</a></li>
+        <li><a href="#results">Outcomes and impact</a></li>
+        <li><a href="#nextsteps">Next Steps</a></li>
+    </ul>
+</nav>
 
 <header class="intro">
 <div class="intro-body">
@@ -181,23 +192,23 @@ Simpler navigation for L&amp;D managers to find relevant content
 
 Improved trust due to transparent pricing and feature clarity</p>
 
-<div class="image-item">
+        <div class="image-item">
                 <img src="images/riseuplxp.png" alt="Description of image 1" class="site-image">
-            </div>
-        <div>
-        <h3>Next Steps</h3>
-            <p>The website redesign was only the first step in Rise Up’s digital transformation. To help them fully leverage the new design, I continued working with the team on two strategic missions:
+        </div>
+    <div id="nextsteps">
+        <h3>📌 Next Steps</h3>
+        <p>The website redesign was only the first step in Rise Up’s digital transformation. To help them fully leverage the new design, I continued working with the team on two strategic missions:
        </p>       
        <h4>Creative Production</h4> 
        <p>Designed static visuals and 2D animated videos to elevate the website experience and support marketing campaigns. These assets aligned closely with the new brand and helped communicate Rise Up’s innovative features more dynamically.</p>
-    <h4>Website Design Guide</h4>
-    <p>Developed a clear, actionable Website Design Guide for marketing and web teams. This resource ensures the site remains user-friendly, consistent, and optimized, even as new content and pages are added.</p>
+        <h4>Website Design Guide</h4>
+        <p>Developed a clear, actionable Website Design Guide for marketing and web teams. This resource ensures the site remains user-friendly, consistent, and optimized, even as new content and pages are added.</p>
     </div>
         
        <!-- Button to read the next case study -->
     <div class="button-container">
         <a href="Mavoie.php"
-        class="next-case-study-button-black">Lire le prochain case study</a>
+        class="next-case-study-button-black">See another case study</a>
     </div>
 
     </section>
@@ -213,6 +224,65 @@ Improved trust due to transparent pricing and feature clarity</p>
     </button>
     <script src="/scripts/script.js"></script>
     
+<script>
+    window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY || window.pageYOffset;
+    const challengeTop = challengeSection.offsetTop;
+
+    console.log("scroll:", scrollPosition, "challenge top:", challengeTop);
+
+    if (scrollPosition >= challengeTop - 200) {
+        console.log("TOC should show");
+        toc.style.display = 'block';
+    } else {
+        console.log("TOC should hide");
+        toc.style.display = 'none';
+    }
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const toc = document.getElementById('sticky-toc');
+    const sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
+    const tocLinks = toc.querySelectorAll('a');
+    const challengeSection = document.getElementById('challenge');
+
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY || window.pageYOffset;
+        const challengeTop = challengeSection.offsetTop;
+
+        // Show TOC once you’re near the Challenge section
+        if (scrollPosition >= challengeTop - 200) {
+            toc.style.display = 'block';
+        } else {
+            toc.style.display = 'none';
+        }
+
+        // Highlight current section
+        let currentSection = sections[0];
+        for (let section of sections) {
+            const sectionElement = document.getElementById(section);
+            const sectionTop = sectionElement.offsetTop;
+            const sectionHeight = sectionElement.offsetHeight;
+
+            if (
+                scrollPosition >= sectionTop - 100 &&
+                scrollPosition < sectionTop + sectionHeight - 100
+            ) {
+                currentSection = section;
+            }
+        }
+
+        tocLinks.forEach(link => {
+            if (link.getAttribute('href') === '#' + currentSection) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    });
+});
+
+</script>
 </body>
 </div>
 
