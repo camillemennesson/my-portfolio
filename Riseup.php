@@ -89,7 +89,7 @@
 <div class="case-study-container">
     <nav id="sticky-toc" class="sticky-toc">
 
-    <h4 class="toc-title">TABLE OF CONTENTS</h4>
+    <h4 class="toc-title">Table of contents</h4>
     <ul>
         <li><a href="#challenge">The Challenge</a></li>
         <li><a href="#process">My Process</a></li>
