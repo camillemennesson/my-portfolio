@@ -655,6 +655,10 @@ body .footer-white {
     margin-bottom: 8rem;
 }
 
+body#home .footer-white {
+    background: #F7F6EB;
+}
+
 .h2-intro  {
     display:none;
     align-items:center;
