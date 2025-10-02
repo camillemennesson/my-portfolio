@@ -105,46 +105,43 @@ document.querySelectorAll(".nav-link").forEach((link) => {
 
 // TOC sticky and highlight script moved from Riseup.php
 
-const toc = document.getElementById('sticky-toc');
-console.log("✅ TOC element is:", toc);
-
-if (toc) {
+document.addEventListener('DOMContentLoaded', () => {
+    const toc = document.getElementById('sticky-toc');
     const sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
     const tocLinks = toc.querySelectorAll('a');
     const challengeSection = document.getElementById('challenge');
 
-    // Show TOC only after scrolling to challenge section
-    window.addEventListener('scroll', () => {
-      console.log("📜 scroll:", window.scrollY);
-        const scrollPosition = window.scrollY || window.pageYOffset;
-        const challengeTop = challengeSection.offsetTop;
+    if (!toc || !challengeSection) return; // Exit if TOC or challenge section is missing
 
-        // Adjust threshold to show TOC a bit earlier
-        if (scrollPosition + window.innerHeight * 0.25 >= challengeTop) {
+    // Initially hide TOC
+    toc.style.display = 'none';
+
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY || window.pageYOffset;
+
+        // Show TOC when scrolling past ~25% of viewport before the challenge section
+        if (scrollPosition + window.innerHeight * 0.25 >= challengeSection.offsetTop) {
             toc.style.display = 'block';
         } else {
             toc.style.display = 'none';
         }
 
-        // Highlight current section in TOC
+        // Determine current section
         let currentSection = sections[0];
-        for (let section of sections) {
-            const sectionElement = document.getElementById(section);
-            if (sectionElement.offsetTop <= scrollPosition + 100) {
-                currentSection = section;
+        for (let sectionId of sections) {
+            const sectionEl = document.getElementById(sectionId);
+            if (!sectionEl) continue;
+
+            if (scrollPosition >= sectionEl.offsetTop - 100) {
+                currentSection = sectionId;
             }
         }
 
+        // Update TOC active state
         tocLinks.forEach(link => {
-            if (link.getAttribute('href') === '#' + currentSection) {
-                link.classList.add('active');
-            } else {
-                link.classList.remove('active');
-            }
+            link.classList.toggle('active', link.getAttribute('href') === '#' + currentSection);
         });
     });
-}
-
 });
-
-
+// End of TOC script
+});

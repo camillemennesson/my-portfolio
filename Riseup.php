@@ -224,67 +224,7 @@ Improved trust due to transparent pricing and feature clarity</p>
     </button>
     <script src="/scripts/script.js"></script>
     
-<script>
-    console.log("✅ TOC script loaded");
 
-    window.addEventListener('scroll', () => {
-    const scrollPosition = window.scrollY || window.pageYOffset;
-    const challengeTop = challengeSection.offsetTop;
-
-    console.log("scroll:", scrollPosition, "challenge top:", challengeTop);
-
-    if (scrollPosition >= challengeTop - 200) {
-        console.log("TOC should show");
-        toc.style.display = 'block';
-    } else {
-        console.log("TOC should hide");
-        toc.style.display = 'none';
-    }
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-    const toc = document.getElementById('sticky-toc');
-    const sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
-    const tocLinks = toc.querySelectorAll('a');
-    const challengeSection = document.getElementById('challenge');
-
-    window.addEventListener('scroll', () => {
-        const scrollPosition = window.scrollY || window.pageYOffset;
-        const challengeTop = challengeSection.offsetTop;
-
-        // Show TOC once you’re near the Challenge section
-        if (scrollPosition >= challengeTop - 200) {
-            toc.style.display = 'block';
-        } else {
-            toc.style.display = 'none';
-        }
-
-        // Highlight current section
-        let currentSection = sections[0];
-        for (let section of sections) {
-            const sectionElement = document.getElementById(section);
-            const sectionTop = sectionElement.offsetTop;
-            const sectionHeight = sectionElement.offsetHeight;
-
-            if (
-                scrollPosition >= sectionTop - 100 &&
-                scrollPosition < sectionTop + sectionHeight - 100
-            ) {
-                currentSection = section;
-            }
-        }
-
-        tocLinks.forEach(link => {
-            if (link.getAttribute('href') === '#' + currentSection) {
-                link.classList.add('active');
-            } else {
-                link.classList.remove('active');
-            }
-        });
-    });
-});
-
-</script>
 </body>
 </div>
 
