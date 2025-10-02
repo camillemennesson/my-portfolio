@@ -25,13 +25,12 @@
 
 </head>
 
-<body>
+<body id="soliguide">
 
-
- 
 <div id="floating-nav-placeholder"></div>
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
+
 <div id="wrapper">
 
 <header class="intro">
@@ -77,9 +76,22 @@
     </div>
 </header>
 
-    <section class="case-study">
+<section class="case-study">
+<div class="case-study-container">
 
-        <div id="introduction">
+    <nav id="sticky-toc" class="sticky-toc">
+        <h4 class="toc-title">Table of contents</h4>
+        <ul>
+            <li><a href="#challenge">Challenges</a></li>
+            <li><a href="#research">Recherche Utilisateur</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#aperçu">Aperçu du Site</a></li>
+            <li><a href="#résultats">Résultats</a></li>
+        </ul>
+    </nav>
+
+<div class="case-study-content">
+    <div id="introduction">
         <h3>Contexte</h3>
         <p>
         Soliguide c'est le guide de la solidarité en ligne. La plateforme vise à aider les personnes en situation de précarité 
@@ -93,10 +105,9 @@
             <li>Optimiser les principaux parcours utilisateurs</li>
             <li>Mieux comprendre l'uilisation de Soliguide en contexte de mobilité (sur le terrain) </li>
         </p>
+    </div>
 
-
-
-        <div id="challenge">
+    <div id="challenge">
         <h3>Challenges</h3>
         <h4>Cibles sensibles</h4>
             <p>Le projet présentait plusieurs défis en raison de la nature des cibles :
@@ -106,9 +117,9 @@
         <p>En plus des personnes en situation de précarité, les professionnels 
             des associations utilisent également le site pour aider les utilisateurs
              finaux.</p>
-             
+    </div>       
 
-        <div id="solution">
+    <div id="solution">
         <h3>Solutions mises en place</h3>
             <h4>Recherche et Compréhension des Utilisateurs</h4>
                 <p><li>Définition des cibles : Identification des deux types principaux
@@ -144,11 +155,11 @@
                         utilisateurs novices.
                     </li>
                 </p> 
-        </div>
+    </div>
 
+    <div id="aperçu">
         <h3>Aperçu de l'app</h3>
         <div class="image-gallery">
-
             <div class="image-item">
                 <p>Onboarding (FTUE)</p>
                 <img src="images/Soliguide1.png" alt="Description of image 1" class="site-image">
@@ -163,6 +174,7 @@
                 <img src="images/Soliguide2.png" alt="Description of image 2" class="site-image">
             </div>
         </div>
+    </div>
 
 
     <div id="results">
@@ -182,16 +194,19 @@
                         besoins pour aider les personnes en situation de précarité.
                     </li></p>
     </div>
+
+</div>
+</div>
+</section>
         
+<section id="case-study-footer">
         <!-- Button to read the next case study -->
-    <div class="button-container">
-        <a href="Catan.php"
-        class="button">Lire le prochain case study</a>
-    </div>
-
-    </section>
-
-    <div id="footer-placeholder" data-footer-type="white"></div>
+        <div class="button-container">
+            <a href="Soliguide.php"
+            class="button case-study-button">Lire le prochain case study</a>
+        </div>
+        <div id="footer-placeholder" data-footer-type="white"></div>
+</section>
 
     <button
         type="button"
@@ -202,8 +217,6 @@
     </button>
     
     <script src="scripts/script.js"></script>
-
-</div>
 
 </body>
 
