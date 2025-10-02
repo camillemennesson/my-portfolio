@@ -587,10 +587,15 @@ section {
 }
 
 #Work {
-    margin: 0;
-    width: 100%;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    width: 100vw;
     background-color: #ffffff;
     padding: 4rem 0;
+    box-sizing: border-box;
 }
 
 .work-flex {

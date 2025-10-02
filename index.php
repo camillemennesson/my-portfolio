@@ -126,18 +126,15 @@
                     <h3>Parents - Mobile App</h3>
                 </a>
             </div>
+        </div>
+    </section>
 
-         <section class="contact"> 
+   <section class="contact"> 
             <h2>Me contacter</h2>
             <div>
             <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
             </div>
-        </section> 
-
-        </div>
-    </section>
-
-   
+    </section> 
 
     <button
         type="button"
