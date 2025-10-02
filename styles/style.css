@@ -658,7 +658,7 @@ a {
   font-family: 'Inter', sans-serif;
   font-size: 0.9rem;
   color: #000;
-  display: block; /* start hidden */
+  display: none; /* start hidden */
 }
 
 .sticky-toc ul {
