@@ -92,6 +92,9 @@ ul {
   margin: 0;       /* remove 2rem margin on sides you had */
   padding: 0 5rem; /* internal padding only, so content inside can have margin */
   max-width: none; /* remove any max-width constraint that could cause centering gaps */
+ max-height: 100vh;
+  overflow-y: auto;
+
 }
 
 /* Intro Section Styles */
