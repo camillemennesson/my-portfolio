@@ -186,7 +186,7 @@
 <section id="case-study-footer">
         <!-- Button to read the next case study -->
         <div class="button-container">
-            <a href="Mavoie.php"
+            <a href="Soliguide.php"
             class="button case-study-button">Lire le prochain case study</a>
         </div>
         <div id="footer-placeholder" data-footer-type="white"></div>
