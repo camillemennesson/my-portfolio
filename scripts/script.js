@@ -47,6 +47,73 @@ document.addEventListener("DOMContentLoaded", function () {
         toc.style.display = "block";
       } else {
         toc.style.display = "none";
-        }   
+      }
+
+      // Highlight current section
+      let currentSection = sections[0];
+      for (let id of sections) {
+        const section = document.getElementById(id);
+        if (!section) continue;
+        if (scrollPosition >= section.offsetTop - 100) currentSection = id;
+      }
+
+      tocLinks.forEach(link => {
+        if (link.getAttribute("href") === "#" + currentSection) {
+          link.classList.add("active");
+          console.log("Active TOC link:", link.textContent);
+        } else {
+          link.classList.remove("active");
+        }
+      });
     }
   });
+
+  // Back-to-top click
+  if (mybutton) {
+    mybutton.addEventListener("click", () => {
+      console.log("Back-to-top clicked");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  // --- Navbar & Footer Fetch (unchanged) ---
+  const navbarType = document.getElementById('navbar-placeholder')?.getAttribute('data-navbar-type');
+  const footerType = document.getElementById('footer-placeholder')?.getAttribute('data-footer-type');
+
+  fetch('components/navbar.html?v=' + Date.now())
+    .then(r => r.text())
+    .then(data => {
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = data;
+      const navbarWhite = tempDiv.querySelector('#navbar-white');
+      const navbarBlack = tempDiv.querySelector('#navbar-black');
+      const navbarPlaceholder = document.getElementById('navbar-placeholder');
+      if (navbarPlaceholder) {
+        navbarPlaceholder.appendChild(navbarType === 'black' ? navbarBlack : navbarWhite);
+      }
+    });
+
+  fetch('components/footer.html')
+    .then(r => r.text())
+    .then(data => {
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = data;
+      const footerWhite = tempDiv.querySelector('#footer-white');
+      const footerBlack = tempDiv.querySelector('#footer-black');
+      const footerPlaceholder = document.getElementById('footer-placeholder');
+      if (footerPlaceholder) {
+        footerPlaceholder.appendChild(footerType === 'black' ? footerBlack : footerWhite);
+      }
+    });
+
+  // Floating nav
+  fetch('components/floating-nav.html')
+    .then(r => r.text())
+    .then(data => {
+      const floatingNavPlaceholder = document.getElementById('floating-nav-placeholder');
+      if (floatingNavPlaceholder) floatingNavPlaceholder.innerHTML = data;
+    })
+    .catch(e => console.error('Floating nav fetch error:', e));
+
+});
+
