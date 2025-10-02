@@ -816,7 +816,8 @@ a {
     font-weight: 400;
 }
 
-.sticky-toc ul li a:hover {
+.sticky-toc ul li a:hover,
+.sticky-toc ul li a.active {
     color: #5364FF;
 }
 
