@@ -854,6 +854,7 @@ case-study h2 {
 .case-study h3 {
     font-size: 2.25rem;
     margin-top: 4rem;
+    margin-bottom: 2rem;
     line-height: 2.8rem;
 }
 
@@ -889,7 +890,7 @@ case-study h2 {
 .image-item {
     text-align: center; /* Center titles below images */
     margin-bottom: 80px;
-    margin-top: 80px;
+    margin-top: 2rem;
 }
 
 .site-image {
