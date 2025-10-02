@@ -704,15 +704,18 @@ a {
 }
 
 /* Responsive: TOC becomes relative on small screens */
+/* Mobile: stack columns */
 @media (max-width: 768px) {
+    .case-study-container {
+        flex-direction: column;
+    }
+
     .sticky-toc {
         position: relative;
         top: auto;
         max-width: 100%;
         margin-bottom: 1rem;
         padding: 0;
-        box-shadow: none;
-        background-color: transparent;
     }
 }
 
