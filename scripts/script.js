@@ -4,23 +4,22 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("DOM fully loaded");
 
     // -------------------------------
-    // DEBUG ELEMENTS
+    // ELEMENT SELECTORS
     // -------------------------------
     const wrapper = document.getElementById("wrapper");
     const mybutton = document.getElementById("btn-back-to-top");
     const toc = document.getElementById("sticky-toc");
-    const challengeSection = document.getElementById("challenge");
-
+    const introImage = document.querySelector(".intro-image"); // TOC appears after this
     let tocLinks = [];
     const sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
 
     if (!wrapper) console.warn("Wrapper not found");
     if (!mybutton) console.warn("Back-to-top button not found");
     if (!toc) console.warn("TOC not found");
-    if (!challengeSection) console.warn("Challenge section not found");
+    if (!introImage) console.warn("Intro image not found");
     if (toc) tocLinks = toc.querySelectorAll("a");
 
-    // Show elements initially for debug
+    // Show buttons initially for debug
     if (mybutton) mybutton.style.display = "block";
     if (toc) toc.style.display = "block";
 
@@ -29,37 +28,42 @@ document.addEventListener("DOMContentLoaded", function () {
     // -------------------------------
     // SCROLL HANDLER
     // -------------------------------
-    scrollable.addEventListener("scroll", function () {
-    const scrollPosition = wrapper ? wrapper.scrollTop : window.scrollY;
+    scrollable.addEventListener("scroll", () => {
+        const scrollPosition = wrapper ? wrapper.scrollTop : window.scrollY;
+        console.log("Scroll detected! Position:", scrollPosition);
 
-    // --- Back-to-top button ---
-    if (mybutton) {
-        mybutton.style.display = scrollPosition > 20 ? "block" : "none";
-    }
-
-    // --- Sticky TOC ---
-    if (toc && challengeSection) {
-        const challengeThreshold = challengeSection.offsetTop - 50; // adjust if needed
-        toc.style.display = scrollPosition >= challengeThreshold ? "block" : "none";
-
-        // Highlight current section
-        let currentSection = sections[0];
-        for (let id of sections) {
-            const section = document.getElementById(id);
-            if (!section) continue;
-            if (scrollPosition >= section.offsetTop - 100) currentSection = id;
+        // --- Back-to-top button ---
+        if (mybutton) {
+            mybutton.style.display = scrollPosition > 20 ? "block" : "none";
         }
-        tocLinks.forEach(link => {
-            link.classList.toggle('active', link.getAttribute("href") === "#" + currentSection);
-        });
-    }
-});
+
+        // --- Sticky TOC ---
+        if (toc && introImage) {
+            const introBottom = introImage.offsetTop + introImage.offsetHeight;
+            toc.style.display = scrollPosition >= introBottom ? "block" : "none";
+            console.log("TOC display:", toc.style.display, "Intro bottom:", introBottom, "Scroll position:", scrollPosition);
+
+            // Highlight current section
+            let currentSection = sections[0];
+            for (let id of sections) {
+                const section = document.getElementById(id);
+                if (!section) continue;
+                if (scrollPosition >= section.offsetTop - 100) currentSection = id;
+            }
+            tocLinks.forEach(link => {
+                link.classList.toggle('active', link.getAttribute("href") === "#" + currentSection);
+            });
+        }
+    });
 
     // --- Back-to-top click handler ---
     if (mybutton) {
-        mybutton.addEventListener("click", function () {
-            if (wrapper) wrapper.scrollTo({ top: 0, behavior: "smooth" });
-            else window.scrollTo({ top: 0, behavior: "smooth" });
+        mybutton.addEventListener("click", () => {
+            if (wrapper) {
+                wrapper.scrollTo({ top: 0, behavior: "smooth" });
+            } else {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            }
         });
     }
 
@@ -121,6 +125,4 @@ document.addEventListener("DOMContentLoaded", function () {
             link.setAttribute("aria-current", "page");
         }
     });
-
-    console.log("Script initialization complete");
 });
