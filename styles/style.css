@@ -525,7 +525,7 @@ p {
 h4 {
     font-size: 1.2rem;
     font-weight: 600;
-    margin-top: 32px;
+    margin-top: 1rem;
     margin-bottom: 16px;
 }
 
@@ -2074,3 +2074,24 @@ case-study h2 {
     }
 
 }
+
+.process-steps {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.process-steps h4 {
+    margin-top: 0;
+ 
+}
+
+.step {
+    flex: 1;
+    background-color: rgba(254, 253, 249, 0.9);
+    backdrop-filter: blur(10px);
+    padding: 1rem 1.5rem;
+    border-radius: 16px;
+}
+
+

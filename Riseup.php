@@ -90,7 +90,7 @@
     <h4 class="toc-title">Table of contents</h4>
     <ul>
         <li><a href="#challenge">Challenge</a></li>
-        <li><a href="#process">Audit</a></li>
+        <li><a href="#audit">Audit</a></li>
         <li><a href="#process">Process</a></li>
         <li><a href="#solution">Solutions</a></li>
         <li><a href="#results">Outcomes and impact</a></li>
@@ -155,18 +155,25 @@
             <img src="images/riseup/challenges.png" alt="Key challenges" class="site-image">
         </div>
 
-        <div id="process">
+    <div id="process">
         <h3>Process</h3>
-        <h4>Research &amp; Discovery</h4>
-            <p>Conducted website audit, internal team interviews, client interviews (FR &amp; EN markets), and competitor benchmarking → identified usability issues and clarified personas.</p>
-        <h4>UX Redesign</h4>
-            <p>Simplified navigation, restructured homepage, added pricing transparency, highlighted key features, and removed unnecessary friction points.
-</p> 
-        <h4>UI &amp; Design System</h4>
-            <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
-                        
+        <div class="process-steps">
+            <div class="step">
+                <h4>Research &amp; Discovery</h4>
+                <p>Conducted website audit, internal team interviews, client interviews (FR &amp; EN markets), and competitor benchmarking → identified usability issues and clarified personas.</p>
+            </div>
+            <div class="step">
+                <h4>UX Redesign</h4>
+                <p>Simplified navigation, restructured homepage, added pricing transparency, highlighted key features, and removed unnecessary friction points.</p>
+            </div>
+            <div class="step">
+                <h4>UI &amp; Design System</h4>
+                <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
+            </div>
+        </div>
+
         <div class="image-item">
-                <img src="images/riseupprocess.png" alt="Screenshot of design process" class="site-image">
+                <img src="images/riseup hero.png" alt="Screenshot of design process" class="site-image">
             </div>
 
 

@@ -15,64 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!mybutton) console.warn("⚠️ Back-to-top button not found");
     if (!toc) console.warn("⚠️ TOC not found");
 
-    // Build TOC links + sections dynamically
-    let tocLinks = [];
-    let sections = [];
-    if (toc) {
-        tocLinks = toc.querySelectorAll("a[href^='#']");
-        sections = Array.from(tocLinks)
-            .map(link => {
-                const id = link.getAttribute("href");
-                const section = document.querySelector(id);
-                if (!section) {
-                    console.warn("⚠️ No section found for TOC link:", id);
-                }
-                return section;
-            })
-            .filter(Boolean);
-    }
-
-    // -------------------------------
-    // SCROLL HANDLER
-    // -------------------------------
-    const handleScroll = () => {
-        const scrollPosition = window.scrollY;
-        console.log("📜 Scroll position:", scrollPosition);
-
-        // --- Back-to-top button ---
-        if (mybutton && document.body.id !== "home") {
-            mybutton.style.display = scrollPosition > 20 ? "block" : "none";
-        } else if (mybutton) {
-            mybutton.style.display = "none";
-        }
-
-        // --- Highlight current section in TOC ---
-        if (sections.length && tocLinks.length) {
-            let currentSection = sections[0];
-            for (let i = sections.length - 1; i >= 0; i--) {
-                const section = sections[i];
-                if (scrollPosition >= section.offsetTop - 100) {
-                    currentSection = section;
-                    break;
-                }
-            }
-            console.log("⭐ Active section:", currentSection ? currentSection.id : "none");
-
-            tocLinks.forEach(link => {
-                const isActive = currentSection && link.getAttribute("href") === "#" + currentSection.id;
-                link.classList.toggle("active", isActive);
-                if (isActive) {
-                    console.log("🔗 Highlighted TOC link:", link.getAttribute("href"));
-                }
-            });
-        }
-    };
-
-    // Attach scroll listener (WINDOW ONLY)
-    window.addEventListener("scroll", handleScroll);
-
-    // Run once on load
-    handleScroll();
+ 
 
     // -------------------------------
     // BACK-TO-TOP BUTTON CLICK
