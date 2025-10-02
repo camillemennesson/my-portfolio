@@ -9,19 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const wrapper = document.getElementById("wrapper");
     const mybutton = document.getElementById("btn-back-to-top");
     const toc = document.getElementById("sticky-toc");
-    const introImage = document.querySelector(".intro-image"); // TOC appears after this
     let tocLinks = [];
     const sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
 
     if (!wrapper) console.warn("Wrapper not found");
     if (!mybutton) console.warn("Back-to-top button not found");
     if (!toc) console.warn("TOC not found");
-    if (!introImage) console.warn("Intro image not found");
     if (toc) tocLinks = toc.querySelectorAll("a");
-
-    // Hide TOC and back-to-top button initially
-    if (toc) toc.style.display = "none";
-    if (mybutton) mybutton.style.display = "none";
 
     const scrollable = wrapper || window;
 
@@ -36,12 +30,8 @@ document.addEventListener("DOMContentLoaded", function () {
             mybutton.style.display = scrollPosition > 20 ? "block" : "none";
         }
 
-        // --- Sticky TOC ---
-        if (toc && introImage) {
-            const introTop = introImage.offsetTop;
-            toc.style.display = scrollPosition >= introTop ? "block" : "none";
-
-            // Highlight current section
+        // --- Highlight current section in TOC ---
+        if (tocLinks.length) {
             let currentSection = sections[0];
             for (let id of sections) {
                 const section = document.getElementById(id);
@@ -57,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Attach scroll listener
     scrollable.addEventListener("scroll", handleScroll);
 
-    // Run once on load to respect initial scroll position
+    // Run once on load
     handleScroll();
 
     // -------------------------------
@@ -70,27 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 window.scrollTo({ top: 0, behavior: "smooth" });
             }
-        });
-    }
-
-    // -------------------------------
-    // TOC SMOOTH SCROLL
-    // -------------------------------
-    if (tocLinks.length) {
-        tocLinks.forEach(link => {
-            link.addEventListener("click", (e) => {
-                e.preventDefault();
-                const targetId = link.getAttribute("href").substring(1);
-                const targetSection = document.getElementById(targetId);
-                if (!targetSection) return;
-
-                const offsetTop = targetSection.offsetTop - 80; // sticky TOC offset
-                if (wrapper) {
-                    wrapper.scrollTo({ top: offsetTop, behavior: "smooth" });
-                } else {
-                    window.scrollTo({ top: offsetTop, behavior: "smooth" });
-                }
-            });
         });
     }
 
