@@ -212,7 +212,7 @@ Improved trust due to transparent pricing and feature clarity</p>
        <!-- Button to read the next case study -->
     <div class="button-container">
         <a href="Mavoie.php"
-        class="next-case-study-button-black">See another case study</a>
+        class="button">See another case study</a>
     </div>
 </div>
 

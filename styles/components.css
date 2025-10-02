@@ -568,7 +568,7 @@ body {
 .slide-hover{
   display:inline-block;
   padding:.75rem 1.25rem;
-  border-radius:10rem;
+  border-radius:10px;
   color:#fff;
   text-transform:uppercase;
   font-size:1rem;
@@ -578,7 +578,8 @@ body {
   position:relative;
   overflow:hidden;
   z-index:1;
-  box-shadow: 0 4px 12px rgba(0, 143, 179, 0.3);
+  background-color: black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 .slide-hover:after{
   content:"";
@@ -587,8 +588,8 @@ body {
   left:0;
   width:100%;
   height:100%;
-  background-color:#0cf;
-  border-radius:10rem;
+  background-color:black;
+  border-radius:10px;
   z-index:-2
 }
 .slide-hover:before{
@@ -598,14 +599,14 @@ body {
   left:0;
   width:0%;
   height:100%;
-  background-color:#008fb3;
+  background-color:#333;
   transition:all .3s;
-  border-radius:10rem;
+  border-radius:10px;
   z-index:-1
 }
 .slide-hover:hover{
   color:#fff;
-  box-shadow: 0 6px 16px rgba(0, 143, 179, 0.4);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
 .slide-hover:hover:before{
   width:100%
