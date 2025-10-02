@@ -117,12 +117,12 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     position: relative;
     max-width: 976px;
     margin: auto;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
 }
 
 
@@ -573,27 +573,28 @@ header p {
 
 /*Intros*/
 
+
 section {
-    max-width: 1200px;
     text-align: center;
     box-sizing: border-box;
 }
 
 #Work {
     margin: 0;
-    width: auto;
+    width: 100%;
     background-color: #ffffff;
     padding: 4rem 0;
 }
 
 .work-flex {
-    max-width: 1200px; /* constrain projects */
-    margin: 0 auto; /* center horizontally */
+    max-width: 1200px;    /* constrain content */
+    margin: 0 auto;       /* center horizontally */
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
+
 
 #bear, #osmia, #parents, #spotify {
     display: none;

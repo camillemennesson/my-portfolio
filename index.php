@@ -38,42 +38,26 @@
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
-<div class="hero-background">
+<div id="wrapper">
 
-
-    <div id="wrapper" >
      <!-- Name and Description Section -->
-     <div class="intro-container">
-     <section class="intro">
-        <h1>UX/UI Designer freelance depuis 4 ans.</h1>
-            <p>Je conçois des applications web et mobile pour des clients en France et à l'international.</p>
-            <p>Ancienne responsable marketing dans la publicité et les jeux vidéo, je crée des expériences qui captent et accompagnent les utilisateurs. </p>
-        
-        <div class="ticks-line">
-            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Recherche utilisateur</span>
-            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Prototypage</span>
-            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>UI Kit</span>
-            <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Vibe-coding ✨</span>
+    <div class="intro-container">
+        <section class="intro">
+            <h1>UX/UI Designer freelance depuis 4 ans.</h1>
+                <p>Je conçois des applications web et mobile pour des clients en France et à l'international.</p>
+                <p>Ancienne responsable marketing dans la publicité et les jeux vidéo, je crée des expériences qui captent et accompagnent les utilisateurs. </p>
+            <div class="ticks-line">
+                <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Recherche utilisateur</span>
+                <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Prototypage</span>
+                <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>UI Kit</span>
+                <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Vibe-coding ✨</span>
+            </div>
+        </section>
+
+        <div class="stamp-container">
+            <img src="images/stamppink.png" alt="I coded this site from scratch" class="stamp">
         </div>
-        
-    </section>
-
-
-   <div class="stamp-container">
-  <img src="images/stamppink.png" alt="I coded this site from scratch" class="stamp">
-</div>
-
-
     </div>
-    </div>
-        <div class="h2-intro">
-            <img src="images/scribblearrow.png" alt="Découvrir mes projets" 
-            style="height: 80px; width: auto; filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.1)); transform: rotate(59deg);">
-        </div>
-
-        
-
-</div>
 
     <section id="Work">
     
@@ -143,16 +127,17 @@
                 </a>
             </div>
 
+         <section class="contact"> 
+            <h2>Me contacter</h2>
+            <div>
+            <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
+            </div>
+        </section> 
+
         </div>
     </section>
 
-    <section class="contact">
-       
-        <h2>Me contacter</h2>
-        <div>
-            <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
-        </div>
-    </section> 
+   
 
     <button
         type="button"
@@ -161,11 +146,11 @@
         > 
         <i class="bi bi-arrow-up-circle-fill"></i>
     </button>
+    
+</div>
 
 <div id="footer-placeholder" data-footer-type="white"></div>
 <div id="floating-nav-placeholder"></div>
-
-
 <script src="scripts/script.js?=v3"></script>
 
 
