@@ -317,8 +317,8 @@
 <section id="case-study-footer">
         <!-- Button to read the next case study -->
         <div class="button-container">
-            <a href="Catan.php"
-            class="button case-study-button">Lire le prochain case study</a>
+            <a href="Index.php"
+            class="button case-study-button">Back to home</a>
         </div>
         <div id="footer-placeholder" data-footer-type="white"></div>
 </section>
