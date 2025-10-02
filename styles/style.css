@@ -650,20 +650,30 @@ a {
     margin-left: 260px; /* space for TOC */
 }
 
+/* Sticky TOC */
 .sticky-toc {
-    position: sticky;
-    top: 80px;
+    position: sticky;       /* Keep it in viewport while scrolling */
+    top: 80px;              /* Distance from top of viewport */
     max-width: 220px;
     font-family: 'Euclid Circular A', sans-serif;
     font-weight: 400;
     font-size: 0.9rem;
     margin-bottom: 2rem;
     z-index: 1000;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;          /* Combined left & right padding */
     color: #000;
     background-color: #FFFFFF;
-    border: none; /* remove if you want a border */
+    border-radius: 8px;     /* optional for a smoother card look */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* subtle shadow for emphasis */
+    overflow-y: auto;       /* scroll inside TOC if it grows too tall */
+    max-height: calc(100vh - 100px); /* fits within viewport */
+}
+
+.sticky-toc h4.toc-title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .sticky-toc ul {
@@ -687,16 +697,19 @@ a {
     color: #5364FF;
 }
 
+/* Responsive: TOC becomes relative on small screens */
 @media (max-width: 768px) {
     .sticky-toc {
         position: relative;
         top: auto;
         max-width: 100%;
         margin-bottom: 1rem;
-        border: none;
         padding: 0;
+        box-shadow: none;
+        background-color: transparent;
     }
 }
+
 
 
 .case-study h2 {
