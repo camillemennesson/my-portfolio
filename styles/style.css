@@ -927,16 +927,6 @@ case-study h2 {
     box-sizing: border-box; /* Ensure padding and borders are included in total width */
 }
 
-#solution  {
-    background-color: #ffffff;
-    padding: 2rem 6rem 2rem 6rem; /* same as wrapper padding */
-    margin-top: 4rem;
-}
-
-#solution h3 {
-    padding-top: 1rem;
-    margin-top: 0;
-}
 
 @media (max-width: 768px) {
     #solution {
