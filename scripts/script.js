@@ -115,6 +115,7 @@ if (toc) {
 
     // Show TOC only after scrolling to challenge section
     window.addEventListener('scroll', () => {
+      console.log("📜 scroll:", window.scrollY);
         const scrollPosition = window.scrollY || window.pageYOffset;
         const challengeTop = challengeSection.offsetTop;
 
