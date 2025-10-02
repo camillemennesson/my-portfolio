@@ -28,6 +28,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const scrollable = wrapper || window;
 
     scrollable.addEventListener("scroll", () => {
+        if (toc && challengeSection) {
+    toc.style.display = scrollPosition >= challengeSection.offsetTop - 50 ? 'block' : 'none';
+    console.log('TOC display:', toc.style.display, 'Scroll position:', scrollPosition, 'Challenge top:', challengeSection.offsetTop);
+}
+
         const scrollPosition = wrapper ? wrapper.scrollTop : window.scrollY;
         console.log("Scroll detected! Position:", scrollPosition);
 
