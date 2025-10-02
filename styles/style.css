@@ -106,7 +106,12 @@ ul {
     padding-right: 6rem;
 }
 
-
+@media screen {
+    .case-study-container {
+    padding-right: 0;
+}
+    
+}
 /* Intro Section Styles */
 .hero-background {
   background-color: #F7F6EB;
@@ -820,6 +825,7 @@ a {
 @media (max-width: 768px) {
     .case-study-container {
         flex-direction: column;
+        padding-right: 0;
     }
 
     .sticky-toc {
