@@ -33,17 +33,7 @@
 
 <div id="wrapper">
 
-<nav id="sticky-toc" class="sticky-toc">
 
-    <h4 class="toc-title">TABLE OF CONTENTS</h4>
-    <ul>
-        <li><a href="#challenge">The Challenge</a></li>
-        <li><a href="#process">My Process</a></li>
-        <li><a href="#solution">Solutions</a></li>
-        <li><a href="#results">Outcomes and impact</a></li>
-        <li><a href="#nextsteps">Next Steps</a></li>
-    </ul>
-</nav>
 
 <header class="intro">
 <div class="intro-body">
@@ -96,6 +86,17 @@
 
 
     <section class="case-study">
+<nav id="sticky-toc" class="sticky-toc">
+
+    <h4 class="toc-title">TABLE OF CONTENTS</h4>
+    <ul>
+        <li><a href="#challenge">The Challenge</a></li>
+        <li><a href="#process">My Process</a></li>
+        <li><a href="#solution">Solutions</a></li>
+        <li><a href="#results">Outcomes and impact</a></li>
+        <li><a href="#nextsteps">Next Steps</a></li>
+    </ul>
+</nav>
 
     <section class="testimonials">
         <blockquote class="testimonial">
