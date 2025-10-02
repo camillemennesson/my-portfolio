@@ -1528,18 +1528,12 @@ case-study h2 {
 
 
 .contact {
-    display: flexbox;
     padding: 60px 20px 20px 20px;
     text-align: center;
     border-radius: 4px;
     align-items: center;
     max-width: none;
-    width: 100vw;
     position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
 }
 
 
