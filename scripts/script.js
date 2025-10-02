@@ -30,34 +30,30 @@ document.addEventListener("DOMContentLoaded", function () {
     // SCROLL HANDLER
     // -------------------------------
     scrollable.addEventListener("scroll", function () {
-        const scrollPosition = wrapper ? wrapper.scrollTop : window.scrollY;
-        console.log("Scroll detected! Position:", scrollPosition);
+    const scrollPosition = wrapper ? wrapper.scrollTop : window.scrollY;
 
-        // --- Back-to-top button ---
-        if (mybutton) {
-            mybutton.style.display = scrollPosition > 20 ? "block" : "none";
-            console.log("Back-to-top display:", mybutton.style.display);
+    // --- Back-to-top button ---
+    if (mybutton) {
+        mybutton.style.display = scrollPosition > 20 ? "block" : "none";
+    }
+
+    // --- Sticky TOC ---
+    if (toc && challengeSection) {
+        const challengeThreshold = challengeSection.offsetTop - 50; // adjust if needed
+        toc.style.display = scrollPosition >= challengeThreshold ? "block" : "none";
+
+        // Highlight current section
+        let currentSection = sections[0];
+        for (let id of sections) {
+            const section = document.getElementById(id);
+            if (!section) continue;
+            if (scrollPosition >= section.offsetTop - 100) currentSection = id;
         }
-
-        // --- Sticky TOC ---
-        if (toc && challengeSection) {
-            const challengeThreshold = challengeSection.offsetTop - 50;
-            toc.style.display = scrollPosition + (wrapper ? wrapper.clientHeight : window.innerHeight) * 0.25 >= challengeThreshold ? "block" : "none";
-            console.log('TOC display:', toc.style.display, 'Challenge top:', challengeSection.offsetTop);
-
-            // Highlight current section
-            let currentSection = sections[0];
-            for (let id of sections) {
-                const section = document.getElementById(id);
-                if (!section) continue;
-                if (scrollPosition >= section.offsetTop - 100) currentSection = id;
-            }
-            tocLinks.forEach(link => {
-                link.classList.toggle('active', link.getAttribute("href") === "#" + currentSection);
-            });
-            console.log("Current section highlighted:", currentSection);
-        }
-    });
+        tocLinks.forEach(link => {
+            link.classList.toggle('active', link.getAttribute("href") === "#" + currentSection);
+        });
+    }
+});
 
     // --- Back-to-top click handler ---
     if (mybutton) {
