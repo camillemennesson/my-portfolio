@@ -661,7 +661,7 @@ body .footer-white {
 }
 
 body#home  .footer-white {
-    background: #F7F6EB;
+    background: transparent;
 }
 body#about .footer-white {
     background: #F7F6EB;
