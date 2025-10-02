@@ -39,8 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // --- Sticky TOC ---
         if (toc && introImage) {
-            const introBottom = introImage.offsetTop + introImage.offsetHeight;
-            toc.style.display = scrollPosition >= introBottom ? "block" : "none";
+            const introTop = introImage.offsetTop;
+            toc.style.display = scrollPosition >= introTop ? "block" : "none";
             //console.log("TOC display:", toc.style.display, "Intro bottom:", introBottom, "Scroll position:", scrollPosition);
 
             // Highlight current section
