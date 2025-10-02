@@ -106,6 +106,8 @@ document.querySelectorAll(".nav-link").forEach((link) => {
 // TOC sticky and highlight script moved from Riseup.php
 
 const toc = document.getElementById('sticky-toc');
+console.log("✅ TOC element is:", toc);
+
 if (toc) {
     const sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
     const tocLinks = toc.querySelectorAll('a');
