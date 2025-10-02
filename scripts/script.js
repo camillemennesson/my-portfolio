@@ -1,6 +1,4 @@
-
 // scripts/script.js
-
 
 document.addEventListener("DOMContentLoaded", function() {
 
@@ -64,24 +62,22 @@ document.addEventListener("DOMContentLoaded", function() {
       let currentActiveIcon = null; // Variable to store the currently active icon
 
 
-// Back to top button
-let mybutton = document.getElementById("btn-back-to-top");
+const mybutton = document.getElementById("btn-back-to-top");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function () {
-  scrollFunction();
-};
+if (mybutton) {
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  });
 
-function scrollFunction() {
-  if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
-  ) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+  mybutton.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 }
+
 
 // When the user clicks on the button, scroll to the top of the document
 mybutton.addEventListener("click", backToTop);
@@ -105,37 +101,35 @@ document.querySelectorAll(".nav-link").forEach((link) => {
 
 // TOC sticky and highlight script moved from Riseup.php
 
-  
-    if (!toc || !challengeSection) return; // Exit if TOC or challenge section is missing
+const toc = document.getElementById('sticky-toc');
+const challengeSection = document.getElementById('challenge');
 
-    // Initially hide TOC
-    toc.style.display = 'none';
+if (toc && challengeSection) {
+  const sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
+  const tocLinks = toc.querySelectorAll('a');
 
-    window.addEventListener('scroll', () => {
-        const scrollPosition = window.scrollY || window.pageYOffset;
+  // hide initially
+  toc.style.display = 'none';
 
-        // Show TOC when scrolling past ~25% of viewport before the challenge section
-        if (scrollPosition + window.innerHeight * 0.25 >= challengeSection.offsetTop) {
-            toc.style.display = 'block';
-        } else {
-            toc.style.display = 'none';
-        }
+  window.addEventListener('scroll', () => {
+    const scrollPosition = window.scrollY;
 
-        // Determine current section
-        let currentSection = sections[0];
-        for (let sectionId of sections) {
-            const sectionEl = document.getElementById(sectionId);
-            if (!sectionEl) continue;
+    // Show/hide TOC
+    toc.style.display = scrollPosition >= challengeSection.offsetTop - 50 ? 'block' : 'none';
 
-            if (scrollPosition >= sectionEl.offsetTop - 100) {
-                currentSection = sectionId;
-            }
-        }
+    // Highlight section
+    let currentSection = sections[0];
+    for (let id of sections) {
+      const section = document.getElementById(id);
+      if (!section) continue;
+      if (scrollPosition >= section.offsetTop - 100) currentSection = id;
+    }
 
-        // Update TOC active state
-        tocLinks.forEach(link => {
-            link.classList.toggle('active', link.getAttribute('href') === '#' + currentSection);
-        });
+    tocLinks.forEach(link => {
+      link.classList.toggle('active', link.getAttribute('href') === '#' + currentSection);
     });
+  });
+}
+
+
 });
-// End of TOC script
