@@ -845,6 +845,7 @@ case-study h2 {
 .case-study h3 {
     font-size: 2.25rem;
     margin-top: 4rem;
+    line-height: 2.8rem;
 }
 
 .case-study p {
