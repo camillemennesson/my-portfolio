@@ -85,8 +85,9 @@
 </header>
 
 
-    <section class="case-study">
-<nav id="sticky-toc" class="sticky-toc">
+<section class="case-study">
+<div class="case-study-container">
+    <nav id="sticky-toc" class="sticky-toc">
 
     <h4 class="toc-title">TABLE OF CONTENTS</h4>
     <ul>
@@ -96,8 +97,9 @@
         <li><a href="#results">Outcomes and impact</a></li>
         <li><a href="#nextsteps">Next Steps</a></li>
     </ul>
-</nav>
+    </nav>
 
+<div class="case-study-content">
     <section class="testimonials">
         <blockquote class="testimonial">
 <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" width="60" height="60" aria-hidden="true">
@@ -205,12 +207,13 @@ Improved trust due to transparent pricing and feature clarity</p>
         <h4>Website Design Guide</h4>
         <p>Developed a clear, actionable Website Design Guide for marketing and web teams. This resource ensures the site remains user-friendly, consistent, and optimized, even as new content and pages are added.</p>
     </div>
-        
+</div>
        <!-- Button to read the next case study -->
     <div class="button-container">
         <a href="Mavoie.php"
         class="next-case-study-button-black">See another case study</a>
     </div>
+</div>
 
     </section>
 
