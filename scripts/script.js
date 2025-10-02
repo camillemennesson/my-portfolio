@@ -105,12 +105,7 @@ document.querySelectorAll(".nav-link").forEach((link) => {
 
 // TOC sticky and highlight script moved from Riseup.php
 
-document.addEventListener('DOMContentLoaded', () => {
-    const toc = document.getElementById('sticky-toc');
-    const sections = ['challenge', 'process', 'solution', 'results', 'nextsteps'];
-    const tocLinks = toc.querySelectorAll('a');
-    const challengeSection = document.getElementById('challenge');
-
+  
     if (!toc || !challengeSection) return; // Exit if TOC or challenge section is missing
 
     // Initially hide TOC
@@ -144,4 +139,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 // End of TOC script
-});
