@@ -67,7 +67,7 @@ html, body {
     margin: 0;
     padding:0;
     height: 100%;
-    background: #F7F6EB;
+    background: #F7F6EB url('../images/backgroundnoise.svg') repeat;
     overflow-x: hidden; /* prevent horizontal scroll gaps */
 }
 
