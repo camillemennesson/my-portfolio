@@ -89,9 +89,9 @@
 
     <h4 class="toc-title">Table of contents</h4>
     <ul>
-        <li><a href="#challenge">Challenge</a></li>
+        <li><a href="#overview">Overview</a></li>
         <li><a href="#audit">Audit</a></li>
-        <li><a href="#process">Process</a></li>
+        <li><a href="#research">Research</a></li>
         <li><a href="#solution">Solutions</a></li>
         <li><a href="#results">Outcomes and impact</a></li>
         <li><a href="#nextsteps">Next Steps</a></li>
@@ -130,8 +130,8 @@
 
         <hr style="border:none; border-top:1px solid #d3d3d3; margin:1rem 0;" />
 
-        <div id="challenge">
-        <h3>Challenge</h3>
+        <div id="overview">
+        <h3>Overview</h3>
         <p>Rise Up was expanding internationally and needed a marketing website that clearly communicated its value to a global audience of HR managers, L&amp;D leaders, and digital learning managers.
             The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.</p>
         
@@ -155,40 +155,47 @@
             <img src="images/riseup/challenges.png" alt="Key challenges" class="site-image">
         </div>
 
-    <div id="process">
-        <h3>Process</h3>
+    <div id="research">
+        <h3>Research</h3>
         <div class="process-steps">
             <div class="step">
-                <h4>Research &amp; Discovery</h4>
+                <h4>User Interviews</h4>
                 <p>Conducted website audit, internal team interviews, client interviews (FR &amp; EN markets), and competitor benchmarking → identified usability issues and clarified personas.</p>
             </div>
             <div class="step">
-                <h4>UX Redesign</h4>
+                <h4>Stakeholder Interviews</h4>
                 <p>Simplified navigation, restructured homepage, added pricing transparency, highlighted key features, and removed unnecessary friction points.</p>
             </div>
             <div class="step">
-                <h4>UI &amp; Design System</h4>
+                <h4>Competitive Evaluation</h4>
                 <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
             </div>
         </div>
 
-        <div class="image-item">
-                <img src="images/riseup hero.png" alt="Screenshot of design process" class="site-image">
+        <div class="image-item" id="image-1">
+                <img src="images/riseupprocess.png" alt="User Interviews process" class="site-image">
+            </div>
+        <div class="image-item" id="image-2" style="display: none;">
+                <img src="images/riseupmenu.png" alt="Stakeholder Interviews menu" class="site-image">
+            </div>
+        <div class="image-item" id="image-3" style="display: none;">
+                <img src="images/riseuplxp.png" alt="Competitive Evaluation lxp" class="site-image">
             </div>
 
 
     <div id="solution">
         <h3>Solutions</h3>
+    <div class="solution">
         <h4>Clearer Navigation</h4>
-            <p>
-            </p>
         <h4>Transparency Boost</h4>
-        <p>
-        </p>
+        <p>Introduced a dedicated pricing page with clear, 
+        tiered plans and feature breakdowns to build trust
+        and facilitate decision-making.</p>
         <h4>HubSpot Compatibility</h4>
         <h4>Scalable UI System</h4>
         <h4>Key pages flow</h4>
         <h4>Highlighting USPs</h4>
+    </div>
         <div class="image-item">
                 <img src="images/riseupmenu.png" alt="Website Navigation Menu" class="site-image">
             </div>

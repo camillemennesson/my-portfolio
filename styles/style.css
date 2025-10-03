@@ -927,6 +927,12 @@ case-study h2 {
     box-sizing: border-box; /* Ensure padding and borders are included in total width */
 }
 
+.solution {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}   
 
 @media (max-width: 768px) {
     #solution {
@@ -2077,10 +2083,23 @@ case-study h2 {
 
 .step {
     flex: 1;
-    background-color: rgba(254, 253, 249, 0.9);
+    background-color: rgba(254, 253, 249);
+    border: 1px solid #000000;
+    box-shadow: 6px 6px #1f1f1f40;
     backdrop-filter: blur(10px);
     padding: 1rem 1.5rem;
     border-radius: 16px;
 }
+
+.step:hover {
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.step.active {
+    background-color: #E7E6FE;
+    box-shadow: none;
+}
+
 
 

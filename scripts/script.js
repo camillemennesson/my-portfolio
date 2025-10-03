@@ -78,4 +78,33 @@ document.addEventListener("DOMContentLoaded", function () {
             link.setAttribute("aria-current", "page");
         }
     });
+
+    // -------------------------------
+    // RISEUP .step CLICK HANDLER
+    // -------------------------------
+    const steps = document.querySelectorAll("#research .step");
+    const images = [
+        document.getElementById("image-1"),
+        document.getElementById("image-2"),
+        document.getElementById("image-3")
+    ];
+
+    steps.forEach((step, index) => {
+        step.addEventListener("click", () => {
+            // Hide all images
+            images.forEach(img => img.style.display = "none");
+            // Show the clicked step's image
+            images[index].style.display = "block";
+
+            // Remove active class from all steps
+            steps.forEach(s => s.classList.remove("active"));
+            // Add active class to clicked step
+            step.classList.add("active");
+        });
+    });
+
+    // Set first step active by default
+    if (steps.length > 0) {
+        steps[0].classList.add("active");
+    }
 });
