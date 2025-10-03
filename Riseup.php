@@ -173,13 +173,13 @@
         </div>
 
         <div class="image-item" id="image-1">
-                <img src="images/riseupprocess.png" alt="User Interviews process" class="site-image">
+                <img src="images/userresearch.png" alt="User Interviews Analysis" class="site-image">
             </div>
         <div class="image-item" id="image-2" style="display: none;">
-                <img src="images/riseupmenu.png" alt="Stakeholder Interviews menu" class="site-image">
+                <img src="images/stakeholderinterview.png" alt="Stakeholder Interviews menu" class="site-image">
             </div>
         <div class="image-item" id="image-3" style="display: none;">
-                <img src="images/riseuplxp.png" alt="Competitive Evaluation lxp" class="site-image">
+                <img src="images/competitiveanalysis.png" alt="Competitive Evaluation lxp" class="site-image">
             </div>
 
 

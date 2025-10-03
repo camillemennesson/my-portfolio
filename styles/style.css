@@ -772,6 +772,10 @@ a {
     gap: 1rem;
 }
 
+.solution-item p {
+    display: none;
+}
+
 .solution-text {
     flex: 1 1 50%;
 }
@@ -796,6 +800,7 @@ a {
     cursor: pointer;
     transition: transform 0.3s ease;
     border-radius: 8px;
+    display: none;
 }
 
 .solution-image:hover {
