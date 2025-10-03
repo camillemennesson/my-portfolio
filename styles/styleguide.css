@@ -2,11 +2,11 @@
   :root {
     --spotifypurple: rgba(151, 71, 255, 1);
     --spotify-bg: #021323;
-    --background-color: white;
-    --text-color: #333;
-    --white: #ffffff;
-    --black: #222;
-    --gray: #eee;
+    --purpleshadow: #C6C4FF;
+    --purple: #E5E4FC;
+    --yellow: #F8E8B5;
+    --pink: #F5C7DE;
+    --beigebackground: #F7F6EB;
   }
 
 

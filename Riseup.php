@@ -186,19 +186,62 @@
     <div id="solution">
         <h3>Solutions</h3>
     <div class="solution">
-        <h4>Clearer Navigation</h4>
-        <h4>Transparency Boost</h4>
-        <p>Introduced a dedicated pricing page with clear, 
-        tiered plans and feature breakdowns to build trust
-        and facilitate decision-making.</p>
-        <h4>HubSpot Compatibility</h4>
-        <h4>Scalable UI System</h4>
-        <h4>Key pages flow</h4>
-        <h4>Highlighting USPs</h4>
-    </div>
-        <div class="image-item">
-                <img src="images/riseupmenu.png" alt="Website Navigation Menu" class="site-image">
+        <div class="solution-item">
+            <div class="solution-text">
+                <h4>Clearer Navigation</h4>
+                <p>Paragraph placeholder for Clearer Navigation.</p>
             </div>
+            <a href="#" class="solution-image-link">
+                <img src="images/riseupmenu.png" alt="Clearer Navigation" class="solution-image">
+            </a>
+        </div>
+        <div class="solution-item">
+            <div class="solution-text">
+                <h4>Transparency Boost</h4>
+                <p>Paragraph placeholder for Transparency Boost.</p>
+            </div>
+            <a href="#" class="solution-image-link">
+                <img src="images/riseupmenu.png" alt="Transparency Boost" class="solution-image">
+            </a>
+        </div>
+
+        <div class="solution-item">
+            <div class="solution-text">
+                <h4>HubSpot Compatibility</h4>
+                <p>Paragraph placeholder for HubSpot Compatibility.</p>
+            </div>
+            <a href="#" class="solution-image-link">
+                <img src="images/riseupmenu.png" alt="HubSpot Compatibility" class="solution-image">
+            </a>
+        </div>
+        <div class="solution-item">
+            <div class="solution-text">
+                <h4>Scalable UI System</h4>
+                <p>Paragraph placeholder for Scalable UI System.</p>
+            </div>
+            <a href="#" class="solution-image-link">
+                <img src="images/riseupmenu.png" alt="Scalable UI System" class="solution-image">
+            </a>
+        </div>
+        <div class="solution-item">
+            <div class="solution-text">
+                <h4>Key pages flow</h4>
+                <p>Paragraph placeholder for Key pages flow.</p>
+            </div>
+            <a href="#" class="solution-image-link">
+                <img src="images/riseupmenu.png" alt="Key pages flow" class="solution-image">
+            </a>
+        </div>
+        <div class="solution-item">
+            <div class="solution-text">
+                <h4>Highlighting USPs</h4>
+                <p>Paragraph placeholder for Highlighting USPs.</p>
+            </div>
+            <a href="#" class="solution-image-link">
+                <img src="images/riseupmenu.png" alt="Highlighting USPs" class="solution-image">
+            </a>
+        </div>
+    </div>
     </div>
        
             

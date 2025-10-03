@@ -107,4 +107,72 @@ document.addEventListener("DOMContentLoaded", function () {
     if (steps.length > 0) {
         steps[0].classList.add("active");
     }
+
+    // -------------------------------
+    // FULLSCREEN IMAGE VIEWER FOR SOLUTION IMAGES
+    // -------------------------------
+    const solutionImages = document.querySelectorAll(".solution-image");
+    solutionImages.forEach(img => {
+        img.style.cursor = "pointer";
+        img.addEventListener("click", () => {
+            // Create overlay
+            const overlay = document.createElement("div");
+            overlay.style.position = "fixed";
+            overlay.style.top = 0;
+            overlay.style.left = 0;
+            overlay.style.width = "100vw";
+            overlay.style.height = "100vh";
+            overlay.style.backgroundColor = "rgba(0,0,0,0.8)";
+            overlay.style.display = "flex";
+            overlay.style.justifyContent = "center";
+            overlay.style.alignItems = "center";
+            overlay.style.zIndex = 10000;
+            overlay.style.cursor = "zoom-out";  
+            overlay.style.flexDirection = "column";
+
+            // Create fullscreen image
+            const fullImg = document.createElement("img");
+            fullImg.src = img.src;
+            fullImg.style.maxWidth = "90%";
+            fullImg.style.maxHeight = "90%";
+            fullImg.style.borderRadius = "8px";
+            fullImg.style.marginBottom = "1rem";
+
+            // Create controls container
+            const controls = document.createElement("div");
+            controls.style.position = "relative";
+            controls.style.width = "100%";
+            controls.style.display = "flex";
+            controls.style.justifyContent = "flex-end";
+            controls.style.marginBottom = "-2rem";
+
+            // Create close icon
+            const closeIcon = document.createElement("i");
+            closeIcon.className = "bi bi-x";
+            closeIcon.style.fontSize = "2rem";
+            closeIcon.style.color = "white";
+            closeIcon.style.cursor = "pointer";
+            closeIcon.title = "Close";
+            closeIcon.style.position = "absolute";
+            closeIcon.style.top = "-650px";
+            closeIcon.style.right = "20px";
+
+            overlay.appendChild(fullImg);
+            overlay.appendChild(controls);
+            controls.appendChild(closeIcon);
+            document.body.appendChild(overlay);
+
+            // Close overlay on close icon click
+            closeIcon.addEventListener("click", () => {
+                document.body.removeChild(overlay);
+            });
+
+            // Also close overlay on clicking outside image and controls
+            overlay.addEventListener("click", (e) => {
+                if (e.target === overlay) {
+                    document.body.removeChild(overlay);
+                }
+            });
+        });
+    });
 });

@@ -67,7 +67,7 @@ html, body {
     margin: 0;
     padding:0;
     height: 100%;
-    background: #F7F6EB url('../images/backgroundnoise.svg') repeat;
+    background: var(--beigebackground) url('../images/backgroundnoise.svg') repeat;
     overflow-x: hidden; /* prevent horizontal scroll gaps */
 }
 
@@ -114,7 +114,7 @@ overflow-y: visible;
 }
 /* Intro Section Styles */
 .hero-background {
-  background-color: #F7F6EB;
+  background-color: var(--beigebackground);
   width: 100%;
   position: relative;
   padding-top: 1rem;
@@ -170,7 +170,7 @@ overflow-y: visible;
     display: inline-block;
     vertical-align: middle;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     color: #1F1F1F;
 }
 
@@ -627,14 +627,14 @@ body#home .btn-back-to-top {
     margin-left: -50vw;
     margin-right: -50vw;
     width: 100vw;
-    background: #E5E4FC url('../images/backgroundnoise.svg') repeat;
+    background: var(--purple) url('../images/backgroundnoise.svg') repeat;
     padding: 2rem 16rem 2rem 16rem;
     box-sizing: border-box;
     margin-top: 4rem;
 }
 
 #case-study-footer .button {
-    box-shadow: 2px 8px 0 #C6C4FF;
+    box-shadow: 2px 8px 0 var(--purpleshadow);
     background-color: white;
     color:#000;
     border: 1px solid #000;
@@ -650,7 +650,7 @@ body#home .btn-back-to-top {
 }
 
 body .footer-white {
-    background: #E5E4FC url('../images/backgroundnoise.svg') repeat;
+    background: var(--purple) url('../images/backgroundnoise.svg') repeat;
     width: 100vw;
     position: relative;
     left: 50%;
@@ -661,10 +661,10 @@ body .footer-white {
 }
 
 body#home  .footer-white {
-    background: #F7F6EB url('../images/backgroundnoise.svg') repeat;
+    background: var(--beigebackground) url('../images/backgroundnoise.svg') repeat;
 }
 body#about .footer-white {
-    background: #F7F6EB url('../images/backgroundnoise.svg') repeat;
+    background: var(--beigebackground) url('../images/backgroundnoise.svg') repeat;
 }
 .h2-intro  {
     display:none;
@@ -757,13 +757,52 @@ a {
 }
 
 /* CASE STUDIES */
-
-
 .case-study {
     text-align: left;
     color: #080812;
     padding-top: 6rem;
 }
+
+.solution-item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.solution-text {
+    flex: 1 1 50%;
+}
+
+.solution-text h4 {
+    margin: 0 0 0.5rem 0;
+}
+
+.solution-text p {
+    margin: 0;
+}
+
+.solution-image-link {
+    flex: 1 1 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.solution-image {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+}
+
+.solution-image:hover {
+    transform: scale(1.01);
+}
+
+
 
 /* New container for case study content and TOC */
 .case-study-container {
@@ -931,7 +970,7 @@ case-study h2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: left;
 }   
 
 @media (max-width: 768px) {
@@ -1363,6 +1402,7 @@ case-study h2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+
 }
 
 
@@ -1475,7 +1515,7 @@ case-study h2 {
 }
 
 #case-study-footer .button {
-    box-shadow: 2px 8px 0 #C6C4FF;
+    box-shadow: 2px 8px var(--purpleshadow);
     background-color: white;
     color:#000;
     border: 1px solid #000;
@@ -2097,7 +2137,7 @@ case-study h2 {
 }
 
 .step.active {
-    background-color: #E7E6FE;
+    background-color: var(--yellow);
     box-shadow: none;
 }
 
