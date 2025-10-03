@@ -1679,11 +1679,6 @@ case-study h2 {
   max-width: 50%;
 }
 
-.parcours-pro {
-  flex: 0 0 60%;   /* each takes 50% */
-  max-width: 50%;
-}
-
 /* CV image */
 .cv img {
   width: 100%;
@@ -1784,8 +1779,9 @@ case-study h2 {
 }
 
 .parcours-pro {
-    flex:2;
-  background: #f8f7ec;
+flex: 0 0 60%;   /* each takes 50% */
+max-width: 50%;
+flex:2;
   padding: 2rem;
   width: 100%;
 }
