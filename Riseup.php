@@ -200,9 +200,6 @@
                 <h4>Transparency Boost</h4>
                 <p>Paragraph placeholder for Transparency Boost.</p>
             </div>
-            <a href="#" class="solution-image-link">
-                <img src="images/riseupmenu.png" alt="Transparency Boost" class="solution-image">
-            </a>
         </div>
 
         <div class="solution-item">
