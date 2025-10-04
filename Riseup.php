@@ -191,9 +191,7 @@
                 <h4>Clearer Navigation</h4>
                 <p>Paragraph placeholder for Clearer Navigation.</p>
             </div>
-            <a href="#" class="solution-image-link">
-                <img src="images/riseupmenu.png" alt="Clearer Navigation" class="solution-image">
-            </a>
+           
         </div>
         <div class="solution-item">
             <div class="solution-text">
