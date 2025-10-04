@@ -185,47 +185,35 @@
 
     <div id="solution">
         <h3>Solutions</h3>
-    <div class="solution">
-        <div class="solution-item">
-            <div class="solution-text">
-                <h4>Clearer Navigation</h4>
-                <p>Paragraph placeholder for Clearer Navigation.</p>
-            </div>
-           
-        </div>
-        <div class="solution-item">
-            <div class="solution-text">
-                <h4>Transparency Boost</h4>
-                <p>Paragraph placeholder for Transparency Boost.</p>
-            </div>
-        </div>
-
-        <div class="solution-item">
-            <div class="solution-text">
-                <h4>HubSpot Compatibility</h4>
-                <p>Paragraph placeholder for HubSpot Compatibility.</p>
-            </div>
-
-        </div>
-        <div class="solution-item">
-            <div class="solution-text">
-                <h4>Scalable UI System</h4>
-                <p>Paragraph placeholder for Scalable UI System.</p>
-            </div>
-        </div>
-        <div class="solution-item">
-            <div class="solution-text">
-                <h4>Key pages flow</h4>
-                <p>Paragraph placeholder for Key pages flow.</p>
-            </div>
-        </div>
-        <div class="solution-item">
-            <div class="solution-text">
-                <h4>Highlighting USPs</h4>
-                <p>Paragraph placeholder for Highlighting USPs.</p>
-            </div>
-        </div>
-    <div class="image-item">
+        <ul class="key-challenges">
+            <li><b>Clearer Navigation</b>
+            Simplified and restructured the navigation menu to ensure clear hierarchies and intuitive categories.
+            This helped reduce friction, improved content discoverability, and created a smoother user journey 
+            from homepage to conversion pages.            
+            </li>
+            <li><b>Transparency Boost</b>
+            One pain point identified was a lack of trust signals and clarity around the product offering.
+             To address this, I introduced clearer pricing visibility, transparent messaging, and highlighted 
+             social proof elements like client logos and testimonials.
+            </li>        
+            <li><b>Scalable UI System</b>
+            The old website design lacked consistency and flexibility, making it challenging to maintain as the brand evolved. 
+            I developed a scalable UI system with reusable components, typography rules, and a cohesive color palette aligned 
+            with Rise Up’s new branding.
+            </li>
+            <li><b>Key pages flow</b>
+            The old user flow between key pages—such as Solutions, Pricing, and Demo Request—was fragmented and unclear. 
+            I restructured the content and interactions to create a smoother flow, guiding visitors logically from learning 
+            about the platform to requesting a demo.           
+             </li>
+            <li><b>Highlighting USPs</b>
+            Rise Up’s unique value propositions were buried in the previous website design. 
+            I worked on bringing them to the forefront with dedicated sections, bold typography, and engaging visuals.
+            By clearly highlighting what makes Rise Up different—such as AI-powered learning and adaptability—the website
+            now communicates the brand’s strengths more effectively, increasing its impact on potential customers.            
+            </li>
+        </ul>
+        <div class="image-item">
             <img src="images/riseup/home.jpg" alt="Screenshot of homepage" class="site-image">
         </div>
         <div class="image-item">
@@ -234,7 +222,6 @@
         <div class="image-item">
             <img src="images/riseup/pricing.png" alt="Screenshot of pricing page" class="site-image">
         </div>
-    </div>
     </div>
        
             
