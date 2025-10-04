@@ -210,36 +210,34 @@
                 <h4>HubSpot Compatibility</h4>
                 <p>Paragraph placeholder for HubSpot Compatibility.</p>
             </div>
-            <a href="#" class="solution-image-link">
-                <img src="images/riseupmenu.png" alt="HubSpot Compatibility" class="solution-image">
-            </a>
+
         </div>
         <div class="solution-item">
             <div class="solution-text">
                 <h4>Scalable UI System</h4>
                 <p>Paragraph placeholder for Scalable UI System.</p>
             </div>
-            <a href="#" class="solution-image-link">
-                <img src="images/riseupmenu.png" alt="Scalable UI System" class="solution-image">
-            </a>
         </div>
         <div class="solution-item">
             <div class="solution-text">
                 <h4>Key pages flow</h4>
                 <p>Paragraph placeholder for Key pages flow.</p>
             </div>
-            <a href="#" class="solution-image-link">
-                <img src="images/riseupmenu.png" alt="Key pages flow" class="solution-image">
-            </a>
         </div>
         <div class="solution-item">
             <div class="solution-text">
                 <h4>Highlighting USPs</h4>
                 <p>Paragraph placeholder for Highlighting USPs.</p>
             </div>
-            <a href="#" class="solution-image-link">
-                <img src="images/riseupmenu.png" alt="Highlighting USPs" class="solution-image">
-            </a>
+        </div>
+    <div class="image-item">
+            <img src="images/riseup/home.jpg" alt="Screenshot of homepage" class="site-image">
+        </div>
+        <div class="image-item">
+            <img src="images/riseup/home2.jpg" alt="Screenshot of website integrations feature" class="site-image">
+        </div>
+        <div class="image-item">
+            <img src="images/riseup/pricing.png" alt="Screenshot of pricing page" class="site-image">
         </div>
     </div>
     </div>
@@ -253,9 +251,7 @@
                 Simpler navigation for L&amp;D managers to find relevant content
                 Improved trust due to transparent pricing and feature clarity
             </p>
-        <div class="image-item">
-            <img src="images/riseuplxp.png" alt="Description of image 1" class="site-image">
-        </div>
+       
     <div id="nextsteps">
         <h3>📌 Next Steps</h3>
         <p>The website redesign was only the first step in Rise Up’s digital transformation. To help them fully leverage the new design, I continued working with the team on two strategic missions:
