@@ -176,7 +176,7 @@
         </div>
 
         <div class="image-item" id="image-1">
-                <img src="images/userresearch.png" alt="User Interviews Analysis" class="site-image">
+                <img src="images/userinterviews.jpg" alt="User Interviews Quotes" class="site-image">
             </div>
         <div class="image-item" id="image-2" style="display: none;">
                 <img src="images/stakeholderinterview.png" alt="Stakeholder Interviews menu" class="site-image">
