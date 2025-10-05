@@ -159,16 +159,19 @@
         <h3>Research</h3>
         <div class="process-steps">
             <div class="step">
-                <h4>User Interviews</h4>
-                <p>Conducted website audit, internal team interviews, client interviews (FR &amp; EN markets), and competitor benchmarking → identified usability issues and clarified personas.</p>
+               <h4>User Interviews</h4>
+                <p>I spoke directly with existing clients and prospects across French and UK markets to understand their perspective
+                     on Rise Up and the broader LMS landscape.
+                </p>
             </div>
             <div class="step">
                 <h4>Stakeholder Interviews</h4>
-                <p>Simplified navigation, restructured homepage, added pricing transparency, highlighted key features, and removed unnecessary friction points.</p>
+                <p>Interviewed Rise Up's leadership team (CEO, CTO, Head of Learning, Sales & Marketing) to align
+                on business objectives and gather internal insights on the website's current challenges.</p>
             </div>
             <div class="step">
                 <h4>Competitive Evaluation</h4>
-                <p>Delivered a UI guide aligned with new brand guidelines, creating the first reusable design system for Rise Up’s marketing team.</p>
+                <p>Analyzed the UX and UI of main competitor websites to benchmark industry standards, best practices and where Rise Up could stand out.</p>
             </div>
         </div>
 
