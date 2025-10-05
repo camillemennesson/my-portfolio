@@ -179,7 +179,7 @@
                 <img src="images/riseup/userinterviews.jpg" alt="User Interviews Quotes" class="site-image">
             </div>
         <div class="image-item" id="image-2">
-                <img src="images/riseup/stakeholderinterviews.jpg" alt="Venn Diagram of Internal vs. External expectations" class="site-image">
+                <img src="images/riseup/stakeholdersinterviews.jpg" alt="Venn Diagram of Internal vs. External expectations" class="site-image">
             </div>
         <div class="image-item" id="image-3">
                 <img src="images/competitiveanalysis.png" alt="Competitive Evaluation lxp" class="site-image">
