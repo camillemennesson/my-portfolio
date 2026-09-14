@@ -68,40 +68,51 @@
     <li class="timeline-item">
       <time class="pill pill--purple">2025</time>
       <article>
-        <h3>Premiers pas dans le design graphique</h3>
-        <p>Pour la première fois, j'ai conçu des assets statiques et des vidéos pour un (vrai) client.</p>
+        <h3>Design, intégration & performance web</h3>
+        <p>Évolution vers un profil plus hybride, à l’intersection du design, 
+          de l’intégration web et des enjeux de performance. Montée en compétences sur Webflow,
+           le développement front-end, le tracking et les bonnes pratiques SEO.
+        </p>
+      </article>
+    </li>
+
+    <li class="timeline-item">
+      <time class="pill pill--purple">2025</time>
+      <article>
+        <h3>Design visuel</h3>
+        <p>Conception d’assets statiques, de vidéos et de supports digitaux pour différents clients.</p>
       </article>
     </li>
 
     <li class="timeline-item">
       <time class="pill pill--yellow">2024</time>
       <article>
-        <h3>Je sais coder 🥹</h3>
-        <p>J'ai appris les bases du HTML, CSS, et JS. Résultat ? j'ai codé mon portfolio toute seule. Merci l'IA.</p>
+        <h3>Développement & autonomie technique</h3>
+        <p>Bases en HTML, CSS et JavaScript. Développement du portfolio de A à Z avec l’aide de l’IA.</p>
       </article>
     </li>
 
     <li class="timeline-item">
       <time class="pill pill--green">2023</time>
       <article>
-        <h3>La recherche utilisateur, la vraie</h3>
-        <p>J’ai mené des recherches terrain auprès de personnes en situation de précarité pour identifier leurs besoins et concevoir une application réellement utile pour une asso.</p>
+        <h3>Recherche utilisateur</h3>
+        <p>Étude terrain auprès de personnes en situation de précarité : entretiens, observation et atelier de co-conception.</p>
       </article>
     </li>
 
     <li class="timeline-item">
       <time class="pill pill--pink">2022</time>
       <article>
-        <h3>Mon premier client</h3>
-        <p>J'ai paniqué mais c'était génial, j'ai enfin pu tester mes compétences UX au service de vrais humains. #jesaispasjaiprisnimportequoi</p>
+        <h3>Lancement en freelance</h3>
+        <p>Premiers projets UX/UI pour des clients, de la compréhension des besoins au prototypage des interfaces.</p>
       </article>
     </li>
 
     <li class="timeline-item">
       <time class="pill pill--blue">2021</time>
       <article>
-        <h3>La reconversion</h3>
-        <p>Du marketing à la conception d'expériences: je commence le bootcamp UX/UI design chez Ironhack.</p>
+        <h3>Reconversion professionnelle</h3>
+        <p>Passage du marketing à l’UX/UI Design avec le bootcamp Ironhack.</p>
       </article>
     </li>
   </ul>
