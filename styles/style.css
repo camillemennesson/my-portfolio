@@ -1854,6 +1854,8 @@ flex:2;
 .pill--pink   { background: #ffbbfe; color: #c62c92; }
 .pill--blue   { background: #c5f0ff; color: #067096; }
 .pill--red    { background: #ffd1d1; color: #9e4949; }
+.pill--orange { background: #ffe7d1; color: #fd8567; }
+
 
 /* Content styling */
 .timeline-item article {
