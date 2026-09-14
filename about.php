@@ -44,11 +44,11 @@
 
  <!-- CV Picture-->
     <div class="cv">
-    <img src="images/CV PNG MAI 2025.png" alt="cv">
+    <img src="images/CV SEPT 2026.jpg" alt="cv">
 
      <section id="download-resume">
     <div>
-    <a  target="_blank" href="https://drive.google.com/file/d/1tiIu4o7SXfrFsMHR9MInZTcw9TVvFEQF/view?usp=sharing">
+    <a  target="_blank" href="https://drive.google.com/file/d/10bYCUsJTXBLWlujWnEio1DunCQzuk6rj/view?usp=sharing">
         <img src="images/two doodle characters shaking hands.png" alt="doodle characters shaking hands">
     </a>  
 </div>
