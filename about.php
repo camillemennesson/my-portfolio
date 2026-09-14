@@ -103,18 +103,13 @@
     <li class="timeline-item">
       <time class="pill pill--pink">2022</time>
       <article>
-        <h3>Lancement en freelance</h3>
-        <p>Premiers projets UX/UI pour des clients, de la compréhension des besoins au prototypage des interfaces.</p>
+        <h3>Reconversion professionnelle & lancement en freelance</h3>
+        <p>Passage du marketing à l’UX/UI Design avec le bootcamp Ironhack. 
+          Premiers projets UX/UI pour des clients, de la compréhension des besoins au prototypage des interfaces.</p>
       </article>
     </li>
 
-    <li class="timeline-item">
-      <time class="pill pill--blue">2021</time>
-      <article>
-        <h3>Reconversion professionnelle</h3>
-        <p>Passage du marketing à l’UX/UI Design avec le bootcamp Ironhack.</p>
-      </article>
-    </li>
+  
   </ul>
 </section>
 </div>
