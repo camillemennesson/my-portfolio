@@ -44,7 +44,7 @@
 
  <!-- CV Picture-->
     <div class="cv">
-    <img src="images/CV SEPT 2026.jpg" alt="cv">
+    <img src="images/CV SEPT 2026.png" alt="cv">
 
      <section id="download-resume">
     <div>
