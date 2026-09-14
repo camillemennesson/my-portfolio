@@ -66,7 +66,7 @@
 
   <ul class="timeline">
     <li class="timeline-item">
-      <time class="pill pill--purple">2025</time>
+      <time class="pill pill--orange">2026</time>
       <article>
         <h3>Design, intégration & performance web</h3>
         <p>Évolution vers un profil plus hybride, à l’intersection du design, 
