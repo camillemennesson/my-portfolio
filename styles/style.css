@@ -1786,6 +1786,7 @@ case-study h2 {
 }
 
 .parcours-pro {
+    display: none;
 flex: 0 0 60%;   /* each takes 50% */
 max-width: 50%;
 flex:2;
