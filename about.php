@@ -48,13 +48,13 @@
 
      <section id="download-resume">
     <div>
-    <a  target="_blank" href="https://drive.google.com/file/d/10bYCUsJTXBLWlujWnEio1DunCQzuk6rj/view">
+    <a  target="_blank" href="https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view">
         <img src="images/two doodle characters shaking hands.png" alt="doodle characters shaking hands">
     </a>  
 </div>
 
      <div>
-        <a class="button" target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/10bYCUsJTXBLWlujWnEio1DunCQzuk6rj/view"
+        <a class="button" target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view"
         >Télécharger mon CV</a>
     </div>   
 
