@@ -26,7 +26,7 @@
 
 </head>
 
-<?php include 'nav.php'; ?>
+<?php include 'floating-nav.php'; ?>
 
 <body id="catan">
 
