@@ -348,6 +348,11 @@ margin: 0;
   width: auto;
   height: auto;
   z-index: 999999;
+  
+}
+
+.nav-link[hidden] {
+  display: none;
 }
 
 .nav-wrapper {
