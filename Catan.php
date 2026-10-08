@@ -30,7 +30,6 @@
 
 <body id="catan">
 
-<div id="floating-nav-placeholder"></div>
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
