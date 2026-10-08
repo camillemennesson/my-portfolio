@@ -416,9 +416,10 @@ p {
 
 .ticks-line {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 16px;
+  margin-top: 2rem;
 }
 
 .tick-item {
@@ -428,8 +429,8 @@ p {
   line-height: 1.2;
   border-radius: 999px;
   white-space: nowrap;
-  background: #ffe3ef;
-  color: #8a1c4a;
+  background: #4c77af22;
+  color: #4C77AF;
 }
 
 
