@@ -1,10 +1,6 @@
 // scripts/script.js
 document.addEventListener("DOMContentLoaded", function () {
     console.log("✅ DOM fully loaded");
-     window.addEventListener("scroll", () => {
-  console.log("📜 Scrolling...", window.scrollY);
-});
-
 
     // -------------------------------
     // ELEMENT SELECTORS
@@ -14,8 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (!mybutton) console.warn("⚠️ Back-to-top button not found");
     if (!toc) console.warn("⚠️ TOC not found");
-
- 
 
     // -------------------------------
     // BACK-TO-TOP BUTTON CLICK
@@ -41,8 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const navbarBlack = tempDiv.querySelector("#navbar-black");
             const navbarPlaceholder = document.getElementById("navbar-placeholder");
             if (!navbarPlaceholder) return;
-            if (navbarType === "black") navbarPlaceholder.appendChild(navbarBlack);
-            else navbarPlaceholder.appendChild(navbarWhite);
+            const chosen = navbarType === "black" ? navbarBlack : navbarWhite;
+            if (chosen) navbarPlaceholder.appendChild(chosen);
         })
         .catch(err => console.error("Navbar fetch error:", err));
 
@@ -55,10 +49,45 @@ document.addEventListener("DOMContentLoaded", function () {
             const footerBlack = tempDiv.querySelector("#footer-black");
             const footerPlaceholder = document.getElementById("footer-placeholder");
             if (!footerPlaceholder) return;
-            if (footerType === "black") footerPlaceholder.appendChild(footerBlack);
-            else footerPlaceholder.appendChild(footerWhite);
+            const chosen = footerType === "black" ? footerBlack : footerWhite;
+            if (chosen) footerPlaceholder.appendChild(chosen);
         })
         .catch(err => console.error("Footer fetch error:", err));
+
+    // -------------------------------
+    // FLOATING NAV (fetch + précédent/suivant + état actif)
+    // -------------------------------
+    // L'ordre ici = l'ordre de navigation entre case studies
+    const projects = ["Riseup.php", "Mavoie.php", "Soliguide.php", "Catan.php"];
+
+    function setupFloatingNav() {
+        // Page courante, sans extension et sans tenir compte de la casse
+        const clean = s => s.replace(/\.php$/i, "").toLowerCase();
+        const current = clean(location.pathname.split("/").pop());
+        const i = projects.findIndex(p => clean(p) === current);
+
+        if (i !== -1) {
+            const prev = document.getElementById("link-prev");
+            const next = document.getElementById("link-next");
+
+            if (prev && i > 0) {
+                prev.href = projects[i - 1];
+                prev.hidden = false;
+            }
+            if (next && i < projects.length - 1) {
+                next.href = projects[i + 1];
+                next.hidden = false;
+            }
+        }
+
+        // État actif (doit tourner APRÈS l'injection du menu)
+        document.querySelectorAll(".nav-link").forEach(link => {
+            if (link.href === window.location.href) {
+                link.classList.add("active");
+                link.setAttribute("aria-current", "page");
+            }
+        });
+    }
 
     fetch("components/floating-nav.html")
         .then(res => res.text())
@@ -66,18 +95,9 @@ document.addEventListener("DOMContentLoaded", function () {
             const floatingNavPlaceholder = document.getElementById("floating-nav-placeholder");
             if (!floatingNavPlaceholder) return;
             floatingNavPlaceholder.innerHTML = data;
+            setupFloatingNav();
         })
         .catch(err => console.error("Floating nav fetch error:", err));
-
-    // -------------------------------
-    // ACTIVE STATE FOR NAV LINKS
-    // -------------------------------
-    document.querySelectorAll(".nav-link").forEach(link => {
-        if (link.href === window.location.href) {
-            link.classList.add("active");
-            link.setAttribute("aria-current", "page");
-        }
-    });
 
     // -------------------------------
     // RISEUP .step CLICK HANDLER
@@ -92,9 +112,9 @@ document.addEventListener("DOMContentLoaded", function () {
     steps.forEach((step, index) => {
         step.addEventListener("click", () => {
             // Hide all images
-            images.forEach(img => img.style.display = "none");
+            images.forEach(img => { if (img) img.style.display = "none"; });
             // Show the clicked step's image
-            images[index].style.display = "block";
+            if (images[index]) images[index].style.display = "block";
 
             // Remove active class from all steps
             steps.forEach(s => s.classList.remove("active"));
@@ -127,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
             overlay.style.justifyContent = "center";
             overlay.style.alignItems = "center";
             overlay.style.zIndex = 10000;
-            overlay.style.cursor = "zoom-out";  
+            overlay.style.cursor = "zoom-out";
             overlay.style.flexDirection = "column";
 
             // Create fullscreen image

@@ -28,6 +28,7 @@
 
 
 <?php include 'floating-nav.php'; ?>
+
 <body id="mavoie">
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
