@@ -27,6 +27,8 @@
 </head>
 
 
+<?php include 'nav.php'; ?>
+
 <body id="mavoie">
 
 <div id="floating-nav-placeholder"></div>

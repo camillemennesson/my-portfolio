@@ -24,7 +24,9 @@
     <script src="components/components.js"></script>
 
 </head>
-    
+
+<?php include 'nav.php'; ?>
+
 <body id="riseup">
 
 <div id="floating-nav-placeholder"></div>

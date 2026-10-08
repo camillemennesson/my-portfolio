@@ -26,6 +26,8 @@
 
 </head>
 
+<?php include 'nav.php'; ?>
+
 <body id="catan">
 
 <div id="floating-nav-placeholder"></div>

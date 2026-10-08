@@ -25,6 +25,8 @@
 
 </head>
 
+<?php include 'nav.php'; ?>
+
 <body id="soliguide">
 
 <div id="floating-nav-placeholder"></div>
