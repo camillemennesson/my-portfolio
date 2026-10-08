@@ -28,6 +28,7 @@
 
 
 <div id="floating-nav-placeholder"></div>
+
 <body id="mavoie">
 
 <div id="navbar-placeholder" data-navbar-type="white"></div>
