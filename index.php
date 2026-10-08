@@ -35,7 +35,7 @@
 </head>
     
 <body id="home">
-x
+
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
 <div id="wrapper">
