@@ -1541,7 +1541,6 @@ case-study h2 {
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
     margin-top: 1em;
     box-shadow: 2px 6px #32323240;
-    text-transform: uppercase;
 }
 
 
