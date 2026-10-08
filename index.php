@@ -147,7 +147,6 @@
 </div>
 
 <div id="footer-placeholder" data-footer-type="white"></div>
-<div id="floating-nav-placeholder"></div>
 <script src="scripts/script.js?=v3"></script>
 
 
