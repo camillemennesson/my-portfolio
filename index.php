@@ -43,14 +43,14 @@
      <!-- Name and Description Section -->
     <div class="intro-container">
         <section class="intro">
-            <h1>UX/UI Designer freelance depuis 4 ans.</h1>
-                <p>Je conçois des applications web et mobile pour des clients en France et à l'international.</p>
-                <p>Ancienne responsable marketing dans la publicité et les jeux vidéo, je crée des expériences qui captent et accompagnent les utilisateurs. </p>
+            <h1>Ex-marketing chez Gameloft & Google, aujourd'hui UX/UI designer freelance.</h1>
+                <p>Je rejoins des équipes en France et à l'international pour concevoir des produits web et mobile.</p>
+            
             <div class="ticks-line">
-                <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Recherche utilisateur</span>
-                <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Prototypage</span>
-                <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>UI Kit</span>
-                <span class="tick-item"><span class="icon-wrapper"><i class="bi bi-check"></i></span>Vibe-coding ✨</span>
+                <span class="tick-item">Recherche utilisateur</span>
+                <span class="tick-item">Prototypage</span>
+                <span class="tick-item">UI Kit</span>
+                <span class="tick-item">Vibe-coding</span>
             </div>
         </section>
 

@@ -172,6 +172,9 @@ overflow-y: visible;
     margin-top: 0;
     margin-bottom: 1rem;
     color: #1F1F1F;
+    line-height: 1.2;
+    font-size: 2.5rem;
+    max-width: 800px;
 }
 
 .intro-text h1 {
@@ -408,26 +411,27 @@ p {
     margin-top: 0.5rem;
     line-height: 1.5em;
     max-width: 700px;
+    margin:auto;
 }
 
 .ticks-line {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* center on large screens */
-  gap: 2rem; /* space between ticks */
-  margin-top: 2rem;
+  gap: 8px;
+  margin-top: 16px;
 }
 
 .tick-item {
-  display: flex;
-  align-items: center;
+  padding: 6px 14px;
+  font-size: 0.875rem;
   font-weight: 500;
-  color: #454545;
-  font-size: 1rem;
-  padding: 0.6rem 1rem;
-  border-radius: 2rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  line-height: 1.2;
+  border-radius: 999px;
+  white-space: nowrap;
+  background: #ffe3ef;
+  color: #8a1c4a;
 }
+
 
 
 .icon-wrapper {
