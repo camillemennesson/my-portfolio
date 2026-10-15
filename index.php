@@ -59,9 +59,17 @@
         </div>
     </div>
 
-    <section id="Work">
-    
+<section id="Work">
+     
         <div class="work-flex">
+
+        <!-- Audion -->
+            <div id="audion" class="project">
+                <a href="Audion.php">
+                    <img src="images/audion/cover.png" class="project-image" alt="audion">
+                    <h3>Audion - Website redesign and Visual Asset Creation</h3>
+                </a>
+            </div>
 
         <!-- Project 1 -->
         <div id="riseup" class="project">
@@ -70,7 +78,7 @@
                     <h3>Rise Up - Website redesign and Visual Asset Creation</h3>
                 </a>
             </div>
- 
+  
             <!--Bearwww-->
             <div class="project" id="bear">
                 <a href="#">
