@@ -1595,6 +1595,10 @@ case-study h2 {
   box-sizing: border-box;
 }
 
+.work-flex .project:last-child {
+  flex-grow: 0; /* Prevent last item from taking full width when odd number of items */
+}
+
 .work-flex.center-last {
   justify-content: center;
 }
