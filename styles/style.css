@@ -2154,5 +2154,26 @@ flex:2;
     box-shadow: none;
 }
 
+#audion img,
+#audion video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
+#audion .image-item {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  #audion .intro-meta dd,
+  #audion .intro-text h1,
+  #audion .intro-text h2 {
+    overflow-wrap: anywhere;
+  }
+
+  #audion .sticky-toc {
+    position: static; /* évite le chevauchement sur mobile */
+  }
+}
 
