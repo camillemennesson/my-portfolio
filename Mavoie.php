@@ -67,7 +67,7 @@
                         <img src="images/notionlogo.svg" loading="lazy" alt="notion logo">
                     </div>
                     <div class="badge" title="Webflow">
-                        <img src="images/webflow.jpeg" loading="lazy" alt="webflow logo">
+                        <img src="images/webflow-icon.svg" loading="lazy" alt="webflow logo">
                     </div>
                     <div class="badge" title="Hotjar">
                         <img src="images/hotjar.svg" loading="lazy" alt="hotjar logo">

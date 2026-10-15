@@ -37,29 +37,32 @@
 <header class="intro">
 <div class="intro-body">
     <div class="intro-text">
-        <h1>Redesign of Audion website</h1>
-        <h2>Audion is an audio technology platform that revolutionizes
-            how creators produce, distribute, and monetize audio content
-            through AI-powered tools and seamless workflows.
+        <h1>Audion: transformer un clic LinkedIn en lead</h1>
+        <h2>Pour le lancement d’Audion aux États-Unis, 
+            j’ai créé la landing page de leur campagne LinkedIn:
+             design, textes et intégration Webflow.
         </h2>
     </div>
     <div class="intro-meta">
         <dl>
-            <dt>Role</dt>
-            <dd> 
-                RESEARCH, DESIGN, VISUAL ASSET CREATION
-            </dd>
+            <dt>Rôle</dt>
+            <dd> UX/UI DESIGN, COPYWRITING, INTÉGRATION WEBFLOW</dd>
+        </dl>
+         <dl>
+            <dt>Équipe</dt>
+            <dd>Chef de projet, SEO, SEA, tracking</dd>
         </dl>
         <dl>
-            <dt>Timeframe</dt>
-            <dd>4 MONTHS</dd>
+            <dt>Durée</dt>
+            <dd>6 SEMAINES</dd>
+        </dl>
+       
+         <dl>
+            <dt>Lien</dt>
+            <dd><a href="https://www.resources.audion.ai/" target="_blank" rel="noopener noreferrer">VIEW WEBSITE <i class="bi bi-arrow-up-right"></i></a></dd>
         </dl>
          <dl>
-            <dt>Link</dt>
-            <dd><a href="https://www.audion.com/" target="_blank" rel="noopener noreferrer">VIEW WEBSITE <i class="bi bi-arrow-up-right"></i></a></dd>
-        </dl>
-         <dl>
-            <dt>Tools</dt>
+            <dt>Outils</dt>
                 <div class="intro-badges">
                     <div class="badge" title="Figma">
                         <img src="images/figma2.svg" loading="lazy" alt="figma logo">
@@ -68,11 +71,9 @@
                         <img src="images/notionlogo.svg" loading="lazy" alt="notion logo">
                     </div>
                     <div class="badge" title="Webflow">
-                        <img src="images/webflow.svg" loading="lazy" alt="webflow logo">
+                        <img src="images/webflow-icon.svg" loading="lazy" alt="webflow logo">
                     </div>
-                    <div class="badge" title="Hotjar">
-                        <img src="images/hotjar.svg" loading="lazy" alt="hotjar logo">
-                    </div>
+        
                  
                 </div>
         </dl>
@@ -100,32 +101,7 @@
     </nav>
 
 <div class="case-study-content">
-    <section class="testimonials">
-        <blockquote class="testimonial">
-<svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" width="60" height="60" aria-hidden="true">
-                <style type="text/css">
-                    .st0{fill:#FFFFF;}
-                </style>
-                <g>
-                    <path class="st0" d="M119.472,66.59C53.489,66.59,0,120.094,0,186.1c0,65.983,53.489,119.487,119.472,119.487
-                        c0,0-0.578,44.392-36.642,108.284c-4.006,12.802,3.135,26.435,15.945,30.418c9.089,2.859,18.653,0.08,24.829-6.389
-                        c82.925-90.7,115.385-197.448,115.385-251.8C238.989,120.094,185.501,66.59,119.472,66.59z"/>
-                    <path class="st0" d="M392.482,66.59c-65.983,0-119.472,53.505-119.472,119.51c0,65.983,53.489,119.487,119.472,119.487
-                        c0,0-0.578,44.392-36.642,108.284c-4.006,12.802,3.136,26.435,15.945,30.418c9.089,2.859,18.653,0.08,24.828-6.389
-                        C479.539,347.2,512,240.452,512,186.1C512,120.094,458.511,66.59,392.482,66.59z"/>
-                </g>
-            </svg>
-                <p>Camille transformed our vision into a stunning, conversion-focused website. Her deep understanding of user behavior and 
-                ability to balance aesthetics with functionality made the entire process smooth. The new site not only looks incredible 
-                but drives real business results.</p>
-            <footer>
-                <img src="images/audion-founder.jpeg" alt="Audion Founder" class="author-image">
-                <span> <a href="https://www.linkedin.com/in/cmennesson/details/recommendations/" 
-                target="_blank" rel="noopener noreferrer">Alexandre Martin</a><br>CEO @Audion
-                </span>
-            </footer>
-        </blockquote>
-    </section>
+
 
         <hr style="border:none; border-top:1px solid #d3d3d3; margin:1rem 0;" />
 
