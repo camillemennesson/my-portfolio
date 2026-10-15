@@ -101,150 +101,138 @@
     </nav>
 
 <div class="case-study-content">
-
-
+ 
         <hr style="border:none; border-top:1px solid #d3d3d3; margin:1rem 0;" />
-
+ 
         <div id="overview">
-        <h3>Overview</h3>
-        <p>Audion was scaling rapidly and needed a marketing website that effectively communicated its AI-powered audio platform 
-            to podcast creators, enterprises, and media companies. The existing website failed to showcase the platform's 
-            advanced capabilities and created friction in the buyer journey for both self-serve and enterprise customers.</p>
-        
-        <div id="audit">
-            <h3>Audit</h3>
-                <ul class="key-challenges">
-                    <li><b>Complex product messaging</b> Visitors couldn't quickly grasp Audion's AI capabilities and use cases.
-                    </li>
-                    <li><b>Fragmented user journeys</b> Self-serve and enterprise paths were conflated, confusing both audiences.
-                    </li>
-                    <li><b>Weak social proof</b> Lack of case studies and creator testimonials reduced credibility.
-                    </li>
-                    <li><b>Technical debt</b> Legacy CMS limited design flexibility and content management efficiency.
-                    </li>
-                    <li><b>Inconsistent brand experience</b> No cohesive design system led to disjointed marketing touchpoints.<p></p>
-                    </li>
-                </ul>
+            <h3>Contexte</h3>
+            <p>Audion, une plateforme d'IA pour la publicité audio, se lance aux États-Unis avec une campagne de publicités LinkedIn
+                ciblant les CMOs. L'appât : un livre blanc de 22 pages, le <em>2026 US Channel Mix Report</em>, sur la répartition des budgets média américains.
+                Ma mission : concevoir la landing page où arrivent les clics, pour transformer ce trafic en leads qualifiés.
+                Je suis intervenue uniquement sur cette page de campagne, pas sur le site officiel d'Audion.</p>
+            <p>Le chef de projet me briefait. J'ai travaillé avec le SEO, le SEA et le tracking, et validé les choix avec les CMOs et les sales d'Audion.</p>
+ 
+            <ul class="key-challenges">
+                <li><b>Un public mobile</b> La plupart des utilisateurs de LinkedIn naviguent depuis leur téléphone : la page devait d'abord fonctionner sur mobile.
+                    <!-- À VÉRIFIER : si tu as une source pour "environ 80 %", ajoute le chiffre ici. Sinon laisse tel quel. -->
+                </li>
+                <li><b>Une attention courte</b> Après un clic sur une pub, la page doit confirmer la promesse de la créa en quelques secondes.
+                </li>
+                <li><b>Des décideurs très sollicités</b> Convaincre un CMO de laisser ses coordonnées, pour une marque encore peu connue aux États-Unis.
+                </li>
+                <li><b>Deux objectifs</b> Obtenir des leads avant tout, et faire découvrir Audion à ceux qui arrivent sur la page.
+                </li>
+            </ul>
         </div>
-
-        <div class="image-item">
-            <img src="images/audion/challenges.png" alt="Key challenges" class="site-image">
-        </div>
-
+ 
     <div id="research">
-        <h3>Research</h3>
+        <h3>Stratégie</h3>
         <div class="process-steps">
             <div class="step">
-               <h4>User Interviews</h4>
-                <p>Conducted interviews with podcast creators, enterprise audio teams, and agency producers 
-                     to understand workflows, pain points, and evaluation criteria for audio platforms.
+               <h4>Deux objectifs</h4>
+                <p>Obtenir des leads qualifiés grâce au formulaire, puis présenter Audion à ceux qui arrivent sur la page.
                 </p>
             </div>
             <div class="step">
-                <h4>Stakeholder Workshops</h4>
-                <p>Facilitated sessions with Audion's product, sales, and marketing leadership to define 
-                product positioning, priority features, and success metrics for the redesign.</p>
+                <h4>Version A : conversion d'abord</h4>
+                <p>Un hero centré sur le livre blanc et le formulaire, un aperçu du contenu, de la preuve sociale,
+                    puis une présentation d'Audion.</p>
             </div>
             <div class="step">
-                <h4>Competitive Analysis</h4>
-                <p>Evaluated UX/UI of direct competitors (Descript, Riverside, Anchor) and adjacent 
-                tools to identify differentiation opportunities and industry conventions.</p>
+                <h4>Version B : marque et conversion</h4>
+                <p>Un hero qui mêle proposition de valeur et formulaire, puis « pourquoi l'audio ? »
+                    et une présentation plus poussée d'Audion.</p>
             </div>
         </div>
-
+ 
+        <!-- Les ids image-1, image-2, image-3 suivent le même mécanisme que dans ta version précédente (une image par étape) -->
         <div class="image-item" id="image-1">
-                <img src="images/audion/userinterviews.jpg" alt="User Interview Insights" class="site-image">
+                <img src="images/audion/strategy.jpg" alt="Objectifs et stratégie de la landing page" class="site-image">
             </div>
         <div class="image-item" id="image-2" style="display: none;">
-                <img src="images/audion/stakeholderworkshop.jpg" alt="Stakeholder Workshop Outcomes" class="site-image">
+                <img src="images/audion/version-a.jpg" alt="Proposition A de la landing page" class="site-image">
             </div>
         <div class="image-item" id="image-3" style="display: none;">
-                <img src="images/audion/competitiveanalysis.png" alt="Competitive Analysis Audio Platforms" class="site-image">
+                <img src="images/audion/version-b.jpg" alt="Proposition B de la landing page" class="site-image">
             </div>
-
-
+ 
+        <!-- À VÉRIFIER : la page en ligne ressemble à la version A avec une section "The Audio Advantage" venue de la B. Corrige si besoin. -->
+        <p>La page finale reprend la structure de la version A, avec une section sur les atouts de l'audio issue de la B.</p>
+    </div>
+ 
     <div id="solution">
-        <h3>Solutions</h3>
+        <h3>Décisions clés</h3>
         <ul class="key-challenges">
-            <li><b>Dual-Track Navigation</b>
-            Created separate, clearly labeled paths for Creators (self-serve) and Enterprises (sales-led) 
-            with tailored messaging and CTAs for each.
+            <li><b>Un formulaire à 3 champs au lieu de 5</b>
+            Les sales voulaient 5 champs pour récolter un maximum de données. J'ai recommandé 2 à 3 champs maximum,
+            car chaque champ en plus fait chuter le taux de complétion, surtout sur mobile.
+            Le formulaire final compte 3 champs : nom, rôle (annonceur, agence ou adtech) et e-mail professionnel.
+            <!-- À VÉRIFIER : confirme que le champ "rôle" sert bien à segmenter les leads pour les sales -->
             </li>
-            <li><b>Interactive Product Demo</b>
-           Built an embedded interactive demo showcasing AI voice cloning, noise reduction, 
-           and auto-editing features directly on the homepage.
-            </li>        
-            <li><b>Scalable Design System</b>
-            Developed a comprehensive design system with component library, motion guidelines, 
-            and dark/light modes for consistent scaling across marketing and product.
+            <li><b>Un hero qui donne envie de télécharger</b>
+            Dès le premier écran : un titre centré sur le bénéfice, un visuel du rapport, la mention « 22 pages »,
+            des logos de marques pour rassurer et le formulaire.
             </li>
-            <li><b>Creator-Centric Storytelling</b>
-            Restructured content to lead with creator success stories, use-case pages, 
-            and a resource hub guiding visitors from discovery to activation.           
+            <li><b>Une page de remerciement qui prolonge la visite</b>
+            Une confirmation du téléchargement, puis un appel à l'action vers Audion et trois cartes pour continuer à explorer.
             </li>
-            <li><b>Enterprise Trust Signals</b>
-            Added SOC2 compliance badges, enterprise case studies, security documentation, 
-            and dedicated sales contact flows for high-value prospects.
-                   
+            <li><b>Des itérations sans test utilisateur</b>
+            Pas de test utilisateur sur ce projet : j'ai ajusté la page avec mon expérience des landing pages et les retours
+            des sales et des CMOs. Les allers-retours ont porté sur le formulaire, les visuels, le titre et les textes,
+            les icônes, les logos et les boutons.
             </li>
         </ul>
         <div class="image-item">
-            <img src="images/audion/home.jpg" alt="Screenshot of homepage" class="site-image">
+            <img src="images/audion/landing-mobile.jpg" alt="Landing page Audion, version mobile" class="site-image">
         </div>
         <div class="image-item">
-            <img src="images/audion/features.jpg" alt="Screenshot of AI features page" class="site-image">
+            <img src="images/audion/landing-desktop.jpg" alt="Landing page Audion, version desktop" class="site-image">
         </div>
         <div class="image-item">
-            <img src="images/audion/enterprise.jpg" alt="Screenshot of enterprise page" class="site-image">
+            <img src="images/audion/thank-you.jpg" alt="Page de remerciement après l'envoi du formulaire" class="site-image">
+        </div>
+        <div class="image-item">
+            <img src="images/audion/figma.jpg" alt="Maquettes Figma de la landing page" class="site-image">
         </div>
     </div>
-       
-             
-
-        <div id="results">
-        <h3>Outcomes and impact</h3>
-            <p>Post-launch metrics demonstrated significant improvement across key business indicators:
-                40% increase in self-serve sign-ups within first 60 days
-                2.5x increase in enterprise demo requests
-                60% reduction in bounce rate on product pages
-                35% improvement in time-to-value for new creators
+ 
+    <div id="results">
+        <h3>Résultats</h3>
+            <p>La landing est livrée en 6 semaines et en ligne : elle a servi de destination aux publicités LinkedIn.
+                Elle arrive en bout de funnel et le trafic est resté limité, donc je n'ai pas de données de conversion fiables à partager.
             </p>
-       
-    <div id="nextsteps">
-        <h3>📌 Next Steps</h3>
-        <p>The website redesign established a strong foundation for Audion's growth. To continue the momentum, I'm partnering with the team on two follow-up initiatives:
-        </p>       
-        <h4>Product-Led Growth Optimization</h4> 
-        <p>Designing in-app onboarding flows, feature discovery patterns, and upgrade prompts that extend the website's conversion logic into the product experience itself.</p>
-        <h4>Design System Governance</h4>
-        <p>Establishing a design system governance model with contribution guidelines, versioning strategy, and cross-team adoption metrics to ensure long-term consistency as Audion scales.</p>
+            <!-- Si tu obtiens un chiffre (visites, taux de complétion, téléchargements, CTR), ajoute-le ici avec sa période. Le score Lighthouse mobile est aussi un indicateur que tu peux mesurer toi-même. -->
+        <h4>Ce que j'en retiens</h4>
+        <p>Proposer deux versions rend la discussion plus concrète. Et sur le formulaire, parler en leads
+            et en taux de complétion m'a aidée à convaincre les sales : mon passé marketing a servi.</p>
+        <h4>Ce que je ferais ensuite</h4>
+        <p>Tester deux titres et deux longueurs de formulaire, et analyser les sessions mobiles pour repérer où les utilisateurs abandonnent.</p>
     </div>
-        </div>
-        
-    </div>
-
-    </section>
-
+ 
+</div>
+</div>
+</section>
+ 
     <section id="case-study-footer">
         <!-- Button to read the next case study -->
         <div class="button-container">
             <a href="Riseup.php"
-            class="button case-study-button">See another case study</a>
+            class="button case-study-button">Lire le prochain case study</a>
         </div>
         <div id="footer-placeholder" data-footer-type="white"></div>
     </section>
-    
+ 
     <button
         type="button"
         class="btn-back-to-top"
         id="btn-back-to-top"
-        > 
+        >
         <i class="bi bi-arrow-up-circle-fill"></i>
     </button>
-    <script src="/scripts/script.js?v=100"></script>
-    
-
-</body>
+ 
 </div>
-
+ 
+<script src="/scripts/script.js?v=100"></script>
+ 
+</body>
 </html>
