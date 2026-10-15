@@ -59,7 +59,7 @@
        
          <dl>
             <dt>Lien</dt>
-            <dd><a href="https://www.resources.audion.ai/" target="_blank" rel="noopener noreferrer">VIEW WEBSITE <i class="bi bi-arrow-up-right"></i></a></dd>
+            <dd><a href="https://resources.audion.ai/" target="_blank" rel="noopener noreferrer">VIEW WEBSITE <i class="bi bi-arrow-up-right"></i></a></dd>
         </dl>
          <dl>
             <dt>Outils</dt>
@@ -80,8 +80,10 @@
     </div>
 </div>
      <div class="intro-image">
-        <img src="images/audion/cover.png" alt="Audion website homepage" id="hero-audion">
-    </div>
+<video class="site-image" autoplay loop muted playsinline preload="metadata"
+           poster="images/audion/demo-poster.jpg">
+        <source src="images/audion/herovideo.webm" type="video/webm">
+    </video>    </div>
 </header>
 
 
@@ -91,12 +93,10 @@
 
     <h4 class="toc-title">Table of contents</h4>
     <ul>
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#audit">Audit</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#solution">Solutions</a></li>
-        <li><a href="#results">Outcomes and impact</a></li>
-        <li><a href="#nextsteps">Next Steps</a></li>
+        <li><a href="#contexte">Contexte</a></li>
+        <li><a href="#strategie">Stratégie</a></li>
+        <li><a href="#decisions">Décisions clés</a></li>
+        <li><a href="#resultats">Résultats</a></li>
     </ul>
     </nav>
 
@@ -104,7 +104,7 @@
  
         <hr style="border:none; border-top:1px solid #d3d3d3; margin:1rem 0;" />
  
-        <div id="overview">
+        <div id="contexte">
             <h3>Contexte</h3>
             <p>Audion, une plateforme d'IA pour la publicité audio, se lance aux États-Unis avec une campagne de publicités LinkedIn
                 ciblant les CMOs. L'appât : un livre blanc de 22 pages, le <em>2026 US Channel Mix Report</em>, sur la répartition des budgets média américains.
@@ -125,7 +125,7 @@
             </ul>
         </div>
  
-    <div id="research">
+    <div id="strategie">
         <h3>Stratégie</h3>
         <div class="process-steps">
             <div class="step">
@@ -147,20 +147,20 @@
  
         <!-- Les ids image-1, image-2, image-3 suivent le même mécanisme que dans ta version précédente (une image par étape) -->
         <div class="image-item" id="image-1">
-                <img src="images/audion/strategy.jpg" alt="Objectifs et stratégie de la landing page" class="site-image">
+                <img src="images/audion/heroaudion.png" alt="Objectifs et stratégie de la landing page" class="site-image">
             </div>
-        <div class="image-item" id="image-2" style="display: none;">
-                <img src="images/audion/version-a.jpg" alt="Proposition A de la landing page" class="site-image">
+        <div class="image-item" id="image-2" >
+                <img src="images/audion/audionscreen01.png" alt="Proposition A de la landing page" class="site-image">
             </div>
-        <div class="image-item" id="image-3" style="display: none;">
-                <img src="images/audion/version-b.jpg" alt="Proposition B de la landing page" class="site-image">
+        <div class="image-item" id="image-3" >
+                <img src="images/audion/audionscreen02.png" alt="Proposition B de la landing page" class="site-image">
             </div>
  
         <!-- À VÉRIFIER : la page en ligne ressemble à la version A avec une section "The Audio Advantage" venue de la B. Corrige si besoin. -->
         <p>La page finale reprend la structure de la version A, avec une section sur les atouts de l'audio issue de la B.</p>
     </div>
  
-    <div id="solution">
+    <div id="decisions">
         <h3>Décisions clés</h3>
         <ul class="key-challenges">
             <li><b>Un formulaire à 3 champs au lieu de 5</b>
@@ -182,21 +182,16 @@
             les icônes, les logos et les boutons.
             </li>
         </ul>
+        
         <div class="image-item">
-            <img src="images/audion/landing-mobile.jpg" alt="Landing page Audion, version mobile" class="site-image">
-        </div>
-        <div class="image-item">
-            <img src="images/audion/landing-desktop.jpg" alt="Landing page Audion, version desktop" class="site-image">
-        </div>
-        <div class="image-item">
-            <img src="images/audion/thank-you.jpg" alt="Page de remerciement après l'envoi du formulaire" class="site-image">
-        </div>
-        <div class="image-item">
-            <img src="images/audion/figma.jpg" alt="Maquettes Figma de la landing page" class="site-image">
-        </div>
+    <video class="site-image" autoplay loop muted playsinline preload="metadata"
+           poster="images/audion/demo-poster.jpg">
+        <source src="images/audion/logoaudion.webm" type="video/webm">
+    </video>
+</div>
     </div>
  
-    <div id="results">
+    <div id="resultats">
         <h3>Résultats</h3>
             <p>La landing est livrée en 6 semaines et en ligne : elle a servi de destination aux publicités LinkedIn.
                 Elle arrive en bout de funnel et le trafic est resté limité, donc je n'ai pas de données de conversion fiables à partager.
@@ -207,6 +202,11 @@
             et en taux de complétion m'a aidée à convaincre les sales : mon passé marketing a servi.</p>
         <h4>Ce que je ferais ensuite</h4>
         <p>Tester deux titres et deux longueurs de formulaire, et analyser les sessions mobiles pour repérer où les utilisateurs abandonnent.</p>
+    
+    <div class="image-item" >
+                <img src="images/audion/thankyoupage.png"  class="site-image">
+            </div>
+
     </div>
  
 </div>
