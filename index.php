@@ -67,7 +67,7 @@
             <div id="audion" class="project">
                 <a href="Audion.php">
                     <img src="images/audion/cover.png" class="project-image" alt="audion">
-                    <h3>Audion - Website redesign and Visual Asset Creation</h3>
+                    <h3>Audion - Landing page de campagne LinkedIn</h3>
                 </a>
             </div>
 
