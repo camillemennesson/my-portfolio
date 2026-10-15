@@ -617,7 +617,7 @@ section {
 }
 
 
-#osmia, #parents, #spotify, #catan, #audion {
+#osmia, #parents, #spotify, #catan, #audion, #bear {
     display: none;
 }
 
@@ -1595,8 +1595,8 @@ case-study h2 {
   box-sizing: border-box;
 }
 
-.work-flex .project:last-child {
-  flex-grow: 0; /* Prevent last item from taking full width when odd number of items */
+#soliguide {
+  flex-grow: 0; /* Prevent last visible project from stretching to full width */
 }
 
 .work-flex.center-last {
