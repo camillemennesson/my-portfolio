@@ -88,7 +88,7 @@
             </div>
  
             <!-- Project 2 -->
-            <div class="project">
+            <div class="project" id="mavoie">
                 <a  href="Mavoie.php">
                     <img src="images/hero/mavoie.jpeg" class="project-image" alt="mavoie">
                     <h3>MaVoie.org - Refonte UX et UI du site web</h3>
@@ -96,7 +96,7 @@
             </div>
  
             <!-- Project 2-->
-            <div class="project">
+            <div class="project" id="soliguide">
             <a href="Soliguide.php">
                 <img src="images/soliguide.webp" class="project-image" alt="soliguide" >
                 <h3>Soliguide - Refonte UX de l'app mobile</h3>
@@ -112,7 +112,7 @@
             </div>
  
             <!-- Catan-->
-            <div class="project">
+            <div class="project" id="catan">
                 <a href="Catan.php">
                     <img src="images/hero/catan.webp" class="project-image" alt="Catan">
                     <h3>Catan - UX Audit</h3>
