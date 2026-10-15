@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // FLOATING NAV (fetch + précédent/suivant + état actif)
     // -------------------------------
     // L'ordre ici = l'ordre de navigation entre case studies
-    const projects = ["Audion.php","Riseup.php", "Mavoie.php", "Soliguide.php"];
+    const projects = ["Audion.php", "Riseup.php", "Mavoie.php", "Soliguide.php"];
 
     function setupFloatingNav() {
         // Page courante, sans extension et sans tenir compte de la casse
