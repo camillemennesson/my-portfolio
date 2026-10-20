@@ -17,5 +17,10 @@
   "work.spotify": "Spotify - Mobile app: new feature",
   "work.parents": "Parents - Mobile app",
   "contact.title": "Contact me",
-  "contact.button": "Send an email"
+  "contact.button": "Send an email",
+  "nav.projects": "Projects",
+  "nav.about": "About",
+  "nav.cv": "Download my resume",
+  "nav.langgroup": "Language",
+  "nav.cvlink": "https://drive.google.com/file/d/1FNx7qc_chPM7JrliuWzn1LczEQ1kdnYh/view"
   }

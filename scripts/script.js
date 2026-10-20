@@ -36,8 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
             const navbarPlaceholder = document.getElementById("navbar-placeholder");
             if (!navbarPlaceholder) return;
             const chosen = navbarType === "black" ? navbarBlack : navbarWhite;
-            if (chosen) navbarPlaceholder.appendChild(chosen);
-        })
+            if (chosen) {navbarPlaceholder.appendChild(chosen);
+            if (window.applyLanguage) applyLanguage(navbarPlaceholder);}      
+          })
         .catch(err => console.error("Navbar fetch error:", err));
 
     fetch("components/footer.html")
@@ -50,7 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
             const footerPlaceholder = document.getElementById("footer-placeholder");
             if (!footerPlaceholder) return;
             const chosen = footerType === "black" ? footerBlack : footerWhite;
-            if (chosen) footerPlaceholder.appendChild(chosen);
+            if (chosen) {footerPlaceholder.appendChild(chosen);
+            if (window.applyLanguage) applyLanguage(footerPlaceholder);}
         })
         .catch(err => console.error("Footer fetch error:", err));
 
@@ -95,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const floatingNavPlaceholder = document.getElementById("floating-nav-placeholder");
             if (!floatingNavPlaceholder) return;
             floatingNavPlaceholder.innerHTML = data;
+            applyLanguage(floatingNavPlaceholder);
             setupFloatingNav();
         })
         .catch(err => console.error("Floating nav fetch error:", err));

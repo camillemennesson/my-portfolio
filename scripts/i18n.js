@@ -44,6 +44,20 @@
       if (key in dict) el.setAttribute("aria-label", dict[key]);
       else console.warn("Missing translation key:", key);
     });
+
+      root.querySelectorAll("[data-i18n-href]").forEach(function (el) {
+      const key = el.getAttribute("data-i18n-href");
+      if (key in dict) el.setAttribute("href", dict[key]);
+      else console.warn("Missing translation key:", key);
+    });
+
+    root.querySelectorAll(".lang-switch").forEach(function (sw) {
+      sw.setAttribute("data-active", current);
+      sw.querySelectorAll("[data-lang]").forEach(function (b) {
+        b.setAttribute("aria-pressed", String(b.getAttribute("data-lang") === current));
+      });
+    });
+
   }
 
   async function setLanguage(lang) {
@@ -63,6 +77,11 @@
   window.applyLanguage = applyLanguage;
   window.setLanguage = setLanguage;
   window.getLanguage = function () { return current; };
+
+  document.addEventListener("click", function (e) {
+    const btn = e.target.closest(".lang-switch [data-lang]");
+    if (btn) setLanguage(btn.getAttribute("data-lang"));
+  });
 
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", function () { setLanguage(detect()); });

@@ -231,7 +231,8 @@
     </button>
  
 </div>
- 
+ <script src="scripts/i18n.js"></script>
+
 <script src="/scripts/script.js?v=100"></script>
  
 </body>
