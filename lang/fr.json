@@ -22,5 +22,9 @@
   "nav.about": "À propos",
   "nav.cv": "Télécharger mon CV",
   "nav.langgroup": "Langue",
-  "nav.cvlink": "https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view"
+  "nav.cvlink": "https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view",
+  "footer.projects": "Projets",
+  "footer.about": "À propos",
+  "footer.contact": "Contact",
+  "footer.cv": "Télécharger mon CV"
   }
