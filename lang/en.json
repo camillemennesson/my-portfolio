@@ -26,5 +26,29 @@
   "footer.projects": "Projects",
   "footer.about": "About",
   "footer.contact": "Contact",
-  "footer.cv": "Download my resume"
+  "footer.cv": "Download my resume",
+
+  "about.metaTitle": "About",
+  "about.title": "About",
+  "about.cv": "Download my resume",
+  "about.cvlink": "https://drive.google.com/file/d/1FNx7qc_chPM7JrliuWzn1LczEQ1kdnYh/view",
+  "about.cvImageAlt": "Resume",
+  "about.cvImage": "images/cv-en-sept-2026.png",
+  "about.doodleAlt": "Two illustrated characters shaking hands",
+
+  "about.timeline.2026.title": "Web design, development & performance",
+  "about.timeline.2026.text": "Expanding into a more hybrid role at the intersection of design, web development and performance. Building skills in Webflow, front-end development, tracking and SEO best practices.",
+
+  "about.timeline.2025.title": "Visual design",
+  "about.timeline.2025.text": "Creating static assets, videos and digital content for a range of clients.",
+
+  "about.timeline.2024.title": "Development & technical independence",
+  "about.timeline.2024.text": "Building a foundation in HTML, CSS and JavaScript. Developing my portfolio from scratch with the help of AI.",
+
+  "about.timeline.2023.title": "User research",
+  "about.timeline.2023.text": "Field research with people experiencing social and economic hardship, including interviews, observation and a co-design workshop.",
+
+  "about.timeline.2022.title": "Career change & freelance launch",
+  "about.timeline.2022.text": "Transitioning from marketing to UX/UI design through the Ironhack bootcamp. First UX/UI projects, from understanding user needs to prototyping interfaces."
+
   }

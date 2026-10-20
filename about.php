@@ -13,7 +13,7 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title data-i18n="about.metaTitle">About</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="<?php echo 'styles/styleguide.css?='.time(); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo 'styles/components.css?='.time(); ?>">
@@ -34,7 +34,7 @@
     <section class="intro">
         <div class="intro-content">
 
-            <h1>À propos</h1>
+            <h1 data-i18n="about.title" >À propos</h1>
         </div>
     </section>
 
@@ -42,34 +42,49 @@
 
  <!-- CV Picture-->
     <div class="cv">
-    <img src="images/CV SEPT 2026.png" alt="cv">
+    <img src="images/CV SEPT 2026.png" alt="cv" data-i18n-alt="about.cvImageAlt" data-i18n-title="about.cvImage">
 
      <section id="download-resume">
     <div>
     <a  target="_blank" href="https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view">
-        <img src="images/two doodle characters shaking hands.png" alt="doodle characters shaking hands">
+        <img src="images/two doodle characters shaking hands.png" alt="doodle characters shaking hands"
+        data-i18n-alt="about.doodleAlt">
     </a>  
 </div>
 
      <div>
-        <a class="button" target="_blank" class="telecharger-cv" id="button-black" href="https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view"
-        >Télécharger mon CV</a>
+       
+<a
+            class="button"
+            id="button-black"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view"
+            data-i18n="about.cv"
+            data-i18n-href="about.cvlink"
+>
+    Télécharger mon CV
+</a>
+
     </div>   
 
 </section>
     </div>
 
+
 <section class="parcours-pro">
-
-
   <ul class="timeline">
+
     <li class="timeline-item">
       <time class="pill pill--orange">2026</time>
       <article>
-        <h3>Design, intégration & performance web</h3>
-        <p>Évolution vers un profil plus hybride, à l’intersection du design, 
-          de l’intégration web et des enjeux de performance. Montée en compétences sur Webflow,
-           le développement front-end, le tracking et les bonnes pratiques SEO.
+        <h3 data-i18n="about.timeline.2026.title">
+          Design, intégration & performance web
+        </h3>
+        <p data-i18n="about.timeline.2026.text">
+          Évolution vers un profil plus hybride, à l’intersection du design,
+          de l’intégration web et des enjeux de performance. Montée en compétences
+          sur Webflow, le développement front-end, le tracking et les bonnes pratiques SEO.
         </p>
       </article>
     </li>
@@ -77,39 +92,53 @@
     <li class="timeline-item">
       <time class="pill pill--purple">2025</time>
       <article>
-        <h3>Design visuel</h3>
-        <p>Conception d’assets statiques, de vidéos et de supports digitaux pour différents clients.</p>
+        <h3 data-i18n="about.timeline.2025.title">Design visuel</h3>
+        <p data-i18n="about.timeline.2025.text">
+          Conception d’assets statiques, de vidéos et de supports digitaux pour différents clients.
+        </p>
       </article>
     </li>
 
     <li class="timeline-item">
       <time class="pill pill--yellow">2024</time>
       <article>
-        <h3>Développement & autonomie technique</h3>
-        <p>Bases en HTML, CSS et JavaScript. Développement du portfolio de A à Z avec l’aide de l’IA.</p>
+        <h3 data-i18n="about.timeline.2024.title">
+          Développement & autonomie technique
+        </h3>
+        <p data-i18n="about.timeline.2024.text">
+          Bases en HTML, CSS et JavaScript. Développement du portfolio de A à Z avec l’aide de l’IA.
+        </p>
       </article>
     </li>
 
     <li class="timeline-item">
       <time class="pill pill--green">2023</time>
       <article>
-        <h3>Recherche utilisateur</h3>
-        <p>Étude terrain auprès de personnes en situation de précarité : entretiens, observation et atelier de co-conception.</p>
+        <h3 data-i18n="about.timeline.2023.title">Recherche utilisateur</h3>
+        <p data-i18n="about.timeline.2023.text">
+          Étude terrain auprès de personnes en situation de précarité :
+          entretiens, observation et atelier de co-conception.
+        </p>
       </article>
     </li>
 
     <li class="timeline-item">
       <time class="pill pill--pink">2022</time>
       <article>
-        <h3>Reconversion professionnelle & lancement en freelance</h3>
-        <p>Passage du marketing à l’UX/UI Design avec le bootcamp Ironhack. 
-          Premiers projets UX/UI pour des clients, de la compréhension des besoins au prototypage des interfaces.</p>
+        <h3 data-i18n="about.timeline.2022.title">
+          Reconversion professionnelle & lancement en freelance
+        </h3>
+        <p data-i18n="about.timeline.2022.text">
+          Passage du marketing à l’UX/UI Design avec le bootcamp Ironhack.
+          Premiers projets UX/UI pour des clients, de la compréhension des besoins
+          au prototypage des interfaces.
+        </p>
       </article>
     </li>
 
-  
   </ul>
 </section>
+
 </div>
 
 <div id="footer-placeholder" data-footer-type="white"></div>

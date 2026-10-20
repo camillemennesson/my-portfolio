@@ -26,5 +26,30 @@
   "footer.projects": "Projets",
   "footer.about": "À propos",
   "footer.contact": "Contact",
-  "footer.cv": "Télécharger mon CV"
-  }
+  "footer.cv": "Télécharger mon CV",
+
+  "about.metaTitle": "À propos",
+  "about.title": "À propos",
+  "about.cv": "Télécharger mon CV",
+  "about.cvlink": "https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view",
+  "about.cvImageAlt": "CV",
+  "about.cvImage": "images/cv-fr-sept-2026.png",
+  "about.doodleAlt": "Deux personnages dessinés qui se serrent la main",
+
+  "about.timeline.2026.title": "Design, intégration & performance web",
+  "about.timeline.2026.text": "Évolution vers un profil plus hybride, à l’intersection du design, de l’intégration web et des enjeux de performance. Montée en compétences sur Webflow, le développement front-end, le tracking et les bonnes pratiques SEO.",
+
+  "about.timeline.2025.title": "Design visuel",
+  "about.timeline.2025.text": "Conception d’assets statiques, de vidéos et de supports digitaux pour différents clients.",
+
+  "about.timeline.2024.title": "Développement & autonomie technique",
+  "about.timeline.2024.text": "Bases en HTML, CSS et JavaScript. Développement du portfolio de A à Z avec l’aide de l’IA.",
+
+  "about.timeline.2023.title": "Recherche utilisateur",
+  "about.timeline.2023.text": "Étude terrain auprès de personnes en situation de précarité : entretiens, observation et atelier de co-conception.",
+
+  "about.timeline.2022.title": "Reconversion professionnelle & lancement en freelance",
+  "about.timeline.2022.text": "Passage du marketing à l’UX/UI Design avec le bootcamp Ironhack. Premiers projets UX/UI pour des clients, de la compréhension des besoins au prototypage des interfaces."
+}
+
+  
