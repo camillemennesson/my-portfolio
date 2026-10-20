@@ -55,7 +55,7 @@
         </section>
 
         <div class="stamp-container">
-            <img src="images/stamppink.png" alt="I coded this site from scratch" class="stamp">
+            <img src="images/stamp-blue.png" alt="I coded this site from scratch" class="stamp">
         </div>
     </div>
 
