@@ -39,31 +39,29 @@
 <div id="navbar-placeholder" data-navbar-type="white"></div>
 
 <div id="wrapper">
+<div id="wrapper">
 
-     <!-- Name and Description Section -->
     <div class="intro-container">
         <section class="intro">
-            <h1>Ex-marketing chez Gameloft & Google, aujourd'hui UX/UI designer freelance.</h1>
-                <p>Je rejoins des équipes en France et à l'international pour concevoir des produits web et mobile.</p>
-            
+            <h1 data-i18n="intro.title">Ex-marketing chez Gameloft & Google, aujourd'hui UX/UI designer freelance.</h1>
+            <p data-i18n="intro.text">Je rejoins des équipes en France et à l'international pour concevoir des produits web et mobile.</p>
+
             <div class="ticks-line">
-                <span class="tick-item">Recherche utilisateur</span>
-                <span class="tick-item">Prototypage</span>
+                <span class="tick-item" data-i18n="intro.tick1">Recherche utilisateur</span>
+                <span class="tick-item" data-i18n="intro.tick2">Prototypage</span>
                 <span class="tick-item">UI Kit</span>
                 <span class="tick-item">Vibe-coding</span>
             </div>
         </section>
 
         <div class="stamp-container">
-            <img src="images/stamp-blue.png" alt="I coded this site from scratch" class="stamp">
+            <img src="images/stamp-blue.png" alt="Vibe-coded from scratch" class="stamp">
         </div>
     </div>
 
-<section id="Work">
-     
+    <section id="Work">
         <div class="work-flex">
 
-        <!-- Audion -->
             <div id="audion" class="project">
                 <a href="Audion.php">
                     <img src="images/audion/cover.png" class="project-image" alt="audion">
@@ -71,64 +69,56 @@
                 </a>
             </div>
 
-        <!-- Project 1 -->
-        <div id="riseup" class="project">
+            <div id="riseup" class="project">
                 <a href="Riseup.php">
                     <img src="images/riseupcover.jpg" class="project-image" alt="riseup">
                     <h3>Rise Up - Website redesign and Visual Asset Creation</h3>
                 </a>
             </div>
-  
-            <!--Bearwww-->
+
             <div class="project" id="bear">
                 <a href="#">
-                    <img src="images/hero/bear.png" class="project-image" alt="bear" >
+                    <img src="images/hero/bear.png" class="project-image" alt="bear">
                     <h3>Bearwww - Création de landing page</h3>
                 </a>
             </div>
- 
-            <!-- Project 2 -->
+
             <div class="project" id="mavoie">
-                <a  href="Mavoie.php">
+                <a href="Mavoie.php">
                     <img src="images/hero/mavoie.jpeg" class="project-image" alt="mavoie">
                     <h3>MaVoie.org - Refonte UX et UI du site web</h3>
                 </a>
             </div>
- 
-            <!-- Project 2-->
+
             <div class="project" id="soliguide">
-            <a href="Soliguide.php">
-                <img src="images/soliguide.webp" class="project-image" alt="soliguide" >
-                <h3>Soliguide - Refonte UX de l'app mobile</h3>
-            </a>
+                <a href="Soliguide.php">
+                    <img src="images/soliguide.webp" class="project-image" alt="soliguide">
+                    <h3>Soliguide - Refonte UX de l'app mobile</h3>
+                </a>
             </div>
- 
-            <!-- Osmia-->
+
             <div class="project" id="osmia">
                 <a href="Osmia.php">
-                    <img src="images/hero/osmia.webp" class="project-image" alt="osmia" >
+                    <img src="images/hero/osmia.webp" class="project-image" alt="osmia">
                     <h3>Osmia - Web Design</h3>
                 </a>
             </div>
- 
-            <!-- Catan-->
+
             <div class="project" id="catan">
                 <a href="Catan.php">
                     <img src="images/hero/catan.webp" class="project-image" alt="Catan">
-                    <h3>Catan - UX Audit</h3>
+                    <h3 data-i18n="work.catan">Catan - UX Audit</h3>
                 </a>
             </div>
- 
-            <!-- Project 5-->
+
             <div id="spotify" class="project">
                 <a href="Spotify.php">
                     <img src="images/hero/spotify.webp" class="project-image" alt="spotify">
                     <h3>Spotify - App Mobile: Nouvelle fonctionnalité</h3>
                 </a>
             </div>
-            
-            <!-- Project 6-->
-             <div id="parents" class="project">
+
+            <div id="parents" class="project">
                 <a href="Parents.php">
                     <img src="images/hero/parents.webp" class="project-image" alt="parents">
                     <h3>Parents - Mobile App</h3>
@@ -137,12 +127,12 @@
         </div>
     </section>
 
-   <section class="contact"> 
-            <h2>Me contacter</h2>
-            <div>
-            <a class="button" href="mailto:camille.mennesson@gmail.com">Envoyer un email</a>
-            </div>
-    </section> 
+    <section class="contact">
+        <h2 data-i18n="contact.title">Me contacter</h2>
+        <div>
+            <a class="button" href="mailto:camille.mennesson@gmail.com" data-i18n="contact.button">Envoyer un email</a>
+        </div>
+    </section>
 
     <button
         type="button"
@@ -155,8 +145,8 @@
 </div>
 
 <div id="footer-placeholder" data-footer-type="white"></div>
+<script src="scripts/i18n.js"></script>
 <script src="scripts/script.js?=v3"></script>
-
 
 </body>
 

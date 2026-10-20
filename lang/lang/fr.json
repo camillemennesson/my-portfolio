@@ -1,5 +1,21 @@
 {
   "nav.prev": "Précédent",
   "nav.next": "Suivant",
-  "nav.home": "Accueil"
-}
+  "nav.home": "Accueil",
+  "intro.title": "Ex-marketing chez Gameloft & Google, aujourd'hui UX/UI designer freelance.",
+  "intro.text": "Je rejoins des équipes en France et à l'international pour concevoir des produits web et mobile.",
+  "intro.tick1": "Recherche utilisateur",
+  "intro.tick2": "Prototypage",
+  "intro.stamp": "Vibe-coded from scratch",
+  "work.audion": "Audion - Landing page de campagne LinkedIn",
+  "work.riseup": "Rise Up - Refonte du site web et création de visuels",
+  "work.bear": "Bearwww - Création de landing page",
+  "work.mavoie": "MaVoie.org - Refonte UX et UI du site web",
+  "work.soliguide": "Soliguide - Refonte UX de l'app mobile",
+  "work.osmia": "Osmia - Web design",
+  "work.catan": "Catan - Audit UX",
+  "work.spotify": "Spotify - App mobile : nouvelle fonctionnalité",
+  "work.parents": "Parents - App mobile",
+  "contact.title": "Me contacter",
+  "contact.button": "Envoyer un email"
+  }

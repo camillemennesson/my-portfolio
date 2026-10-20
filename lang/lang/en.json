@@ -1,5 +1,21 @@
 {
   "nav.prev": "Previous",
   "nav.next": "Next",
-  "nav.home": "Home"
-}
+  "nav.home": "Home",
+  "intro.title": "Former marketer at Gameloft & Google, now a freelance UX/UI designer.",
+  "intro.text": "I join teams in France and abroad to design web and mobile products.",
+  "intro.tick1": "User research",
+  "intro.tick2": "Prototyping",
+  "intro.stamp": "I coded this site from scratch",
+  "work.audion": "Audion - LinkedIn campaign landing page",
+  "work.riseup": "Rise Up - Website redesign and visual asset creation",
+  "work.bear": "Bearwww - Landing page design",
+  "work.mavoie": "MaVoie.org - Website UX and UI redesign",
+  "work.soliguide": "Soliguide - Mobile app UX redesign",
+  "work.osmia": "Osmia - Web design",
+  "work.catan": "Catan - UX audit",
+  "work.spotify": "Spotify - Mobile app: new feature",
+  "work.parents": "Parents - Mobile app",
+  "contact.title": "Contact me",
+  "contact.button": "Send an email"
+  }
