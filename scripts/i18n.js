@@ -58,6 +58,15 @@
       });
     });
 
+    root.querySelectorAll("[data-i18n-src]").forEach(function (el) {
+  const key = el.getAttribute("data-i18n-src");
+  if (key in dict) {
+    el.setAttribute("src", dict[key]);
+  } else {
+    console.warn("Missing translation key:", key);
+  }
+});
+
   }
 
   async function setLanguage(lang) {

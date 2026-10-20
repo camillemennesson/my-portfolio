@@ -42,7 +42,12 @@
 
  <!-- CV Picture-->
     <div class="cv">
-    <img src="images/CV SEPT 2026.png" alt="cv" data-i18n-alt="about.cvImageAlt" data-i18n-title="about.cvImage">
+    <img 
+    src="images/cv-fr-sept-2026.png" 
+    alt="cv" 
+    data-i18n-alt="about.cvImageAlt" 
+    data-i18n-src="about.cvImage"
+    >
 
      <section id="download-resume">
     <div>
