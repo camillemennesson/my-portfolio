@@ -201,11 +201,6 @@
 </section>
         
 <section id="case-study-footer">
-        <!-- Button to read the next case study -->
-        <div class="button-container">
-            <a href="Catan.php"
-            class="button case-study-button">Lire le prochain case study</a>
-        </div>
         <div id="footer-placeholder" data-footer-type="white"></div>
 </section>
 

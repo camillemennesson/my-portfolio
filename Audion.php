@@ -236,11 +236,12 @@
     <section id="case-study-footer">
         <!-- Button to read the next case study -->
         <div class="button-container">
-<a          href="Riseup.php"
+          <a
+            href="Riseup.php"
             class="btn btn--case-study"
             data-i18n="audion.nextCaseStudy">
             Lire le prochain case study
-</a>
+          </a>
         </div>
         <div id="footer-placeholder" data-footer-type="white"></div>
     </section>
