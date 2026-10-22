@@ -488,7 +488,7 @@ p {
   .intro-container {
     flex-direction: column;
     align-items: center;
-    padding-bottom: 0;
+    padding: 0;
   }
   .stamp-container {
     position: relative;       /* redevenir relatif dans le flux */
@@ -724,7 +724,7 @@ body .footer-white {
     margin-top: 1rem;
     object-fit: cover;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 #hero-mavoie {
@@ -1944,7 +1944,7 @@ flex:2;
         height: auto;
         margin-bottom: 1rem;
         aspect-ratio:inherit;
-        border-radius: 8px;
+        border-radius: 4px;
     }
 
     .image-item {
@@ -2162,7 +2162,7 @@ flex:2;
 
 /* Mobile */
 @media (max-width: 768px) {
-  #wrapper { padding: 2rem 1.25rem; }
+  #wrapper { padding: 1rem 1.25rem; }
 
   .intro-text h1 { font-size: 2.25rem; min-width: 0; }
 
