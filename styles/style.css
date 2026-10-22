@@ -1530,6 +1530,15 @@ case-study h2 {
 
 .btn--language {
   padding: 6px 10px;
+  border: 1px solid #222222;
+  background: transparent;
+  color: #222222;
+  cursor: pointer;
+}
+
+.btn--language[aria-pressed="true"] {
+  background: #222222;
+  color: #F7F6EB;
 }
 
 .btn--back-to-top {
