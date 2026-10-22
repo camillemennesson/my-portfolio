@@ -88,7 +88,7 @@
   window.getLanguage = function () { return current; };
 
   document.addEventListener("click", function (e) {
-    const btn = e.target.closest(".lang-switch [data-lang]");
+    const btn = e.target.closest(".btn--language [data-lang]");
     if (btn) setLanguage(btn.getAttribute("data-lang"));
   });
 

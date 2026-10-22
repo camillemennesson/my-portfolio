@@ -67,7 +67,7 @@ html, body {
     margin: 0;
     padding:0;
     height: 100%;
-    background: var(--beigebackground) url('../images/backgroundnoise.svg') repeat;
+    background: var(--white) ;
     overflow-x: hidden; /* prevent horizontal scroll gaps */
 }
 
@@ -114,11 +114,10 @@ overflow-y: visible;
 }
 /* Intro Section Styles */
 .hero-background {
-  background-color: var(--beigebackground);
   width: 100%;
   position: relative;
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
   filter: contrast(1.05) brightness(0.98);
   z-index: 100;
   overflow: hidden;
@@ -134,8 +133,7 @@ overflow-y: visible;
     position: relative;
     max-width: 976px;
     margin: auto;
-    padding-top: 3rem;
-    padding-bottom: 6rem;
+    padding-top: 6rem;
 }
 
 
@@ -459,6 +457,7 @@ p {
   transform: rotate(-5deg);
   animation: stamp-pop 1s ease-out forwards;
   z-index: 9999;
+  display: none;
 }
 
 /* Make sure the SVG fills the container */
@@ -603,8 +602,6 @@ section {
     margin-left: -50vw;
     margin-right: -50vw;
     width: 100vw;
-    background: #ffffff url('../images/backgroundnoise.svg') repeat;
-    padding: 4rem 0;
     box-sizing: border-box;
 }
 
@@ -632,7 +629,6 @@ body#home .btn-back-to-top {
     margin-left: -50vw;
     margin-right: -50vw;
     width: 100vw;
-    background: var(--purple) url('../images/backgroundnoise.svg') repeat;
     padding: 2rem 16rem 2rem 16rem;
     box-sizing: border-box;
     margin-top: 4rem;
@@ -655,7 +651,6 @@ body#home .btn-back-to-top {
 }
 
 body .footer-white {
-    background: var(--purple) url('../images/backgroundnoise.svg') repeat;
     width: 100vw;
     position: relative;
     left: 50%;
@@ -665,12 +660,6 @@ body .footer-white {
     margin-bottom: 8rem;
 }
 
-body#home  .footer-white {
-    background: var(--beigebackground) url('../images/backgroundnoise.svg') repeat;
-}
-body#about .footer-white {
-    background: var(--beigebackground) url('../images/backgroundnoise.svg') repeat;
-}
 .h2-intro  {
     display:none;
     align-items:center;
@@ -1499,80 +1488,74 @@ case-study h2 {
     margin-top: 80px;
 }
 
-/* BUTTONS */
+/* ========================================
+   BUTTONS
+======================================== */
 
-.button {
-    background-color: black;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 24px;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: 600;
-    transition: background-color 0.3s ease;
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  padding: 12px 24px;
+  border: 1px solid #222222;
+  border-radius: 4px;
+
+  background-color: #222222;
+  color: #F7F6EB;
+
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
-.button a {
-    color:#000;
-    text-decoration: none;
-    font-family: 'Euclid Circular A', sans-serif;
-    }
-
-.button-container {
-    text-align: center; /* Center the button horizontally */
-    margin-top: 3rem; /* Space above the button */
-    margin-bottom: 3rem;
-    font-family: 'Euclid Circular A', sans-serif;
+.btn:hover {
+  background-color: transparent;
+  color: #222222;
 }
 
-#case-study-footer .button {
-    box-shadow: 2px 8px var(--purpleshadow);
-    background-color: white;
-    color:#000;
-    border: 1px solid #000;
-    font-size: 1rem;
-    font-weight: 500    ;
+.btn:focus-visible {
+  outline: 2px solid #222222;
+  outline-offset: 3px;
 }
 
-.button {
-    display: inline-block; /* Make the link behave like a block element */
-    padding: 12px 20px; /* Add padding for a button-like appearance */
-    background-color: #000000; /* Button background color */
-    color: white; /* Text color */
-    text-decoration: none; /* Remove underline */
-    font-weight: 400; /* Make text bolder */
-    border-radius: 4em; /* Rounded corners */
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    margin-top: 1em;
-    box-shadow: 2px 6px #32323240;
+/* Variants */
+
+.btn--language {
+  padding: 6px 10px;
+}
+
+.btn--back-to-top {
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #222222;
+}
+
+.btn--back-to-top:hover {
+  background: transparent;
+  opacity: 0.7;
+}
+
+.btn--case-study {
+background-color: transparent;
+color: black;
+border: 1px solid black;
+}
+
+.btn--case-study:hover {
+background-color: black;
+color: white;
 }
 
 
-.button:hover {
-    box-shadow: none;
-}
-
-.button-secondary {
-    display: inline-block;
-    padding: 12px 20px;
-    background-color: transparent;
-    color: #000000;
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 4em;
-    border: 2px solid #000000;
-    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-    margin-top: 1em;
-    box-shadow: 0 4px 4px rgba(31,31,31,0.25);
-}
-
-.button-secondary:hover {
-    background-color: #000000;
-    color: white;
-    transform: scale(1.05);
-    box-shadow: 0 6px 16px rgba(31,31,31,0.25);
-}
 
 
 .work-flex {

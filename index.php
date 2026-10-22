@@ -130,16 +130,23 @@
     <section class="contact">
         <h2 data-i18n="contact.title">Me contacter</h2>
         <div>
-            <a class="button" href="mailto:camille.mennesson@gmail.com" data-i18n="contact.button">Envoyer un email</a>
+            <a
+            class="btn"
+            href="mailto:camille.mennesson@gmail.com"
+            data-i18n="contact.button"
+            >
+            Envoyer un email
+            </a>
         </div>
     </section>
 
     <button
         type="button"
-        class="btn-back-to-top"
+        class="btn btn--back-to-top"
         id="btn-back-to-top"
-        > 
-        <i class="bi bi-arrow-up-circle-fill"></i>
+        aria-label="Retour en haut"
+        >
+        <i class="bi bi-arrow-up-circle-fill" aria-hidden="true"></i>
     </button>
     
 </div>

@@ -237,7 +237,7 @@
         <!-- Button to read the next case study -->
         <div class="button-container">
 <a          href="Riseup.php"
-            class="button case-study-button"
+            class="btn btn--case-study"
             data-i18n="audion.nextCaseStudy">
             Lire le prochain case study
 </a>

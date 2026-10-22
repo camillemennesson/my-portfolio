@@ -58,18 +58,16 @@
 </div>
 
      <div>
-       
-<a
-            class="button"
-            id="button-black"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view"
-            data-i18n="about.cv"
-            data-i18n-href="about.cvlink"
->
-    Télécharger mon CV
-</a>
+      <a
+        class="btn"
+        href="https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-i18n="about.cv"
+        data-i18n-href="about.cvlink"
+      >
+        Télécharger mon CV
+      </a>
 
     </div>   
 
@@ -147,13 +145,14 @@
 </div>
 
 <div id="footer-placeholder" data-footer-type="white"></div>
+
 <button
         type="button"
         class="btn-back-to-top"
         id="btn-back-to-top"
         > 
         <i class="bi bi-arrow-up-circle-fill"></i>
-    </button>
+</button>
     
 <script src="scripts/i18n.js"></script>
 <script src="scripts/script.js"></script>
