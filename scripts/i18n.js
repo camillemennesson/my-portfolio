@@ -69,19 +69,41 @@
 
   }
 
-  async function setLanguage(lang) {
-    if (!SUPPORTED.includes(lang)) return;
-    try {
-      dict = await load(lang);
-    } catch (err) {
-      console.error(err);
-      return;
-    }
-    current = lang;
-    try { localStorage.setItem("lang", lang); } catch (e) {}
-    document.documentElement.lang = lang;
-    applyLanguage();
+ async function setLanguage(lang) {
+  if (!SUPPORTED.includes(lang) || lang === current) return;
+
+  let nextDict;
+
+  try {
+    nextDict = await load(lang);
+  } catch (err) {
+    console.error(err);
+    return;
   }
+
+  const html = document.documentElement;
+
+  // Fade out
+  html.classList.add("is-language-fading");
+
+  await new Promise(resolve => setTimeout(resolve, 200));
+
+  // Update language
+  dict = nextDict;
+  current = lang;
+
+  try {
+    localStorage.setItem("lang", lang);
+  } catch (e) {}
+
+  html.lang = lang;
+  applyLanguage();
+
+  // Fade back in
+  requestAnimationFrame(() => {
+    html.classList.remove("is-language-fading");
+  });
+}
 
   window.applyLanguage = applyLanguage;
   window.setLanguage = setLanguage;
