@@ -52,8 +52,6 @@
      <section id="download-resume">
     <div>
     <a  target="_blank" href="https://drive.google.com/file/d/1fWTPkF0VOonW9QhpfMBvalANBzIpMZ9t/view">
-        <img src="images/two doodle characters shaking hands.png" alt="doodle characters shaking hands"
-        data-i18n-alt="about.doodleAlt">
     </a>  
 </div>
 
