@@ -131,6 +131,21 @@
   }
 }
 
+/* White navbar: fade translated content */
+#navbar-white [data-i18n] {
+  transition: opacity 150ms ease-in-out;
+}
+
+#navbar-white .is-language-fading {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #navbar-white [data-i18n] {
+    transition: none;
+  }
+}
+
 /* Navigation Bar Styles */
 #btn {
   display: none;
