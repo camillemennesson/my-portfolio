@@ -111,6 +111,25 @@
   }
 }
 
+/* White navbar: smooth language switch */
+#navbar-white .lang-switch .btn--language {
+  transition: color 200ms ease, opacity 200ms ease;
+}
+
+#navbar-white .lang-switch__thumb {
+  transition: transform 350ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+#navbar-white .lang-switch[data-active="en"] .lang-switch__thumb {
+  transform: translateX(40px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #navbar-white .lang-switch .btn--language,
+  #navbar-white .lang-switch__thumb {
+    transition: none;
+  }
+}
 
 /* Navigation Bar Styles */
 #btn {
@@ -209,7 +228,6 @@ margin: 0;
   top: 3.5rem;
   pointer-events: initial ; 
  }
-
 
 
 .nav__link {
