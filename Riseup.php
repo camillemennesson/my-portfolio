@@ -37,11 +37,9 @@
 <header class="intro">
 <div class="intro-body">
     <div class="intro-text">
-        <h1 data-i18n="riseup.heroTitle">Redesign of Riseup.ai website</h1>
-        <h2 data-i18n="riseup.heroSubtitle">Rise Up is a B2B learning platform that uses AI to personalize learning experiences.
-             The goal was to redesign the marketing website to better reflect this positioning and modernize the brand image. 
-             I designed the new interfaces, created the mockups and prototype, and handed them off to developers 
-             for implementation in HubSpot.
+        <h1 data-i18n="riseup.heroTitle">Riseup - Website Redesign</h1>
+        <h2 data-i18n="riseup.heroSubtitle">
+            UX/UI redesign for Rise Up, a B2B Learning Management System (LMS). I led UX research and website redesign, from user interviews and interface design to HubSpot implementation.
         </h2>
     </div>
     <div class="intro-meta">
@@ -49,7 +47,7 @@
             <dt data-i18n="riseup.roleLabel">Role
             </dt>
             <dd data-i18n="riseup.roleValue">
-                RESEARCH, DESIGN, VISUAL ASSET CREATION
+                UX/UI audit · User research · Interface design · Visual asset creation · Development handoff
             </dd>
         </dl>
         <dl>
@@ -60,7 +58,7 @@
             <dt data-i18n="riseup.linkLabel">Link
             </dt>
             <dd><a href="https://www.riseup.ai/en/" target="_blank" rel="noopener noreferrer">
-                    <span data-i18n="riseup.viewWebsite">VIEW WEBSITE</span> 
+                    <span data-i18n="riseup.viewWebsite">View website</span> 
                     <i class="bi bi-arrow-up-right"></i>
                 </a>
             </dd>
@@ -99,9 +97,9 @@
         <li><a href="#overview" data-i18n="riseup.tocOverview">Overview</a></li>
         <li><a href="#audit" data-i18n="riseup.tocAudit">Audit</a></li>
         <li><a href="#research" data-i18n="riseup.tocResearch">Research</a></li>
-        <li><a href="#solution" data-i18n="riseup.tocSolutions">Solutions</a></li>
-        <li><a href="#results" data-i18n="riseup.tocResults">Outcomes and impact</a></li>
-        <li><a href="#nextsteps" data-i18n="riseup.tocNextSteps">Next Steps</a></li>
+        <li><a href="#uxuidesign" data-i18n="riseup.tocUX/UIDesign">UX/UI Design</a></li>
+        <li><a href="#integration" data-i18n="riseup.tocIntegration">Integration & Launch</a></li>
+        <li><a href="#outcome" data-i18n="riseup.tocOutcome">Outcome</a></li>
     </ul>
     </nav>
 
@@ -139,28 +137,31 @@
 
         <div id="overview">
         <h3 data-i18n="riseup.overviewTitle">Overview</h3>
-        <p data-i18n="riseup.overviewText">Rise Up was expanding internationally and needed a marketing website that clearly communicated its value to a global audience of HR managers, L&D leaders, and digital learning managers.
-            The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.</p>
-
+        <p data-i18n="riseup.overviewText">The project involved auditing the existing website,
+             conducting 14 interviews with internal stakeholders, clients and prospects, and 
+             translating Rise Up’s new brand identity into a redesigned website. I created wireframes,
+              prototypes, UI mockups and visual assets in Figma, then supported the developer through integration and launch.
         <div id="audit">
             <h3 data-i18n="riseup.auditTitle">Audit</h3>
+            <p style="margin-bottom:2em">I audited the existing website to identify UX/UI issues and areas for improvement.</p>
                 <ul class="key-challenges">
                     <li><b data-i18n="riseup.audit1Title">Unclear value proposition</b>
-                        <span data-i18n="riseup.audit1Text"> Visitors struggled to quickly understand Rise Up’s unique selling points (USPs).</span>
+                        <span data-i18n="riseup.audit1Text"> The platform’s offering and key differentiators needed to be easier to understand.</span>
                     </li>
-                    <li><b data-i18n="riseup.audit2Title">Poor navigation</b>
+                    <li><b data-i18n="riseup.audit2Title">Navigation & content structure</b>
                         <span data-i18n="riseup.audit2Text"> Content was buried under a confusing structure, making it hard to find relevant information.</span>
                     </li>
-                    <li><b data-i18n="riseup.audit3Title">Lack of transparency</b>
+                    <li><b data-i18n="riseup.audit3Title">User expectations</b>
                         <span data-i18n="riseup.audit3Text"> Pricing and feature details weren’t clearly presented, creating distrust.</span>
                     </li>
                     <li><b data-i18n="riseup.audit4Title">Technical constraints</b>
-                        <span data-i18n="riseup.audit4Text"> The site had to work seamlessly within HubSpot, limiting layout and interaction options.</span>
+                        <span data-i18n="riseup.audit4Text">The designs had to work within HubSpot’s website environment.</span>
                     </li>
-                    <li><b data-i18n="riseup.audit5Title">Inconsistent visuals</b>
-                        <span data-i18n="riseup.audit5Text"> No digital design system existed, leading to inconsistent brand representation across marketing materials.</span>
+                    <li><b data-i18n="riseup.audit5Title">Visual consistency</b>
+                        <span data-i18n="riseup.audit5Text">The redesign needed to translate Rise Up’s new brand identity into a cohesive digital experience.</span>
                     </li>
                 </ul>
+            
         </div>
 
         <div class="image-item">
@@ -172,14 +173,16 @@
         <div class="process-steps">
             <div class="step">
                <h4 data-i18n="riseup.research1Title">User Interviews</h4>
-                <p data-i18n="riseup.research1Text">I spoke directly with existing clients and prospects across French and UK markets to understand their perspective
-                     on Rise Up and the broader LMS landscape.
+                <p data-i18n="riseup.research1Text">I conducted 9 interviews with existing clients, prospects,
+                     and professionals in HR and learning. The goal was to understand their needs, expectations, 
+                     and perspectives on learning platforms and the information they look for when evaluating a solution.
                 </p>
             </div>
             <div class="step">
                 <h4 data-i18n="riseup.research2Title">Stakeholder Interviews</h4>
-                <p data-i18n="riseup.research2Text">Interviewed Rise Up's leadership team (CEO, CTO, Head of Learning, Sales & Marketing) to align
-                on business objectives and gather internal insights on the website's current challenges.</p>
+                <p data-i18n="riseup.research2Text">I conducted 5 internal interviews with Rise Up team members,
+                     including leadership and representatives from Learning and Sales, to understand business 
+                     objectives and gather perspectives on the existing website.</p>
             </div>
             <div class="step">
                 <h4 data-i18n="riseup.research3Title">Competitive Evaluation</h4>
@@ -198,23 +201,23 @@
             </div>
 
 
-    <div id="solution">
-        <h3 data-i18n="riseup.solutionsTitle">Solutions</h3>
+    <div id="uxuidesign">
+        <h3 data-i18n="riseup.solutionsTitle">UX/UI Design</h3>
         <ul class="key-challenges">
-            <li><b data-i18n="riseup.solution1Title">Clearer Navigation</b>
-                <span data-i18n="riseup.solution1Text"> Simplified and restructured the navigation menu to ensure clear hierarchies and intuitive categories.</span>
+            <li><b data-i18n="riseup.solution1Title">Information architecture</b>
+                <span data-i18n="riseup.solution1Text">Reworked page structure and content hierarchy to make the offering easier to navigate.</span>
             </li>
-            <li><b data-i18n="riseup.solution2Title">Transparency Boost</b>
-                <span data-i18n="riseup.solution2Text"> Introduced clearer pricing visibility, transparent messaging, and highlighted social proof elements.</span>
+            <li><b data-i18n="riseup.solution2Title">Interface design</b>
+                <span data-i18n="riseup.solution2Text">Created wireframes, prototypes, and high-fidelity mockups in Figma.</span>
             </li>
-            <li><b data-i18n="riseup.solution3Title">Scalable UI System</b>
-                <span data-i18n="riseup.solution3Text"> Developed a scalable UI system with reusable components, typography rules, and a cohesive color palette aligned with Rise Up’s new branding.</span>
+            <li><b data-i18n="riseup.solution3Title">Brand integration</b>
+                <span data-i18n="riseup.solution3Text">Applied the new visual identity across the website interfaces.</span>
             </li>
-            <li><b data-i18n="riseup.solution4Title">Key pages flow</b>
-                <span data-i18n="riseup.solution4Text"> Restructured the content and interactions to create a smoother flow, guiding visitors logically from learning about the platform to requesting a demo.</span>
+            <li><b data-i18n="riseup.solution4Title">Visual assets</b>
+                <span data-i18n="riseup.solution4Text">Created static graphics and 2D animated videos to illustrate the platform and its features.</span>
              </li>
-            <li><b data-i18n="riseup.solution5Title">Highlighting USPs</b>
-                <span data-i18n="riseup.solution5Text"> Worked on bringing unique selling points to the forefront with dedicated sections, bold typography, and engaging visuals.</span>
+            <li><b data-i18n="riseup.solution5Title">Key pages</b>
+                <span data-i18n="riseup.solution5Text">Designed website pages and content layouts to present the product and guide visitors through the offering.</span>
             </li>
         </ul>
         <div class="image-item">
@@ -229,25 +232,24 @@
     </div>
 
 
-        <div id="results">
-        <h3 data-i18n="riseup.resultsTitle">Outcomes and impact</h3>
-            <p data-i18n="riseup.resultsText">After launch, initial feedback from both Rise Up’s internal teams and clients confirmed that the redesign achieved its goals:
-                Easier to communicate product value to prospects
-                Simpler navigation for L&D managers to find relevant content
-                Improved trust due to transparent pricing and feature clarity
-            </p>
-
-    <div id="nextsteps">
-        <h3 data-i18n="riseup.nextStepsTitle">📌 Next Steps</h3>
-        <p data-i18n="riseup.nextStepsIntro">The website redesign was only the first step in Rise Up’s digital transformation. To help them fully leverage the new design, I continued working with the team on two strategic missions:
-       </p>
-       <h4 data-i18n="riseup.creativeProductionTitle">Creative Production</h4>
-        <p data-i18n="riseup.creativeProductionText">Designed static visuals and 2D animated videos to elevate the website experience and support marketing campaigns. These assets aligned closely with the new brand and helped communicate Rise Up’s innovative features more dynamically.</p>
-        <h4 data-i18n="riseup.designGuideTitle">Website Design Guide</h4>
-        <p data-i18n="riseup.designGuideText">Developed a clear, actionable Website Design Guide for marketing and web teams. This resource ensures the site remains user-friendly, consistent, and optimized, even as new content and pages are added.</p>
-    </div>
+        <div id="integration">
+            <h3 data-i18n="riseup.integrationTitle">Integration & Launch</h3>
+                <p data-i18n="riseup.integrationText">I handed off the designs to the developer and supported their implementation in HubSpot through to launch. 
+                I also handled the project’s cross-functional tasks, including deadline tracking, client communication, and day-to-day project follow-up.
+                <br><br>
+                The redesigned website was delivered, integrated, and published.
+                </p>
         </div>
-
+    <div id="outcome">
+        <h3 data-i18n="riseup.outcomeTitle">Outcome</h3>
+        <p data-i18n="riseup.outcomeIntro">
+            The redesigned website was launched on HubSpot, aligned with Rise Up’s new brand identity. 
+            I also created a Figma how-to guide and a design style guide to help the team update website assets 
+            and maintain brand consistency over time.
+            <br><br>
+            Most of the visual assets I created remain in use on the current website.
+       </p>
+    </div>
     </div>
 
     </section>
