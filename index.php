@@ -65,42 +65,42 @@
             <div id="audion" class="project">
                 <a href="Audion.php">
                     <img src="images/audion/cover.png" class="project-image" alt="audion">
-                    <h3>Audion - Landing page de campagne LinkedIn</h3>
+                    <h3 data-i18n="work.audion">Audion - Landing page de campagne LinkedIn</h3>
                 </a>
             </div>
 
             <div id="riseup" class="project">
                 <a href="Riseup.php">
                     <img src="images/riseupcover.jpg" class="project-image" alt="riseup">
-                    <h3>Rise Up - Website redesign and Visual Asset Creation</h3>
+                    <h3 data-i18n="work.riseup">Rise Up - Website redesign and Visual Asset Creation</h3>
                 </a>
             </div>
 
             <div class="project" id="bear">
                 <a href="#">
                     <img src="images/hero/bear.png" class="project-image" alt="bear">
-                    <h3>Bearwww - Création de landing page</h3>
+                    <h3 data-i18n="work.bear">Bearwww - Création de landing page</h3>
                 </a>
             </div>
 
             <div class="project" id="mavoie">
                 <a href="Mavoie.php">
                     <img src="images/hero/mavoie.jpeg" class="project-image" alt="mavoie">
-                    <h3>MaVoie.org - Refonte UX et UI du site web</h3>
+                    <h3 data-i18n="work.mavoie">MaVoie.org - Refonte UX et UI du site web</h3>
                 </a>
             </div>
 
             <div class="project" id="soliguide">
                 <a href="Soliguide.php">
                     <img src="images/soliguide.webp" class="project-image" alt="soliguide">
-                    <h3>Soliguide - Refonte UX de l'app mobile</h3>
+                    <h3 data-i18n="work.soliguide">Soliguide - Refonte UX de l'app mobile</h3>
                 </a>
             </div>
 
             <div class="project" id="osmia">
                 <a href="Osmia.php">
                     <img src="images/hero/osmia.webp" class="project-image" alt="osmia">
-                    <h3>Osmia - Web Design</h3>
+                    <h3 data-i18n="work.osmia">Osmia - Web Design</h3>
                 </a>
             </div>
 
@@ -114,7 +114,7 @@
             <div id="spotify" class="project">
                 <a href="Spotify.php">
                     <img src="images/hero/spotify.webp" class="project-image" alt="spotify">
-                    <h3>Spotify - App Mobile: Nouvelle fonctionnalité</h3>
+                    <h3 data-i18n="work.catan">Spotify - App Mobile: Nouvelle fonctionnalité</h3>
                 </a>
             </div>
 
