@@ -38,9 +38,10 @@
 <div class="intro-body">
     <div class="intro-text">
         <h1 data-i18n="riseup.heroTitle">Redesign of Riseup.ai website</h1>
-        <h2 data-i18n="riseup.heroSubtitle">RiseUp is an AI-powered learning platform that accelerates
-            time-to-skill by providing personalized, data-driven learning
-            experiences for employees and admins.
+        <h2 data-i18n="riseup.heroSubtitle">Rise Up is a B2B learning platform that uses AI to personalize learning experiences.
+             The goal was to redesign the marketing website to better reflect this positioning and modernize the brand image. 
+             I designed the new interfaces, created the mockups and prototype, and handed them off to developers 
+             for implementation in HubSpot.
         </h2>
     </div>
     <div class="intro-meta">
