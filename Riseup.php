@@ -46,7 +46,8 @@
     </div>
     <div class="intro-meta">
         <dl>
-            <dt data-i18n="riseup.roleLabel">Role</dt>
+            <dt data-i18n="riseup.roleLabel">Role
+            </dt>
             <dd data-i18n="riseup.roleValue">
                 RESEARCH, DESIGN, VISUAL ASSET CREATION
             </dd>
@@ -55,14 +56,16 @@
             <dt data-i18n="riseup.timeframeLabel">Timeframe</dt>
             <dd data-i18n="riseup.timeframeValue">6 MONTHS</dd>
         </dl>
-         <dl>
-            <dt data-i18n="riseup.linkLabel">Link</dt>
+        <dl>
+            <dt data-i18n="riseup.linkLabel">Link
+            </dt>
             <dd><a href="https://www.riseup.ai/en/" target="_blank" rel="noopener noreferrer">
                     <span data-i18n="riseup.viewWebsite">VIEW WEBSITE</span> 
                     <i class="bi bi-arrow-up-right"></i>
                 </a>
             </dd>
-         <dl>
+        </dl>
+        <dl>
             <dt data-i18n="riseup.toolsLabel">Tools</dt>
                 <div class="intro-badges">
                     <div class="badge" title="Figma">
@@ -77,7 +80,6 @@
                     <div class="badge" title="Hotjar">
                         <img src="images/hotjar.svg" loading="lazy" alt="hotjar logo">
                     </div>
-
                 </div>
         </dl>
     </div>

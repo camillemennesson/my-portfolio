@@ -193,13 +193,14 @@ overflow-y: visible;
 }
 
 .intro-meta {
-    display: grid;
-    grid-auto-flow: column;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 4rem;
     width: 100%;
-    align-items: start;
-    max-width: 1200px;
+    max-width: none;
+    box-sizing: border-box;
 }
 
 .intro-meta dl {
@@ -207,7 +208,8 @@ overflow-y: visible;
     flex-direction: column;
     gap: 0.25rem;
     margin: 0;
-    width: 100%;
+    flex: 1 1 0;
+    min-width: 0;
 }
 
 .intro-meta dt {
