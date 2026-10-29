@@ -54,7 +54,7 @@
         </dl>
         <dl>
             <dt data-i18n="riseup.timeframeLabel">Timeframe</dt>
-            <dd data-i18n="riseup.timeframeValue">6 MONTHS</dd>
+            <dd data-i18n="riseup.timeframeValue">6 months</dd>
         </dl>
         <dl>
             <dt data-i18n="riseup.linkLabel">Link
