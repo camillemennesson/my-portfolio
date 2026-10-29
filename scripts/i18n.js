@@ -70,8 +70,8 @@
   }
 
  async function setLanguage(lang) {
-  if (!SUPPORTED.includes(lang) || lang === current) return;
-
+  if (!SUPPORTED.includes(lang)) return;
+  if (lang === current && dict) return; // 👈 changed: don't skip if dict never loaded
   let nextDict;
 
   try {

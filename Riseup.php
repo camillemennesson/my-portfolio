@@ -37,29 +37,32 @@
 <header class="intro">
 <div class="intro-body">
     <div class="intro-text">
-        <h1>Redesign of Riseup.ai website</h1>
-        <h2>RiseUp is an AI-powered learning platform that accelerates
-            time-to-skill by providing personalized, data-driven learning 
+        <h1 data-i18n="riseup.heroTitle">Redesign of Riseup.ai website</h1>
+        <h2 data-i18n="riseup.heroSubtitle">RiseUp is an AI-powered learning platform that accelerates
+            time-to-skill by providing personalized, data-driven learning
             experiences for employees and admins.
         </h2>
     </div>
     <div class="intro-meta">
         <dl>
-            <dt>Role</dt>
-            <dd> 
+            <dt data-i18n="riseup.roleLabel">Role</dt>
+            <dd data-i18n="riseup.roleValue">
                 RESEARCH, DESIGN, VISUAL ASSET CREATION
             </dd>
         </dl>
         <dl>
-            <dt>Timeframe</dt>
-            <dd>6 MONTHS</dd>
+            <dt data-i18n="riseup.timeframeLabel">Timeframe</dt>
+            <dd data-i18n="riseup.timeframeValue">6 MONTHS</dd>
         </dl>
          <dl>
-            <dt>Link</dt>
-            <dd><a href="https://www.riseup.ai/en/" target="_blank" rel="noopener noreferrer">VIEW WEBSITE <i class="bi bi-arrow-up-right"></i></a></dd>
-        </dl>
+            <dt data-i18n="riseup.linkLabel">Link</dt>
+            <dd><a href="https://www.riseup.ai/en/" target="_blank" rel="noopener noreferrer">
+                    <span data-i18n="riseup.viewWebsite">VIEW WEBSITE</span> 
+                    <i class="bi bi-arrow-up-right"></i>
+                </a>
+            </dd>
          <dl>
-            <dt>Tools</dt>
+            <dt data-i18n="riseup.toolsLabel">Tools</dt>
                 <div class="intro-badges">
                     <div class="badge" title="Figma">
                         <img src="images/figma2.svg" loading="lazy" alt="figma logo">
@@ -73,7 +76,7 @@
                     <div class="badge" title="Hotjar">
                         <img src="images/hotjar.svg" loading="lazy" alt="hotjar logo">
                     </div>
-                 
+
                 </div>
         </dl>
     </div>
@@ -88,14 +91,14 @@
 <div class="case-study-container">
     <nav id="sticky-toc" class="sticky-toc">
 
-    <h4 class="toc-title">Table of contents</h4>
+    <h4 class="toc-title" data-i18n="riseup.tocTitle">Table of contents</h4>
     <ul>
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#audit">Audit</a></li>
-        <li><a href="#research">Research</a></li>
-        <li><a href="#solution">Solutions</a></li>
-        <li><a href="#results">Outcomes and impact</a></li>
-        <li><a href="#nextsteps">Next Steps</a></li>
+        <li><a href="#overview" data-i18n="riseup.tocOverview">Overview</a></li>
+        <li><a href="#audit" data-i18n="riseup.tocAudit">Audit</a></li>
+        <li><a href="#research" data-i18n="riseup.tocResearch">Research</a></li>
+        <li><a href="#solution" data-i18n="riseup.tocSolutions">Solutions</a></li>
+        <li><a href="#results" data-i18n="riseup.tocResults">Outcomes and impact</a></li>
+        <li><a href="#nextsteps" data-i18n="riseup.tocNextSteps">Next Steps</a></li>
     </ul>
     </nav>
 
@@ -115,15 +118,15 @@
                         C479.539,347.2,512,240.452,512,186.1C512,120.094,458.511,66.59,392.482,66.59z"/>
                 </g>
             </svg>
-                <p>Camille is an outstanding UX/UI designer who makes the complex process of a website or app redesign feel easy! 
-                We collaborated on the rebuild of the Rise Up website, transforming it into both a brand showcase for a learning 
+                <p data-i18n="riseup.testimonial">Camille is an outstanding UX/UI designer who makes the complex process of a website or app redesign feel easy!
+                We collaborated on the rebuild of the Rise Up website, transforming it into both a brand showcase for a learning
                 tech innovator and a powerful demand-generation engine. She was deeply committed to realising our vision,
-                 constantly challenging assumptions, and introducing fresh ideas to keep the site aligned with evolving trends. 
+                 constantly challenging assumptions, and introducing fresh ideas to keep the site aligned with evolving trends.
                  Thanks to her expertise and drive, we delivered on time and with a result we’re proud of.</p>
             <footer>
                 <img src="images/samhebron.jpeg" alt="Samantha Hebron" class="author-image">
-                <span> <a href="https://www.linkedin.com/in/cmennesson/details/recommendations/?detailScreenTabIndex=0&locale=en_US" 
-                target="_blank" rel="noopener noreferrer">Samantha Hebron</a><br>Head of Marketing @Rise Up
+                <span> <a href="https://www.linkedin.com/in/cmennesson/details/recommendations/?detailScreenTabIndex=0&locale=en_US"
+                target="_blank" rel="noopener noreferrer">Samantha Hebron</a><br><span data-i18n="riseup.recommenderTitle">Head of Marketing @Rise Up</span>
                 </span>
             </footer>
         </blockquote>
@@ -132,22 +135,27 @@
         <hr style="border:none; border-top:1px solid #d3d3d3; margin:1rem 0;" />
 
         <div id="overview">
-        <h3>Overview</h3>
-        <p>Rise Up was expanding internationally and needed a marketing website that clearly communicated its value to a global audience of HR managers, L&amp;D leaders, and digital learning managers.
+        <h3 data-i18n="riseup.overviewTitle">Overview</h3>
+        <p data-i18n="riseup.overviewText">Rise Up was expanding internationally and needed a marketing website that clearly communicated its value to a global audience of HR managers, L&D leaders, and digital learning managers.
             The existing website wasn’t supporting this growth. It lacked clarity, scalability, and a strong user experience, creating friction for both prospective clients and internal teams.</p>
-        
+
         <div id="audit">
-            <h3>Audit</h3>
+            <h3 data-i18n="riseup.auditTitle">Audit</h3>
                 <ul class="key-challenges">
-                    <li><b>Unclear value proposition</b> Visitors struggled to quickly understand Rise Up’s unique selling points (USPs).
+                    <li><b data-i18n="riseup.audit1Title">Unclear value proposition</b>
+                        <span data-i18n="riseup.audit1Text"> Visitors struggled to quickly understand Rise Up’s unique selling points (USPs).</span>
                     </li>
-                    <li><b>Poor navigation</b> Content was buried under a confusing structure, making it hard to find relevant information.
+                    <li><b data-i18n="riseup.audit2Title">Poor navigation</b>
+                        <span data-i18n="riseup.audit2Text"> Content was buried under a confusing structure, making it hard to find relevant information.</span>
                     </li>
-                    <li><b>Lack of transparency</b> Pricing and feature details weren’t clearly presented, creating distrust.
+                    <li><b data-i18n="riseup.audit3Title">Lack of transparency</b>
+                        <span data-i18n="riseup.audit3Text"> Pricing and feature details weren’t clearly presented, creating distrust.</span>
                     </li>
-                    <li><b>Technical constraints</b> The site had to work seamlessly within HubSpot, limiting layout and interaction options.
+                    <li><b data-i18n="riseup.audit4Title">Technical constraints</b>
+                        <span data-i18n="riseup.audit4Text"> The site had to work seamlessly within HubSpot, limiting layout and interaction options.</span>
                     </li>
-                    <li><b>Inconsistent visuals</b> No digital design system existed, leading to inconsistent brand representation across marketing materials.<p></p>
+                    <li><b data-i18n="riseup.audit5Title">Inconsistent visuals</b>
+                        <span data-i18n="riseup.audit5Text"> No digital design system existed, leading to inconsistent brand representation across marketing materials.</span>
                     </li>
                 </ul>
         </div>
@@ -157,22 +165,22 @@
         </div>
 
     <div id="research">
-        <h3>Research</h3>
+        <h3 data-i18n="riseup.researchTitle">Research</h3>
         <div class="process-steps">
             <div class="step">
-               <h4>User Interviews</h4>
-                <p>I spoke directly with existing clients and prospects across French and UK markets to understand their perspective
+               <h4 data-i18n="riseup.research1Title">User Interviews</h4>
+                <p data-i18n="riseup.research1Text">I spoke directly with existing clients and prospects across French and UK markets to understand their perspective
                      on Rise Up and the broader LMS landscape.
                 </p>
             </div>
             <div class="step">
-                <h4>Stakeholder Interviews</h4>
-                <p>Interviewed Rise Up's leadership team (CEO, CTO, Head of Learning, Sales & Marketing) to align
+                <h4 data-i18n="riseup.research2Title">Stakeholder Interviews</h4>
+                <p data-i18n="riseup.research2Text">Interviewed Rise Up's leadership team (CEO, CTO, Head of Learning, Sales & Marketing) to align
                 on business objectives and gather internal insights on the website's current challenges.</p>
             </div>
             <div class="step">
-                <h4>Competitive Evaluation</h4>
-                <p>Analyzed the UX and UI of main competitor websites to benchmark industry standards, best practices and where Rise Up could stand out.</p>
+                <h4 data-i18n="riseup.research3Title">Competitive Evaluation</h4>
+                <p data-i18n="riseup.research3Text">Analyzed the UX and UI of main competitor websites to benchmark industry standards, best practices and where Rise Up could stand out.</p>
             </div>
         </div>
 
@@ -188,25 +196,22 @@
 
 
     <div id="solution">
-        <h3>Solutions</h3>
+        <h3 data-i18n="riseup.solutionsTitle">Solutions</h3>
         <ul class="key-challenges">
-            <li><b>Clearer Navigation</b>
-            Simplified and restructured the navigation menu to ensure clear hierarchies and intuitive categories.         
+            <li><b data-i18n="riseup.solution1Title">Clearer Navigation</b>
+                <span data-i18n="riseup.solution1Text"> Simplified and restructured the navigation menu to ensure clear hierarchies and intuitive categories.</span>
             </li>
-            <li><b>Transparency Boost</b>
-           Introduced clearer pricing visibility, transparent messaging, and highlighted social proof elements.
-            </li>        
-            <li><b>Scalable UI System</b>
-            Developed a scalable UI system with reusable components, typography rules, and a cohesive color palette aligned 
-            with Rise Up’s new branding.
+            <li><b data-i18n="riseup.solution2Title">Transparency Boost</b>
+                <span data-i18n="riseup.solution2Text"> Introduced clearer pricing visibility, transparent messaging, and highlighted social proof elements.</span>
             </li>
-            <li><b>Key pages flow</b>
-            Restructured the content and interactions to create a smoother flow, guiding visitors logically from learning 
-            about the platform to requesting a demo.           
+            <li><b data-i18n="riseup.solution3Title">Scalable UI System</b>
+                <span data-i18n="riseup.solution3Text"> Developed a scalable UI system with reusable components, typography rules, and a cohesive color palette aligned with Rise Up’s new branding.</span>
+            </li>
+            <li><b data-i18n="riseup.solution4Title">Key pages flow</b>
+                <span data-i18n="riseup.solution4Text"> Restructured the content and interactions to create a smoother flow, guiding visitors logically from learning about the platform to requesting a demo.</span>
              </li>
-            <li><b>Highlighting USPs</b>
-            Worked on bringing unique selling points to the forefront with dedicated sections, bold typography, and engaging visuals.
-                  
+            <li><b data-i18n="riseup.solution5Title">Highlighting USPs</b>
+                <span data-i18n="riseup.solution5Text"> Worked on bringing unique selling points to the forefront with dedicated sections, bold typography, and engaging visuals.</span>
             </li>
         </ul>
         <div class="image-item">
@@ -219,28 +224,27 @@
             <img src="images/riseup/pricing.png" alt="Screenshot of pricing page" class="site-image">
         </div>
     </div>
-       
-            
+
 
         <div id="results">
-        <h3>Outcomes and impact</h3>
-            <p>After launch, initial feedback from both Rise Up’s internal teams and clients confirmed that the redesign achieved its goals:
+        <h3 data-i18n="riseup.resultsTitle">Outcomes and impact</h3>
+            <p data-i18n="riseup.resultsText">After launch, initial feedback from both Rise Up’s internal teams and clients confirmed that the redesign achieved its goals:
                 Easier to communicate product value to prospects
-                Simpler navigation for L&amp;D managers to find relevant content
+                Simpler navigation for L&D managers to find relevant content
                 Improved trust due to transparent pricing and feature clarity
             </p>
-       
+
     <div id="nextsteps">
-        <h3>📌 Next Steps</h3>
-        <p>The website redesign was only the first step in Rise Up’s digital transformation. To help them fully leverage the new design, I continued working with the team on two strategic missions:
-       </p>       
-       <h4>Creative Production</h4> 
-       <p>Designed static visuals and 2D animated videos to elevate the website experience and support marketing campaigns. These assets aligned closely with the new brand and helped communicate Rise Up’s innovative features more dynamically.</p>
-        <h4>Website Design Guide</h4>
-        <p>Developed a clear, actionable Website Design Guide for marketing and web teams. This resource ensures the site remains user-friendly, consistent, and optimized, even as new content and pages are added.</p>
+        <h3 data-i18n="riseup.nextStepsTitle">📌 Next Steps</h3>
+        <p data-i18n="riseup.nextStepsIntro">The website redesign was only the first step in Rise Up’s digital transformation. To help them fully leverage the new design, I continued working with the team on two strategic missions:
+       </p>
+       <h4 data-i18n="riseup.creativeProductionTitle">Creative Production</h4>
+        <p data-i18n="riseup.creativeProductionText">Designed static visuals and 2D animated videos to elevate the website experience and support marketing campaigns. These assets aligned closely with the new brand and helped communicate Rise Up’s innovative features more dynamically.</p>
+        <h4 data-i18n="riseup.designGuideTitle">Website Design Guide</h4>
+        <p data-i18n="riseup.designGuideText">Developed a clear, actionable Website Design Guide for marketing and web teams. This resource ensures the site remains user-friendly, consistent, and optimized, even as new content and pages are added.</p>
     </div>
         </div>
-        
+
     </div>
 
     </section>
@@ -251,23 +255,23 @@
           <a
             href="Mavoie.php"
             class="btn btn--case-study"
-            data-i18n="audion.nextCaseStudy">
-            Lire le prochain case study
+            data-i18n="riseup.nextCaseStudy">
+            Read the next case study
           </a>
         </div>
         <div id="footer-placeholder" data-footer-type="white"></div>
     </section>
-    
+
     <button
         type="button"
         class="btn-back-to-top"
         id="btn-back-to-top"
-        > 
+        >
         <i class="bi bi-arrow-up-circle-fill"></i>
     </button>
     <script src="scripts/i18n.js"></script>
     <script src="/scripts/script.js?v=100"></script>
-    
+
 
 </body>
 </div>
